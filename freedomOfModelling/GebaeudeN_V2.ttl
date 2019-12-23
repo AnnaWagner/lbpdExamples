@@ -1,0 +1,6908 @@
+# baseURI: http://vikodb.solconpro.de/GebaeudeN/data/V4
+# imports: http://www.solconpro.de/ontologies/scp
+# imports: https://w3id.org/bpo
+# imports: https://w3id.org/omg
+# prefix: vikodbGn4
+
+@prefix bpo: <https://w3id.org/bpo#> .
+@prefix geometry: <http://rdf.bg/geometry.ttl#> .
+@prefix omg: <https://w3id.org/omg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix scp: <http://www.solconpro.de/ontologies/scp#> .
+@prefix spin: <http://spinrdf.org/spin#> .
+@prefix vikodbGn4: <http://vikodb.solconpro.de/GebaeudeN/data/V4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://vikodb.solconpro.de/GebaeudeN/data/V4>
+  rdf:type owl:Ontology ;
+  spin:imports <http://topbraid.org/spin/owlrl-all> ;
+  owl:imports <http://www.solconpro.de/ontologies/scp> ;
+  owl:imports <https://w3id.org/bpo> ;
+  owl:imports <https://w3id.org/omg> ;
+.
+vikodbGn4:A_BIPVModule_Current_I
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/A> ;
+  bpo:hasBSDDGUID "3vHM52oT0Hsm00051Mm008" ;
+.
+vikodbGn4:A_BIPVModule_Efficiency
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/PERCENT> ;
+  <http://schema.org/value> "16.56472987"^^xsd:double ;
+  rdfs:comment "Pmpp/(Width*Length)/1000" ;
+  bpo:hasBSDDGUID "30OJK08dmHu000025QrE$V" ;
+.
+vikodbGn4:A_BIPVModule_FillFactor
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/PERCENT> ;
+  <http://schema.org/value> "77.3255291"^^xsd:double ;
+  rdfs:comment "Vmpp*Impp/(Voc*Isc)" ;
+  bpo:hasBSDDGUID "0RELddW1jE5heHJSzplaSO" ;
+.
+vikodbGn4:A_BIPVModule_IncidenceAngleModifier
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  bpo:hasBSDDGUID "2Fm2fQEGf4UuYPGMgEBjKe" ;
+.
+vikodbGn4:A_BIPVModule_Length
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
+  <http://schema.org/value> "1.09"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbGn4:A_BIPVModule_MaximumSystemVoltage
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/V> ;
+  <http://schema.org/value> "1000.0"^^xsd:double ;
+  bpo:hasBSDDGUID "scp002" ;
+.
+vikodbGn4:A_BIPVModule_NominalPower
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/W> ;
+  <http://schema.org/value> "195.0"^^xsd:double ;
+  bpo:hasBSDDGUID "0Sb4pS1dbAqRPQUfvlqXBX" ;
+.
+vikodbGn4:A_BIPVModule_PolarAngle
+  rdf:type bpo:Attribute ;
+  bpo:hasBSDDGUID "scp052" ;
+.
+vikodbGn4:A_BIPVModule_Pricing
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/Euro> ;
+  <http://schema.org/value> "350"^^xsd:double ;
+  bpo:hasBSDDGUID "1gC$w0QjiHuO00025QrE$V" ;
+.
+vikodbGn4:A_BIPVModule_TemperatureCoefficientCurrent
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> vikodbGn4:U_PercentPerKelvin ;
+  <http://schema.org/value> "0.06"^^xsd:double ;
+  bpo:hasBSDDGUID "2Zp3c5RIb3rwglBIyyCqn$" ;
+.
+vikodbGn4:A_BIPVModule_TemperatureCoefficientPower
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> vikodbGn4:U_PercentPerKelvin ;
+  <http://schema.org/value> "-0.32"^^xsd:double ;
+  bpo:hasBSDDGUID "2equ05kPfDQP1iJTwmCRL6" ;
+.
+vikodbGn4:A_BIPVModule_TemperatureCoefficientVoltage
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> vikodbGn4:U_PercentPerKelvin ;
+  <http://schema.org/value> "-0.26"^^xsd:double ;
+  bpo:hasBSDDGUID "3GTMWeAjr2tBJf1s0hPjVs" ;
+.
+vikodbGn4:A_BIPVModule_Thickness
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
+  <http://schema.org/value> "0.01128"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbGn4:A_BIPVModule_ToleranceNominalOutputPower
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> vikodbGn4:U_PlusminusPercent ;
+  <http://schema.org/value> "5.0"^^xsd:double ;
+  bpo:hasBSDDGUID "scp005" ;
+.
+vikodbGn4:A_BIPVModule_Voltage_V
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/V> ;
+  bpo:hasBSDDGUID "2_tyLj4QD2MOmSgsp13pap" ;
+.
+vikodbGn4:A_BIPVModule_Weight
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/KiloGM> ;
+  <http://schema.org/value> "29.7"^^xsd:double ;
+  bpo:hasBSDDGUID "36XlMAWJWHu000025QrE$V" ;
+.
+vikodbGn4:A_BIPVModule_Width
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
+  <http://schema.org/value> "1.08"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbGn4:A_BackingMaterial_Length
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
+  <http://schema.org/value> "1.09"^^xsd:double ;
+  rdfs:comment "equal to module length" ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbGn4:A_BackingMaterial_Thickness
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
+  <http://schema.org/value> "0.004"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbGn4:A_BackingMaterial_Width
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
+  <http://schema.org/value> "1.08"^^xsd:double ;
+  rdfs:comment "equal to module width" ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbGn4:A_FrontCover_Length
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
+  <http://schema.org/value> "1.09"^^xsd:double ;
+  rdfs:comment "equal to module length" ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbGn4:A_FrontCover_Thickness
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
+  <http://schema.org/value> "0.005"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbGn4:A_FrontCover_Width
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
+  <http://schema.org/value> "1.08"^^xsd:double ;
+  rdfs:comment "equal to module width" ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbGn4:A_Module_Manufacturer
+  rdf:type bpo:Attribute ;
+  <http://schema.org/value> "Manufacturer A" ;
+  bpo:hasBSDDGUID "3vtaYeoT0Hsm00051Mm008" ;
+.
+vikodbGn4:A_Module_Name
+  rdf:type bpo:Attribute ;
+  <http://schema.org/value> "Gebäude N, statisch, V4" ;
+  bpo:hasBSDDGUID "112ymA1KKHuO00025QrE$V" ;
+.
+vikodbGn4:A_PVCells_CellType
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://schema.org/value> "Monocrystalline Silicon, interdigitated back-contact (IBC)" ;
+  bpo:hasBSDDGUID "0BgoUAWJaHu000025QrE$V" ;
+.
+vikodbGn4:A_PVCells_Length
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
+  <http://schema.org/value> "0.125"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbGn4:A_PVCells_NominalPower
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/W> ;
+  <http://schema.org/value> "3.19"^^xsd:double ;
+  bpo:hasBSDDGUID "0Sb4pS1dbAqRPQUfvlqXBX" ;
+.
+vikodbGn4:A_PVCells_Width
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
+  <http://schema.org/value> "0.125"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbGn4:BooleanOperation_1
+  rdf:type geometry:BooleanOperation ;
+  geometry:firstObject vikodbGn4:Box_1 ;
+  geometry:secondObject vikodbGn4:Transformation_SecondObject ;
+  geometry:type 3 ;
+  rdfs:label "Test_Type" ;
+.
+vikodbGn4:Box_1
+  rdf:type geometry:Box ;
+  geometry:height "0.76"^^xsd:double ;
+  geometry:length "125"^^xsd:double ;
+  geometry:material vikodbGn4:Material_Blue ;
+  geometry:width "125"^^xsd:double ;
+  rdfs:label "Test_Type" ;
+.
+vikodbGn4:Box_2
+  rdf:type geometry:Box ;
+  geometry:height "0.76"^^xsd:double ;
+  geometry:length "164"^^xsd:double ;
+  geometry:material vikodbGn4:Material_Blue ;
+  geometry:width "164"^^xsd:double ;
+  rdfs:label "Test_Type" ;
+.
+vikodbGn4:Box_BackingMaterial
+  rdf:type geometry:Box ;
+  geometry:height "4"^^xsd:double ;
+  geometry:length "1090"^^xsd:double ;
+  geometry:material vikodbGn4:Material_glass ;
+  geometry:width "1080"^^xsd:double ;
+.
+vikodbGn4:Box_FC
+  rdf:type geometry:Box ;
+  geometry:height "5"^^xsd:double ;
+  geometry:length "1090"^^xsd:double ;
+  geometry:material vikodbGn4:Material_glass ;
+  geometry:width "1080"^^xsd:double ;
+.
+vikodbGn4:Box_FE_material
+  rdf:type geometry:Box ;
+  geometry:height "0.76"^^xsd:double ;
+  geometry:length "1090"^^xsd:double ;
+  geometry:material vikodbGn4:Material_glass ;
+  geometry:width "1080"^^xsd:double ;
+.
+vikodbGn4:Box_RE_material
+  rdf:type geometry:Box ;
+  geometry:height "0.76"^^xsd:double ;
+  geometry:length "1090"^^xsd:double ;
+  geometry:material vikodbGn4:Material_glass ;
+  geometry:width "1080"^^xsd:double ;
+.
+vikodbGn4:CC_Strang
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:DynE_PVCell ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc10_9
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:E_PVCells_9 ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc11_10
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:E_PVCells_10 ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc12_11
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:E_PVCells_11 ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc13_12
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:E_PVCells_12 ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc14_13
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:E_PVCells_13 ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc15_14
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:E_PVCells_14 ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc16_15
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:E_PVCells_15 ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc1_2
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:E_PVCells_2 ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc1_Diode
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:E_Diodes_1 ;
+  bpo:connectsInputOf vikodbGn4:E_PVCells_1 ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc2_3
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:E_PVCells_3 ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc3_4
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:E_PVCells_4 ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc4_5
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:E_PVCells_5 ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc5_6
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:E_PVCells_6 ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc6_7
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:E_PVCells_7 ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc7_8
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:E_PVCells_8 ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc8_16
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbGn4:E_PVCells_16 ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:CC_sc9_Diode
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:ComponentConnection ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbGn4:Co_BIPVModule
+  rdf:type geometry:Collection ;
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Product ;
+  geometry:objects vikodbGn4:GE_Layer_1 ;
+  geometry:objects vikodbGn4:GE_Layer_2 ;
+  geometry:objects vikodbGn4:GE_Layer_3 ;
+  geometry:objects vikodbGn4:GE_Layer_4 ;
+  geometry:objects vikodbGn4:GE_Layer_5 ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_Current_I ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_Efficiency ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_FillFactor ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_IncidenceAngleModifier ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_Length ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_MaximumSystemVoltage ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_NominalPower ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_PolarAngle ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_Pricing ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_TemperatureCoefficientCurrent ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_TemperatureCoefficientPower ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_TemperatureCoefficientVoltage ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_Thickness ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_ToleranceNominalOutputPower ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_Voltage_V ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_Weight ;
+  bpo:hasAttribute vikodbGn4:A_BIPVModule_Width ;
+  bpo:hasAttribute vikodbGn4:A_Module_Manufacturer ;
+  bpo:hasAttribute vikodbGn4:A_Module_Name ;
+  bpo:hasBSDDGUID "scp010" ;
+  bpo:isComposedOfEntity vikodbGn4:E_Layer_1 ;
+  bpo:isComposedOfEntity vikodbGn4:E_Layer_2 ;
+  bpo:isComposedOfEntity vikodbGn4:E_Layer_3 ;
+  bpo:isComposedOfEntity vikodbGn4:E_Layer_4 ;
+  bpo:isComposedOfEntity vikodbGn4:E_Layer_5 ;
+.
+vikodbGn4:Co_BackingMaterial
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbGn4:A_BackingMaterial_Length ;
+  bpo:hasAttribute vikodbGn4:A_BackingMaterial_Thickness ;
+  bpo:hasAttribute vikodbGn4:A_BackingMaterial_Width ;
+  bpo:hasBSDDGUID "3vHVocoT0Hsm00051Mm008" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GCo_BackingMaterial ;
+.
+vikodbGn4:Co_Diodes
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  bpo:hasBSDDGUID "2CpJq5kyX4Pw8xeuv70bG3" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GCo_Diodes ;
+.
+vikodbGn4:Co_FrontCover
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbGn4:A_FrontCover_Length ;
+  bpo:hasAttribute vikodbGn4:A_FrontCover_Thickness ;
+  bpo:hasAttribute vikodbGn4:A_FrontCover_Width ;
+  bpo:hasBSDDGUID "scp012" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GCo_FrontCover ;
+.
+vikodbGn4:Co_FrontEmbeddingMaterial
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  bpo:hasBSDDGUID "scp018" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GCo_FrontEmbeddingMaterial ;
+.
+vikodbGn4:Co_Interconnectors
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  bpo:hasBSDDGUID "scp025" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GCo_Interconnectors ;
+.
+vikodbGn4:Co_PVCellLayer
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Assembly ;
+  bpo:consistsOf vikodbGn4:Co_Interconnectors ;
+  bpo:hasBSDDGUID "scp009" ;
+  bpo:isComposedOfEntity vikodbGn4:DynE_PVCell ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GCo_PVCellLayer ;
+.
+vikodbGn4:Co_PVCells
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbGn4:A_PVCells_CellType ;
+  bpo:hasAttribute vikodbGn4:A_PVCells_Length ;
+  bpo:hasAttribute vikodbGn4:A_PVCells_NominalPower ;
+  bpo:hasAttribute vikodbGn4:A_PVCells_Width ;
+  bpo:hasBSDDGUID "3vHNbSoT0Hsm00051Mm008" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:Co_RearEmbeddingMaterial
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  bpo:hasBSDDGUID "scp031" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GCo_RearEmbeddingMaterial ;
+.
+vikodbGn4:Co_Strang
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Assembly ;
+  bpo:hasBSDDGUID "25R9mtGeL6WuMmcVEUrdRl" ;
+  bpo:isComposedOfEntity vikodbGn4:E_Diodes_1 ;
+  bpo:isComposedOfEntity vikodbGn4:E_PVCells_1 ;
+  bpo:isComposedOfEntity vikodbGn4:E_PVCells_10 ;
+  bpo:isComposedOfEntity vikodbGn4:E_PVCells_11 ;
+  bpo:isComposedOfEntity vikodbGn4:E_PVCells_12 ;
+  bpo:isComposedOfEntity vikodbGn4:E_PVCells_13 ;
+  bpo:isComposedOfEntity vikodbGn4:E_PVCells_14 ;
+  bpo:isComposedOfEntity vikodbGn4:E_PVCells_15 ;
+  bpo:isComposedOfEntity vikodbGn4:E_PVCells_16 ;
+  bpo:isComposedOfEntity vikodbGn4:E_PVCells_2 ;
+  bpo:isComposedOfEntity vikodbGn4:E_PVCells_3 ;
+  bpo:isComposedOfEntity vikodbGn4:E_PVCells_4 ;
+  bpo:isComposedOfEntity vikodbGn4:E_PVCells_5 ;
+  bpo:isComposedOfEntity vikodbGn4:E_PVCells_6 ;
+  bpo:isComposedOfEntity vikodbGn4:E_PVCells_7 ;
+  bpo:isComposedOfEntity vikodbGn4:E_PVCells_8 ;
+  bpo:isComposedOfEntity vikodbGn4:E_PVCells_9 ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GCo_Strang ;
+.
+vikodbGn4:ColorComponent_Blue
+  rdf:type geometry:ColorComponent ;
+  geometry:B "1"^^xsd:double ;
+  geometry:G "0"^^xsd:double ;
+  geometry:R "0"^^xsd:double ;
+  geometry:W "1"^^xsd:double ;
+.
+vikodbGn4:ColorComponent_white
+  rdf:type geometry:ColorComponent ;
+  geometry:B "0"^^xsd:double ;
+  geometry:G "0"^^xsd:double ;
+  geometry:R "0"^^xsd:double ;
+  geometry:W "0.1"^^xsd:double ;
+.
+vikodbGn4:Color_Blue
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbGn4:ColorComponent_Blue ;
+.
+vikodbGn4:Color_white
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbGn4:ColorComponent_white ;
+.
+vikodbGn4:DynE_PVCell
+  rdf:type bpo:DynamicEntity ;
+  geometry:count 4 ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_Strang ;
+  bpo:hasQuantity 4 ;
+  bpo:realisesObject vikodbGn4:Co_Strang ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GDynE_PVCell ;
+.
+vikodbGn4:E_Diodes_1
+  rdf:type bpo:SingularEntity ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_sc9_Diode ;
+  bpo:realisesObject vikodbGn4:Co_Diodes ;
+.
+vikodbGn4:E_Layer_1
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbGn4:Co_FrontCover ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_Layer_1 ;
+.
+vikodbGn4:E_Layer_2
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbGn4:Co_FrontEmbeddingMaterial ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_Layer_2 ;
+.
+vikodbGn4:E_Layer_3
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbGn4:Co_PVCellLayer ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_Layer_3 ;
+.
+vikodbGn4:E_Layer_4
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbGn4:Co_RearEmbeddingMaterial ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_Layer_4 ;
+.
+vikodbGn4:E_Layer_5
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbGn4:Co_BackingMaterial ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_Layer_5 ;
+.
+vikodbGn4:E_PVCells_1
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_sc1_2 ;
+  bpo:realisesObject vikodbGn4:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_PVCells_1 ;
+.
+vikodbGn4:E_PVCells_10
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_sc10_9 ;
+  bpo:realisesObject vikodbGn4:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_PVCells_10 ;
+.
+vikodbGn4:E_PVCells_11
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_sc11_10 ;
+  bpo:realisesObject vikodbGn4:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_PVCells_11 ;
+.
+vikodbGn4:E_PVCells_12
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_sc12_11 ;
+  bpo:realisesObject vikodbGn4:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_PVCells_12 ;
+.
+vikodbGn4:E_PVCells_13
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_sc13_12 ;
+  bpo:realisesObject vikodbGn4:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_PVCells_13 ;
+.
+vikodbGn4:E_PVCells_14
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_sc14_13 ;
+  bpo:realisesObject vikodbGn4:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_PVCells_14 ;
+.
+vikodbGn4:E_PVCells_15
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_sc15_14 ;
+  bpo:realisesObject vikodbGn4:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_PVCells_15 ;
+.
+vikodbGn4:E_PVCells_16
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_sc16_15 ;
+  bpo:realisesObject vikodbGn4:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_PVCells_16 ;
+.
+vikodbGn4:E_PVCells_2
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_sc2_3 ;
+  bpo:realisesObject vikodbGn4:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_PVCells_2 ;
+.
+vikodbGn4:E_PVCells_3
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_sc3_4 ;
+  bpo:realisesObject vikodbGn4:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_PVCells_3 ;
+.
+vikodbGn4:E_PVCells_4
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_sc4_5 ;
+  bpo:realisesObject vikodbGn4:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_PVCells_4 ;
+.
+vikodbGn4:E_PVCells_5
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_sc5_6 ;
+  bpo:realisesObject vikodbGn4:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_PVCells_5 ;
+.
+vikodbGn4:E_PVCells_6
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_sc6_7 ;
+  bpo:realisesObject vikodbGn4:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_PVCells_6 ;
+.
+vikodbGn4:E_PVCells_7
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_sc7_8 ;
+  bpo:realisesObject vikodbGn4:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_PVCells_7 ;
+.
+vikodbGn4:E_PVCells_8
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:hasOutgoingConnection vikodbGn4:CC_sc8_16 ;
+  bpo:realisesObject vikodbGn4:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_PVCells_8 ;
+.
+vikodbGn4:E_PVCells_9
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbGn4:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbGn4:GE_PVCells_9 ;
+.
+vikodbGn4:GCo_BackingMaterial
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbGn4:Box_BackingMaterial ;
+.
+vikodbGn4:GCo_Diodes
+  rdf:type geometry:Collection ;
+.
+vikodbGn4:GCo_FrontCover
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbGn4:Box_FC ;
+.
+vikodbGn4:GCo_FrontEmbeddingMaterial
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbGn4:Box_FE_material ;
+.
+vikodbGn4:GCo_Interconnectors
+  rdf:type geometry:Collection ;
+.
+vikodbGn4:GCo_PVCellLayer
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbGn4:GDynE_PVCell ;
+.
+vikodbGn4:GCo_PVCells
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbGn4:BooleanOperation_1 ;
+.
+vikodbGn4:GCo_RearEmbeddingMaterial
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbGn4:Box_RE_material ;
+.
+vikodbGn4:GCo_Strang
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbGn4:GE_PVCells_1 ;
+  geometry:objects vikodbGn4:GE_PVCells_10 ;
+  geometry:objects vikodbGn4:GE_PVCells_11 ;
+  geometry:objects vikodbGn4:GE_PVCells_12 ;
+  geometry:objects vikodbGn4:GE_PVCells_13 ;
+  geometry:objects vikodbGn4:GE_PVCells_14 ;
+  geometry:objects vikodbGn4:GE_PVCells_15 ;
+  geometry:objects vikodbGn4:GE_PVCells_16 ;
+  geometry:objects vikodbGn4:GE_PVCells_2 ;
+  geometry:objects vikodbGn4:GE_PVCells_3 ;
+  geometry:objects vikodbGn4:GE_PVCells_4 ;
+  geometry:objects vikodbGn4:GE_PVCells_5 ;
+  geometry:objects vikodbGn4:GE_PVCells_6 ;
+  geometry:objects vikodbGn4:GE_PVCells_7 ;
+  geometry:objects vikodbGn4:GE_PVCells_8 ;
+  geometry:objects vikodbGn4:GE_PVCells_9 ;
+.
+vikodbGn4:GDynE_PVCell
+  rdf:type geometry:Repetition ;
+  geometry:matrix vikodbGn4:M_Rep ;
+  geometry:object vikodbGn4:GCo_Strang ;
+.
+vikodbGn4:GE_Layer_1
+  rdf:type geometry:Transformation ;
+  geometry:object vikodbGn4:GCo_FrontCover ;
+.
+vikodbGn4:GE_Layer_2
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_FE_material ;
+  geometry:object vikodbGn4:GCo_FrontEmbeddingMaterial ;
+.
+vikodbGn4:GE_Layer_3
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCellLayer ;
+  geometry:object vikodbGn4:GCo_PVCellLayer ;
+.
+vikodbGn4:GE_Layer_4
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_RE_material ;
+  geometry:object vikodbGn4:GCo_RearEmbeddingMaterial ;
+.
+vikodbGn4:GE_Layer_5
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_BackingMaterial ;
+  geometry:object vikodbGn4:GCo_BackingMaterial ;
+.
+vikodbGn4:GE_PVCells_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCell_1 ;
+  geometry:object vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:GE_PVCells_10
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCell_10 ;
+  geometry:object vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:GE_PVCells_11
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCell_11 ;
+  geometry:object vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:GE_PVCells_12
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCell_12 ;
+  geometry:object vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:GE_PVCells_13
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCell_13 ;
+  geometry:object vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:GE_PVCells_14
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCell_14 ;
+  geometry:object vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:GE_PVCells_15
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCell_15 ;
+  geometry:object vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:GE_PVCells_16
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCell_16 ;
+  geometry:object vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:GE_PVCells_2
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCell_2 ;
+  geometry:object vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:GE_PVCells_3
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCell_3 ;
+  geometry:object vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:GE_PVCells_4
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCell_4 ;
+  geometry:object vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:GE_PVCells_5
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCell_5 ;
+  geometry:object vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:GE_PVCells_6
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCell_6 ;
+  geometry:object vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:GE_PVCells_7
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCell_7 ;
+  geometry:object vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:GE_PVCells_8
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCell_8 ;
+  geometry:object vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:GE_PVCells_9
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_PVCell_9 ;
+  geometry:object vikodbGn4:GCo_PVCells ;
+.
+vikodbGn4:List2D_IAM
+  rdf:type bpo:List2D ;
+  bpo:describesAttributeInFirstColumn vikodbGn4:A_BIPVModule_PolarAngle ;
+  bpo:describesAttributeInSecondColumn vikodbGn4:A_BIPVModule_IncidenceAngleModifier ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0" ;
+      bpo:hasValue2 "1" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1" ;
+      bpo:hasValue2 "0.999995" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "10" ;
+      bpo:hasValue2 "0.999465" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11" ;
+      bpo:hasValue2 "0.999347" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12" ;
+      bpo:hasValue2 "0.999217" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "13" ;
+      bpo:hasValue2 "0.999073" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14" ;
+      bpo:hasValue2 "0.998914" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "15" ;
+      bpo:hasValue2 "0.99874" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16" ;
+      bpo:hasValue2 "0.99855" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17" ;
+      bpo:hasValue2 "0.998344" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "18" ;
+      bpo:hasValue2 "0.998119" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19" ;
+      bpo:hasValue2 "0.997876" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "2" ;
+      bpo:hasValue2 "0.999979" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20" ;
+      bpo:hasValue2 "0.997613" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "21" ;
+      bpo:hasValue2 "0.997328" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22" ;
+      bpo:hasValue2 "0.997021" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "23" ;
+      bpo:hasValue2 "0.996689" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24" ;
+      bpo:hasValue2 "0.996332" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25" ;
+      bpo:hasValue2 "0.995947" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "26" ;
+      bpo:hasValue2 "0.995532" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27" ;
+      bpo:hasValue2 "0.995085" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28" ;
+      bpo:hasValue2 "0.994604" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "29" ;
+      bpo:hasValue2 "0.994086" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3" ;
+      bpo:hasValue2 "0.999953" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30" ;
+      bpo:hasValue2 "0.993528" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "31" ;
+      bpo:hasValue2 "0.992928" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32" ;
+      bpo:hasValue2 "0.992282" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33" ;
+      bpo:hasValue2 "0.991586" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "34" ;
+      bpo:hasValue2 "0.990836" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35" ;
+      bpo:hasValue2 "0.990028" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36" ;
+      bpo:hasValue2 "0.989157" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "37" ;
+      bpo:hasValue2 "0.988218" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38" ;
+      bpo:hasValue2 "0.987205" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "39" ;
+      bpo:hasValue2 "0.986112" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4" ;
+      bpo:hasValue2 "0.999917" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40" ;
+      bpo:hasValue2 "0.984932" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41" ;
+      bpo:hasValue2 "0.983657" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "42" ;
+      bpo:hasValue2 "0.982281" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43" ;
+      bpo:hasValue2 "0.980793" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44" ;
+      bpo:hasValue2 "0.979184" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "45" ;
+      bpo:hasValue2 "0.977443" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46" ;
+      bpo:hasValue2 "0.975558" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "47" ;
+      bpo:hasValue2 "0.973518" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48" ;
+      bpo:hasValue2 "0.971307" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49" ;
+      bpo:hasValue2 "0.968911" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "5" ;
+      bpo:hasValue2 "0.99987" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "50" ;
+      bpo:hasValue2 "0.966313" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "51" ;
+      bpo:hasValue2 "0.963494" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "52" ;
+      bpo:hasValue2 "0.960434" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "53" ;
+      bpo:hasValue2 "0.957112" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "54" ;
+      bpo:hasValue2 "0.953502" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "55" ;
+      bpo:hasValue2 "0.949579" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "56" ;
+      bpo:hasValue2 "0.945314" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "57" ;
+      bpo:hasValue2 "0.940674" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "58" ;
+      bpo:hasValue2 "0.935624" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "59" ;
+      bpo:hasValue2 "0.930128" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6" ;
+      bpo:hasValue2 "0.999812" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "60" ;
+      bpo:hasValue2 "0.924142" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "61" ;
+      bpo:hasValue2 "0.91762" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "62" ;
+      bpo:hasValue2 "0.910514" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "63" ;
+      bpo:hasValue2 "0.902766" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "64" ;
+      bpo:hasValue2 "0.894317" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "65" ;
+      bpo:hasValue2 "0.8851" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "66" ;
+      bpo:hasValue2 "0.875043" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "67" ;
+      bpo:hasValue2 "0.864067" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "68" ;
+      bpo:hasValue2 "0.852084" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "69" ;
+      bpo:hasValue2 "0.839" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "7" ;
+      bpo:hasValue2 "0.999742" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "70" ;
+      bpo:hasValue2 "0.824709" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "71" ;
+      bpo:hasValue2 "0.809099" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "72" ;
+      bpo:hasValue2 "0.792043" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "73" ;
+      bpo:hasValue2 "0.773406" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "74" ;
+      bpo:hasValue2 "0.753039" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "75" ;
+      bpo:hasValue2 "0.730778" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "76" ;
+      bpo:hasValue2 "0.706446" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "77" ;
+      bpo:hasValue2 "0.679849" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "78" ;
+      bpo:hasValue2 "0.650774" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "79" ;
+      bpo:hasValue2 "0.618991" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8" ;
+      bpo:hasValue2 "0.999662" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "80" ;
+      bpo:hasValue2 "0.584247" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "81" ;
+      bpo:hasValue2 "0.546269" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "82" ;
+      bpo:hasValue2 "0.504758" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "83" ;
+      bpo:hasValue2 "0.459389" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "84" ;
+      bpo:hasValue2 "0.40981" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "85" ;
+      bpo:hasValue2 "0.355635" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "86" ;
+      bpo:hasValue2 "0.296451" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "87" ;
+      bpo:hasValue2 "0.231804" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "88" ;
+      bpo:hasValue2 "0.161207" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "89" ;
+      bpo:hasValue2 "0.08413" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9" ;
+      bpo:hasValue2 "0.999569" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "90" ;
+      bpo:hasValue2 "0" ;
+    ] ;
+.
+vikodbGn4:List2D_IVCurve
+  rdf:type bpo:List2D ;
+  bpo:describesAttributeInFirstColumn vikodbGn4:A_BIPVModule_Voltage_V ;
+  bpo:describesAttributeInSecondColumn vikodbGn4:A_BIPVModule_Current_I ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-0.064" ;
+      bpo:hasValue2 "5.860372" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-0.128" ;
+      bpo:hasValue2 "5.860742" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-0.192" ;
+      bpo:hasValue2 "5.861112" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-0.256" ;
+      bpo:hasValue2 "5.861482" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-0.32" ;
+      bpo:hasValue2 "5.861852" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-0.384" ;
+      bpo:hasValue2 "5.862222" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-0.448" ;
+      bpo:hasValue2 "5.862592" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-0.512" ;
+      bpo:hasValue2 "5.862962" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-0.576" ;
+      bpo:hasValue2 "5.863332" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-0.64" ;
+      bpo:hasValue2 "5.863702" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-0.704" ;
+      bpo:hasValue2 "5.864072" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-0.768" ;
+      bpo:hasValue2 "5.864442" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-0.832" ;
+      bpo:hasValue2 "5.864813" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-0.896" ;
+      bpo:hasValue2 "5.865183" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-0.96" ;
+      bpo:hasValue2 "5.865553" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-1.024" ;
+      bpo:hasValue2 "5.865923" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-1.088" ;
+      bpo:hasValue2 "5.866293" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-1.152" ;
+      bpo:hasValue2 "5.866663" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-1.216" ;
+      bpo:hasValue2 "5.867033" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-1.28" ;
+      bpo:hasValue2 "5.867403" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-1.344" ;
+      bpo:hasValue2 "5.867773" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-1.408" ;
+      bpo:hasValue2 "5.868143" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-1.472" ;
+      bpo:hasValue2 "5.868513" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-1.536" ;
+      bpo:hasValue2 "5.868883" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-1.6" ;
+      bpo:hasValue2 "5.869253" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-1.664" ;
+      bpo:hasValue2 "5.869623" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-1.728" ;
+      bpo:hasValue2 "5.869994" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-1.792" ;
+      bpo:hasValue2 "5.870364" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-1.856" ;
+      bpo:hasValue2 "5.870734" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-1.92" ;
+      bpo:hasValue2 "5.871104" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-1.984" ;
+      bpo:hasValue2 "5.871474" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-10.048" ;
+      bpo:hasValue2 "5.918103" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-10.112" ;
+      bpo:hasValue2 "5.918473" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-10.176" ;
+      bpo:hasValue2 "5.918843" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-10.24" ;
+      bpo:hasValue2 "5.919213" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-10.304" ;
+      bpo:hasValue2 "5.919583" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-10.368" ;
+      bpo:hasValue2 "5.919954" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-10.432" ;
+      bpo:hasValue2 "5.920324" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-10.496" ;
+      bpo:hasValue2 "5.920694" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-10.56" ;
+      bpo:hasValue2 "5.921064" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-10.624" ;
+      bpo:hasValue2 "5.921434" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-10.688" ;
+      bpo:hasValue2 "5.921804" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-10.752" ;
+      bpo:hasValue2 "5.922174" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-10.816" ;
+      bpo:hasValue2 "5.922544" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-10.88" ;
+      bpo:hasValue2 "5.922914" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-10.944" ;
+      bpo:hasValue2 "5.923284" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-11.008" ;
+      bpo:hasValue2 "5.923654" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-11.072" ;
+      bpo:hasValue2 "5.924024" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-11.136" ;
+      bpo:hasValue2 "5.924394" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-11.2" ;
+      bpo:hasValue2 "5.924765" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-11.264" ;
+      bpo:hasValue2 "5.925135" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-11.328" ;
+      bpo:hasValue2 "5.925505" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-11.392" ;
+      bpo:hasValue2 "5.925875" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-11.456" ;
+      bpo:hasValue2 "5.926245" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-11.52" ;
+      bpo:hasValue2 "5.926615" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-11.584" ;
+      bpo:hasValue2 "5.926985" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-11.648" ;
+      bpo:hasValue2 "5.927355" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-11.712" ;
+      bpo:hasValue2 "5.927725" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-11.776" ;
+      bpo:hasValue2 "5.928095" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-11.84" ;
+      bpo:hasValue2 "5.928465" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-11.904" ;
+      bpo:hasValue2 "5.928835" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-11.968" ;
+      bpo:hasValue2 "5.929205" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-12.032" ;
+      bpo:hasValue2 "5.929575" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-12.096" ;
+      bpo:hasValue2 "5.929946" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-12.16" ;
+      bpo:hasValue2 "5.930316" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-12.224" ;
+      bpo:hasValue2 "5.930686" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-12.288" ;
+      bpo:hasValue2 "5.931056" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-12.352" ;
+      bpo:hasValue2 "5.931426" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-12.416" ;
+      bpo:hasValue2 "5.931796" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-12.48" ;
+      bpo:hasValue2 "5.932166" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-12.544" ;
+      bpo:hasValue2 "5.932536" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-12.608" ;
+      bpo:hasValue2 "5.932906" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-12.672" ;
+      bpo:hasValue2 "5.933276" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-12.736" ;
+      bpo:hasValue2 "5.933646" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-12.8" ;
+      bpo:hasValue2 "5.934016" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-12.864" ;
+      bpo:hasValue2 "5.934386" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-12.928" ;
+      bpo:hasValue2 "5.934757" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-12.992" ;
+      bpo:hasValue2 "5.935127" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-13.056" ;
+      bpo:hasValue2 "5.935497" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-13.12" ;
+      bpo:hasValue2 "5.935867" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-13.184" ;
+      bpo:hasValue2 "5.936237" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-13.248" ;
+      bpo:hasValue2 "5.936607" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-13.312" ;
+      bpo:hasValue2 "5.936977" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-13.376" ;
+      bpo:hasValue2 "5.937347" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-13.44" ;
+      bpo:hasValue2 "5.937717" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-13.504" ;
+      bpo:hasValue2 "5.938087" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-13.568" ;
+      bpo:hasValue2 "5.938457" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-13.632" ;
+      bpo:hasValue2 "5.938827" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-13.696" ;
+      bpo:hasValue2 "5.939197" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-13.76" ;
+      bpo:hasValue2 "5.939567" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-13.824" ;
+      bpo:hasValue2 "5.939938" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-13.888" ;
+      bpo:hasValue2 "5.940308" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-13.952" ;
+      bpo:hasValue2 "5.940678" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-14.016" ;
+      bpo:hasValue2 "5.941048" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-14.08" ;
+      bpo:hasValue2 "5.941418" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-14.144" ;
+      bpo:hasValue2 "5.941788" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-14.208" ;
+      bpo:hasValue2 "5.942158" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-14.272" ;
+      bpo:hasValue2 "5.942528" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-14.336" ;
+      bpo:hasValue2 "5.942898" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-14.4" ;
+      bpo:hasValue2 "5.943268" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-14.464" ;
+      bpo:hasValue2 "5.943638" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-14.528" ;
+      bpo:hasValue2 "5.944008" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-14.592" ;
+      bpo:hasValue2 "5.944378" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-14.656" ;
+      bpo:hasValue2 "5.944749" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-14.72" ;
+      bpo:hasValue2 "5.945119" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-14.784" ;
+      bpo:hasValue2 "5.945489" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-14.848" ;
+      bpo:hasValue2 "5.945859" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-14.912" ;
+      bpo:hasValue2 "5.946229" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-14.976" ;
+      bpo:hasValue2 "5.946599" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-15.04" ;
+      bpo:hasValue2 "5.946969" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-15.104" ;
+      bpo:hasValue2 "5.947339" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-15.168" ;
+      bpo:hasValue2 "5.947709" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-15.232" ;
+      bpo:hasValue2 "5.948079" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-15.296" ;
+      bpo:hasValue2 "5.948449" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-15.36" ;
+      bpo:hasValue2 "5.948819" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-15.424" ;
+      bpo:hasValue2 "5.949189" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-15.488" ;
+      bpo:hasValue2 "5.949559" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-15.552" ;
+      bpo:hasValue2 "5.94993" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-15.616" ;
+      bpo:hasValue2 "5.9503" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-15.68" ;
+      bpo:hasValue2 "5.95067" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-15.744" ;
+      bpo:hasValue2 "5.95104" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-15.808" ;
+      bpo:hasValue2 "5.95141" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-15.872" ;
+      bpo:hasValue2 "5.95178" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-15.936" ;
+      bpo:hasValue2 "5.95215" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-16" ;
+      bpo:hasValue2 "5.95252" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-16.064" ;
+      bpo:hasValue2 "5.95289" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-16.128" ;
+      bpo:hasValue2 "5.95326" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-16.192" ;
+      bpo:hasValue2 "5.95363" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-16.256" ;
+      bpo:hasValue2 "5.954" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-16.32" ;
+      bpo:hasValue2 "5.95437" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-16.384" ;
+      bpo:hasValue2 "5.954741" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-16.448" ;
+      bpo:hasValue2 "5.955111" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-16.512" ;
+      bpo:hasValue2 "5.955481" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-16.576" ;
+      bpo:hasValue2 "5.955851" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-16.64" ;
+      bpo:hasValue2 "5.956221" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-16.704" ;
+      bpo:hasValue2 "5.956591" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-16.768" ;
+      bpo:hasValue2 "5.956961" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-16.832" ;
+      bpo:hasValue2 "5.957331" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-16.896" ;
+      bpo:hasValue2 "5.957701" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-16.96" ;
+      bpo:hasValue2 "5.958071" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-17.024" ;
+      bpo:hasValue2 "5.958441" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-17.088" ;
+      bpo:hasValue2 "5.958811" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-17.152" ;
+      bpo:hasValue2 "5.959181" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-17.216" ;
+      bpo:hasValue2 "5.959551" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-17.28" ;
+      bpo:hasValue2 "5.959922" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-17.344" ;
+      bpo:hasValue2 "5.960292" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-17.408" ;
+      bpo:hasValue2 "5.960662" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-17.472" ;
+      bpo:hasValue2 "5.961032" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-17.536" ;
+      bpo:hasValue2 "5.961402" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-17.6" ;
+      bpo:hasValue2 "5.961772" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-17.664" ;
+      bpo:hasValue2 "5.962142" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-17.728" ;
+      bpo:hasValue2 "5.962512" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-17.792" ;
+      bpo:hasValue2 "5.962882" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-17.856" ;
+      bpo:hasValue2 "5.963252" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-17.92" ;
+      bpo:hasValue2 "5.963622" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-17.984" ;
+      bpo:hasValue2 "5.963992" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-18.048" ;
+      bpo:hasValue2 "5.964362" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-18.112" ;
+      bpo:hasValue2 "5.964733" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-18.176" ;
+      bpo:hasValue2 "5.965103" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-18.24" ;
+      bpo:hasValue2 "5.965473" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-18.304" ;
+      bpo:hasValue2 "5.965843" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-18.368" ;
+      bpo:hasValue2 "5.966213" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-18.432" ;
+      bpo:hasValue2 "5.966583" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-18.496" ;
+      bpo:hasValue2 "5.966953" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-18.56" ;
+      bpo:hasValue2 "5.967323" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-18.624" ;
+      bpo:hasValue2 "5.967693" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-18.688" ;
+      bpo:hasValue2 "5.968063" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-18.752" ;
+      bpo:hasValue2 "5.968433" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-18.816" ;
+      bpo:hasValue2 "5.968803" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-18.88" ;
+      bpo:hasValue2 "5.969173" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-18.944" ;
+      bpo:hasValue2 "5.969543" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-19.008" ;
+      bpo:hasValue2 "5.969914" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-19.072" ;
+      bpo:hasValue2 "5.970284" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-19.136" ;
+      bpo:hasValue2 "5.970654" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-19.2" ;
+      bpo:hasValue2 "5.971024" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-2.048" ;
+      bpo:hasValue2 "5.871844" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-2.112" ;
+      bpo:hasValue2 "5.872214" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-2.176" ;
+      bpo:hasValue2 "5.872584" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-2.24" ;
+      bpo:hasValue2 "5.872954" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-2.304" ;
+      bpo:hasValue2 "5.873324" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-2.368" ;
+      bpo:hasValue2 "5.873694" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-2.432" ;
+      bpo:hasValue2 "5.874064" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-2.496" ;
+      bpo:hasValue2 "5.874434" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-2.56" ;
+      bpo:hasValue2 "5.874805" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-2.624" ;
+      bpo:hasValue2 "5.875175" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-2.688" ;
+      bpo:hasValue2 "5.875545" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-2.752" ;
+      bpo:hasValue2 "5.875915" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-2.816" ;
+      bpo:hasValue2 "5.876285" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-2.88" ;
+      bpo:hasValue2 "5.876655" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-2.944" ;
+      bpo:hasValue2 "5.877025" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-3.008" ;
+      bpo:hasValue2 "5.877395" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-3.072" ;
+      bpo:hasValue2 "5.877765" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-3.136" ;
+      bpo:hasValue2 "5.878135" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-3.2" ;
+      bpo:hasValue2 "5.878505" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-3.264" ;
+      bpo:hasValue2 "5.878875" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-3.328" ;
+      bpo:hasValue2 "5.879245" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-3.392" ;
+      bpo:hasValue2 "5.879615" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-3.456" ;
+      bpo:hasValue2 "5.879986" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-3.52" ;
+      bpo:hasValue2 "5.880356" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-3.584" ;
+      bpo:hasValue2 "5.880726" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-3.648" ;
+      bpo:hasValue2 "5.881096" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-3.712" ;
+      bpo:hasValue2 "5.881466" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-3.776" ;
+      bpo:hasValue2 "5.881836" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-3.84" ;
+      bpo:hasValue2 "5.882206" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-3.904" ;
+      bpo:hasValue2 "5.882576" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-3.968" ;
+      bpo:hasValue2 "5.882946" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-4.032" ;
+      bpo:hasValue2 "5.883316" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-4.096" ;
+      bpo:hasValue2 "5.883686" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-4.16" ;
+      bpo:hasValue2 "5.884056" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-4.224" ;
+      bpo:hasValue2 "5.884426" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-4.288" ;
+      bpo:hasValue2 "5.884797" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-4.352" ;
+      bpo:hasValue2 "5.885167" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-4.416" ;
+      bpo:hasValue2 "5.885537" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-4.48" ;
+      bpo:hasValue2 "5.885907" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-4.544" ;
+      bpo:hasValue2 "5.886277" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-4.608" ;
+      bpo:hasValue2 "5.886647" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-4.672" ;
+      bpo:hasValue2 "5.887017" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-4.736" ;
+      bpo:hasValue2 "5.887387" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-4.8" ;
+      bpo:hasValue2 "5.887757" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-4.864" ;
+      bpo:hasValue2 "5.888127" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-4.928" ;
+      bpo:hasValue2 "5.888497" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-4.992" ;
+      bpo:hasValue2 "5.888867" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-5.056" ;
+      bpo:hasValue2 "5.889237" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-5.12" ;
+      bpo:hasValue2 "5.889607" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-5.184" ;
+      bpo:hasValue2 "5.889978" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-5.248" ;
+      bpo:hasValue2 "5.890348" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-5.312" ;
+      bpo:hasValue2 "5.890718" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-5.376" ;
+      bpo:hasValue2 "5.891088" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-5.44" ;
+      bpo:hasValue2 "5.891458" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-5.504" ;
+      bpo:hasValue2 "5.891828" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-5.568" ;
+      bpo:hasValue2 "5.892198" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-5.632" ;
+      bpo:hasValue2 "5.892568" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-5.696" ;
+      bpo:hasValue2 "5.892938" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-5.76" ;
+      bpo:hasValue2 "5.893308" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-5.824" ;
+      bpo:hasValue2 "5.893678" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-5.888" ;
+      bpo:hasValue2 "5.894048" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-5.952" ;
+      bpo:hasValue2 "5.894418" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-6.016" ;
+      bpo:hasValue2 "5.894789" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-6.08" ;
+      bpo:hasValue2 "5.895159" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-6.144" ;
+      bpo:hasValue2 "5.895529" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-6.208" ;
+      bpo:hasValue2 "5.895899" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-6.272" ;
+      bpo:hasValue2 "5.896269" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-6.336" ;
+      bpo:hasValue2 "5.896639" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-6.4" ;
+      bpo:hasValue2 "5.897009" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-6.464" ;
+      bpo:hasValue2 "5.897379" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-6.528" ;
+      bpo:hasValue2 "5.897749" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-6.592" ;
+      bpo:hasValue2 "5.898119" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-6.656" ;
+      bpo:hasValue2 "5.898489" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-6.72" ;
+      bpo:hasValue2 "5.898859" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-6.784" ;
+      bpo:hasValue2 "5.899229" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-6.848" ;
+      bpo:hasValue2 "5.899599" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-6.912" ;
+      bpo:hasValue2 "5.89997" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-6.976" ;
+      bpo:hasValue2 "5.90034" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-7.04" ;
+      bpo:hasValue2 "5.90071" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-7.104" ;
+      bpo:hasValue2 "5.90108" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-7.168" ;
+      bpo:hasValue2 "5.90145" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-7.232" ;
+      bpo:hasValue2 "5.90182" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-7.296" ;
+      bpo:hasValue2 "5.90219" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-7.36" ;
+      bpo:hasValue2 "5.90256" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-7.424" ;
+      bpo:hasValue2 "5.90293" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-7.488" ;
+      bpo:hasValue2 "5.9033" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-7.552" ;
+      bpo:hasValue2 "5.90367" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-7.616" ;
+      bpo:hasValue2 "5.90404" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-7.68" ;
+      bpo:hasValue2 "5.90441" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-7.744" ;
+      bpo:hasValue2 "5.904781" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-7.808" ;
+      bpo:hasValue2 "5.905151" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-7.872" ;
+      bpo:hasValue2 "5.905521" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-7.936" ;
+      bpo:hasValue2 "5.905891" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-8" ;
+      bpo:hasValue2 "5.906261" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-8.064" ;
+      bpo:hasValue2 "5.906631" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-8.128" ;
+      bpo:hasValue2 "5.907001" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-8.192" ;
+      bpo:hasValue2 "5.907371" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-8.256" ;
+      bpo:hasValue2 "5.907741" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-8.32" ;
+      bpo:hasValue2 "5.908111" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-8.384" ;
+      bpo:hasValue2 "5.908481" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-8.448" ;
+      bpo:hasValue2 "5.908851" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-8.512" ;
+      bpo:hasValue2 "5.909221" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-8.576" ;
+      bpo:hasValue2 "5.909591" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-8.64" ;
+      bpo:hasValue2 "5.909962" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-8.704" ;
+      bpo:hasValue2 "5.910332" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-8.768" ;
+      bpo:hasValue2 "5.910702" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-8.832" ;
+      bpo:hasValue2 "5.911072" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-8.896" ;
+      bpo:hasValue2 "5.911442" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-8.96" ;
+      bpo:hasValue2 "5.911812" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-9.024" ;
+      bpo:hasValue2 "5.912182" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-9.088" ;
+      bpo:hasValue2 "5.912552" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-9.152" ;
+      bpo:hasValue2 "5.912922" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-9.216" ;
+      bpo:hasValue2 "5.913292" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-9.28" ;
+      bpo:hasValue2 "5.913662" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-9.344" ;
+      bpo:hasValue2 "5.914032" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-9.408" ;
+      bpo:hasValue2 "5.914402" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-9.472" ;
+      bpo:hasValue2 "5.914773" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-9.536" ;
+      bpo:hasValue2 "5.915143" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-9.6" ;
+      bpo:hasValue2 "5.915513" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-9.664" ;
+      bpo:hasValue2 "5.915883" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-9.728" ;
+      bpo:hasValue2 "5.916253" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-9.792" ;
+      bpo:hasValue2 "5.916623" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-9.856" ;
+      bpo:hasValue2 "5.916993" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-9.92" ;
+      bpo:hasValue2 "5.917363" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "-9.984" ;
+      bpo:hasValue2 "5.917733" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0" ;
+      bpo:hasValue2 "5.860002" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0.064" ;
+      bpo:hasValue2 "5.859631" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0.128" ;
+      bpo:hasValue2 "5.859261" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0.192" ;
+      bpo:hasValue2 "5.858891" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0.256" ;
+      bpo:hasValue2 "5.858521" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0.32" ;
+      bpo:hasValue2 "5.858151" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0.384" ;
+      bpo:hasValue2 "5.857781" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0.448" ;
+      bpo:hasValue2 "5.857411" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0.512" ;
+      bpo:hasValue2 "5.857041" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0.576" ;
+      bpo:hasValue2 "5.856671" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0.64" ;
+      bpo:hasValue2 "5.856301" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0.704" ;
+      bpo:hasValue2 "5.855931" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0.768" ;
+      bpo:hasValue2 "5.855561" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0.832" ;
+      bpo:hasValue2 "5.855191" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0.896" ;
+      bpo:hasValue2 "5.854821" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "0.96" ;
+      bpo:hasValue2 "5.85445" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1.024" ;
+      bpo:hasValue2 "5.85408" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1.088" ;
+      bpo:hasValue2 "5.85371" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1.152" ;
+      bpo:hasValue2 "5.85334" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1.216" ;
+      bpo:hasValue2 "5.85297" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1.28" ;
+      bpo:hasValue2 "5.8526" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1.344" ;
+      bpo:hasValue2 "5.85223" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1.408" ;
+      bpo:hasValue2 "5.85186" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1.472" ;
+      bpo:hasValue2 "5.85149" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1.536" ;
+      bpo:hasValue2 "5.85112" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1.6" ;
+      bpo:hasValue2 "5.85075" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1.664" ;
+      bpo:hasValue2 "5.85038" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1.728" ;
+      bpo:hasValue2 "5.85001" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1.792" ;
+      bpo:hasValue2 "5.849639" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1.856" ;
+      bpo:hasValue2 "5.849269" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1.92" ;
+      bpo:hasValue2 "5.848899" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "1.984" ;
+      bpo:hasValue2 "5.848529" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "10.048" ;
+      bpo:hasValue2 "5.8019" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "10.112" ;
+      bpo:hasValue2 "5.80153" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "10.176" ;
+      bpo:hasValue2 "5.80116" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "10.24" ;
+      bpo:hasValue2 "5.80079" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "10.304" ;
+      bpo:hasValue2 "5.80042" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "10.368" ;
+      bpo:hasValue2 "5.80005" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "10.432" ;
+      bpo:hasValue2 "5.799679" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "10.496" ;
+      bpo:hasValue2 "5.799309" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "10.56" ;
+      bpo:hasValue2 "5.798939" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "10.624" ;
+      bpo:hasValue2 "5.798569" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "10.688" ;
+      bpo:hasValue2 "5.798199" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "10.752" ;
+      bpo:hasValue2 "5.797829" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "10.816" ;
+      bpo:hasValue2 "5.797459" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "10.88" ;
+      bpo:hasValue2 "5.797089" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "10.944" ;
+      bpo:hasValue2 "5.796719" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11.008" ;
+      bpo:hasValue2 "5.796349" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11.072" ;
+      bpo:hasValue2 "5.795979" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11.136" ;
+      bpo:hasValue2 "5.795609" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11.2" ;
+      bpo:hasValue2 "5.795239" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11.264" ;
+      bpo:hasValue2 "5.794868" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11.328" ;
+      bpo:hasValue2 "5.794498" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11.392" ;
+      bpo:hasValue2 "5.794128" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11.456" ;
+      bpo:hasValue2 "5.793758" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11.52" ;
+      bpo:hasValue2 "5.793388" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11.584" ;
+      bpo:hasValue2 "5.793018" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11.648" ;
+      bpo:hasValue2 "5.792648" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11.712" ;
+      bpo:hasValue2 "5.792278" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11.776" ;
+      bpo:hasValue2 "5.791908" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11.84" ;
+      bpo:hasValue2 "5.791538" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11.904" ;
+      bpo:hasValue2 "5.791168" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "11.968" ;
+      bpo:hasValue2 "5.790798" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12.032" ;
+      bpo:hasValue2 "5.790428" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12.096" ;
+      bpo:hasValue2 "5.790057" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12.16" ;
+      bpo:hasValue2 "5.789687" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12.224" ;
+      bpo:hasValue2 "5.789317" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12.288" ;
+      bpo:hasValue2 "5.788947" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12.352" ;
+      bpo:hasValue2 "5.788577" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12.416" ;
+      bpo:hasValue2 "5.788207" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12.48" ;
+      bpo:hasValue2 "5.787837" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12.544" ;
+      bpo:hasValue2 "5.787467" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12.608" ;
+      bpo:hasValue2 "5.787097" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12.672" ;
+      bpo:hasValue2 "5.786727" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12.736" ;
+      bpo:hasValue2 "5.786357" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12.8" ;
+      bpo:hasValue2 "5.785987" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12.864" ;
+      bpo:hasValue2 "5.785616" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12.928" ;
+      bpo:hasValue2 "5.785246" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "12.992" ;
+      bpo:hasValue2 "5.784876" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "13.056" ;
+      bpo:hasValue2 "5.784506" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "13.12" ;
+      bpo:hasValue2 "5.784136" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "13.184" ;
+      bpo:hasValue2 "5.783766" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "13.248" ;
+      bpo:hasValue2 "5.783396" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "13.312" ;
+      bpo:hasValue2 "5.783026" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "13.376" ;
+      bpo:hasValue2 "5.782656" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "13.44" ;
+      bpo:hasValue2 "5.782286" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "13.504" ;
+      bpo:hasValue2 "5.781916" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "13.568" ;
+      bpo:hasValue2 "5.781546" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "13.632" ;
+      bpo:hasValue2 "5.781175" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "13.696" ;
+      bpo:hasValue2 "5.780805" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "13.76" ;
+      bpo:hasValue2 "5.780435" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "13.824" ;
+      bpo:hasValue2 "5.780065" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "13.888" ;
+      bpo:hasValue2 "5.779695" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "13.952" ;
+      bpo:hasValue2 "5.779325" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14.016" ;
+      bpo:hasValue2 "5.778955" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14.08" ;
+      bpo:hasValue2 "5.778585" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14.144" ;
+      bpo:hasValue2 "5.778215" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14.208" ;
+      bpo:hasValue2 "5.777845" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14.272" ;
+      bpo:hasValue2 "5.777475" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14.336" ;
+      bpo:hasValue2 "5.777104" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14.4" ;
+      bpo:hasValue2 "5.776734" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14.464" ;
+      bpo:hasValue2 "5.776364" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14.528" ;
+      bpo:hasValue2 "5.775994" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14.592" ;
+      bpo:hasValue2 "5.775624" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14.656" ;
+      bpo:hasValue2 "5.775254" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14.72" ;
+      bpo:hasValue2 "5.774884" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14.784" ;
+      bpo:hasValue2 "5.774514" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14.848" ;
+      bpo:hasValue2 "5.774144" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14.912" ;
+      bpo:hasValue2 "5.773774" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "14.976" ;
+      bpo:hasValue2 "5.773404" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "15.04" ;
+      bpo:hasValue2 "5.773033" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "15.104" ;
+      bpo:hasValue2 "5.772663" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "15.168" ;
+      bpo:hasValue2 "5.772293" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "15.232" ;
+      bpo:hasValue2 "5.771923" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "15.296" ;
+      bpo:hasValue2 "5.771553" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "15.36" ;
+      bpo:hasValue2 "5.771183" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "15.424" ;
+      bpo:hasValue2 "5.770813" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "15.488" ;
+      bpo:hasValue2 "5.770443" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "15.552" ;
+      bpo:hasValue2 "5.770073" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "15.616" ;
+      bpo:hasValue2 "5.769702" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "15.68" ;
+      bpo:hasValue2 "5.769332" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "15.744" ;
+      bpo:hasValue2 "5.768962" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "15.808" ;
+      bpo:hasValue2 "5.768592" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "15.872" ;
+      bpo:hasValue2 "5.768222" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "15.936" ;
+      bpo:hasValue2 "5.767852" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16" ;
+      bpo:hasValue2 "5.767482" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16.064" ;
+      bpo:hasValue2 "5.767112" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16.128" ;
+      bpo:hasValue2 "5.766741" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16.192" ;
+      bpo:hasValue2 "5.766371" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16.256" ;
+      bpo:hasValue2 "5.766001" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16.32" ;
+      bpo:hasValue2 "5.765631" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16.384" ;
+      bpo:hasValue2 "5.765261" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16.448" ;
+      bpo:hasValue2 "5.764891" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16.512" ;
+      bpo:hasValue2 "5.764521" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16.576" ;
+      bpo:hasValue2 "5.76415" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16.64" ;
+      bpo:hasValue2 "5.76378" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16.704" ;
+      bpo:hasValue2 "5.76341" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16.768" ;
+      bpo:hasValue2 "5.76304" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16.832" ;
+      bpo:hasValue2 "5.76267" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16.896" ;
+      bpo:hasValue2 "5.7623" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "16.96" ;
+      bpo:hasValue2 "5.76193" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17.024" ;
+      bpo:hasValue2 "5.761559" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17.088" ;
+      bpo:hasValue2 "5.761189" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17.152" ;
+      bpo:hasValue2 "5.760819" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17.216" ;
+      bpo:hasValue2 "5.760449" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17.28" ;
+      bpo:hasValue2 "5.760079" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17.344" ;
+      bpo:hasValue2 "5.759708" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17.408" ;
+      bpo:hasValue2 "5.759338" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17.472" ;
+      bpo:hasValue2 "5.758968" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17.536" ;
+      bpo:hasValue2 "5.758598" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17.6" ;
+      bpo:hasValue2 "5.758228" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17.664" ;
+      bpo:hasValue2 "5.757857" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17.728" ;
+      bpo:hasValue2 "5.757487" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17.792" ;
+      bpo:hasValue2 "5.757117" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17.856" ;
+      bpo:hasValue2 "5.756747" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17.92" ;
+      bpo:hasValue2 "5.756377" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "17.984" ;
+      bpo:hasValue2 "5.756006" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "18.048" ;
+      bpo:hasValue2 "5.755636" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "18.112" ;
+      bpo:hasValue2 "5.755266" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "18.176" ;
+      bpo:hasValue2 "5.754895" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "18.24" ;
+      bpo:hasValue2 "5.754525" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "18.304" ;
+      bpo:hasValue2 "5.754155" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "18.368" ;
+      bpo:hasValue2 "5.753785" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "18.432" ;
+      bpo:hasValue2 "5.753414" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "18.496" ;
+      bpo:hasValue2 "5.753044" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "18.56" ;
+      bpo:hasValue2 "5.752674" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "18.624" ;
+      bpo:hasValue2 "5.752303" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "18.688" ;
+      bpo:hasValue2 "5.751933" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "18.752" ;
+      bpo:hasValue2 "5.751563" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "18.816" ;
+      bpo:hasValue2 "5.751192" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "18.88" ;
+      bpo:hasValue2 "5.750822" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "18.944" ;
+      bpo:hasValue2 "5.750452" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19.008" ;
+      bpo:hasValue2 "5.750081" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19.072" ;
+      bpo:hasValue2 "5.749711" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19.136" ;
+      bpo:hasValue2 "5.74934" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19.2" ;
+      bpo:hasValue2 "5.74897" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19.264" ;
+      bpo:hasValue2 "5.7486" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19.328" ;
+      bpo:hasValue2 "5.748229" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19.392" ;
+      bpo:hasValue2 "5.747859" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19.456" ;
+      bpo:hasValue2 "5.747488" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19.52" ;
+      bpo:hasValue2 "5.747118" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19.584" ;
+      bpo:hasValue2 "5.746747" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19.648" ;
+      bpo:hasValue2 "5.746376" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19.712" ;
+      bpo:hasValue2 "5.746006" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19.776" ;
+      bpo:hasValue2 "5.745635" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19.84" ;
+      bpo:hasValue2 "5.745265" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19.904" ;
+      bpo:hasValue2 "5.744894" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "19.968" ;
+      bpo:hasValue2 "5.744523" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "2.048" ;
+      bpo:hasValue2 "5.848159" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "2.112" ;
+      bpo:hasValue2 "5.847789" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "2.176" ;
+      bpo:hasValue2 "5.847419" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "2.24" ;
+      bpo:hasValue2 "5.847049" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "2.304" ;
+      bpo:hasValue2 "5.846679" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "2.368" ;
+      bpo:hasValue2 "5.846309" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "2.432" ;
+      bpo:hasValue2 "5.845939" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "2.496" ;
+      bpo:hasValue2 "5.845569" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "2.56" ;
+      bpo:hasValue2 "5.845199" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "2.624" ;
+      bpo:hasValue2 "5.844829" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "2.688" ;
+      bpo:hasValue2 "5.844458" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "2.752" ;
+      bpo:hasValue2 "5.844088" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "2.816" ;
+      bpo:hasValue2 "5.843718" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "2.88" ;
+      bpo:hasValue2 "5.843348" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "2.944" ;
+      bpo:hasValue2 "5.842978" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20.032" ;
+      bpo:hasValue2 "5.744153" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20.096" ;
+      bpo:hasValue2 "5.743782" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20.16" ;
+      bpo:hasValue2 "5.743411" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20.224" ;
+      bpo:hasValue2 "5.743041" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20.288" ;
+      bpo:hasValue2 "5.74267" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20.352" ;
+      bpo:hasValue2 "5.742299" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20.416" ;
+      bpo:hasValue2 "5.741928" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20.48" ;
+      bpo:hasValue2 "5.741557" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20.544" ;
+      bpo:hasValue2 "5.741187" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20.608" ;
+      bpo:hasValue2 "5.740816" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20.672" ;
+      bpo:hasValue2 "5.740445" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20.736" ;
+      bpo:hasValue2 "5.740074" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20.8" ;
+      bpo:hasValue2 "5.739703" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20.864" ;
+      bpo:hasValue2 "5.739332" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20.928" ;
+      bpo:hasValue2 "5.73896" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "20.992" ;
+      bpo:hasValue2 "5.738589" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "21.056" ;
+      bpo:hasValue2 "5.738218" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "21.12" ;
+      bpo:hasValue2 "5.737847" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "21.184" ;
+      bpo:hasValue2 "5.737476" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "21.248" ;
+      bpo:hasValue2 "5.737104" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "21.312" ;
+      bpo:hasValue2 "5.736733" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "21.376" ;
+      bpo:hasValue2 "5.736362" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "21.44" ;
+      bpo:hasValue2 "5.73599" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "21.504" ;
+      bpo:hasValue2 "5.735619" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "21.568" ;
+      bpo:hasValue2 "5.735247" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "21.632" ;
+      bpo:hasValue2 "5.734875" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "21.696" ;
+      bpo:hasValue2 "5.734504" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "21.76" ;
+      bpo:hasValue2 "5.734132" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "21.824" ;
+      bpo:hasValue2 "5.73376" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "21.888" ;
+      bpo:hasValue2 "5.733388" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "21.952" ;
+      bpo:hasValue2 "5.733016" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22.016" ;
+      bpo:hasValue2 "5.732644" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22.08" ;
+      bpo:hasValue2 "5.732272" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22.144" ;
+      bpo:hasValue2 "5.7319" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22.208" ;
+      bpo:hasValue2 "5.731527" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22.272" ;
+      bpo:hasValue2 "5.731155" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22.336" ;
+      bpo:hasValue2 "5.730783" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22.4" ;
+      bpo:hasValue2 "5.73041" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22.464" ;
+      bpo:hasValue2 "5.730037" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22.528" ;
+      bpo:hasValue2 "5.729665" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22.592" ;
+      bpo:hasValue2 "5.729292" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22.656" ;
+      bpo:hasValue2 "5.728919" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22.72" ;
+      bpo:hasValue2 "5.728546" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22.784" ;
+      bpo:hasValue2 "5.728172" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22.848" ;
+      bpo:hasValue2 "5.727799" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22.912" ;
+      bpo:hasValue2 "5.727426" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "22.976" ;
+      bpo:hasValue2 "5.727052" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "23.04" ;
+      bpo:hasValue2 "5.726678" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "23.104" ;
+      bpo:hasValue2 "5.726304" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "23.168" ;
+      bpo:hasValue2 "5.72593" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "23.232" ;
+      bpo:hasValue2 "5.725556" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "23.296" ;
+      bpo:hasValue2 "5.725182" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "23.36" ;
+      bpo:hasValue2 "5.724807" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "23.424" ;
+      bpo:hasValue2 "5.724432" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "23.488" ;
+      bpo:hasValue2 "5.724057" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "23.552" ;
+      bpo:hasValue2 "5.723682" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "23.616" ;
+      bpo:hasValue2 "5.723307" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "23.68" ;
+      bpo:hasValue2 "5.722931" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "23.744" ;
+      bpo:hasValue2 "5.722556" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "23.808" ;
+      bpo:hasValue2 "5.72218" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "23.872" ;
+      bpo:hasValue2 "5.721804" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "23.936" ;
+      bpo:hasValue2 "5.721427" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24" ;
+      bpo:hasValue2 "5.721051" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24.064" ;
+      bpo:hasValue2 "5.720674" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24.128" ;
+      bpo:hasValue2 "5.720296" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24.192" ;
+      bpo:hasValue2 "5.719919" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24.256" ;
+      bpo:hasValue2 "5.719541" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24.32" ;
+      bpo:hasValue2 "5.719163" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24.384" ;
+      bpo:hasValue2 "5.718785" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24.448" ;
+      bpo:hasValue2 "5.718406" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24.512" ;
+      bpo:hasValue2 "5.718027" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24.576" ;
+      bpo:hasValue2 "5.717647" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24.64" ;
+      bpo:hasValue2 "5.717268" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24.704" ;
+      bpo:hasValue2 "5.716887" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24.768" ;
+      bpo:hasValue2 "5.716507" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24.832" ;
+      bpo:hasValue2 "5.716126" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24.896" ;
+      bpo:hasValue2 "5.715744" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "24.96" ;
+      bpo:hasValue2 "5.715362" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25.024" ;
+      bpo:hasValue2 "5.71498" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25.088" ;
+      bpo:hasValue2 "5.714597" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25.152" ;
+      bpo:hasValue2 "5.714214" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25.216" ;
+      bpo:hasValue2 "5.71383" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25.28" ;
+      bpo:hasValue2 "5.713446" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25.344" ;
+      bpo:hasValue2 "5.713061" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25.408" ;
+      bpo:hasValue2 "5.712675" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25.472" ;
+      bpo:hasValue2 "5.712289" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25.536" ;
+      bpo:hasValue2 "5.711902" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25.6" ;
+      bpo:hasValue2 "5.711514" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25.664" ;
+      bpo:hasValue2 "5.711126" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25.728" ;
+      bpo:hasValue2 "5.710737" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25.792" ;
+      bpo:hasValue2 "5.710348" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25.856" ;
+      bpo:hasValue2 "5.709957" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25.92" ;
+      bpo:hasValue2 "5.709566" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "25.984" ;
+      bpo:hasValue2 "5.709174" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "26.048" ;
+      bpo:hasValue2 "5.708781" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "26.112" ;
+      bpo:hasValue2 "5.708387" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "26.176" ;
+      bpo:hasValue2 "5.707992" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "26.24" ;
+      bpo:hasValue2 "5.707597" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "26.304" ;
+      bpo:hasValue2 "5.7072" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "26.368" ;
+      bpo:hasValue2 "5.706802" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "26.432" ;
+      bpo:hasValue2 "5.706403" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "26.496" ;
+      bpo:hasValue2 "5.706003" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "26.56" ;
+      bpo:hasValue2 "5.705602" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "26.624" ;
+      bpo:hasValue2 "5.705199" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "26.688" ;
+      bpo:hasValue2 "5.704796" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "26.752" ;
+      bpo:hasValue2 "5.70439" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "26.816" ;
+      bpo:hasValue2 "5.703984" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "26.88" ;
+      bpo:hasValue2 "5.703576" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "26.944" ;
+      bpo:hasValue2 "5.703167" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27.008" ;
+      bpo:hasValue2 "5.702756" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27.072" ;
+      bpo:hasValue2 "5.702343" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27.136" ;
+      bpo:hasValue2 "5.701929" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27.2" ;
+      bpo:hasValue2 "5.701513" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27.264" ;
+      bpo:hasValue2 "5.701095" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27.328" ;
+      bpo:hasValue2 "5.700675" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27.392" ;
+      bpo:hasValue2 "5.700253" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27.456" ;
+      bpo:hasValue2 "5.699829" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27.52" ;
+      bpo:hasValue2 "5.699403" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27.584" ;
+      bpo:hasValue2 "5.698975" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27.648" ;
+      bpo:hasValue2 "5.698545" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27.712" ;
+      bpo:hasValue2 "5.698112" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27.776" ;
+      bpo:hasValue2 "5.697677" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27.84" ;
+      bpo:hasValue2 "5.697239" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27.904" ;
+      bpo:hasValue2 "5.696798" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "27.968" ;
+      bpo:hasValue2 "5.696355" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28.032" ;
+      bpo:hasValue2 "5.695909" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28.096" ;
+      bpo:hasValue2 "5.69546" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28.16" ;
+      bpo:hasValue2 "5.695007" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28.224" ;
+      bpo:hasValue2 "5.694552" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28.288" ;
+      bpo:hasValue2 "5.694093" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28.352" ;
+      bpo:hasValue2 "5.69363" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28.416" ;
+      bpo:hasValue2 "5.693164" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28.48" ;
+      bpo:hasValue2 "5.692694" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28.544" ;
+      bpo:hasValue2 "5.69222" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28.608" ;
+      bpo:hasValue2 "5.691742" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28.672" ;
+      bpo:hasValue2 "5.69126" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28.736" ;
+      bpo:hasValue2 "5.690773" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28.8" ;
+      bpo:hasValue2 "5.690282" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28.864" ;
+      bpo:hasValue2 "5.689785" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28.928" ;
+      bpo:hasValue2 "5.689284" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "28.992" ;
+      bpo:hasValue2 "5.688778" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "29.056" ;
+      bpo:hasValue2 "5.688266" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "29.12" ;
+      bpo:hasValue2 "5.687749" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "29.184" ;
+      bpo:hasValue2 "5.687226" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "29.248" ;
+      bpo:hasValue2 "5.686697" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "29.312" ;
+      bpo:hasValue2 "5.686161" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "29.376" ;
+      bpo:hasValue2 "5.685619" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "29.44" ;
+      bpo:hasValue2 "5.68507" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "29.504" ;
+      bpo:hasValue2 "5.684515" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "29.568" ;
+      bpo:hasValue2 "5.683951" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "29.632" ;
+      bpo:hasValue2 "5.683381" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "29.696" ;
+      bpo:hasValue2 "5.682802" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "29.76" ;
+      bpo:hasValue2 "5.682215" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "29.824" ;
+      bpo:hasValue2 "5.681619" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "29.888" ;
+      bpo:hasValue2 "5.681015" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "29.952" ;
+      bpo:hasValue2 "5.680401" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3.008" ;
+      bpo:hasValue2 "5.842608" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3.072" ;
+      bpo:hasValue2 "5.842238" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3.136" ;
+      bpo:hasValue2 "5.841868" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3.2" ;
+      bpo:hasValue2 "5.841498" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3.264" ;
+      bpo:hasValue2 "5.841128" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3.328" ;
+      bpo:hasValue2 "5.840758" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3.392" ;
+      bpo:hasValue2 "5.840388" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3.456" ;
+      bpo:hasValue2 "5.840018" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3.52" ;
+      bpo:hasValue2 "5.839647" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3.584" ;
+      bpo:hasValue2 "5.839277" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3.648" ;
+      bpo:hasValue2 "5.838907" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3.712" ;
+      bpo:hasValue2 "5.838537" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3.776" ;
+      bpo:hasValue2 "5.838167" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3.84" ;
+      bpo:hasValue2 "5.837797" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3.904" ;
+      bpo:hasValue2 "5.837427" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "3.968" ;
+      bpo:hasValue2 "5.837057" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30.016" ;
+      bpo:hasValue2 "5.679778" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30.08" ;
+      bpo:hasValue2 "5.679145" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30.144" ;
+      bpo:hasValue2 "5.678501" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30.208" ;
+      bpo:hasValue2 "5.677846" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30.272" ;
+      bpo:hasValue2 "5.677181" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30.336" ;
+      bpo:hasValue2 "5.676503" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30.4" ;
+      bpo:hasValue2 "5.675814" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30.464" ;
+      bpo:hasValue2 "5.675112" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30.528" ;
+      bpo:hasValue2 "5.674396" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30.592" ;
+      bpo:hasValue2 "5.673668" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30.656" ;
+      bpo:hasValue2 "5.672925" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30.72" ;
+      bpo:hasValue2 "5.672167" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30.784" ;
+      bpo:hasValue2 "5.671394" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30.848" ;
+      bpo:hasValue2 "5.670605" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30.912" ;
+      bpo:hasValue2 "5.6698" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "30.976" ;
+      bpo:hasValue2 "5.668978" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "31.04" ;
+      bpo:hasValue2 "5.668138" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "31.104" ;
+      bpo:hasValue2 "5.667279" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "31.168" ;
+      bpo:hasValue2 "5.666401" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "31.232" ;
+      bpo:hasValue2 "5.665503" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "31.296" ;
+      bpo:hasValue2 "5.664584" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "31.36" ;
+      bpo:hasValue2 "5.663644" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "31.424" ;
+      bpo:hasValue2 "5.662681" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "31.488" ;
+      bpo:hasValue2 "5.661696" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "31.552" ;
+      bpo:hasValue2 "5.660685" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "31.616" ;
+      bpo:hasValue2 "5.65965" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "31.68" ;
+      bpo:hasValue2 "5.658589" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "31.744" ;
+      bpo:hasValue2 "5.6575" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "31.808" ;
+      bpo:hasValue2 "5.656383" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "31.872" ;
+      bpo:hasValue2 "5.655238" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "31.936" ;
+      bpo:hasValue2 "5.654061" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32" ;
+      bpo:hasValue2 "5.652853" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32.064" ;
+      bpo:hasValue2 "5.651612" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32.128" ;
+      bpo:hasValue2 "5.650337" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32.192" ;
+      bpo:hasValue2 "5.649027" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32.256" ;
+      bpo:hasValue2 "5.64768" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32.32" ;
+      bpo:hasValue2 "5.646295" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32.384" ;
+      bpo:hasValue2 "5.64487" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32.448" ;
+      bpo:hasValue2 "5.643403" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32.512" ;
+      bpo:hasValue2 "5.641894" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32.576" ;
+      bpo:hasValue2 "5.640341" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32.64" ;
+      bpo:hasValue2 "5.638741" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32.704" ;
+      bpo:hasValue2 "5.637094" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32.768" ;
+      bpo:hasValue2 "5.635396" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32.832" ;
+      bpo:hasValue2 "5.633647" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32.896" ;
+      bpo:hasValue2 "5.631845" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "32.96" ;
+      bpo:hasValue2 "5.629986" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33.024" ;
+      bpo:hasValue2 "5.62807" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33.088" ;
+      bpo:hasValue2 "5.626094" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33.152" ;
+      bpo:hasValue2 "5.624056" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33.216" ;
+      bpo:hasValue2 "5.621953" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33.28" ;
+      bpo:hasValue2 "5.619783" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33.344" ;
+      bpo:hasValue2 "5.617543" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33.408" ;
+      bpo:hasValue2 "5.615231" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33.472" ;
+      bpo:hasValue2 "5.612844" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33.536" ;
+      bpo:hasValue2 "5.610379" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33.6" ;
+      bpo:hasValue2 "5.607833" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33.664" ;
+      bpo:hasValue2 "5.605204" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33.728" ;
+      bpo:hasValue2 "5.602487" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33.792" ;
+      bpo:hasValue2 "5.599681" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33.856" ;
+      bpo:hasValue2 "5.596781" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33.92" ;
+      bpo:hasValue2 "5.593784" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "33.984" ;
+      bpo:hasValue2 "5.590687" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "34.048" ;
+      bpo:hasValue2 "5.587485" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "34.112" ;
+      bpo:hasValue2 "5.584175" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "34.176" ;
+      bpo:hasValue2 "5.580754" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "34.24" ;
+      bpo:hasValue2 "5.577216" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "34.304" ;
+      bpo:hasValue2 "5.573557" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "34.368" ;
+      bpo:hasValue2 "5.569774" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "34.432" ;
+      bpo:hasValue2 "5.565861" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "34.496" ;
+      bpo:hasValue2 "5.561815" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "34.56" ;
+      bpo:hasValue2 "5.55763" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "34.624" ;
+      bpo:hasValue2 "5.553301" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "34.688" ;
+      bpo:hasValue2 "5.548823" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "34.752" ;
+      bpo:hasValue2 "5.54419" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "34.816" ;
+      bpo:hasValue2 "5.539398" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "34.88" ;
+      bpo:hasValue2 "5.534441" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "34.944" ;
+      bpo:hasValue2 "5.529313" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35.008" ;
+      bpo:hasValue2 "5.524007" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35.072" ;
+      bpo:hasValue2 "5.518519" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35.136" ;
+      bpo:hasValue2 "5.51284" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35.2" ;
+      bpo:hasValue2 "5.506965" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35.264" ;
+      bpo:hasValue2 "5.500888" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35.328" ;
+      bpo:hasValue2 "5.494601" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35.392" ;
+      bpo:hasValue2 "5.488097" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35.456" ;
+      bpo:hasValue2 "5.481368" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35.52" ;
+      bpo:hasValue2 "5.474408" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35.584" ;
+      bpo:hasValue2 "5.467208" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35.648" ;
+      bpo:hasValue2 "5.459761" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35.712" ;
+      bpo:hasValue2 "5.452059" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35.776" ;
+      bpo:hasValue2 "5.444093" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35.84" ;
+      bpo:hasValue2 "5.435855" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35.904" ;
+      bpo:hasValue2 "5.427335" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "35.968" ;
+      bpo:hasValue2 "5.418526" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36.032" ;
+      bpo:hasValue2 "5.409417" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36.096" ;
+      bpo:hasValue2 "5.4" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36.16" ;
+      bpo:hasValue2 "5.390265" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36.224" ;
+      bpo:hasValue2 "5.380202" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36.288" ;
+      bpo:hasValue2 "5.369801" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36.352" ;
+      bpo:hasValue2 "5.359053" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36.416" ;
+      bpo:hasValue2 "5.347946" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36.48" ;
+      bpo:hasValue2 "5.33647" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36.544" ;
+      bpo:hasValue2 "5.324614" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36.608" ;
+      bpo:hasValue2 "5.312368" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36.672" ;
+      bpo:hasValue2 "5.29972" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36.736" ;
+      bpo:hasValue2 "5.286659" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36.8" ;
+      bpo:hasValue2 "5.273174" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36.864" ;
+      bpo:hasValue2 "5.259252" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36.928" ;
+      bpo:hasValue2 "5.244883" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "36.992" ;
+      bpo:hasValue2 "5.230053" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "37.056" ;
+      bpo:hasValue2 "5.214752" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "37.12" ;
+      bpo:hasValue2 "5.198967" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "37.184" ;
+      bpo:hasValue2 "5.182685" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "37.248" ;
+      bpo:hasValue2 "5.165894" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "37.312" ;
+      bpo:hasValue2 "5.148582" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "37.376" ;
+      bpo:hasValue2 "5.130736" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "37.44" ;
+      bpo:hasValue2 "5.112344" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "37.504" ;
+      bpo:hasValue2 "5.093392" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "37.568" ;
+      bpo:hasValue2 "5.073867" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "37.632" ;
+      bpo:hasValue2 "5.053758" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "37.696" ;
+      bpo:hasValue2 "5.033051" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "37.76" ;
+      bpo:hasValue2 "5.011734" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "37.824" ;
+      bpo:hasValue2 "4.989793" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "37.888" ;
+      bpo:hasValue2 "4.967216" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "37.952" ;
+      bpo:hasValue2 "4.94399" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38.016" ;
+      bpo:hasValue2 "4.920103" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38.08" ;
+      bpo:hasValue2 "4.895543" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38.144" ;
+      bpo:hasValue2 "4.870295" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38.208" ;
+      bpo:hasValue2 "4.844349" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38.272" ;
+      bpo:hasValue2 "4.817693" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38.336" ;
+      bpo:hasValue2 "4.790313" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38.4" ;
+      bpo:hasValue2 "4.762199" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38.464" ;
+      bpo:hasValue2 "4.733339" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38.528" ;
+      bpo:hasValue2 "4.703722" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38.592" ;
+      bpo:hasValue2 "4.673335" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38.656" ;
+      bpo:hasValue2 "4.642169" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38.72" ;
+      bpo:hasValue2 "4.610213" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38.784" ;
+      bpo:hasValue2 "4.577456" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38.848" ;
+      bpo:hasValue2 "4.543889" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38.912" ;
+      bpo:hasValue2 "4.509501" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "38.976" ;
+      bpo:hasValue2 "4.474283" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "39.04" ;
+      bpo:hasValue2 "4.438227" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "39.104" ;
+      bpo:hasValue2 "4.401323" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "39.168" ;
+      bpo:hasValue2 "4.363563" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "39.232" ;
+      bpo:hasValue2 "4.32494" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "39.296" ;
+      bpo:hasValue2 "4.285445" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "39.36" ;
+      bpo:hasValue2 "4.245072" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "39.424" ;
+      bpo:hasValue2 "4.203814" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "39.488" ;
+      bpo:hasValue2 "4.161665" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "39.552" ;
+      bpo:hasValue2 "4.118618" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "39.616" ;
+      bpo:hasValue2 "4.074668" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "39.68" ;
+      bpo:hasValue2 "4.029811" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "39.744" ;
+      bpo:hasValue2 "3.984042" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "39.808" ;
+      bpo:hasValue2 "3.937356" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "39.872" ;
+      bpo:hasValue2 "3.88975" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "39.936" ;
+      bpo:hasValue2 "3.841221" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4.032" ;
+      bpo:hasValue2 "5.836687" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4.096" ;
+      bpo:hasValue2 "5.836317" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4.16" ;
+      bpo:hasValue2 "5.835947" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4.224" ;
+      bpo:hasValue2 "5.835577" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4.288" ;
+      bpo:hasValue2 "5.835207" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4.352" ;
+      bpo:hasValue2 "5.834837" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4.416" ;
+      bpo:hasValue2 "5.834466" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4.48" ;
+      bpo:hasValue2 "5.834096" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4.544" ;
+      bpo:hasValue2 "5.833726" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4.608" ;
+      bpo:hasValue2 "5.833356" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4.672" ;
+      bpo:hasValue2 "5.832986" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4.736" ;
+      bpo:hasValue2 "5.832616" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4.8" ;
+      bpo:hasValue2 "5.832246" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4.864" ;
+      bpo:hasValue2 "5.831876" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4.928" ;
+      bpo:hasValue2 "5.831506" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "4.992" ;
+      bpo:hasValue2 "5.831136" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40" ;
+      bpo:hasValue2 "3.791767" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40.064" ;
+      bpo:hasValue2 "3.741383" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40.128" ;
+      bpo:hasValue2 "3.69007" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40.192" ;
+      bpo:hasValue2 "3.637825" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40.256" ;
+      bpo:hasValue2 "3.584647" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40.32" ;
+      bpo:hasValue2 "3.530537" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40.384" ;
+      bpo:hasValue2 "3.475492" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40.448" ;
+      bpo:hasValue2 "3.419515" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40.512" ;
+      bpo:hasValue2 "3.362606" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40.576" ;
+      bpo:hasValue2 "3.304765" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40.64" ;
+      bpo:hasValue2 "3.245994" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40.704" ;
+      bpo:hasValue2 "3.186295" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40.768" ;
+      bpo:hasValue2 "3.12567" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40.832" ;
+      bpo:hasValue2 "3.064122" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40.896" ;
+      bpo:hasValue2 "3.001654" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "40.96" ;
+      bpo:hasValue2 "2.938269" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41.024" ;
+      bpo:hasValue2 "2.87397" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41.088" ;
+      bpo:hasValue2 "2.808762" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41.152" ;
+      bpo:hasValue2 "2.742648" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41.216" ;
+      bpo:hasValue2 "2.675633" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41.28" ;
+      bpo:hasValue2 "2.607723" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41.344" ;
+      bpo:hasValue2 "2.538921" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41.408" ;
+      bpo:hasValue2 "2.469234" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41.472" ;
+      bpo:hasValue2 "2.398666" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41.536" ;
+      bpo:hasValue2 "2.327224" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41.6" ;
+      bpo:hasValue2 "2.254913" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41.664" ;
+      bpo:hasValue2 "2.18174" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41.728" ;
+      bpo:hasValue2 "2.107712" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41.792" ;
+      bpo:hasValue2 "2.032833" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41.856" ;
+      bpo:hasValue2 "1.957112" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41.92" ;
+      bpo:hasValue2 "1.880556" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "41.984" ;
+      bpo:hasValue2 "1.80317" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "42.048" ;
+      bpo:hasValue2 "1.724963" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "42.112" ;
+      bpo:hasValue2 "1.645941" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "42.176" ;
+      bpo:hasValue2 "1.566112" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "42.24" ;
+      bpo:hasValue2 "1.485484" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "42.304" ;
+      bpo:hasValue2 "1.404064" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "42.368" ;
+      bpo:hasValue2 "1.321859" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "42.432" ;
+      bpo:hasValue2 "1.238878" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "42.496" ;
+      bpo:hasValue2 "1.155127" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "42.56" ;
+      bpo:hasValue2 "1.070616" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "42.624" ;
+      bpo:hasValue2 "0.985351" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "42.688" ;
+      bpo:hasValue2 "0.899342" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "42.752" ;
+      bpo:hasValue2 "0.812594" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "42.816" ;
+      bpo:hasValue2 "0.725118" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "42.88" ;
+      bpo:hasValue2 "0.636919" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "42.944" ;
+      bpo:hasValue2 "0.548008" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43.008" ;
+      bpo:hasValue2 "0.45839" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43.072" ;
+      bpo:hasValue2 "0.368076" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43.136" ;
+      bpo:hasValue2 "0.277071" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43.2" ;
+      bpo:hasValue2 "0.185385" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43.264" ;
+      bpo:hasValue2 "0.093026" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43.328" ;
+      bpo:hasValue2 "0" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43.392" ;
+      bpo:hasValue2 "-0.093684" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43.456" ;
+      bpo:hasValue2 "-0.188017" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43.52" ;
+      bpo:hasValue2 "-0.282993" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43.584" ;
+      bpo:hasValue2 "-0.378604" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43.648" ;
+      bpo:hasValue2 "-0.474841" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43.712" ;
+      bpo:hasValue2 "-0.571698" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43.776" ;
+      bpo:hasValue2 "-0.669167" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43.84" ;
+      bpo:hasValue2 "-0.767239" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43.904" ;
+      bpo:hasValue2 "-0.865909" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "43.968" ;
+      bpo:hasValue2 "-0.965167" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44.032" ;
+      bpo:hasValue2 "-1.065007" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44.096" ;
+      bpo:hasValue2 "-1.165422" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44.16" ;
+      bpo:hasValue2 "-1.266405" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44.224" ;
+      bpo:hasValue2 "-1.367947" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44.288" ;
+      bpo:hasValue2 "-1.470043" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44.352" ;
+      bpo:hasValue2 "-1.572684" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44.416" ;
+      bpo:hasValue2 "-1.675865" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44.48" ;
+      bpo:hasValue2 "-1.779579" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44.544" ;
+      bpo:hasValue2 "-1.883817" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44.608" ;
+      bpo:hasValue2 "-1.988575" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44.672" ;
+      bpo:hasValue2 "-2.093844" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44.736" ;
+      bpo:hasValue2 "-2.19962" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44.8" ;
+      bpo:hasValue2 "-2.305894" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44.864" ;
+      bpo:hasValue2 "-2.412661" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44.928" ;
+      bpo:hasValue2 "-2.519914" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "44.992" ;
+      bpo:hasValue2 "-2.627648" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "45.056" ;
+      bpo:hasValue2 "-2.735855" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "45.12" ;
+      bpo:hasValue2 "-2.84453" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "45.184" ;
+      bpo:hasValue2 "-2.953667" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "45.248" ;
+      bpo:hasValue2 "-3.06326" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "45.312" ;
+      bpo:hasValue2 "-3.173303" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "45.376" ;
+      bpo:hasValue2 "-3.283791" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "45.44" ;
+      bpo:hasValue2 "-3.394716" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "45.504" ;
+      bpo:hasValue2 "-3.506075" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "45.568" ;
+      bpo:hasValue2 "-3.617861" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "45.632" ;
+      bpo:hasValue2 "-3.730069" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "45.696" ;
+      bpo:hasValue2 "-3.842694" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "45.76" ;
+      bpo:hasValue2 "-3.955729" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "45.824" ;
+      bpo:hasValue2 "-4.069171" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "45.888" ;
+      bpo:hasValue2 "-4.183013" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "45.952" ;
+      bpo:hasValue2 "-4.297251" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46.016" ;
+      bpo:hasValue2 "-4.411879" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46.08" ;
+      bpo:hasValue2 "-4.526893" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46.144" ;
+      bpo:hasValue2 "-4.642288" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46.208" ;
+      bpo:hasValue2 "-4.758059" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46.272" ;
+      bpo:hasValue2 "-4.8742" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46.336" ;
+      bpo:hasValue2 "-4.990709" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46.4" ;
+      bpo:hasValue2 "-5.107579" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46.464" ;
+      bpo:hasValue2 "-5.224807" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46.528" ;
+      bpo:hasValue2 "-5.342387" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46.592" ;
+      bpo:hasValue2 "-5.460316" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46.656" ;
+      bpo:hasValue2 "-5.578589" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46.72" ;
+      bpo:hasValue2 "-5.697202" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46.784" ;
+      bpo:hasValue2 "-5.81615" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46.848" ;
+      bpo:hasValue2 "-5.93543" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46.912" ;
+      bpo:hasValue2 "-6.055037" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "46.976" ;
+      bpo:hasValue2 "-6.174968" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "47.04" ;
+      bpo:hasValue2 "-6.295218" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "47.104" ;
+      bpo:hasValue2 "-6.415783" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "47.168" ;
+      bpo:hasValue2 "-6.53666" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "47.232" ;
+      bpo:hasValue2 "-6.657845" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "47.296" ;
+      bpo:hasValue2 "-6.779333" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "47.36" ;
+      bpo:hasValue2 "-6.901122" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "47.424" ;
+      bpo:hasValue2 "-7.023208" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "47.488" ;
+      bpo:hasValue2 "-7.145587" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "47.552" ;
+      bpo:hasValue2 "-7.268255" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "47.616" ;
+      bpo:hasValue2 "-7.39121" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "47.68" ;
+      bpo:hasValue2 "-7.514447" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "47.744" ;
+      bpo:hasValue2 "-7.637964" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "47.808" ;
+      bpo:hasValue2 "-7.761756" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "47.872" ;
+      bpo:hasValue2 "-7.885822" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "47.936" ;
+      bpo:hasValue2 "-8.010156" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48" ;
+      bpo:hasValue2 "-8.134758" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48.064" ;
+      bpo:hasValue2 "-8.259622" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48.128" ;
+      bpo:hasValue2 "-8.384747" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48.192" ;
+      bpo:hasValue2 "-8.510129" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48.256" ;
+      bpo:hasValue2 "-8.635765" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48.32" ;
+      bpo:hasValue2 "-8.761652" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48.384" ;
+      bpo:hasValue2 "-8.887787" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48.448" ;
+      bpo:hasValue2 "-9.014168" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48.512" ;
+      bpo:hasValue2 "-9.140792" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48.576" ;
+      bpo:hasValue2 "-9.267655" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48.64" ;
+      bpo:hasValue2 "-9.394756" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48.704" ;
+      bpo:hasValue2 "-9.52209" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48.768" ;
+      bpo:hasValue2 "-9.649657" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48.832" ;
+      bpo:hasValue2 "-9.777453" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48.896" ;
+      bpo:hasValue2 "-9.905475" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "48.96" ;
+      bpo:hasValue2 "-10.033722" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49.024" ;
+      bpo:hasValue2 "-10.16219" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49.088" ;
+      bpo:hasValue2 "-10.290877" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49.152" ;
+      bpo:hasValue2 "-10.419781" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49.216" ;
+      bpo:hasValue2 "-10.548899" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49.28" ;
+      bpo:hasValue2 "-10.678229" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49.344" ;
+      bpo:hasValue2 "-10.807768" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49.408" ;
+      bpo:hasValue2 "-10.937515" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49.472" ;
+      bpo:hasValue2 "-11.067467" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49.536" ;
+      bpo:hasValue2 "-11.197622" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49.6" ;
+      bpo:hasValue2 "-11.327977" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49.664" ;
+      bpo:hasValue2 "-11.45853" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49.728" ;
+      bpo:hasValue2 "-11.58928" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49.792" ;
+      bpo:hasValue2 "-11.720225" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49.856" ;
+      bpo:hasValue2 "-11.851361" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49.92" ;
+      bpo:hasValue2 "-11.982688" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "49.984" ;
+      bpo:hasValue2 "-12.114202" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "5.056" ;
+      bpo:hasValue2 "5.830766" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "5.12" ;
+      bpo:hasValue2 "5.830396" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "5.184" ;
+      bpo:hasValue2 "5.830026" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "5.248" ;
+      bpo:hasValue2 "5.829655" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "5.312" ;
+      bpo:hasValue2 "5.829285" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "5.376" ;
+      bpo:hasValue2 "5.828915" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "5.44" ;
+      bpo:hasValue2 "5.828545" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "5.504" ;
+      bpo:hasValue2 "5.828175" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "5.568" ;
+      bpo:hasValue2 "5.827805" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "5.632" ;
+      bpo:hasValue2 "5.827435" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "5.696" ;
+      bpo:hasValue2 "5.827065" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "5.76" ;
+      bpo:hasValue2 "5.826695" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "5.824" ;
+      bpo:hasValue2 "5.826325" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "5.888" ;
+      bpo:hasValue2 "5.825955" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "5.952" ;
+      bpo:hasValue2 "5.825585" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "50.048" ;
+      bpo:hasValue2 "-12.245903" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "50.112" ;
+      bpo:hasValue2 "-12.377788" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "50.176" ;
+      bpo:hasValue2 "-12.509855" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "50.24" ;
+      bpo:hasValue2 "-12.642102" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "50.304" ;
+      bpo:hasValue2 "-12.774528" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "50.368" ;
+      bpo:hasValue2 "-12.90713" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "50.432" ;
+      bpo:hasValue2 "-13.039907" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "50.496" ;
+      bpo:hasValue2 "-13.172857" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "50.56" ;
+      bpo:hasValue2 "-13.305979" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "50.624" ;
+      bpo:hasValue2 "-13.43927" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "50.688" ;
+      bpo:hasValue2 "-13.572728" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "50.752" ;
+      bpo:hasValue2 "-13.706353" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "50.816" ;
+      bpo:hasValue2 "-13.840142" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "50.88" ;
+      bpo:hasValue2 "-13.974093" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "50.944" ;
+      bpo:hasValue2 "-14.108206" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "51.008" ;
+      bpo:hasValue2 "-14.242478" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "51.072" ;
+      bpo:hasValue2 "-14.376908" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "51.136" ;
+      bpo:hasValue2 "-14.511494" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6.016" ;
+      bpo:hasValue2 "5.825215" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6.08" ;
+      bpo:hasValue2 "5.824845" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6.144" ;
+      bpo:hasValue2 "5.824474" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6.208" ;
+      bpo:hasValue2 "5.824104" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6.272" ;
+      bpo:hasValue2 "5.823734" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6.336" ;
+      bpo:hasValue2 "5.823364" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6.4" ;
+      bpo:hasValue2 "5.822994" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6.464" ;
+      bpo:hasValue2 "5.822624" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6.528" ;
+      bpo:hasValue2 "5.822254" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6.592" ;
+      bpo:hasValue2 "5.821884" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6.656" ;
+      bpo:hasValue2 "5.821514" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6.72" ;
+      bpo:hasValue2 "5.821144" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6.784" ;
+      bpo:hasValue2 "5.820774" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6.848" ;
+      bpo:hasValue2 "5.820404" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6.912" ;
+      bpo:hasValue2 "5.820034" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "6.976" ;
+      bpo:hasValue2 "5.819663" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "7.04" ;
+      bpo:hasValue2 "5.819293" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "7.104" ;
+      bpo:hasValue2 "5.818923" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "7.168" ;
+      bpo:hasValue2 "5.818553" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "7.232" ;
+      bpo:hasValue2 "5.818183" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "7.296" ;
+      bpo:hasValue2 "5.817813" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "7.36" ;
+      bpo:hasValue2 "5.817443" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "7.424" ;
+      bpo:hasValue2 "5.817073" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "7.488" ;
+      bpo:hasValue2 "5.816703" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "7.552" ;
+      bpo:hasValue2 "5.816333" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "7.616" ;
+      bpo:hasValue2 "5.815963" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "7.68" ;
+      bpo:hasValue2 "5.815593" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "7.744" ;
+      bpo:hasValue2 "5.815223" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "7.808" ;
+      bpo:hasValue2 "5.814853" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "7.872" ;
+      bpo:hasValue2 "5.814482" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "7.936" ;
+      bpo:hasValue2 "5.814112" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8" ;
+      bpo:hasValue2 "5.813742" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8.064" ;
+      bpo:hasValue2 "5.813372" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8.128" ;
+      bpo:hasValue2 "5.813002" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8.192" ;
+      bpo:hasValue2 "5.812632" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8.256" ;
+      bpo:hasValue2 "5.812262" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8.32" ;
+      bpo:hasValue2 "5.811892" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8.384" ;
+      bpo:hasValue2 "5.811522" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8.448" ;
+      bpo:hasValue2 "5.811152" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8.512" ;
+      bpo:hasValue2 "5.810782" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8.576" ;
+      bpo:hasValue2 "5.810412" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8.64" ;
+      bpo:hasValue2 "5.810042" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8.704" ;
+      bpo:hasValue2 "5.809671" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8.768" ;
+      bpo:hasValue2 "5.809301" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8.832" ;
+      bpo:hasValue2 "5.808931" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8.896" ;
+      bpo:hasValue2 "5.808561" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "8.96" ;
+      bpo:hasValue2 "5.808191" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9.024" ;
+      bpo:hasValue2 "5.807821" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9.088" ;
+      bpo:hasValue2 "5.807451" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9.152" ;
+      bpo:hasValue2 "5.807081" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9.216" ;
+      bpo:hasValue2 "5.806711" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9.28" ;
+      bpo:hasValue2 "5.806341" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9.344" ;
+      bpo:hasValue2 "5.805971" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9.408" ;
+      bpo:hasValue2 "5.805601" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9.472" ;
+      bpo:hasValue2 "5.805231" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9.536" ;
+      bpo:hasValue2 "5.804861" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9.6" ;
+      bpo:hasValue2 "5.80449" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9.664" ;
+      bpo:hasValue2 "5.80412" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9.728" ;
+      bpo:hasValue2 "5.80375" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9.792" ;
+      bpo:hasValue2 "5.80338" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9.856" ;
+      bpo:hasValue2 "5.80301" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9.92" ;
+      bpo:hasValue2 "5.80264" ;
+    ] ;
+  bpo:hasEntry [
+      rdf:type bpo:Entry2D ;
+      bpo:hasValue1 "9.984" ;
+      bpo:hasValue2 "5.80227" ;
+    ] ;
+.
+vikodbGn4:M_BackingMaterial
+  rdf:type geometry:Matrix ;
+  geometry:_43 "7.28"^^xsd:double ;
+.
+vikodbGn4:M_FE_material
+  rdf:type geometry:Matrix ;
+  geometry:_43 "5"^^xsd:double ;
+.
+vikodbGn4:M_PVCellLayer
+  rdf:type geometry:Matrix ;
+  geometry:_41 "28"^^xsd:double ;
+  geometry:_42 "30"^^xsd:double ;
+  geometry:_43 "5.76"^^xsd:double ;
+.
+vikodbGn4:M_PVCell_1
+  rdf:type geometry:Matrix ;
+.
+vikodbGn4:M_PVCell_10
+  rdf:type geometry:Matrix ;
+  geometry:_41 "128"^^xsd:double ;
+  geometry:_42 "128"^^xsd:double ;
+.
+vikodbGn4:M_PVCell_11
+  rdf:type geometry:Matrix ;
+  geometry:_41 "256"^^xsd:double ;
+  geometry:_42 "128"^^xsd:double ;
+.
+vikodbGn4:M_PVCell_12
+  rdf:type geometry:Matrix ;
+  geometry:_41 "384"^^xsd:double ;
+  geometry:_42 "128"^^xsd:double ;
+.
+vikodbGn4:M_PVCell_13
+  rdf:type geometry:Matrix ;
+  geometry:_41 "512"^^xsd:double ;
+  geometry:_42 "128"^^xsd:double ;
+.
+vikodbGn4:M_PVCell_14
+  rdf:type geometry:Matrix ;
+  geometry:_41 "640"^^xsd:double ;
+  geometry:_42 "128"^^xsd:double ;
+.
+vikodbGn4:M_PVCell_15
+  rdf:type geometry:Matrix ;
+  geometry:_41 "768"^^xsd:double ;
+  geometry:_42 "128"^^xsd:double ;
+.
+vikodbGn4:M_PVCell_16
+  rdf:type geometry:Matrix ;
+  geometry:_41 "896"^^xsd:double ;
+  geometry:_42 "128"^^xsd:double ;
+.
+vikodbGn4:M_PVCell_2
+  rdf:type geometry:Matrix ;
+  geometry:_41 "128"^^xsd:double ;
+.
+vikodbGn4:M_PVCell_3
+  rdf:type geometry:Matrix ;
+  geometry:_41 "256"^^xsd:double ;
+.
+vikodbGn4:M_PVCell_4
+  rdf:type geometry:Matrix ;
+  geometry:_41 "384"^^xsd:double ;
+.
+vikodbGn4:M_PVCell_5
+  rdf:type geometry:Matrix ;
+  geometry:_41 "512"^^xsd:double ;
+.
+vikodbGn4:M_PVCell_6
+  rdf:type geometry:Matrix ;
+  geometry:_41 "640"^^xsd:double ;
+.
+vikodbGn4:M_PVCell_7
+  rdf:type geometry:Matrix ;
+  geometry:_41 "768"^^xsd:double ;
+.
+vikodbGn4:M_PVCell_8
+  rdf:type geometry:Matrix ;
+  geometry:_41 "896"^^xsd:double ;
+.
+vikodbGn4:M_PVCell_9
+  rdf:type geometry:Matrix ;
+  geometry:_42 "128"^^xsd:double ;
+.
+vikodbGn4:M_RE_material
+  rdf:type geometry:Matrix ;
+  geometry:_43 "6.52"^^xsd:double ;
+.
+vikodbGn4:M_Rep
+  rdf:type geometry:Matrix ;
+  geometry:_42 "256"^^xsd:double ;
+.
+vikodbGn4:M_SecondObject
+  rdf:type geometry:Matrix ;
+  geometry:_11 "0.707107"^^xsd:double ;
+  geometry:_12 "-0.707107"^^xsd:double ;
+  geometry:_21 "0.707107"^^xsd:double ;
+  geometry:_22 "0.707107"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "-54"^^xsd:double ;
+  geometry:_42 "63"^^xsd:double ;
+  rdfs:label "Test_Type" ;
+.
+vikodbGn4:Material_Blue
+  rdf:type geometry:Material ;
+  geometry:color vikodbGn4:Color_Blue ;
+.
+vikodbGn4:Material_glass
+  rdf:type geometry:Material ;
+  geometry:color vikodbGn4:Color_white ;
+.
+vikodbGn4:Transformation_SecondObject
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbGn4:M_SecondObject ;
+  geometry:object vikodbGn4:Box_2 ;
+  rdfs:label "Test_Type" ;
+.

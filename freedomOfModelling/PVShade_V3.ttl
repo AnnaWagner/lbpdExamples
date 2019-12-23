@@ -1,0 +1,910 @@
+# baseURI: http://vikodb.solconpro.de/PVShade/data/V3
+# imports: http://www.solconpro.de/ontologies/scp
+# imports: https://w3id.org/bpo
+# imports: https://w3id.org/omg
+# prefix: vikodbPs3
+
+@prefix bpo: <https://w3id.org/bpo#> .
+@prefix geometry: <http://rdf.bg/geometry.ttl#> .
+@prefix omg: <https://w3id.org/omg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix scp: <http://www.solconpro.de/ontologies/scp#> .
+@prefix spin: <http://spinrdf.org/spin#> .
+@prefix vikodbPs3: <http://vikodb.solconpro.de/PVShade/data/V3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://vikodb.solconpro.de/PVShade/data/V3>
+  rdf:type owl:Ontology ;
+  spin:imports <http://topbraid.org/spin/owlrl-all> ;
+  owl:imports <http://www.solconpro.de/ontologies/scp> ;
+  owl:imports <https://w3id.org/bpo> ;
+  owl:imports <https://w3id.org/omg> ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+vikodbPs3:A_BIPVModule_Efficiency
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/PERCENT> ;
+  <http://schema.org/value> "6.816318776"^^xsd:double ;
+  rdfs:comment "Nominal Power/(Width*Length)/1000*100" ;
+  bpo:hasBSDDGUID "30OJK08dmHu000025QrE$V" ;
+.
+vikodbPs3:A_BIPVModule_FillFactor
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/PERCENT> ;
+  <http://schema.org/value> "63.19483698"^^xsd:double ;
+  rdfs:comment "Vmpp*Impp/(Voc*Isc)*100" ;
+  bpo:hasBSDDGUID "0RELddW1jE5heHJSzplaSO" ;
+.
+vikodbPs3:A_BIPVModule_Length
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "1.524"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_BIPVModule_MaximumSystemVoltage
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/V> ;
+  <http://schema.org/value> "1000"^^xsd:double ;
+  bpo:hasBSDDGUID "scp002" ;
+.
+vikodbPs3:A_BIPVModule_NominalCurrent_1
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/A> ;
+  <http://schema.org/value> "0.487"^^xsd:double ;
+  bpo:hasBSDDGUID "3zlb6A3k93zh9r1smoIKny" ;
+.
+vikodbPs3:A_BIPVModule_NominalCurrent_2
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/A> ;
+  <http://schema.org/value> "0.251"^^xsd:double ;
+  bpo:hasBSDDGUID "3zlb6A3k93zh9r1smoIKny" ;
+.
+vikodbPs3:A_BIPVModule_NominalPower
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/W> ;
+  <http://schema.org/value> "101.2"^^xsd:double ;
+  bpo:hasBSDDGUID "0Sb4pS1dbAqRPQUfvlqXBX" ;
+.
+vikodbPs3:A_BIPVModule_NominalVoltage_1
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/V> ;
+  <http://schema.org/value> "137.1"^^xsd:double ;
+  bpo:hasBSDDGUID "34GU_bY$rD5fYBh$PkB_gO" ;
+.
+vikodbPs3:A_BIPVModule_NominalVoltage_2
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/V> ;
+  <http://schema.org/value> "137.1"^^xsd:double ;
+  bpo:hasBSDDGUID "34GU_bY$rD5fYBh$PkB_gO" ;
+.
+vikodbPs3:A_BIPVModule_OperatingTemperatureMax
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/DEG_C> ;
+  <http://schema.org/value> "85"^^xsd:double ;
+  bpo:hasBSDDGUID "0ym7thd3vC6wa0Mo3JatxZ" ;
+.
+vikodbPs3:A_BIPVModule_OperatingTemperatureMin
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/DEG_C> ;
+  <http://schema.org/value> "-40"^^xsd:double ;
+  bpo:hasBSDDGUID "0$ZYRWZu98rxvXyPGL6gTB" ;
+.
+vikodbPs3:A_BIPVModule_Pricing
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/Euro> ;
+  <http://schema.org/value> "1000"^^xsd:double ;
+  bpo:hasBSDDGUID "1gC$w0QjiHuO00025QrE$V" ;
+.
+vikodbPs3:A_BIPVModule_ShortCurcuitVoltage_1
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/V> ;
+  <http://schema.org/value> "0.595"^^xsd:double ;
+  bpo:hasBSDDGUID "2Wi260qX4HuO00025QrE$V" ;
+.
+vikodbPs3:A_BIPVModule_ShortCurcuitVoltage_2
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/V> ;
+  <http://schema.org/value> "0.306"^^xsd:double ;
+  bpo:hasBSDDGUID "2Wi260qX4HuO00025QrE$V" ;
+.
+vikodbPs3:A_BIPVModule_TemperatureCoefficientCurrent
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> vikodbPs3:U_PercentPerKelvin ;
+  <http://schema.org/value> "0.1"^^xsd:double ;
+  bpo:hasBSDDGUID "2Zp3c5RIb3rwglBIyyCqn$" ;
+.
+vikodbPs3:A_BIPVModule_TemperatureCoefficientPower
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> vikodbPs3:U_PercentPerKelvin ;
+  <http://schema.org/value> "-0.3"^^xsd:double ;
+  bpo:hasBSDDGUID "2equ05kPfDQP1iJTwmCRL6" ;
+.
+vikodbPs3:A_BIPVModule_TemperatureCoefficientVoltage
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> vikodbPs3:U_PercentPerKelvin ;
+  <http://schema.org/value> "-0.37"^^xsd:double ;
+  bpo:hasBSDDGUID "3GTMWeAjr2tBJf1s0hPjVs" ;
+.
+vikodbPs3:A_BIPVModule_Thickness
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "0.052"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_BIPVModule_U_Value
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/W-PER-M2-K> ;
+  <http://schema.org/value> "0.8"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHkSGoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_BIPVModule_Weight
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/KiloGM> ;
+  <http://schema.org/value> "109"^^xsd:double ;
+  bpo:hasBSDDGUID "36XlMAWJWHu000025QrE$V" ;
+.
+vikodbPs3:A_BIPVModule_Width
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "0.974"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_BIPVModule_openCurcuitVoltage_1
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/V> ;
+  <http://schema.org/value> "177.7"^^xsd:double ;
+  bpo:hasBSDDGUID "1MFuBqRob9HvEudz3$YlSb" ;
+.
+vikodbPs3:A_BIPVModule_openCurcuitVoltage_2
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/V> ;
+  <http://schema.org/value> "177.7"^^xsd:double ;
+  bpo:hasBSDDGUID "1MFuBqRob9HvEudz3$YlSb" ;
+.
+vikodbPs3:A_Cavity_1_Thickness
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/MilliM> ;
+  <http://schema.org/value> "18"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_Cavity_2_Thickness
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/MilliM> ;
+  <http://schema.org/value> "12"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_ExternalElConfiguration_ConnectionCableLengthMinus
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "3"^^xsd:double ;
+  bpo:hasBSDDGUID "scp049" ;
+.
+vikodbPs3:A_ExternalElConfiguration_ConnectionCableLengthPlus
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "3"^^xsd:double ;
+  bpo:hasBSDDGUID "scp050" ;
+.
+vikodbPs3:A_ExternalElConfiguration_ConnectionCables
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://schema.org/value> "2.5 mm^2" ;
+  <http://www.w3.org/2000/01/rdf_schema#comment> "Typ der Anschlusskabel" ;
+  bpo:hasBSDDGUID "0GVQYJuPb2FvqXUoi4IWZT" ;
+.
+vikodbPs3:A_ExternalElConfiguration_Connector
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://schema.org/value> "Huber und Suhner" ;
+  <http://www.w3.org/2000/01/rdf_schema#comment> "Typ des Anschlusssteckers" ;
+  bpo:hasBSDDGUID "1xjOGZ4kX1g8pvaS5Bd5bG" ;
+.
+vikodbPs3:A_ExternalElConfiguration_NumberOfConnectionCables
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://schema.org/value> 4 ;
+  bpo:hasBSDDGUID "scp055" ;
+.
+vikodbPs3:A_FrontCover_Length
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "1.524"^^xsd:double ;
+  <http://www.w3.org/2000/01/rdf_schema#comment> "If no frame. equal to Module length" ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_FrontCover_Thickness
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "0.008"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_FrontCover_Width
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "0.974"^^xsd:double ;
+  <http://www.w3.org/2000/01/rdf_schema#comment> "If no frame. equal to Module width" ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_FrontEmbeddingMaterial_1_Thickness
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "0.76"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_FrontEmbeddingMaterial_2_Thickness
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "1.14"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_Module_Manufacturer
+  rdf:type bpo:Attribute ;
+  <http://schema.org/value> "Manufacturer A" ;
+  bpo:hasBSDDGUID "3vtaYeoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_Module_Name
+  rdf:type bpo:Attribute ;
+  <http://schema.org/value> "PV Shade V3" ;
+  bpo:hasBSDDGUID "112ymA1KKHuO00025QrE$V" ;
+.
+vikodbPs3:A_PVCells_CellType
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://schema.org/value> "a_Si/µ_Si tandem solar cells" ;
+  bpo:hasBSDDGUID "30OJK08dmHu000025QrE$V" ;
+.
+vikodbPs3:A_PVCells_GapWidth
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "0.00241"^^xsd:double ;
+  <http://www.w3.org/2000/01/rdf_schema#comment> "gaps between stripes" ;
+  bpo:hasBSDDGUID "3JRn4VtlrAcRXlB6Yz6fqe" ;
+.
+vikodbPs3:A_PVCells_Length
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "1.371"^^xsd:double ;
+  <http://www.w3.org/2000/01/rdf_schema#comment> "stripes. length equal to PV front cover glass" ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_PVCells_Width
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "0.00465"^^xsd:double ;
+  <http://www.w3.org/2000/01/rdf_schema#comment> "stripes" ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_PVFrontCoverGlass_1_Length
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "1.371"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_PVFrontCoverGlass_2_Length
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "1.371"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_PVFrontCover_1_Length
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "1.371"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_PVFrontCover_1_Thickness
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "0.0032"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_PVFrontCover_1_Width
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "0.866"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_PVFrontCover_2_Length
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "1.371"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_PVFrontCover_2_Thickness
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "0.0032"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_PVFrontCover_2_Width
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "0.866"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_RearCoverGlass_1_Length
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "1.524"^^xsd:double ;
+  <http://www.w3.org/2000/01/rdf_schema#comment> "If no frame. equal to Module length" ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_RearCoverGlass_1_Thickness
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "0.006"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_RearCoverGlass_1_Width
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "0.974"^^xsd:double ;
+  <http://www.w3.org/2000/01/rdf_schema#comment> "If no frame. equal to Module width" ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_RearCoverGlass_2_Length
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "1.524"^^xsd:double ;
+  <http://www.w3.org/2000/01/rdf_schema#comment> "If no frame. equal to Module length" ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_RearCoverGlass_2_Thickness
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "0.008"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbPs3:A_RearCoverGlass_2_Width
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://schema.org/value> "0.974"^^xsd:double ;
+  <http://www.w3.org/2000/01/rdf_schema#comment> "If no frame. equal to Module width" ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbPs3:B_Cavity_1
+  rdf:type geometry:Box ;
+  geometry:height "18"^^xsd:double ;
+  geometry:length "1484"^^xsd:double ;
+  geometry:material vikodbPs3:Material_1_clear ;
+  geometry:width "954"^^xsd:double ;
+.
+vikodbPs3:B_Cavity_2
+  rdf:type geometry:Box ;
+  geometry:height "12"^^xsd:double ;
+  geometry:length "1484"^^xsd:double ;
+  geometry:material vikodbPs3:Material_1_clear ;
+  geometry:width "954"^^xsd:double ;
+.
+vikodbPs3:B_FrontCover
+  rdf:type geometry:Box ;
+  geometry:height "8"^^xsd:double ;
+  geometry:length "1524"^^xsd:double ;
+  geometry:material vikodbPs3:Material_1_clear ;
+  geometry:width "974"^^xsd:double ;
+.
+vikodbPs3:B_PVCell
+  rdf:type geometry:Box ;
+  geometry:height "0.76"^^xsd:double ;
+  geometry:length "1371"^^xsd:double ;
+  geometry:material vikodbPs3:Material_1_Blue ;
+  geometry:width "4.65"^^xsd:double ;
+.
+vikodbPs3:B_PVFrontCover_1
+  rdf:type geometry:Box ;
+  geometry:height "3.2"^^xsd:double ;
+  geometry:length "1371"^^xsd:double ;
+  geometry:material vikodbPs3:Material_1_clear ;
+  geometry:width "866"^^xsd:double ;
+.
+vikodbPs3:B_PVFrontCover_2
+  rdf:type geometry:Box ;
+  geometry:height "3.2"^^xsd:double ;
+  geometry:length "1371"^^xsd:double ;
+  geometry:material vikodbPs3:Material_1_clear ;
+  geometry:width "866"^^xsd:double ;
+.
+vikodbPs3:B_RearCoverGlass_1
+  rdf:type geometry:Box ;
+  geometry:height "6"^^xsd:double ;
+  geometry:length "1524"^^xsd:double ;
+  geometry:material vikodbPs3:Material_1_clear ;
+  geometry:width "974"^^xsd:double ;
+.
+vikodbPs3:B_RearCoverGlass_2
+  rdf:type geometry:Box ;
+  geometry:height "6"^^xsd:double ;
+  geometry:length "1524"^^xsd:double ;
+  geometry:material vikodbPs3:Material_1_clear ;
+  geometry:width "974"^^xsd:double ;
+.
+vikodbPs3:BoolOP_PV_FC_1_cav_1
+  rdf:type geometry:BooleanOperation ;
+  geometry:firstObject vikodbPs3:E_Cavity_1 ;
+  geometry:secondObject vikodbPs3:E_PVFrontCover_1 ;
+  geometry:type 1 ;
+.
+vikodbPs3:BoolOP_PV_FC_2_cav_1
+  rdf:type geometry:BooleanOperation ;
+  geometry:firstObject vikodbPs3:E_Cavity_1 ;
+  geometry:secondObject vikodbPs3:E_PVFrontCover_2 ;
+  geometry:type 1 ;
+.
+vikodbPs3:BoolOP_PV_layer_1_cav_1
+  rdf:type geometry:BooleanOperation ;
+  geometry:firstObject vikodbPs3:E_Cavity_1 ;
+  geometry:secondObject vikodbPs3:E_PVCellLayer_1 ;
+  geometry:type 1 ;
+.
+vikodbPs3:BoolOP_PV_layer_2_cav_1
+  rdf:type geometry:BooleanOperation ;
+  geometry:firstObject vikodbPs3:E_Cavity_1 ;
+  geometry:secondObject vikodbPs3:E_PVCellLayer_2 ;
+  geometry:type 1 ;
+.
+vikodbPs3:CC_DynE
+  rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf vikodbPs3:DynE_PVCell ;
+  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
+.
+vikodbPs3:Co_BIPVModule
+  rdf:type geometry:Collection ;
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Product ;
+  geometry:objects vikodbPs3:GE_Cavity_2 ;
+  geometry:objects vikodbPs3:GE_FrontCover ;
+  geometry:objects vikodbPs3:GE_PVCellLayer_1 ;
+  geometry:objects vikodbPs3:GE_PVCellLayer_2 ;
+  geometry:objects vikodbPs3:GE_PVFrontCover_1 ;
+  geometry:objects vikodbPs3:GE_PVFrontCover_2 ;
+  geometry:objects vikodbPs3:GE_RearCoverGlass_1 ;
+  geometry:objects vikodbPs3:GE_RearCoverGlass_2 ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_Efficiency ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_FillFactor ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_Length ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_MaximumSystemVoltage ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_NominalCurrent_1 ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_NominalCurrent_2 ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_NominalPower ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_NominalVoltage_1 ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_NominalVoltage_2 ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_OperatingTemperatureMax ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_OperatingTemperatureMin ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_Pricing ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_ShortCurcuitVoltage_1 ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_ShortCurcuitVoltage_2 ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_TemperatureCoefficientCurrent ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_TemperatureCoefficientPower ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_TemperatureCoefficientVoltage ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_Thickness ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_U_Value ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_Weight ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_Width ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_openCurcuitVoltage_1 ;
+  bpo:hasAttribute vikodbPs3:A_BIPVModule_openCurcuitVoltage_2 ;
+  bpo:hasAttribute vikodbPs3:A_Module_Manufacturer ;
+  bpo:hasAttribute vikodbPs3:A_Module_Name ;
+  bpo:hasBSDDGUID "scp010" ;
+  bpo:isComposedOfEntity vikodbPs3:E_Cavity_1 ;
+  bpo:isComposedOfEntity vikodbPs3:E_Cavity_2 ;
+  bpo:isComposedOfEntity vikodbPs3:E_ExternalEl_Configuration ;
+  bpo:isComposedOfEntity vikodbPs3:E_FrontCover ;
+  bpo:isComposedOfEntity vikodbPs3:E_FrontEmbeddingMaterial_1 ;
+  bpo:isComposedOfEntity vikodbPs3:E_FrontEmbeddingMaterial_2 ;
+  bpo:isComposedOfEntity vikodbPs3:E_PVCellLayer_1 ;
+  bpo:isComposedOfEntity vikodbPs3:E_PVCellLayer_2 ;
+  bpo:isComposedOfEntity vikodbPs3:E_PVFrontCover_1 ;
+  bpo:isComposedOfEntity vikodbPs3:E_PVFrontCover_2 ;
+  bpo:isComposedOfEntity vikodbPs3:E_RearCoverGlass_1 ;
+  bpo:isComposedOfEntity vikodbPs3:E_RearCoverGlass_2 ;
+.
+vikodbPs3:Co_Cavity_1
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  geometry:objects vikodbPs3:B_Cavity_1 ;
+  bpo:hasAttribute vikodbPs3:A_Cavity_1_Thickness ;
+  bpo:hasBSDDGUID "3vHiqMoT0Hsm00051Mm008" ;
+.
+vikodbPs3:Co_Cavity_2
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  geometry:objects vikodbPs3:B_Cavity_2 ;
+  bpo:hasAttribute vikodbPs3:A_Cavity_2_Thickness ;
+  bpo:hasBSDDGUID "3vHiqMoT0Hsm00051Mm008" ;
+.
+vikodbPs3:Co_External_El_Configuration
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbPs3:A_ExternalElConfiguration_ConnectionCableLengthMinus ;
+  bpo:hasAttribute vikodbPs3:A_ExternalElConfiguration_ConnectionCableLengthPlus ;
+  bpo:hasAttribute vikodbPs3:A_ExternalElConfiguration_ConnectionCables ;
+  bpo:hasAttribute vikodbPs3:A_ExternalElConfiguration_Connector ;
+  bpo:hasAttribute vikodbPs3:A_ExternalElConfiguration_NumberOfConnectionCables ;
+  bpo:hasBSDDGUID "scp024" ;
+.
+vikodbPs3:Co_FrontCover
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  geometry:objects vikodbPs3:B_FrontCover ;
+  bpo:hasAttribute vikodbPs3:A_FrontCover_Length ;
+  bpo:hasAttribute vikodbPs3:A_FrontCover_Thickness ;
+  bpo:hasAttribute vikodbPs3:A_FrontCover_Width ;
+  bpo:hasBSDDGUID "scp012" ;
+.
+vikodbPs3:Co_FrontEmpeddingMaterial_1
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbPs3:A_FrontEmbeddingMaterial_1_Thickness ;
+  bpo:hasBSDDGUID "scp018" ;
+.
+vikodbPs3:Co_FrontEmpeddingMaterial_2
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbPs3:A_FrontEmbeddingMaterial_2_Thickness ;
+  bpo:hasBSDDGUID "scp018" ;
+.
+vikodbPs3:Co_PVCellLayer
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Assembly ;
+  bpo:consistsOf vikodbPs3:Co_interconnectors ;
+  bpo:hasBSDDGUID "scp009" ;
+  bpo:isComposedOfEntity vikodbPs3:DynE_PVCell ;
+  <https://w3id.org/fog#asGeomOntology> vikodbPs3:GCo_PVCellLayer ;
+.
+vikodbPs3:Co_PVCells
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbPs3:A_PVCells_CellType ;
+  bpo:hasAttribute vikodbPs3:A_PVCells_GapWidth ;
+  bpo:hasAttribute vikodbPs3:A_PVCells_Length ;
+  bpo:hasAttribute vikodbPs3:A_PVCells_Width ;
+  bpo:hasBSDDGUID "3vHNbSoT0Hsm00051Mm008" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbPs3:GCo_PVCells ;
+.
+vikodbPs3:Co_PVFrontCover_1
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  geometry:objects vikodbPs3:B_PVFrontCover_1 ;
+  bpo:hasAttribute vikodbPs3:A_PVFrontCoverGlass_1_Length ;
+  bpo:hasAttribute vikodbPs3:A_PVFrontCover_1_Length ;
+  bpo:hasAttribute vikodbPs3:A_PVFrontCover_1_Thickness ;
+  bpo:hasAttribute vikodbPs3:A_PVFrontCover_1_Width ;
+  bpo:hasBSDDGUID "scp012" ;
+.
+vikodbPs3:Co_PVFrontCover_2
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  geometry:objects vikodbPs3:B_PVFrontCover_2 ;
+  bpo:hasAttribute vikodbPs3:A_PVFrontCoverGlass_2_Length ;
+  bpo:hasAttribute vikodbPs3:A_PVFrontCover_2_Length ;
+  bpo:hasAttribute vikodbPs3:A_PVFrontCover_2_Thickness ;
+  bpo:hasAttribute vikodbPs3:A_PVFrontCover_2_Width ;
+  bpo:hasBSDDGUID "scp012" ;
+.
+vikodbPs3:Co_RearCoverGlass_1
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  geometry:objects vikodbPs3:B_RearCoverGlass_1 ;
+  bpo:hasAttribute vikodbPs3:A_RearCoverGlass_1_Length ;
+  bpo:hasAttribute vikodbPs3:A_RearCoverGlass_1_Thickness ;
+  bpo:hasAttribute vikodbPs3:A_RearCoverGlass_1_Width ;
+  bpo:hasBSDDGUID "scp019" ;
+.
+vikodbPs3:Co_RearCoverGlass_2
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  geometry:objects vikodbPs3:B_RearCoverGlass_2 ;
+  bpo:hasAttribute vikodbPs3:A_RearCoverGlass_2_Length ;
+  bpo:hasAttribute vikodbPs3:A_RearCoverGlass_2_Thickness ;
+  bpo:hasAttribute vikodbPs3:A_RearCoverGlass_2_Width ;
+  bpo:hasBSDDGUID "scp019" ;
+.
+vikodbPs3:Co_interconnectors
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element ;
+  bpo:hasBSDDGUID "scp025" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbPs3:GCo_interconnectors ;
+.
+vikodbPs3:ColorComponent_Blue
+  rdf:type geometry:ColorComponent ;
+  geometry:B "1"^^xsd:double ;
+  geometry:G "0"^^xsd:double ;
+  geometry:R "0"^^xsd:double ;
+  geometry:W "1"^^xsd:double ;
+.
+vikodbPs3:ColorComponent_cav
+  rdf:type geometry:ColorComponent ;
+  geometry:B "0"^^xsd:double ;
+  geometry:G "0.05"^^xsd:double ;
+  geometry:R "0"^^xsd:double ;
+  geometry:W "0.1"^^xsd:double ;
+.
+vikodbPs3:ColorComponent_clear
+  rdf:type geometry:ColorComponent ;
+  geometry:B "0"^^xsd:double ;
+  geometry:G "0"^^xsd:double ;
+  geometry:R "0"^^xsd:double ;
+  geometry:W "0.05"^^xsd:double ;
+.
+vikodbPs3:Color_Blue
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbPs3:ColorComponent_Blue ;
+.
+vikodbPs3:Color_cav
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbPs3:ColorComponent_cav ;
+.
+vikodbPs3:Color_clear
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbPs3:ColorComponent_clear ;
+.
+vikodbPs3:DynE_PVCell
+  rdf:type bpo:DynamicEntity ;
+  bpo:hasOutgoingConnection vikodbPs3:CC_DynE ;
+  bpo:hasQuantity 122 ;
+  bpo:realisesObject vikodbPs3:Co_PVCells ;
+  <https://w3id.org/fog#asGeomOntology> vikodbPs3:GDynE_PVCell ;
+.
+vikodbPs3:E_BIPVModule
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbPs3:Co_BIPVModule ;
+  <https://w3id.org/fog#asGeomOntology> vikodbPs3:GE_BIPVModule ;
+.
+vikodbPs3:E_Cavity_1
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbPs3:Co_Cavity_1 ;
+  <https://w3id.org/fog#asGeomOntology> vikodbPs3:GE_Cavity_1 ;
+.
+vikodbPs3:E_Cavity_2
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbPs3:Co_Cavity_2 ;
+  <https://w3id.org/fog#asGeomOntology> vikodbPs3:GE_Cavity_2 ;
+.
+vikodbPs3:E_ExternalEl_Configuration
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbPs3:Co_External_El_Configuration ;
+.
+vikodbPs3:E_FrontCover
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbPs3:Co_FrontCover ;
+  <https://w3id.org/fog#asGeomOntology> vikodbPs3:GE_FrontCover ;
+.
+vikodbPs3:E_FrontEmbeddingMaterial_1
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbPs3:Co_FrontEmpeddingMaterial_1 ;
+.
+vikodbPs3:E_FrontEmbeddingMaterial_2
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbPs3:Co_FrontEmpeddingMaterial_2 ;
+.
+vikodbPs3:E_PVCellLayer_1
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbPs3:Co_PVCellLayer ;
+  <https://w3id.org/fog#asGeomOntology> vikodbPs3:GE_PVCellLayer_1 ;
+.
+vikodbPs3:E_PVCellLayer_2
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbPs3:Co_PVCellLayer ;
+  <https://w3id.org/fog#asGeomOntology> vikodbPs3:GE_PVCellLayer_2 ;
+.
+vikodbPs3:E_PVFrontCover_1
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbPs3:Co_PVFrontCover_1 ;
+  <https://w3id.org/fog#asGeomOntology> vikodbPs3:GE_PVFrontCover_1 ;
+.
+vikodbPs3:E_PVFrontCover_2
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbPs3:Co_PVFrontCover_2 ;
+  <https://w3id.org/fog#asGeomOntology> vikodbPs3:GE_PVFrontCover_2 ;
+.
+vikodbPs3:E_RearCoverGlass_1
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbPs3:Co_RearCoverGlass_1 ;
+  <https://w3id.org/fog#asGeomOntology> vikodbPs3:GE_RearCoverGlass_1 ;
+.
+vikodbPs3:E_RearCoverGlass_2
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbPs3:Co_RearCoverGlass_2 ;
+  <https://w3id.org/fog#asGeomOntology> vikodbPs3:GE_RearCoverGlass_2 ;
+.
+vikodbPs3:GCo_PVCellLayer
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbPs3:GDynE_PVCell ;
+.
+vikodbPs3:GCo_PVCells
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbPs3:B_PVCell ;
+.
+vikodbPs3:GCo_interconnectors
+  rdf:type geometry:Collection ;
+.
+vikodbPs3:GDynE_PVCell
+  rdf:type geometry:Repetition ;
+  geometry:matrix vikodbPs3:M_Rep ;
+  geometry:object vikodbPs3:GCo_PVCells ;
+.
+vikodbPs3:GE_BIPVModule
+  rdf:type geometry:Transformation ;
+  geometry:object vikodbPs3:Co_BIPVModule ;
+.
+vikodbPs3:GE_Cavity_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbPs3:M_Cavity_1 ;
+  geometry:object vikodbPs3:Co_Cavity_1 ;
+.
+vikodbPs3:GE_Cavity_2
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbPs3:M_Cavity_2 ;
+  geometry:object vikodbPs3:Co_Cavity_2 ;
+.
+vikodbPs3:GE_FrontCover
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbPs3:M_FrontCover ;
+  geometry:object vikodbPs3:Co_FrontCover ;
+.
+vikodbPs3:GE_PVCellLayer_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbPs3:M_PVCellLayer_1 ;
+  geometry:object vikodbPs3:GCo_PVCellLayer ;
+.
+vikodbPs3:GE_PVCellLayer_2
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbPs3:M_PVCellLayer_2 ;
+  geometry:object vikodbPs3:GCo_PVCellLayer ;
+.
+vikodbPs3:GE_PVFrontCover_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbPs3:M_PVFrontCover_1 ;
+  geometry:object vikodbPs3:Co_PVFrontCover_1 ;
+.
+vikodbPs3:GE_PVFrontCover_2
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbPs3:M_PVFrontCover_2 ;
+  geometry:object vikodbPs3:Co_PVFrontCover_2 ;
+.
+vikodbPs3:GE_RearCoverGlass_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbPs3:M_RearCoverGlass_1 ;
+  geometry:object vikodbPs3:Co_RearCoverGlass_1 ;
+.
+vikodbPs3:GE_RearCoverGlass_2
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbPs3:M_RearCoverGlass_2 ;
+  geometry:object vikodbPs3:Co_RearCoverGlass_2 ;
+.
+vikodbPs3:M_Cavity_1
+  rdf:type geometry:Matrix ;
+  geometry:_41 "20"^^xsd:double ;
+  geometry:_42 "10"^^xsd:double ;
+  geometry:_43 "8"^^xsd:double ;
+.
+vikodbPs3:M_Cavity_2
+  rdf:type geometry:Matrix ;
+  geometry:_41 "20"^^xsd:double ;
+  geometry:_42 "10"^^xsd:double ;
+  geometry:_43 "32"^^xsd:double ;
+.
+vikodbPs3:M_FrontCover
+  rdf:type geometry:Matrix ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbPs3:M_PVCellLayer_1
+  rdf:type geometry:Matrix ;
+  geometry:_41 "76"^^xsd:double ;
+  geometry:_42 "61.35"^^xsd:double ;
+  geometry:_43 "11.2"^^xsd:double ;
+.
+vikodbPs3:M_PVCellLayer_2
+  rdf:type geometry:Matrix ;
+  geometry:_41 "76"^^xsd:double ;
+  geometry:_42 "63.76"^^xsd:double ;
+  geometry:_43 "14.9"^^xsd:double ;
+.
+vikodbPs3:M_PVFrontCover_1
+  rdf:type geometry:Matrix ;
+  geometry:_41 "76"^^xsd:double ;
+  geometry:_42 "54"^^xsd:double ;
+  geometry:_43 "8"^^xsd:double ;
+.
+vikodbPs3:M_PVFrontCover_2
+  rdf:type geometry:Matrix ;
+  geometry:_41 "76"^^xsd:double ;
+  geometry:_42 "54"^^xsd:double ;
+  geometry:_43 "11.7"^^xsd:double ;
+.
+vikodbPs3:M_RearCoverGlass_1
+  rdf:type geometry:Matrix ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "26"^^xsd:double ;
+.
+vikodbPs3:M_RearCoverGlass_2
+  rdf:type geometry:Matrix ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "44"^^xsd:double ;
+.
+vikodbPs3:M_Rep
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_42 "7.06"^^xsd:double ;
+.
+vikodbPs3:Material_1_Blue
+  rdf:type geometry:Material ;
+  geometry:color vikodbPs3:Color_Blue ;
+.
+vikodbPs3:Material_1_clear
+  rdf:type geometry:Material ;
+  geometry:color vikodbPs3:Color_clear ;
+.
+vikodbPs3:Material_cavity
+  rdf:type geometry:Material ;
+  geometry:color vikodbPs3:Color_cav ;
+.

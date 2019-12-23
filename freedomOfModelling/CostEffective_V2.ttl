@@ -1,0 +1,3516 @@
+# baseURI: http://vikodb.solconpro.de/CostEffective/data/V2
+# imports: https://w3id.org/bpo
+# imports: https://w3id.org/omg
+# prefix: vikodbCe2
+
+@prefix bpo: <https://w3id.org/bpo#> .
+@prefix geometry: <http://rdf.bg/geometry.ttl#> .
+@prefix omg: <https://w3id.org/omg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix spin: <http://spinrdf.org/spin#> .
+@prefix vikodbCe2: <http://vikodb.solconpro.de/CostEffective/data/V2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+geometry:Material
+  rdf:type <http://www.w3.org/ns/shacl#NodeShape> ;
+.
+<http://vikodb.solconpro.de/CostEffective/data/V2>
+  rdf:type owl:Ontology ;
+  spin:imports <http://topbraid.org/spin/owlrl-all> ;
+  owl:imports <https://w3id.org/bpo> ;
+  owl:imports <https://w3id.org/omg> ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+vikodbCe2:A_AbsorberConnector_Length
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.02"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_AbsorberConnector_Thickness
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.02"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_AbsorberConnector_Width
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.196"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_Absorber_Coating
+  rdf:type bpo:Attribute ;
+  schema:value "selective solar thermal absorber" ;
+  bpo:hasBSDDGUID "32IKpcO$n2OflppS2b5HGg" ;
+.
+vikodbCe2:A_Absorber_InfraredEmittance
+  rdf:type bpo:Attribute ;
+  schema:value "0.05"^^xsd:double ;
+  bpo:hasBSDDGUID "scp028" ;
+.
+vikodbCe2:A_Absorber_SolarAbsorptance
+  rdf:type bpo:Attribute ;
+  schema:value "0.95"^^xsd:double ;
+  bpo:hasBSDDGUID "scp021" ;
+.
+vikodbCe2:A_Absorber_VisualReflectance
+  rdf:type bpo:Attribute ;
+  schema:value "0.03"^^xsd:double ;
+  bpo:hasBSDDGUID "0D4k8dGhjEfBkn1xXGcP_E" ;
+.
+vikodbCe2:A_AluProfile_ThermalConductivity
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/W-PER-M-K> ;
+  schema:value "210"^^xsd:double ;
+  bpo:hasBSDDGUID "0BNbo0WJWHu000025QrE$V" ;
+.
+vikodbCe2:A_FixingAbsorber_Length
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "2.601"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_FixingAbsorber_ThermalConductivity
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/W-PER-M-K> ;
+  schema:value "1.0"^^xsd:double ;
+  bpo:hasBSDDGUID "0BNbo0WJWHu000025QrE$V" ;
+.
+vikodbCe2:A_FixingAbsorber_Thickness
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "1.243"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_FixingAbsorber_Width
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.07"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_FormedSheet_Length
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "2.5"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_FormedSheet_Width
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "1.26"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_GlassCent_Length
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "2.601"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_GlassCent_Thickness
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "1.243"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_GlassCent_Width
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.08"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_GlassExt_Length
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "2.601"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_GlassExt_Thickness
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "1.243"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_GlassExt_Width
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.08"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_GlassInt_Length
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "2.601"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_GlassInt_Thickness
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "1.243"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_GlassInt_Width
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.08"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_Glazing_Length
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "2.601"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_Glazing_Thickness
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "1.243"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_Glazing_UValue
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/W-PER-M2-K> ;
+  schema:value "1.4"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHkSGoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_Glazing_Width
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.032"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_HeaderTube_Length
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "2.515"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_HeaderTube_Thickness
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.034"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_HeaderTube_ThicknessOfThePipeWall
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.002"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_HeaderTube_Width
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.034"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_Insulation_Diameter
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.1"^^xsd:double ;
+  bpo:hasBSDDGUID "1uL5_0VSmHtm00025QrE$V" ;
+.
+vikodbCe2:A_Insulation_Length
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "1.273"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_Insulation_ThermalConductivity
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/W-PER-M-K> ;
+  schema:value "0.035"^^xsd:double ;
+  bpo:hasBSDDGUID "0BNbo0WJWHu000025QrE$V" ;
+.
+vikodbCe2:A_Insulation_ThicknessOfTheInsulation
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.0325"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_Module_Manufacturer
+  rdf:type bpo:Attribute ;
+  schema:value "Manufacturer B" ;
+  bpo:hasBSDDGUID "3vtaYeoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_Module_Name
+  rdf:type bpo:Attribute ;
+  schema:value "Cost Effective V2" ;
+  bpo:hasBSDDGUID "112ymA1KKHuO00025QrE$V" ;
+.
+vikodbCe2:A_Module_Pricing
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/Euro> ;
+  schema:value "1299.99"^^xsd:double ;
+  bpo:hasBSDDGUID "1gC$w0QjiHuO00025QrE$V" ;
+.
+vikodbCe2:A_PipeConnector_Length
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.04"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_PipeConnector_Thickness
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.08"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_PipeConnector_Width
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.0225"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_Pipes_Diameter
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.035"^^xsd:double ;
+  bpo:hasBSDDGUID "1uL5_0VSmHtm00025QrE$V" ;
+.
+vikodbCe2:A_Pipes_Length
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "1.273"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_Pipes_ThicknessOfThePipeWall
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.001"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_RiserTube_Diameter
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.01"^^xsd:double ;
+  bpo:hasBSDDGUID "1uL5_0VSmHtm00025QrE$V" ;
+.
+vikodbCe2:A_RiserTube_Length
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "1.126"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_RiserTube_ThicknessOfThePipeWall
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.002"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_Sheet_Length
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "2.65"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_Sheet_Thickness
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.0015"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_Sheet_Width
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "1.26"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_VisualCoverAbsorber_Colour
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> vikodbCe2:U_ColourCoordinates ;
+  schema:value "R255G255B255" ;
+  bpo:hasBSDDGUID "2X066FRI953gM0GM$eEIwU" ;
+.
+vikodbCe2:A_VisualCoverAbsorber_Length
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "2.585"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_VisualCoverAbsorber_SolarerAbsorptionsgrad
+  rdf:type bpo:Attribute ;
+  schema:value "0.8"^^xsd:double ;
+  bpo:hasBSDDGUID "scp021" ;
+.
+vikodbCe2:A_VisualCoverAbsorber_Surface
+  rdf:type bpo:Attribute ;
+  schema:value "rough" ;
+  bpo:hasBSDDGUID "3vHOJYoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_VisualCoverAbsorber_Thickness
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "1.231"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_VisualCoverAbsorber_Width
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.005"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_VisualCoverExterior_Colour
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> vikodbCe2:U_ColourCoordinates ;
+  schema:value "R255G255B255" ;
+  bpo:hasBSDDGUID "2X066FRI953gM0GM$eEIwU" ;
+.
+vikodbCe2:A_VisualCoverExterior_Length
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "2.551"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_VisualCoverExterior_SolarerAbsorptionsgrad
+  rdf:type bpo:Attribute ;
+  schema:value "0.8"^^xsd:double ;
+  bpo:hasBSDDGUID "scp021" ;
+.
+vikodbCe2:A_VisualCoverExterior_Surface
+  rdf:type bpo:Attribute ;
+  schema:value "rough" ;
+  bpo:hasBSDDGUID "3vHOJYoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_VisualCoverExterior_Thickness
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.13"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_VisualCoverExterior_Width
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.006"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_WallElement_HeatFluxToTheBuildingInterior
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/W> ;
+  schema:value "Type872Lib.dll" ;
+  bpo:hasBSDDGUID "0XaS2hjB18ohVGTaCcoix$" ;
+.
+vikodbCe2:A_WallElement_Length
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "3.065"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+vikodbCe2:A_WallElement_SolarThermalPerformance
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/W> ;
+  schema:value "Type872Lib.dll" ;
+  bpo:hasBSDDGUID "0XaS2hjB18ohVGTaCcoix$" ;
+.
+vikodbCe2:A_WallElement_SolarTransmission
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/W> ;
+  schema:value "Type872Lib.dll" ;
+  bpo:hasBSDDGUID "0XaS2hjB18ohVGTaCcoix$" ;
+.
+vikodbCe2:A_WallElement_Thick
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "0.32"^^xsd:double ;
+  bpo:hasBSDDGUID "2azhlnHxHEORQ8y0ZS2Og2" ;
+.
+vikodbCe2:A_WallElement_Width
+  rdf:type bpo:Attribute ;
+  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  schema:value "1.243"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+vikodbCe2:CO_Absorber
+  rdf:type bpo:Assembly ;
+  bpo:hasAttribute vikodbCe2:A_Absorber_Coating ;
+  bpo:hasAttribute vikodbCe2:A_Absorber_InfraredEmittance ;
+  bpo:hasAttribute vikodbCe2:A_Absorber_SolarAbsorptance ;
+  bpo:hasAttribute vikodbCe2:A_Absorber_VisualReflectance ;
+  bpo:hasBSDDGUID "scp062" ;
+  bpo:isComposedOfEntity vikodbCe2:E_AbsorberHydraulics ;
+  bpo:isComposedOfEntity vikodbCe2:E_FormedSheet ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_Absorber ;
+.
+vikodbCe2:CO_AbsorberConnector
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbCe2:A_AbsorberConnector_Length ;
+  bpo:hasAttribute vikodbCe2:A_AbsorberConnector_Thickness ;
+  bpo:hasAttribute vikodbCe2:A_AbsorberConnector_Width ;
+  bpo:hasBSDDGUID "1xjOGZ4kX1g8pvaS5Bd5bG" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_AbsorberConnector ;
+.
+vikodbCe2:CO_AbsorberHydraulics
+  rdf:type bpo:Assembly ;
+  bpo:hasBSDDGUID "scp040" ;
+  bpo:isComposedOfEntity vikodbCe2:E_HeaderTube_0 ;
+  bpo:isComposedOfEntity vikodbCe2:E_HeaderTube_1 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_0 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_1 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_10 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_11 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_12 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_13 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_14 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_15 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_16 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_17 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_18 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_19 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_2 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_20 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_21 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_22 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_23 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_24 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_3 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_4 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_5 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_6 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_7 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_8 ;
+  bpo:isComposedOfEntity vikodbCe2:E_RiserTube_9 ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_AbsorberHydraulics ;
+.
+vikodbCe2:CO_AluFraming
+  rdf:type bpo:Assembly ;
+  bpo:hasBSDDGUID "3vHQjSoT0Hsm00051Mm008" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_AluFraming ;
+.
+vikodbCe2:CO_AluProfile
+  rdf:type bpo:Element ;
+  geometry:name "Alu Profile" ;
+  bpo:hasAttribute vikodbCe2:A_AluProfile_ThermalConductivity ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_AluProfile ;
+.
+vikodbCe2:CO_Connectors
+  rdf:type bpo:Assembly ;
+  bpo:hasBSDDGUID "1xjOGZ4kX1g8pvaS5Bd5bG" ;
+  bpo:isComposedOfEntity vikodbCe2:E_AbsorberConnector_0 ;
+  bpo:isComposedOfEntity vikodbCe2:E_AbsorberConnector_1 ;
+  bpo:isComposedOfEntity vikodbCe2:E_PipeConnector_0 ;
+  bpo:isComposedOfEntity vikodbCe2:E_PipeConnector_1 ;
+  bpo:isComposedOfEntity vikodbCe2:E_PipeConnector_2 ;
+  bpo:isComposedOfEntity vikodbCe2:E_PipeConnector_3 ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_Connectors ;
+.
+vikodbCe2:CO_FixingAbsorber
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbCe2:A_FixingAbsorber_Length ;
+  bpo:hasAttribute vikodbCe2:A_FixingAbsorber_ThermalConductivity ;
+  bpo:hasAttribute vikodbCe2:A_FixingAbsorber_Thickness ;
+  bpo:hasAttribute vikodbCe2:A_FixingAbsorber_Width ;
+  bpo:hasBSDDGUID "2uUDgP0yL1TPCBQYmcOCEV" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_FixingAbsorber ;
+.
+vikodbCe2:CO_FormedSheet
+  rdf:type bpo:Assembly ;
+  bpo:hasAttribute vikodbCe2:A_FormedSheet_Length ;
+  bpo:hasAttribute vikodbCe2:A_FormedSheet_Width ;
+  bpo:hasBSDDGUID "scp051" ;
+  bpo:isComposedOfEntity vikodbCe2:E_Sheet ;
+  bpo:isComposedOfEntity vikodbCe2:G_Col_COFormedSheet ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_FormedSheet ;
+.
+vikodbCe2:CO_Frame
+  rdf:type bpo:Assembly ;
+  bpo:hasBSDDGUID "3vHQjSoT0Hsm00051Mm008" ;
+  bpo:isComposedOfEntity vikodbCe2:E_AluProfile ;
+  bpo:isComposedOfEntity vikodbCe2:E_FixingAbsorber ;
+  bpo:isComposedOfEntity vikodbCe2:E_FrameHydraulics ;
+  bpo:isComposedOfEntity vikodbCe2:E_VisualCoverAbsorber_Unten ;
+  bpo:isComposedOfEntity vikodbCe2:E_VisualCoverExterior ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_Frame ;
+.
+vikodbCe2:CO_FrameAbsorbers
+  rdf:type bpo:Assembly ;
+  bpo:hasBSDDGUID "scp062" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_FrameAbsorbers ;
+.
+vikodbCe2:CO_FrameHydraulics
+  rdf:type bpo:Assembly ;
+  bpo:hasBSDDGUID "scp040" ;
+  bpo:isComposedOfEntity vikodbCe2:E_Connectors ;
+  bpo:isComposedOfEntity vikodbCe2:E_FramePiping ;
+  bpo:isPartOf vikodbCe2:CO_Frame ;
+  bpo:isPartOf vikodbCe2:CO_WallElement ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_FrameHydraulics ;
+.
+vikodbCe2:CO_FramePiping
+  rdf:type bpo:Assembly ;
+  bpo:hasBSDDGUID "3vHYeooT0Hsm00051Mm008" ;
+  bpo:isComposedOfEntity vikodbCe2:E_Insulation_0 ;
+  bpo:isComposedOfEntity vikodbCe2:E_Insulation_1 ;
+  bpo:isComposedOfEntity vikodbCe2:E_Insulation_2 ;
+  bpo:isComposedOfEntity vikodbCe2:E_Insulation_3 ;
+  bpo:isComposedOfEntity vikodbCe2:E_ThickPipe_0 ;
+  bpo:isComposedOfEntity vikodbCe2:E_ThickPipe_1 ;
+  bpo:isComposedOfEntity vikodbCe2:E_ThickPipe_2 ;
+  bpo:isComposedOfEntity vikodbCe2:E_ThickPipe_3 ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_FramePiping ;
+.
+vikodbCe2:CO_FrameRack
+  rdf:type bpo:Assembly ;
+  bpo:hasBSDDGUID "scp061" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_FrameRack ;
+.
+vikodbCe2:CO_Gas
+  rdf:type bpo:Element ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_Gas ;
+.
+vikodbCe2:CO_GlassCent
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbCe2:A_GlassCent_Length ;
+  bpo:hasAttribute vikodbCe2:A_GlassCent_Thickness ;
+  bpo:hasAttribute vikodbCe2:A_GlassCent_Width ;
+  bpo:hasBSDDGUID "3$eVvJuUr6dfkUe9RqB$jO" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_GlassCent ;
+.
+vikodbCe2:CO_GlassExt
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbCe2:A_GlassExt_Length ;
+  bpo:hasAttribute vikodbCe2:A_GlassExt_Thickness ;
+  bpo:hasAttribute vikodbCe2:A_GlassExt_Width ;
+  bpo:hasBSDDGUID "3$eVvJuUr6dfkUe9RqB$jO" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_GlassExt ;
+.
+vikodbCe2:CO_GlassInt
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbCe2:A_GlassInt_Length ;
+  bpo:hasAttribute vikodbCe2:A_GlassInt_Thickness ;
+  bpo:hasAttribute vikodbCe2:A_GlassInt_Width ;
+  bpo:hasBSDDGUID "3$eVvJuUr6dfkUe9RqB$jO" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_GlassInt ;
+.
+vikodbCe2:CO_Glazing
+  rdf:type bpo:Assembly ;
+  bpo:hasBSDDGUID "3vHZVeoT0Hsm00051Mm008" ;
+  bpo:isComposedOfEntity vikodbCe2:E_GlassExt ;
+  bpo:isComposedOfEntity vikodbCe2:E_GlassInt ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_Glazing ;
+.
+vikodbCe2:CO_HeaderTube
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbCe2:A_HeaderTube_Length ;
+  bpo:hasAttribute vikodbCe2:A_HeaderTube_Thickness ;
+  bpo:hasAttribute vikodbCe2:A_HeaderTube_ThicknessOfThePipeWall ;
+  bpo:hasAttribute vikodbCe2:A_HeaderTube_Width ;
+  bpo:hasBSDDGUID "scp053" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_HeaderTube ;
+.
+vikodbCe2:CO_InnerGlazing
+  rdf:type bpo:Assembly ;
+  bpo:hasAttribute vikodbCe2:A_Glazing_Length ;
+  bpo:hasAttribute vikodbCe2:A_Glazing_Thickness ;
+  bpo:hasAttribute vikodbCe2:A_Glazing_UValue ;
+  bpo:hasAttribute vikodbCe2:A_Glazing_Width ;
+  bpo:hasBSDDGUID "3vHZVeoT0Hsm00051Mm008" ;
+  bpo:isComposedOfEntity vikodbCe2:E_Gas ;
+  bpo:isComposedOfEntity vikodbCe2:E_GlassCent ;
+  bpo:isComposedOfEntity vikodbCe2:E_GlassInt ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_InnerGlazing ;
+.
+vikodbCe2:CO_Insulation
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbCe2:A_Insulation_Diameter ;
+  bpo:hasAttribute vikodbCe2:A_Insulation_Length ;
+  bpo:hasAttribute vikodbCe2:A_Insulation_ThermalConductivity ;
+  bpo:hasAttribute vikodbCe2:A_Insulation_ThicknessOfTheInsulation ;
+  bpo:hasBSDDGUID "3vHioooT0Hsm00051Mm008" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_Insulation ;
+.
+vikodbCe2:CO_OuterGlazing
+  rdf:type bpo:Assembly ;
+  bpo:hasBSDDGUID "3vHZVeoT0Hsm00051Mm008" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_OuterGlazing ;
+.
+vikodbCe2:CO_PipeConnector
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbCe2:A_PipeConnector_Length ;
+  bpo:hasAttribute vikodbCe2:A_PipeConnector_Thickness ;
+  bpo:hasAttribute vikodbCe2:A_PipeConnector_Width ;
+  bpo:hasBSDDGUID "1xjOGZ4kX1g8pvaS5Bd5bG" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_PipeConnector ;
+.
+vikodbCe2:CO_RiserTube
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbCe2:A_RiserTube_Diameter ;
+  bpo:hasAttribute vikodbCe2:A_RiserTube_Length ;
+  bpo:hasAttribute vikodbCe2:A_RiserTube_ThicknessOfThePipeWall ;
+  bpo:hasBSDDGUID "scp056" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:CO_SemiArea
+  rdf:type bpo:Assembly ;
+  bpo:hasBSDDGUID "scp057" ;
+  bpo:isComposedOfEntity vikodbCe2:E_Absorber ;
+  bpo:isComposedOfEntity vikodbCe2:E_Glazing ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_SemiArea ;
+.
+vikodbCe2:CO_Sheet
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbCe2:A_Sheet_Length ;
+  bpo:hasAttribute vikodbCe2:A_Sheet_Thickness ;
+  bpo:hasAttribute vikodbCe2:A_Sheet_Width ;
+  bpo:hasBSDDGUID "2C4D8j05v51eRokWOWtlju" ;
+.
+vikodbCe2:CO_ThickPipe
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbCe2:A_Pipes_Diameter ;
+  bpo:hasAttribute vikodbCe2:A_Pipes_Length ;
+  bpo:hasAttribute vikodbCe2:A_Pipes_ThicknessOfThePipeWall ;
+  bpo:hasBSDDGUID "3vHQHyoT0Hsm00051Mm008" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_ThickPipe ;
+.
+vikodbCe2:CO_VisualCoverAbsorber
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbCe2:A_VisualCoverAbsorber_Colour ;
+  bpo:hasAttribute vikodbCe2:A_VisualCoverAbsorber_Length ;
+  bpo:hasAttribute vikodbCe2:A_VisualCoverAbsorber_SolarerAbsorptionsgrad ;
+  bpo:hasAttribute vikodbCe2:A_VisualCoverAbsorber_Surface ;
+  bpo:hasAttribute vikodbCe2:A_VisualCoverAbsorber_Thickness ;
+  bpo:hasAttribute vikodbCe2:A_VisualCoverAbsorber_Width ;
+  bpo:hasBSDDGUID "23BOQAWJeHu000025QrE$V" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_VisualCoverAbsorber ;
+.
+vikodbCe2:CO_VisualCoverExterior
+  rdf:type bpo:Element ;
+  bpo:hasAttribute vikodbCe2:A_VisualCoverExterior_Colour ;
+  bpo:hasAttribute vikodbCe2:A_VisualCoverExterior_Length ;
+  bpo:hasAttribute vikodbCe2:A_VisualCoverExterior_SolarerAbsorptionsgrad ;
+  bpo:hasAttribute vikodbCe2:A_VisualCoverExterior_Surface ;
+  bpo:hasAttribute vikodbCe2:A_VisualCoverExterior_Thickness ;
+  bpo:hasAttribute vikodbCe2:A_VisualCoverExterior_Width ;
+  bpo:hasBSDDGUID "23BOQAWJeHu000025QrE$V" ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GCO_VisualCoverExterior ;
+.
+vikodbCe2:CO_WallElement
+  rdf:type geometry:Collection ;
+  rdf:type bpo:Product ;
+  geometry:objects vikodbCe2:GE_Frame ;
+  geometry:objects vikodbCe2:GE_SemiArea ;
+  bpo:hasAttribute vikodbCe2:A_Module_Manufacturer ;
+  bpo:hasAttribute vikodbCe2:A_Module_Name ;
+  bpo:hasAttribute vikodbCe2:A_Module_Pricing ;
+  bpo:hasAttribute vikodbCe2:A_WallElement_HeatFluxToTheBuildingInterior ;
+  bpo:hasAttribute vikodbCe2:A_WallElement_Length ;
+  bpo:hasAttribute vikodbCe2:A_WallElement_SolarThermalPerformance ;
+  bpo:hasAttribute vikodbCe2:A_WallElement_SolarTransmission ;
+  bpo:hasAttribute vikodbCe2:A_WallElement_Thick ;
+  bpo:hasAttribute vikodbCe2:A_WallElement_Width ;
+  bpo:hasBSDDGUID "scp041" ;
+  bpo:isComposedOfEntity vikodbCe2:E_Frame ;
+  bpo:isComposedOfEntity vikodbCe2:E_SemiArea ;
+.
+vikodbCe2:E_Absorber
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_Absorber ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_Absorber ;
+.
+vikodbCe2:E_AbsorberConnector_0
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_AbsorberConnector ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_AbsorberConnector_0 ;
+.
+vikodbCe2:E_AbsorberConnector_1
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_AbsorberConnector ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_AbsorberConnector_1 ;
+.
+vikodbCe2:E_AbsorberHydraulics
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_AbsorberHydraulics ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_AbsorberHydraulics ;
+.
+vikodbCe2:E_AluFraming
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_AluFraming ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_AluFraming ;
+.
+vikodbCe2:E_AluProfile
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_AluProfile ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_AluProfile ;
+.
+vikodbCe2:E_Connectors
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_Connectors ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_Connectors ;
+.
+vikodbCe2:E_FixingAbsorber
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_FixingAbsorber ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_FixingAbsorber ;
+.
+vikodbCe2:E_FormedSheet
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_FormedSheet ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_FormedSheet ;
+.
+vikodbCe2:E_Frame
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_Frame ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_Frame ;
+.
+vikodbCe2:E_FrameAbsorbers
+  rdf:type bpo:SingularEntity ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_FrameAbsorbers ;
+.
+vikodbCe2:E_FrameHydraulics
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_FrameHydraulics ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_FrameHydraulics ;
+.
+vikodbCe2:E_FramePiping
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_FramePiping ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_FramePiping ;
+.
+vikodbCe2:E_FrameRack
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_FrameRack ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_FrameRack ;
+.
+vikodbCe2:E_Gas
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_Gas ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_Gas ;
+.
+vikodbCe2:E_GlassCent
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_GlassCent ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_GlassCent ;
+.
+vikodbCe2:E_GlassExt
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_GlassExt ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_GlassExt ;
+.
+vikodbCe2:E_GlassInt
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_GlassInt ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_GlassInt ;
+.
+vikodbCe2:E_Glazing
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_Glazing ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_Glazing ;
+.
+vikodbCe2:E_HeaderTube_0
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_HeaderTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_HeaderTube_0 ;
+.
+vikodbCe2:E_HeaderTube_1
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_HeaderTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_HeaderTube_1 ;
+.
+vikodbCe2:E_InnerGlazing
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_InnerGlazing ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_InnerGlazing ;
+.
+vikodbCe2:E_Insulation_0
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_Insulation ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_Insulation_0 ;
+.
+vikodbCe2:E_Insulation_1
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_Insulation ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_Insulation_1 ;
+.
+vikodbCe2:E_Insulation_2
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_Insulation ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_Insulation_2 ;
+.
+vikodbCe2:E_Insulation_3
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_Insulation ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_Insulation_3 ;
+.
+vikodbCe2:E_OuterGlazing
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_OuterGlazing ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_OuterGlazing ;
+.
+vikodbCe2:E_PipeConnector_0
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_PipeConnector ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_PipeConnector_0 ;
+.
+vikodbCe2:E_PipeConnector_1
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_PipeConnector ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_PipeConnector_1 ;
+.
+vikodbCe2:E_PipeConnector_2
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_PipeConnector ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_PipeConnector_2 ;
+.
+vikodbCe2:E_PipeConnector_3
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_PipeConnector ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_PipeConnector_3 ;
+.
+vikodbCe2:E_RiserTube_0
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_0 ;
+.
+vikodbCe2:E_RiserTube_1
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_1 ;
+.
+vikodbCe2:E_RiserTube_10
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_10 ;
+.
+vikodbCe2:E_RiserTube_11
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_11 ;
+.
+vikodbCe2:E_RiserTube_12
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_12 ;
+.
+vikodbCe2:E_RiserTube_13
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_13 ;
+.
+vikodbCe2:E_RiserTube_14
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_14 ;
+.
+vikodbCe2:E_RiserTube_15
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_15 ;
+.
+vikodbCe2:E_RiserTube_16
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_16 ;
+.
+vikodbCe2:E_RiserTube_17
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_17 ;
+.
+vikodbCe2:E_RiserTube_18
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_18 ;
+.
+vikodbCe2:E_RiserTube_19
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_19 ;
+.
+vikodbCe2:E_RiserTube_2
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_2 ;
+.
+vikodbCe2:E_RiserTube_20
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_20 ;
+.
+vikodbCe2:E_RiserTube_21
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_21 ;
+.
+vikodbCe2:E_RiserTube_22
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_22 ;
+.
+vikodbCe2:E_RiserTube_23
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_23 ;
+.
+vikodbCe2:E_RiserTube_24
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_24 ;
+.
+vikodbCe2:E_RiserTube_3
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_3 ;
+.
+vikodbCe2:E_RiserTube_4
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_4 ;
+.
+vikodbCe2:E_RiserTube_5
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_5 ;
+.
+vikodbCe2:E_RiserTube_6
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_6 ;
+.
+vikodbCe2:E_RiserTube_7
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_7 ;
+.
+vikodbCe2:E_RiserTube_8
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_8 ;
+.
+vikodbCe2:E_RiserTube_9
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_RiserTube ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_RiserTube_9 ;
+.
+vikodbCe2:E_SemiArea
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_SemiArea ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_SemiArea ;
+.
+vikodbCe2:E_Sheet
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_Sheet ;
+.
+vikodbCe2:E_ThickPipe_0
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_ThickPipe ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_ThickPipe_0 ;
+.
+vikodbCe2:E_ThickPipe_1
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_ThickPipe ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_ThickPipe_1 ;
+.
+vikodbCe2:E_ThickPipe_2
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_ThickPipe ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_ThickPipe_2 ;
+.
+vikodbCe2:E_ThickPipe_3
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_ThickPipe ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_ThickPipe_3 ;
+.
+vikodbCe2:E_VisualCoverAbsorber_Oben
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_VisualCoverAbsorber ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_VisualCoverAbsorber_Oben ;
+.
+vikodbCe2:E_VisualCoverAbsorber_Unten
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_VisualCoverAbsorber ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_VisualCoverAbsorber_Unten ;
+.
+vikodbCe2:E_VisualCoverExterior
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_VisualCoverExterior ;
+  <https://w3id.org/fog#asGeomOntology> vikodbCe2:GE_VisualCoverExterior ;
+.
+vikodbCe2:E_WallElement
+  rdf:type bpo:SingularEntity ;
+  bpo:realisesObject vikodbCe2:CO_WallElement ;
+.
+vikodbCe2:GCO_Absorber
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbCe2:GE_AbsorberHydraulics ;
+  geometry:objects vikodbCe2:GE_FormedSheet ;
+.
+vikodbCe2:GCO_AbsorberConnector
+  rdf:type geometry:Collection ;
+  geometry:material vikodbCe2:G_Mat_AbsorberConnector ;
+  geometry:objects vikodbCe2:G_Boo_AbsorberConnector ;
+.
+vikodbCe2:GCO_AbsorberHydraulics
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbCe2:GE_HeaderTube_0 ;
+  geometry:objects vikodbCe2:GE_HeaderTube_1 ;
+  geometry:objects vikodbCe2:GE_RiserTube_0 ;
+  geometry:objects vikodbCe2:GE_RiserTube_1 ;
+  geometry:objects vikodbCe2:GE_RiserTube_10 ;
+  geometry:objects vikodbCe2:GE_RiserTube_11 ;
+  geometry:objects vikodbCe2:GE_RiserTube_12 ;
+  geometry:objects vikodbCe2:GE_RiserTube_13 ;
+  geometry:objects vikodbCe2:GE_RiserTube_14 ;
+  geometry:objects vikodbCe2:GE_RiserTube_15 ;
+  geometry:objects vikodbCe2:GE_RiserTube_16 ;
+  geometry:objects vikodbCe2:GE_RiserTube_17 ;
+  geometry:objects vikodbCe2:GE_RiserTube_18 ;
+  geometry:objects vikodbCe2:GE_RiserTube_19 ;
+  geometry:objects vikodbCe2:GE_RiserTube_2 ;
+  geometry:objects vikodbCe2:GE_RiserTube_20 ;
+  geometry:objects vikodbCe2:GE_RiserTube_21 ;
+  geometry:objects vikodbCe2:GE_RiserTube_22 ;
+  geometry:objects vikodbCe2:GE_RiserTube_23 ;
+  geometry:objects vikodbCe2:GE_RiserTube_24 ;
+  geometry:objects vikodbCe2:GE_RiserTube_3 ;
+  geometry:objects vikodbCe2:GE_RiserTube_4 ;
+  geometry:objects vikodbCe2:GE_RiserTube_5 ;
+  geometry:objects vikodbCe2:GE_RiserTube_6 ;
+  geometry:objects vikodbCe2:GE_RiserTube_7 ;
+  geometry:objects vikodbCe2:GE_RiserTube_8 ;
+  geometry:objects vikodbCe2:GE_RiserTube_9 ;
+.
+vikodbCe2:GCO_AluFraming
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbCe2:GE_AluProfile ;
+  geometry:objects vikodbCe2:GE_VisualCoverExterior ;
+.
+vikodbCe2:GCO_AluProfile
+  rdf:type geometry:Collection ;
+  geometry:material vikodbCe2:G_Mat_AluProfile ;
+  geometry:objects vikodbCe2:G_Tra_AluProfile_Boden ;
+  geometry:objects vikodbCe2:G_Tra_AluProfile_Box0_0 ;
+  geometry:objects vikodbCe2:G_Tra_AluProfile_Box0_1 ;
+  geometry:objects vikodbCe2:G_Tra_AluProfile_Box1_0 ;
+  geometry:objects vikodbCe2:G_Tra_AluProfile_Box1_1 ;
+  geometry:objects vikodbCe2:G_Tra_AluProfile_Box2_0 ;
+  geometry:objects vikodbCe2:G_Tra_AluProfile_Box2_1 ;
+  geometry:objects vikodbCe2:G_Tra_AluProfile_Box3_0 ;
+  geometry:objects vikodbCe2:G_Tra_AluProfile_Box3_1 ;
+  geometry:objects vikodbCe2:G_Tra_AluProfile_Decke ;
+.
+vikodbCe2:GCO_Connectors
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbCe2:GE_AbsorberConnector_0 ;
+  geometry:objects vikodbCe2:GE_AbsorberConnector_1 ;
+  geometry:objects vikodbCe2:GE_PipeConnector_0 ;
+  geometry:objects vikodbCe2:GE_PipeConnector_1 ;
+  geometry:objects vikodbCe2:GE_PipeConnector_2 ;
+  geometry:objects vikodbCe2:GE_PipeConnector_3 ;
+.
+vikodbCe2:GCO_FixingAbsorber
+  rdf:type geometry:Collection ;
+  geometry:material vikodbCe2:G_Mat_FixingAbsorber ;
+  geometry:objects vikodbCe2:G_Boo_FixingAbsorber_Gesamt ;
+.
+vikodbCe2:GCO_FormedSheet
+  rdf:type geometry:Collection ;
+  geometry:material vikodbCe2:G_Mat_Sheet ;
+  geometry:objects vikodbCe2:G_Col_COFormedSheet ;
+.
+vikodbCe2:GCO_Frame
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbCe2:GE_FrameHydraulics ;
+  geometry:objects vikodbCe2:GE_FrameRack ;
+.
+vikodbCe2:GCO_FrameAbsorbers
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbCe2:GE_FixingAbsorber ;
+  geometry:objects vikodbCe2:GE_VisualCoverAbsorber_Oben ;
+  geometry:objects vikodbCe2:GE_VisualCoverAbsorber_Unten ;
+.
+vikodbCe2:GCO_FrameHydraulics
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbCe2:GE_Connectors ;
+  geometry:objects vikodbCe2:GE_FramePiping ;
+.
+vikodbCe2:GCO_FramePiping
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbCe2:GE_Insulation_0 ;
+  geometry:objects vikodbCe2:GE_Insulation_1 ;
+  geometry:objects vikodbCe2:GE_Insulation_2 ;
+  geometry:objects vikodbCe2:GE_Insulation_3 ;
+  geometry:objects vikodbCe2:GE_ThickPipe_0 ;
+  geometry:objects vikodbCe2:GE_ThickPipe_1 ;
+  geometry:objects vikodbCe2:GE_ThickPipe_2 ;
+  geometry:objects vikodbCe2:GE_ThickPipe_3 ;
+.
+vikodbCe2:GCO_FrameRack
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbCe2:GE_AluFraming ;
+  geometry:objects vikodbCe2:GE_FrameAbsorbers ;
+.
+vikodbCe2:GCO_Gas
+  rdf:type geometry:Collection ;
+  geometry:material vikodbCe2:G_Mat_Gas ;
+  geometry:objects vikodbCe2:G_Box_Gas ;
+.
+vikodbCe2:GCO_GlassCent
+  rdf:type geometry:Collection ;
+  geometry:material vikodbCe2:G_Mat_Glass ;
+  geometry:objects vikodbCe2:G_Box_GlassCent ;
+.
+vikodbCe2:GCO_GlassExt
+  rdf:type geometry:Collection ;
+  geometry:material vikodbCe2:G_Mat_Glass ;
+  geometry:objects vikodbCe2:G_Box_GlassExt ;
+.
+vikodbCe2:GCO_GlassInt
+  rdf:type geometry:Collection ;
+  geometry:material vikodbCe2:G_Mat_Glass ;
+  geometry:objects vikodbCe2:G_Box_GlassInt ;
+.
+vikodbCe2:GCO_Glazing
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbCe2:GE_InnerGlazing ;
+  geometry:objects vikodbCe2:GE_OuterGlazing ;
+.
+vikodbCe2:GCO_HeaderTube
+  rdf:type geometry:Collection ;
+  geometry:material vikodbCe2:G_Mat_HeaderTube ;
+  geometry:objects vikodbCe2:G_Boo_HeaderTube ;
+.
+vikodbCe2:GCO_InnerGlazing
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbCe2:GE_Gas ;
+  geometry:objects vikodbCe2:GE_GlassCent ;
+  geometry:objects vikodbCe2:GE_GlassInt ;
+.
+vikodbCe2:GCO_Insulation
+  rdf:type geometry:Collection ;
+  geometry:material vikodbCe2:G_Mat_Insulation ;
+  geometry:objects vikodbCe2:G_Boo_Insulation ;
+.
+vikodbCe2:GCO_OuterGlazing
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbCe2:GE_GlassExt ;
+.
+vikodbCe2:GCO_PipeConnector
+  rdf:type geometry:Collection ;
+  geometry:material vikodbCe2:G_Mat_PipeConnector ;
+  geometry:objects vikodbCe2:G_Boo_PipeConnector ;
+.
+vikodbCe2:GCO_RiserTube
+  rdf:type geometry:Collection ;
+  geometry:material vikodbCe2:G_Mat_RiserTube ;
+  geometry:objects vikodbCe2:G_Boo_RiserTube ;
+.
+vikodbCe2:GCO_SemiArea
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbCe2:GE_Absorber ;
+  geometry:objects vikodbCe2:GE_Glazing ;
+.
+vikodbCe2:GCO_ThickPipe
+  rdf:type geometry:Collection ;
+  geometry:material vikodbCe2:G_Mat_ThickPipes ;
+  geometry:objects vikodbCe2:G_Boo_ThickPipes ;
+.
+vikodbCe2:GCO_VisualCoverAbsorber
+  rdf:type geometry:Collection ;
+  geometry:material vikodbCe2:G_Mat_VisualCoverAbsorber ;
+  geometry:objects vikodbCe2:G_Boo_VisualCoverAbsorber ;
+.
+vikodbCe2:GCO_VisualCoverExterior
+  rdf:type geometry:Collection ;
+  geometry:material vikodbCe2:G_Mat_VisualCoverExterior ;
+  geometry:objects vikodbCe2:G_Box_VisualCoverExterior ;
+.
+vikodbCe2:GE_Absorber
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Absorber ;
+  geometry:object vikodbCe2:GCO_Absorber ;
+.
+vikodbCe2:GE_AbsorberConnector_0
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AbsorberConnector_0 ;
+  geometry:object vikodbCe2:GCO_AbsorberConnector ;
+.
+vikodbCe2:GE_AbsorberConnector_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AbsorberConnector_1 ;
+  geometry:object vikodbCe2:GCO_AbsorberConnector ;
+.
+vikodbCe2:GE_AbsorberHydraulics
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AbsorberHydraulics ;
+  geometry:object vikodbCe2:GCO_AbsorberHydraulics ;
+.
+vikodbCe2:GE_AluFraming
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AluFraming ;
+  geometry:object vikodbCe2:GCO_AluFraming ;
+.
+vikodbCe2:GE_AluProfile
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AluProfile ;
+  geometry:object vikodbCe2:GCO_AluProfile ;
+.
+vikodbCe2:GE_Connectors
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Connectors ;
+  geometry:object vikodbCe2:GCO_Connectors ;
+.
+vikodbCe2:GE_FixingAbsorber
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_FixingAbsorber ;
+  geometry:object vikodbCe2:GCO_FixingAbsorber ;
+.
+vikodbCe2:GE_FormedSheet
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_FormedSheet ;
+  geometry:object vikodbCe2:GCO_FormedSheet ;
+.
+vikodbCe2:GE_Frame
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Frame ;
+  geometry:object vikodbCe2:GCO_Frame ;
+.
+vikodbCe2:GE_FrameAbsorbers
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_FrameAbsorbers ;
+  geometry:object vikodbCe2:GCO_FrameAbsorbers ;
+.
+vikodbCe2:GE_FrameHydraulics
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_FrameHydraulics ;
+  geometry:object vikodbCe2:GCO_FrameHydraulics ;
+.
+vikodbCe2:GE_FramePiping
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_FramePiping ;
+  geometry:object vikodbCe2:GCO_FramePiping ;
+.
+vikodbCe2:GE_FrameRack
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_FrameRack ;
+  geometry:object vikodbCe2:GCO_FrameRack ;
+.
+vikodbCe2:GE_Gas
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Gas ;
+  geometry:object vikodbCe2:GCO_Gas ;
+.
+vikodbCe2:GE_GlassCent
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_GlassCent ;
+  geometry:object vikodbCe2:GCO_GlassCent ;
+.
+vikodbCe2:GE_GlassExt
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_GlassExt ;
+  geometry:object vikodbCe2:GCO_GlassExt ;
+.
+vikodbCe2:GE_GlassInt
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_GlassInt ;
+  geometry:object vikodbCe2:GCO_GlassInt ;
+.
+vikodbCe2:GE_Glazing
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Glazing ;
+  geometry:object vikodbCe2:GCO_Glazing ;
+.
+vikodbCe2:GE_HeaderTube_0
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_headerTube_0 ;
+  geometry:object vikodbCe2:GCO_HeaderTube ;
+.
+vikodbCe2:GE_HeaderTube_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_headerTube_1 ;
+  geometry:object vikodbCe2:GCO_HeaderTube ;
+.
+vikodbCe2:GE_InnerGlazing
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_InnerGlazing ;
+  geometry:object vikodbCe2:GCO_InnerGlazing ;
+.
+vikodbCe2:GE_Insulation_0
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Insulation_0 ;
+  geometry:object vikodbCe2:GCO_Insulation ;
+.
+vikodbCe2:GE_Insulation_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Insulation_1 ;
+  geometry:object vikodbCe2:GCO_Insulation ;
+.
+vikodbCe2:GE_Insulation_2
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Insulation_2 ;
+  geometry:object vikodbCe2:GCO_Insulation ;
+.
+vikodbCe2:GE_Insulation_3
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Insulation_3 ;
+  geometry:object vikodbCe2:GCO_Insulation ;
+.
+vikodbCe2:GE_OuterGlazing
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_OuterGlazing ;
+  geometry:object vikodbCe2:GCO_OuterGlazing ;
+.
+vikodbCe2:GE_PipeConnector_0
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_PipeConnector_0 ;
+  geometry:object vikodbCe2:GCO_PipeConnector ;
+.
+vikodbCe2:GE_PipeConnector_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_PipeConnector_1 ;
+  geometry:object vikodbCe2:GCO_PipeConnector ;
+.
+vikodbCe2:GE_PipeConnector_2
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_PipeConnector_2 ;
+  geometry:object vikodbCe2:GCO_PipeConnector ;
+.
+vikodbCe2:GE_PipeConnector_3
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_PipeConnector_3 ;
+  geometry:object vikodbCe2:GCO_PipeConnector ;
+.
+vikodbCe2:GE_RiserTube_0
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_0 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_1 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_10
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_10 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_11
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_11 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_12
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_12 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_13
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_13 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_14
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_14 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_15
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_15 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_16
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_16 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_17
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_17 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_18
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_18 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_19
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_19 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_2
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_2 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_20
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_20 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_21
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_21 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_22
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_22 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_23
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_23 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_24
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_24 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_3
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_3 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_4
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_4 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_5
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_5 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_6
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_6 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_7
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_7 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_8
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_8 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_RiserTube_9
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_9 ;
+  geometry:object vikodbCe2:GCO_RiserTube ;
+.
+vikodbCe2:GE_SemiArea
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_SemiArea ;
+  geometry:object vikodbCe2:GCO_SemiArea ;
+.
+vikodbCe2:GE_ThickPipe_0
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_ThickPipe_0 ;
+  geometry:object vikodbCe2:GCO_ThickPipe ;
+.
+vikodbCe2:GE_ThickPipe_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_ThickPipe_1 ;
+  geometry:object vikodbCe2:GCO_ThickPipe ;
+.
+vikodbCe2:GE_ThickPipe_2
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_ThickPipe_2 ;
+  geometry:object vikodbCe2:GCO_ThickPipe ;
+.
+vikodbCe2:GE_ThickPipe_3
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_ThickPipe_3 ;
+  geometry:object vikodbCe2:GCO_ThickPipe ;
+.
+vikodbCe2:GE_VisualCoverAbsorber_Oben
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_VisualCoverAbsorber_Oben ;
+  geometry:object vikodbCe2:GCO_VisualCoverAbsorber ;
+.
+vikodbCe2:GE_VisualCoverAbsorber_Unten
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_VisualCoverAbsorber_Unten ;
+  geometry:object vikodbCe2:GCO_VisualCoverAbsorber ;
+.
+vikodbCe2:GE_VisualCoverExterior
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_VisualCoverExterior ;
+  geometry:object vikodbCe2:GCO_VisualCoverExterior ;
+.
+vikodbCe2:G_Boo_AbsorberConnector
+  rdf:type geometry:BooleanOperation ;
+  geometry:firstObject vikodbCe2:G_Tra_AbsorberConnector_Outer ;
+  geometry:secondObject vikodbCe2:G_Tra_AbsorberConnector_Inner ;
+  geometry:setting 0 ;
+  geometry:type 1 ;
+.
+vikodbCe2:G_Boo_AluProfile
+  rdf:type geometry:BooleanOperation ;
+  geometry:setting 0 ;
+  geometry:type 1 ;
+.
+vikodbCe2:G_Boo_FixingAbsorber_Aussparung_1
+  rdf:type geometry:BooleanOperation ;
+  geometry:firstObject vikodbCe2:G_Tra_FixingAbsorber_Aussenhuelle ;
+  geometry:secondObject vikodbCe2:G_Tra_FixingAbsorber_Aussparung_1 ;
+  geometry:setting 0 ;
+  geometry:type 1 ;
+.
+vikodbCe2:G_Boo_FixingAbsorber_Gesamt
+  rdf:type geometry:BooleanOperation ;
+  geometry:firstObject vikodbCe2:G_Boo_FixingAbsorber_Aussparung_1 ;
+  geometry:secondObject vikodbCe2:G_Tra_FixingAbsorber_Aussparung_2 ;
+  geometry:setting 0 ;
+  geometry:type 1 ;
+.
+vikodbCe2:G_Boo_HeaderTube
+  rdf:type geometry:BooleanOperation ;
+  geometry:firstObject vikodbCe2:G_Tra_Header_Cylinder_outer ;
+  geometry:secondObject vikodbCe2:G_Tra_Header_Cylinder_inner ;
+  geometry:setting 0 ;
+  geometry:type 1 ;
+.
+vikodbCe2:G_Boo_Insulation
+  rdf:type geometry:BooleanOperation ;
+  geometry:firstObject vikodbCe2:G_Tra_Insulation_Outer ;
+  geometry:secondObject vikodbCe2:G_Tra_Insulation_Inner ;
+  geometry:setting 0 ;
+  geometry:type 1 ;
+.
+vikodbCe2:G_Boo_PipeConnector
+  rdf:type geometry:BooleanOperation ;
+  geometry:firstObject vikodbCe2:G_Tra_PipeConnector_outer ;
+  geometry:secondObject vikodbCe2:G_Tra_PipeConnector_inner ;
+  geometry:setting 0 ;
+  geometry:type 1 ;
+.
+vikodbCe2:G_Boo_RiserTube
+  rdf:type geometry:BooleanOperation ;
+  geometry:firstObject vikodbCe2:G_Tra_Riser_Cylinder_outer ;
+  geometry:secondObject vikodbCe2:G_Tra_Riser_Cylinder_inner ;
+  geometry:setting 0 ;
+  geometry:type 1 ;
+.
+vikodbCe2:G_Boo_ThickPipes
+  rdf:type geometry:BooleanOperation ;
+  geometry:firstObject vikodbCe2:G_Tra_ThickPipe_outer ;
+  geometry:secondObject vikodbCe2:G_Tra_ThickPipe_inner ;
+  geometry:setting 0 ;
+  geometry:type 1 ;
+.
+vikodbCe2:G_Boo_VisualCoverAbsorber
+  rdf:type geometry:BooleanOperation ;
+  geometry:firstObject vikodbCe2:G_Tra_VisualCoverAbsorber_Aussen ;
+  geometry:secondObject vikodbCe2:G_Tra_VisualCoverAbsorber_Innen ;
+  geometry:setting 0 ;
+  geometry:type 1 ;
+.
+vikodbCe2:G_Box_AluProfile_0
+  rdf:type geometry:Box ;
+  geometry:height "1.273"^^xsd:double ;
+  geometry:length "0.275"^^xsd:double ;
+  geometry:width "0.005"^^xsd:double ;
+.
+vikodbCe2:G_Box_AluProfile_1
+  rdf:type geometry:Box ;
+  geometry:height "1.273"^^xsd:double ;
+  geometry:length "0.005"^^xsd:double ;
+  geometry:width "0.310"^^xsd:double ;
+.
+vikodbCe2:G_Box_AluProfile_2
+  rdf:type geometry:Box ;
+  geometry:height "1.273"^^xsd:double ;
+  geometry:length "0.250"^^xsd:double ;
+  geometry:width "0.005"^^xsd:double ;
+.
+vikodbCe2:G_Box_AluProfile_3
+  rdf:type geometry:Box ;
+  geometry:height "1.273"^^xsd:double ;
+  geometry:length "0.005"^^xsd:double ;
+  geometry:width "0.055"^^xsd:double ;
+.
+vikodbCe2:G_Box_AluProfile_Deckel
+  rdf:type geometry:Box ;
+  geometry:height "0.005"^^xsd:double ;
+  geometry:length "2.601"^^xsd:double ;
+  geometry:width "0.248"^^xsd:double ;
+.
+vikodbCe2:G_Box_FixingAbsorberAussenhuelle
+  rdf:type geometry:Box ;
+  geometry:height "1.243"^^xsd:double ;
+  geometry:length "2.601"^^xsd:double ;
+  geometry:width "0.070"^^xsd:double ;
+.
+vikodbCe2:G_Box_FixingAbsorberAussparung_1
+  rdf:type geometry:Box ;
+  geometry:height "1.153"^^xsd:double ;
+  geometry:length "2.541"^^xsd:double ;
+  geometry:width "0.070"^^xsd:double ;
+.
+vikodbCe2:G_Box_FixingAbsorberAussparung_2
+  rdf:type geometry:Box ;
+  geometry:height "1.203"^^xsd:double ;
+  geometry:length "2.541"^^xsd:double ;
+  geometry:width "0.035"^^xsd:double ;
+.
+vikodbCe2:G_Box_Gas
+  rdf:type geometry:Box ;
+  geometry:height "1.243"^^xsd:double ;
+  geometry:length "2.601"^^xsd:double ;
+  geometry:width "0.0160"^^xsd:double ;
+.
+vikodbCe2:G_Box_GlassCent
+  rdf:type geometry:Box ;
+  geometry:height "1.243"^^xsd:double ;
+  geometry:length "2.601"^^xsd:double ;
+  geometry:width "0.008"^^xsd:double ;
+.
+vikodbCe2:G_Box_GlassExt
+  rdf:type geometry:Box ;
+  geometry:height "1.243"^^xsd:double ;
+  geometry:length "2.601"^^xsd:double ;
+  geometry:width "0.008"^^xsd:double ;
+.
+vikodbCe2:G_Box_GlassInt
+  rdf:type geometry:Box ;
+  geometry:height "1.243"^^xsd:double ;
+  geometry:length "2.601"^^xsd:double ;
+  geometry:width "0.0088"^^xsd:double ;
+.
+vikodbCe2:G_Box_Lamelle_1
+  rdf:type geometry:Box ;
+  geometry:height "0.004"^^xsd:double ;
+  geometry:length "0.080"^^xsd:double ;
+  geometry:width "0.0015"^^xsd:double ;
+.
+vikodbCe2:G_Box_Lamelle_2
+  rdf:type geometry:Box ;
+  geometry:height "0.008"^^xsd:double ;
+  geometry:length "0.0800"^^xsd:double ;
+  geometry:width "0.0015"^^xsd:double ;
+.
+vikodbCe2:G_Box_LamellenrahmenH_Oben
+  rdf:type geometry:Box ;
+  geometry:height "0.0147"^^xsd:double ;
+  geometry:length "0.0800"^^xsd:double ;
+  geometry:width "0.0015"^^xsd:double ;
+.
+vikodbCe2:G_Box_LamellenrahmenH_Unten
+  rdf:type geometry:Box ;
+  geometry:height "0.0193"^^xsd:double ;
+  geometry:length "0.08"^^xsd:double ;
+  geometry:width "0.0015"^^xsd:double ;
+.
+vikodbCe2:G_Box_Lamellenrahmen_1
+  rdf:type geometry:Box ;
+  geometry:height "1.1260"^^xsd:double ;
+  geometry:length "0.002"^^xsd:double ;
+  geometry:width "0.0015"^^xsd:double ;
+.
+vikodbCe2:G_Box_Lamellenrahmen_2
+  rdf:type geometry:Box ;
+  geometry:height "1.1260"^^xsd:double ;
+  geometry:length "0.0090"^^xsd:double ;
+  geometry:width "0.0015"^^xsd:double ;
+.
+vikodbCe2:G_Box_Lamellenrahmen_3
+  rdf:type geometry:Box ;
+  geometry:height "1.1260"^^xsd:double ;
+  geometry:length "0.0056"^^xsd:double ;
+  geometry:width "0.0015"^^xsd:double ;
+.
+vikodbCe2:G_Box_SheetRand
+  rdf:type geometry:Box ;
+  geometry:height "1.126"^^xsd:double ;
+  geometry:length "0.04"^^xsd:double ;
+  geometry:width "0.0015"^^xsd:double ;
+.
+vikodbCe2:G_Box_VisualCoverAbsorber_Aussen
+  rdf:type geometry:Box ;
+  geometry:height "1.231"^^xsd:double ;
+  geometry:length "2.585"^^xsd:double ;
+  geometry:width "0.005"^^xsd:double ;
+.
+vikodbCe2:G_Box_VisualCoverAbsorber_Innen
+  rdf:type geometry:Box ;
+  geometry:height "1.200"^^xsd:double ;
+  geometry:length "2.556"^^xsd:double ;
+  geometry:width "0.005"^^xsd:double ;
+.
+vikodbCe2:G_Box_VisualCoverExterior
+  rdf:type geometry:Box ;
+  geometry:height "0.130"^^xsd:double ;
+  geometry:length "2.551"^^xsd:double ;
+  geometry:width "0.006"^^xsd:double ;
+.
+vikodbCe2:G_CoC_AbsorberConnector
+  rdf:type geometry:ColorComponent ;
+  geometry:B "0.384313725"^^xsd:double ;
+  geometry:G "0.384313725"^^xsd:double ;
+  geometry:R "0.392156863"^^xsd:double ;
+  geometry:W "1.0"^^xsd:double ;
+.
+vikodbCe2:G_CoC_AluProfile
+  rdf:type geometry:ColorComponent ;
+  geometry:B "0.756862745"^^xsd:double ;
+  geometry:G "0.756862745"^^xsd:double ;
+  geometry:R "0.764705882"^^xsd:double ;
+  geometry:W "1.0"^^xsd:double ;
+.
+vikodbCe2:G_CoC_FixingAbsorber
+  rdf:type geometry:ColorComponent ;
+  geometry:B "0.831372549"^^xsd:double ;
+  geometry:G "0.929411765"^^xsd:double ;
+  geometry:R "0.964705882"^^xsd:double ;
+  geometry:W "1.0"^^xsd:double ;
+.
+vikodbCe2:G_CoC_Gas
+  rdf:type geometry:ColorComponent ;
+  geometry:B "1"^^xsd:double ;
+  geometry:G "1"^^xsd:double ;
+  geometry:R "1"^^xsd:double ;
+  geometry:W "0.01"^^xsd:double ;
+.
+vikodbCe2:G_CoC_Glass
+  rdf:type geometry:ColorComponent ;
+  geometry:B "0.909803922"^^xsd:double ;
+  geometry:G "0.77254902"^^xsd:double ;
+  geometry:R "0.623529412"^^xsd:double ;
+  geometry:W "0.1"^^xsd:double ;
+.
+vikodbCe2:G_CoC_HeaderTube
+  rdf:type geometry:ColorComponent ;
+  geometry:B "0.6"^^xsd:double ;
+  geometry:G "0.6"^^xsd:double ;
+  geometry:R "0.6"^^xsd:double ;
+  geometry:W "1.0"^^xsd:double ;
+.
+vikodbCe2:G_CoC_Insulation
+  rdf:type geometry:ColorComponent ;
+  geometry:B "0.831372549"^^xsd:double ;
+  geometry:G "0.929411765"^^xsd:double ;
+  geometry:R "0.964705882"^^xsd:double ;
+  geometry:W "1.0"^^xsd:double ;
+.
+vikodbCe2:G_CoC_PipeConnector
+  rdf:type geometry:ColorComponent ;
+  geometry:B "0.6"^^xsd:double ;
+  geometry:G "0.6"^^xsd:double ;
+  geometry:R "0.6"^^xsd:double ;
+  geometry:W "1.0"^^xsd:double ;
+.
+vikodbCe2:G_CoC_RiserTube
+  rdf:type geometry:ColorComponent ;
+  geometry:B "0.6"^^xsd:double ;
+  geometry:G "0.6"^^xsd:double ;
+  geometry:R "0.6"^^xsd:double ;
+  geometry:W "1.0"^^xsd:double ;
+.
+vikodbCe2:G_CoC_Sheet
+  rdf:type geometry:ColorComponent ;
+  geometry:B "0.831372549"^^xsd:double ;
+  geometry:G "0.929411765"^^xsd:double ;
+  geometry:R "0.964705882"^^xsd:double ;
+  geometry:W "1.0"^^xsd:double ;
+.
+vikodbCe2:G_CoC_ThickPipes
+  rdf:type geometry:ColorComponent ;
+  geometry:B "0.6"^^xsd:double ;
+  geometry:G "0.6"^^xsd:double ;
+  geometry:R "0.6"^^xsd:double ;
+  geometry:W "1.0"^^xsd:double ;
+.
+vikodbCe2:G_CoC_VisualCoverAbsorber
+  rdf:type geometry:ColorComponent ;
+  geometry:B "0.831372549"^^xsd:double ;
+  geometry:G "0.929411765"^^xsd:double ;
+  geometry:R "0.964705882"^^xsd:double ;
+  geometry:W "1.0"^^xsd:double ;
+.
+vikodbCe2:G_CoC_VisualCoverExterior
+  rdf:type geometry:ColorComponent ;
+  geometry:B "0.831372549"^^xsd:double ;
+  geometry:G "0.929411765"^^xsd:double ;
+  geometry:R "0.964705882"^^xsd:double ;
+  geometry:W "1.0"^^xsd:double ;
+.
+vikodbCe2:G_Col_COFormedSheet
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbCe2:G_Tra_Box_Lamellenrahmen_2_1_Endstueck ;
+  geometry:objects vikodbCe2:G_Tra_Box_Lamellenrahmen_2_2_Endstueck ;
+  geometry:objects vikodbCe2:G_Tra_Box_Lamellenrahmen_3_1_Endstueck ;
+  geometry:objects vikodbCe2:G_Tra_LamellenreihenGes ;
+  geometry:objects vikodbCe2:G_Tra_SheetRand_1 ;
+  geometry:objects vikodbCe2:G_Tra_SheetRand_2 ;
+.
+vikodbCe2:G_Col_LamellenspalteMitUmsparung
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbCe2:G_Tra_Box_LamellenrahmenH_Oben ;
+  geometry:objects vikodbCe2:G_Tra_Box_LamellenrahmenH_Unten ;
+  geometry:objects vikodbCe2:G_Tra_Box_Lamellenrahmen_1_1 ;
+  geometry:objects vikodbCe2:G_Tra_Box_Lamellenrahmen_1_2 ;
+  geometry:objects vikodbCe2:G_Tra_Box_Lamellenrahmen_2_1 ;
+  geometry:objects vikodbCe2:G_Tra_Box_Lamellenrahmen_2_2 ;
+  geometry:objects vikodbCe2:G_Tra_Box_Lamellenrahmen_3_1 ;
+  geometry:objects vikodbCe2:G_Tra_Lamellenreihe ;
+.
+vikodbCe2:G_Col_SheetLamelle
+  rdf:type geometry:Collection ;
+  geometry:objects vikodbCe2:G_Tra_Lamelle_Box_1 ;
+  geometry:objects vikodbCe2:G_Tra_Lamelle_Box_2 ;
+.
+vikodbCe2:G_Cor_AbsorberConnector
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbCe2:G_CoC_AbsorberConnector ;
+.
+vikodbCe2:G_Cor_AluProfile
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbCe2:G_CoC_AluProfile ;
+.
+vikodbCe2:G_Cor_FixingAbsorber
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbCe2:G_CoC_FixingAbsorber ;
+.
+vikodbCe2:G_Cor_Gas
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbCe2:G_CoC_Gas ;
+.
+vikodbCe2:G_Cor_Glass
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbCe2:G_CoC_Glass ;
+.
+vikodbCe2:G_Cor_HeaderTube
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbCe2:G_CoC_HeaderTube ;
+.
+vikodbCe2:G_Cor_Insulation
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbCe2:G_CoC_Insulation ;
+.
+vikodbCe2:G_Cor_PipeConnector
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbCe2:G_CoC_PipeConnector ;
+.
+vikodbCe2:G_Cor_RiserTube
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbCe2:G_CoC_RiserTube ;
+.
+vikodbCe2:G_Cor_Sheet
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbCe2:G_CoC_Sheet ;
+.
+vikodbCe2:G_Cor_ThickPipes
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbCe2:G_CoC_ThickPipes ;
+.
+vikodbCe2:G_Cor_VisualCoverAbsorber
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbCe2:G_CoC_VisualCoverAbsorber ;
+.
+vikodbCe2:G_Cor_VisualCoverExterior
+  rdf:type geometry:Color ;
+  geometry:ambient vikodbCe2:G_CoC_VisualCoverExterior ;
+.
+vikodbCe2:G_Cylinder_AbsorberConnector_inner
+  rdf:type geometry:Cylinder ;
+  geometry:length "0.196"^^xsd:double ;
+  geometry:radius "0.0097"^^xsd:double ;
+.
+vikodbCe2:G_Cylinder_AbsorberConnector_outer
+  rdf:type geometry:Cylinder ;
+  geometry:length "0.196"^^xsd:double ;
+  geometry:radius "0.010"^^xsd:double ;
+.
+vikodbCe2:G_Cylinder_Insulation_inner
+  rdf:type geometry:Cylinder ;
+  geometry:length "1.273"^^xsd:double ;
+  geometry:radius "0.0175"^^xsd:double ;
+.
+vikodbCe2:G_Cylinder_Insulation_outer
+  rdf:type geometry:Cylinder ;
+  geometry:length "1.273"^^xsd:double ;
+  geometry:radius "0.050"^^xsd:double ;
+.
+vikodbCe2:G_Cylinder_PipeConnector_inner
+  rdf:type geometry:Cylinder ;
+  geometry:length "0.040"^^xsd:double ;
+  geometry:radius "0.0175"^^xsd:double ;
+.
+vikodbCe2:G_Cylinder_PipeConnector_outer
+  rdf:type geometry:Cylinder ;
+  geometry:length "0.040"^^xsd:double ;
+  geometry:radius "0.04"^^xsd:double ;
+.
+vikodbCe2:G_Cylinder_ThickPipe_inner
+  rdf:type geometry:Cylinder ;
+  geometry:length "1.273"^^xsd:double ;
+  geometry:radius "0.0165"^^xsd:double ;
+.
+vikodbCe2:G_Cylinder_ThickPipe_outer
+  rdf:type geometry:Cylinder ;
+  geometry:length "1.273"^^xsd:double ;
+  geometry:radius "0.0175"^^xsd:double ;
+.
+vikodbCe2:G_Cylinder_headerTube_inner
+  rdf:type geometry:Cylinder ;
+  geometry:length "2.515"^^xsd:double ;
+  geometry:radius "0.015"^^xsd:double ;
+.
+vikodbCe2:G_Cylinder_headerTube_outer
+  rdf:type geometry:Cylinder ;
+  geometry:length "2.515"^^xsd:double ;
+  geometry:radius "0.017"^^xsd:double ;
+.
+vikodbCe2:G_Cylinder_riserTube_inner
+  rdf:type geometry:Cylinder ;
+  geometry:length "1.126"^^xsd:double ;
+  geometry:radius "0.003"^^xsd:double ;
+.
+vikodbCe2:G_Cylinder_riserTube_outer
+  rdf:type geometry:Cylinder ;
+  geometry:length "1.126"^^xsd:double ;
+  geometry:radius "0.005"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Absorber
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "-1"^^xsd:double ;
+  geometry:_33 "-1"^^xsd:double ;
+  geometry:_41 "0.0905"^^xsd:double ;
+  geometry:_42 "0.112"^^xsd:double ;
+  geometry:_43 "1.1845"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AbsorberConnector_0
+  rdf:type geometry:Matrix ;
+  geometry:_11 "0"^^xsd:double ;
+  geometry:_12 "0"^^xsd:double ;
+  geometry:_13 "-1"^^xsd:double ;
+  geometry:_21 "-0.273959"^^xsd:double ;
+  geometry:_22 "0.96174"^^xsd:double ;
+  geometry:_23 "0"^^xsd:double ;
+  geometry:_31 "0.96174"^^xsd:double ;
+  geometry:_32 "0.273959"^^xsd:double ;
+  geometry:_33 "0"^^xsd:double ;
+  geometry:_41 "0.0892"^^xsd:double ;
+  geometry:_42 "0.0683"^^xsd:double ;
+  geometry:_43 "0.0537"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AbsorberConnector_1
+  rdf:type geometry:Matrix ;
+  geometry:_11 "0"^^xsd:double ;
+  geometry:_12 "0"^^xsd:double ;
+  geometry:_13 "1"^^xsd:double ;
+  geometry:_21 "0.273959"^^xsd:double ;
+  geometry:_22 "0.96174"^^xsd:double ;
+  geometry:_23 "0"^^xsd:double ;
+  geometry:_31 "-0.96174"^^xsd:double ;
+  geometry:_32 "0.273959"^^xsd:double ;
+  geometry:_33 "0"^^xsd:double ;
+  geometry:_41 "2.9758"^^xsd:double ;
+  geometry:_42 "0.0683"^^xsd:double ;
+  geometry:_43 "0.0537"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AbsorberConnector_inner
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AbsorberConnector_outer
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AbsorberHydraulics
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.008"^^xsd:double ;
+  geometry:_42 "0.00075"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AluFraming
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AluProfile
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AluProfile_Boden
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.232"^^xsd:double ;
+  geometry:_42 "0.010"^^xsd:double ;
+  geometry:_43 "-0.005"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AluProfile_Box0_0
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AluProfile_Box0_1
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "2.790"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AluProfile_Box1_0
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AluProfile_Box1_1
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "3.065"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AluProfile_Box2_0
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0.310"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AluProfile_Box2_1
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "2.815"^^xsd:double ;
+  geometry:_42 "0.310"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AluProfile_Box3_0
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.250"^^xsd:double ;
+  geometry:_42 "0.260"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AluProfile_Box3_1
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "2.815"^^xsd:double ;
+  geometry:_42 "0.260"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_AluProfile_Decke
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.232"^^xsd:double ;
+  geometry:_42 "0.010"^^xsd:double ;
+  geometry:_43 "1.258"^^xsd:double ;
+.
+vikodbCe2:G_Ma_COSemiArea
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.050"^^xsd:double ;
+  geometry:_42 "0.010"^^xsd:double ;
+  geometry:_43 "0.100"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Connectors
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_FixingAbsorber
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.232"^^xsd:double ;
+  geometry:_42 "0.084"^^xsd:double ;
+  geometry:_43 "0.015"^^xsd:double ;
+.
+vikodbCe2:G_Ma_FixingAbsorber_Aussenhuelle
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_FixingAbsorber_Aussparung_1
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.030"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0.045"^^xsd:double ;
+.
+vikodbCe2:G_Ma_FixingAbsorber_Aussparung_2
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.030"^^xsd:double ;
+  geometry:_42 "0.0175"^^xsd:double ;
+  geometry:_43 "0.020"^^xsd:double ;
+.
+vikodbCe2:G_Ma_FormedSheet
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Frame
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_FrameAbsorbers
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_FrameAbsorbers_2
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_FrameHydraulics
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_FramePiping
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_FrameRack
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Gas
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_12 "0"^^xsd:double ;
+  geometry:_13 "0"^^xsd:double ;
+  geometry:_21 "0"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_23 "0"^^xsd:double ;
+  geometry:_31 "0"^^xsd:double ;
+  geometry:_32 "0"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.008"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_GlassCent
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_12 "0"^^xsd:double ;
+  geometry:_13 "0"^^xsd:double ;
+  geometry:_21 "0"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_23 "0"^^xsd:double ;
+  geometry:_31 "0"^^xsd:double ;
+  geometry:_32 "0"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_GlassExt
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_GlassInt
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_12 "0"^^xsd:double ;
+  geometry:_13 "0"^^xsd:double ;
+  geometry:_21 "0"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_23 "0"^^xsd:double ;
+  geometry:_31 "0"^^xsd:double ;
+  geometry:_32 "0"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.024"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Glazing
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_InnerGlazing
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.212"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Insulation_0
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.080"^^xsd:double ;
+  geometry:_42 "0.070"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Insulation_1
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.080"^^xsd:double ;
+  geometry:_42 "0.240"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Insulation_2
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "2.985"^^xsd:double ;
+  geometry:_42 "0.070"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Insulation_3
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "2.985"^^xsd:double ;
+  geometry:_42 "0.240"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Insulation_inner
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Insulation_outer
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Lamelle_Box_1
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_12 "0"^^xsd:double ;
+  geometry:_13 "0"^^xsd:double ;
+  geometry:_21 "0"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_23 "0"^^xsd:double ;
+  geometry:_31 "0"^^xsd:double ;
+  geometry:_32 "0"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Lamelle_Box_2
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "-0.5"^^xsd:double ;
+  geometry:_23 "-0.8660254"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.8660254"^^xsd:double ;
+  geometry:_33 "-0.5"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.00075"^^xsd:double ;
+  geometry:_43 "0.001299"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Lamellenrahmen_BoxH_oben
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.018375"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "1.1113"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Lamellenrahmen_BoxH_unten
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.018375"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Lamellenrahmen_Box_1_1
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.016"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Lamellenrahmen_Box_1_2
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.098"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Lamellenrahmen_Box_2_1
+  rdf:type geometry:Matrix ;
+  geometry:_11 "0.7071"^^xsd:double ;
+  geometry:_12 "0.7071"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "-0.7071"^^xsd:double ;
+  geometry:_22 "0.7071"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Lamellenrahmen_Box_2_1_Endstueck
+  rdf:type geometry:Matrix ;
+  geometry:_11 "0.7071"^^xsd:double ;
+  geometry:_12 "0.7071"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "-0.7071"^^xsd:double ;
+  geometry:_22 "0.7071"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "2.400"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Lamellenrahmen_Box_2_1_Vereinfacht
+  rdf:type geometry:Matrix ;
+  geometry:_11 "0"^^xsd:double ;
+  geometry:_12 "1"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "-1"^^xsd:double ;
+  geometry:_22 "0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Lamellenrahmen_Box_2_2
+  rdf:type geometry:Matrix ;
+  geometry:_11 "0.7071"^^xsd:double ;
+  geometry:_12 "-0.7071"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.7071"^^xsd:double ;
+  geometry:_22 "0.7071"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.009692"^^xsd:double ;
+  geometry:_42 "0.006369"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Lamellenrahmen_Box_2_2_Endstueck
+  rdf:type geometry:Matrix ;
+  geometry:_11 "0"^^xsd:double ;
+  geometry:_12 "-0.7071"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.7071"^^xsd:double ;
+  geometry:_22 "0.7071"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "2.409692"^^xsd:double ;
+  geometry:_42 "0.006369"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Lamellenrahmen_Box_3_1
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0052"^^xsd:double ;
+  geometry:_42 "0.0058"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Lamellenrahmen_Box_3_1_Endstueck
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "2.4052"^^xsd:double ;
+  geometry:_42 "0.00515"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_LamellenreihenGes
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "00.0"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Lamellenspalte
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.018319"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0.0273"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Lamellenspaltenversatz
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.1000"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_Lamellenversatz
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0120"^^xsd:double ;
+.
+vikodbCe2:G_Ma_OuterGlazing
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_PipeConnector_0
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.080"^^xsd:double ;
+  geometry:_42 "0.070"^^xsd:double ;
+  geometry:_43 "1.273"^^xsd:double ;
+.
+vikodbCe2:G_Ma_PipeConnector_1
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.080"^^xsd:double ;
+  geometry:_42 "0.240"^^xsd:double ;
+  geometry:_43 "1.273"^^xsd:double ;
+.
+vikodbCe2:G_Ma_PipeConnector_2
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "2.985"^^xsd:double ;
+  geometry:_42 "0.070"^^xsd:double ;
+  geometry:_43 "1.273"^^xsd:double ;
+.
+vikodbCe2:G_Ma_PipeConnector_3
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "2.985"^^xsd:double ;
+  geometry:_42 "0.240"^^xsd:double ;
+  geometry:_43 "1.273"^^xsd:double ;
+.
+vikodbCe2:G_Ma_PipeConnector_inner
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_PipeConnector_outer
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_SemiArea
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.232"^^xsd:double ;
+  geometry:_42 "0.010"^^xsd:double ;
+  geometry:_43 "0.015"^^xsd:double ;
+.
+vikodbCe2:G_Ma_SheetRand_1
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "-0.0400"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_SheetRand_2
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "2.420"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_ThickPipe_0
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.080"^^xsd:double ;
+  geometry:_42 "0.070"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_ThickPipe_1
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.080"^^xsd:double ;
+  geometry:_42 "0.240"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_ThickPipe_2
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "2.985"^^xsd:double ;
+  geometry:_42 "0.070"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_ThickPipe_3
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "2.985"^^xsd:double ;
+  geometry:_42 "0.240"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_ThickPipe_inner
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_ThickPipe_outer
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_VisualCoverAbsorber_Aussen
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_VisualCoverAbsorber_Innen
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0145"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "0.0155"^^xsd:double ;
+.
+vikodbCe2:G_Ma_VisualCoverAbsorber_Oben
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.240"^^xsd:double ;
+  geometry:_42 "0.2548"^^xsd:double ;
+  geometry:_43 "0.021"^^xsd:double ;
+.
+vikodbCe2:G_Ma_VisualCoverAbsorber_Unten
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.240"^^xsd:double ;
+  geometry:_42 "0.005"^^xsd:double ;
+  geometry:_43 "0.021"^^xsd:double ;
+.
+vikodbCe2:G_Ma_VisualCoverExterior
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.257"^^xsd:double ;
+  geometry:_42 "0.252"^^xsd:double ;
+  geometry:_43 "-0.070"^^xsd:double ;
+.
+vikodbCe2:G_Ma_headerTube_0
+  rdf:type geometry:Matrix ;
+  geometry:_11 "0"^^xsd:double ;
+  geometry:_12 "0"^^xsd:double ;
+  geometry:_13 "-1"^^xsd:double ;
+  geometry:_21 "0"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_23 "0"^^xsd:double ;
+  geometry:_31 "1"^^xsd:double ;
+  geometry:_32 "0"^^xsd:double ;
+  geometry:_33 "0"^^xsd:double ;
+  geometry:_41 "-0.0575"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "-0.017"^^xsd:double ;
+.
+vikodbCe2:G_Ma_headerTube_1
+  rdf:type geometry:Matrix ;
+  geometry:_11 "0"^^xsd:double ;
+  geometry:_12 "0"^^xsd:double ;
+  geometry:_13 "-1"^^xsd:double ;
+  geometry:_21 "0"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_23 "0"^^xsd:double ;
+  geometry:_31 "1"^^xsd:double ;
+  geometry:_32 "0"^^xsd:double ;
+  geometry:_33 "0"^^xsd:double ;
+  geometry:_41 "-0.0575"^^xsd:double ;
+  geometry:_42 "0"^^xsd:double ;
+  geometry:_43 "1.143"^^xsd:double ;
+.
+vikodbCe2:G_Ma_headerTube_inner
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_headerTube_outer
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_0
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_1
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.100"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_10
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "1.000"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_11
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "1.100"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_12
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "1.200"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_13
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "1.300"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_14
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "1.400"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_15
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "1.500"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_16
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "1.600"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_17
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "1.700"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_18
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "1.800"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_19
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "1.900"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_2
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.200"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_20
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "2.000"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_21
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "2.100"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_22
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "2.200"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_23
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "2.300"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_24
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "2.400"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_3
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.300"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_4
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.400"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_5
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.500"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_6
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.600"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_7
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.700"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_8
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.800"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_9
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1"^^xsd:double ;
+  geometry:_22 "1"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "0.900"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_inner
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Ma_riserTube_outer
+  rdf:type geometry:Matrix ;
+  geometry:_11 "1.0"^^xsd:double ;
+  geometry:_12 "0.0"^^xsd:double ;
+  geometry:_13 "0.0"^^xsd:double ;
+  geometry:_21 "0.0"^^xsd:double ;
+  geometry:_22 "1.0"^^xsd:double ;
+  geometry:_23 "0.0"^^xsd:double ;
+  geometry:_31 "0.0"^^xsd:double ;
+  geometry:_32 "0.0"^^xsd:double ;
+  geometry:_33 "1.0"^^xsd:double ;
+  geometry:_41 "0.0"^^xsd:double ;
+  geometry:_42 "0.0"^^xsd:double ;
+  geometry:_43 "0.0"^^xsd:double ;
+.
+vikodbCe2:G_Mat_AbsorberConnector
+  rdf:type geometry:Material ;
+  geometry:color vikodbCe2:G_Cor_AbsorberConnector ;
+.
+vikodbCe2:G_Mat_AluProfile
+  rdf:type geometry:Material ;
+  geometry:color vikodbCe2:G_Cor_AluProfile ;
+.
+vikodbCe2:G_Mat_FixingAbsorber
+  rdf:type geometry:Material ;
+  geometry:color vikodbCe2:G_Cor_FixingAbsorber ;
+.
+vikodbCe2:G_Mat_Gas
+  rdf:type geometry:Material ;
+  geometry:color vikodbCe2:G_Cor_Gas ;
+.
+vikodbCe2:G_Mat_Glass
+  rdf:type geometry:Material ;
+  geometry:color vikodbCe2:G_Cor_Glass ;
+.
+vikodbCe2:G_Mat_HeaderTube
+  rdf:type geometry:Material ;
+  geometry:color vikodbCe2:G_Cor_HeaderTube ;
+.
+vikodbCe2:G_Mat_Insulation
+  rdf:type geometry:Material ;
+  geometry:color vikodbCe2:G_Cor_Insulation ;
+.
+vikodbCe2:G_Mat_PipeConnector
+  rdf:type geometry:Material ;
+  geometry:color vikodbCe2:G_Cor_PipeConnector ;
+.
+vikodbCe2:G_Mat_RiserTube
+  rdf:type geometry:Material ;
+  geometry:color vikodbCe2:G_Cor_RiserTube ;
+.
+vikodbCe2:G_Mat_Sheet
+  rdf:type geometry:Material ;
+  geometry:color vikodbCe2:G_Cor_Sheet ;
+.
+vikodbCe2:G_Mat_ThickPipes
+  rdf:type geometry:Material ;
+  geometry:color vikodbCe2:G_Cor_ThickPipes ;
+.
+vikodbCe2:G_Mat_VisualCoverAbsorber
+  rdf:type geometry:Material ;
+  geometry:color vikodbCe2:G_Cor_VisualCoverAbsorber ;
+.
+vikodbCe2:G_Mat_VisualCoverExterior
+  rdf:type geometry:Material ;
+  geometry:color vikodbCe2:G_Cor_VisualCoverExterior ;
+.
+vikodbCe2:G_Rep_Lamellenreihen
+  rdf:type geometry:Repetition ;
+  geometry:count 24 ;
+  geometry:matrix vikodbCe2:G_Ma_Lamellenspaltenversatz ;
+  geometry:object vikodbCe2:G_Col_LamellenspalteMitUmsparung ;
+.
+vikodbCe2:G_Rep_Lamellenspalte
+  rdf:type geometry:Repetition ;
+  geometry:count 91 ;
+  geometry:matrix vikodbCe2:G_Ma_Lamellenversatz ;
+  geometry:object vikodbCe2:G_Col_SheetLamelle ;
+.
+vikodbCe2:G_Tra_AbsorberConnector_Inner
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AbsorberConnector_inner ;
+  geometry:object vikodbCe2:G_Cylinder_AbsorberConnector_inner ;
+.
+vikodbCe2:G_Tra_AbsorberConnector_Outer
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AbsorberConnector_outer ;
+  geometry:object vikodbCe2:G_Cylinder_AbsorberConnector_outer ;
+.
+vikodbCe2:G_Tra_AluProfile_Boden
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AluProfile_Boden ;
+  geometry:object vikodbCe2:G_Box_AluProfile_Deckel ;
+.
+vikodbCe2:G_Tra_AluProfile_Box0_0
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AluProfile_Box0_0 ;
+  geometry:object vikodbCe2:G_Box_AluProfile_0 ;
+.
+vikodbCe2:G_Tra_AluProfile_Box0_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AluProfile_Box0_1 ;
+  geometry:object vikodbCe2:G_Box_AluProfile_0 ;
+.
+vikodbCe2:G_Tra_AluProfile_Box1_0
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AluProfile_Box1_0 ;
+  geometry:object vikodbCe2:G_Box_AluProfile_1 ;
+.
+vikodbCe2:G_Tra_AluProfile_Box1_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AluProfile_Box1_1 ;
+  geometry:object vikodbCe2:G_Box_AluProfile_1 ;
+.
+vikodbCe2:G_Tra_AluProfile_Box2_0
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AluProfile_Box2_0 ;
+  geometry:object vikodbCe2:G_Box_AluProfile_2 ;
+.
+vikodbCe2:G_Tra_AluProfile_Box2_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AluProfile_Box2_1 ;
+  geometry:object vikodbCe2:G_Box_AluProfile_2 ;
+.
+vikodbCe2:G_Tra_AluProfile_Box3_0
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AluProfile_Box3_0 ;
+  geometry:object vikodbCe2:G_Box_AluProfile_3 ;
+.
+vikodbCe2:G_Tra_AluProfile_Box3_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AluProfile_Box3_1 ;
+  geometry:object vikodbCe2:G_Box_AluProfile_3 ;
+.
+vikodbCe2:G_Tra_AluProfile_Decke
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_AluProfile_Decke ;
+  geometry:object vikodbCe2:G_Box_AluProfile_Deckel ;
+.
+vikodbCe2:G_Tra_Box_LamellenrahmenH_Oben
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Lamellenrahmen_BoxH_oben ;
+  geometry:object vikodbCe2:G_Box_LamellenrahmenH_Oben ;
+.
+vikodbCe2:G_Tra_Box_LamellenrahmenH_Unten
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Lamellenrahmen_BoxH_unten ;
+  geometry:object vikodbCe2:G_Box_LamellenrahmenH_Unten ;
+.
+vikodbCe2:G_Tra_Box_Lamellenrahmen_1_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Lamellenrahmen_Box_1_1 ;
+  geometry:object vikodbCe2:G_Box_Lamellenrahmen_1 ;
+.
+vikodbCe2:G_Tra_Box_Lamellenrahmen_1_2
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Lamellenrahmen_Box_1_2 ;
+  geometry:object vikodbCe2:G_Box_Lamellenrahmen_1 ;
+.
+vikodbCe2:G_Tra_Box_Lamellenrahmen_2_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Lamellenrahmen_Box_2_1 ;
+  geometry:object vikodbCe2:G_Box_Lamellenrahmen_2 ;
+.
+vikodbCe2:G_Tra_Box_Lamellenrahmen_2_1_Endstueck
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Lamellenrahmen_Box_2_1_Endstueck ;
+  geometry:object vikodbCe2:G_Box_Lamellenrahmen_2 ;
+.
+vikodbCe2:G_Tra_Box_Lamellenrahmen_2_2
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Lamellenrahmen_Box_2_2 ;
+  geometry:object vikodbCe2:G_Box_Lamellenrahmen_2 ;
+.
+vikodbCe2:G_Tra_Box_Lamellenrahmen_2_2_Endstueck
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Lamellenrahmen_Box_2_2_Endstueck ;
+  geometry:object vikodbCe2:G_Box_Lamellenrahmen_2 ;
+.
+vikodbCe2:G_Tra_Box_Lamellenrahmen_3_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Lamellenrahmen_Box_3_1 ;
+  geometry:object vikodbCe2:G_Box_Lamellenrahmen_3 ;
+.
+vikodbCe2:G_Tra_Box_Lamellenrahmen_3_1_Endstueck
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Lamellenrahmen_Box_3_1_Endstueck ;
+  geometry:object vikodbCe2:G_Box_Lamellenrahmen_3 ;
+.
+vikodbCe2:G_Tra_FixingAbsorber_Aussenhuelle
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_FixingAbsorber_Aussenhuelle ;
+  geometry:object vikodbCe2:G_Box_FixingAbsorberAussenhuelle ;
+.
+vikodbCe2:G_Tra_FixingAbsorber_Aussparung_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_FixingAbsorber_Aussparung_1 ;
+  geometry:object vikodbCe2:G_Box_FixingAbsorberAussparung_1 ;
+.
+vikodbCe2:G_Tra_FixingAbsorber_Aussparung_2
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_FixingAbsorber_Aussparung_2 ;
+  geometry:object vikodbCe2:G_Box_FixingAbsorberAussparung_2 ;
+.
+vikodbCe2:G_Tra_Header_Cylinder_inner
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_headerTube_inner ;
+  geometry:object vikodbCe2:G_Cylinder_headerTube_inner ;
+.
+vikodbCe2:G_Tra_Header_Cylinder_outer
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_outer ;
+  geometry:object vikodbCe2:G_Cylinder_headerTube_outer ;
+.
+vikodbCe2:G_Tra_Insulation_Inner
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Insulation_inner ;
+  geometry:object vikodbCe2:G_Cylinder_Insulation_inner ;
+.
+vikodbCe2:G_Tra_Insulation_Outer
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Insulation_outer ;
+  geometry:object vikodbCe2:G_Cylinder_Insulation_outer ;
+.
+vikodbCe2:G_Tra_Lamelle_Box_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Lamelle_Box_1 ;
+  geometry:object vikodbCe2:G_Box_Lamelle_1 ;
+.
+vikodbCe2:G_Tra_Lamelle_Box_2
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Lamelle_Box_2 ;
+  geometry:object vikodbCe2:G_Box_Lamelle_2 ;
+.
+vikodbCe2:G_Tra_Lamellenreihe
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_Lamellenspalte ;
+  geometry:object vikodbCe2:G_Rep_Lamellenspalte ;
+.
+vikodbCe2:G_Tra_LamellenreihenGes
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_LamellenreihenGes ;
+  geometry:object vikodbCe2:G_Rep_Lamellenreihen ;
+.
+vikodbCe2:G_Tra_PipeConnector_inner
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_PipeConnector_inner ;
+  geometry:object vikodbCe2:G_Cylinder_PipeConnector_inner ;
+.
+vikodbCe2:G_Tra_PipeConnector_outer
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_PipeConnector_outer ;
+  geometry:object vikodbCe2:G_Cylinder_PipeConnector_outer ;
+.
+vikodbCe2:G_Tra_Riser_Cylinder_inner
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_riserTube_inner ;
+  geometry:object vikodbCe2:G_Cylinder_riserTube_inner ;
+.
+vikodbCe2:G_Tra_Riser_Cylinder_outer
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_headerTube_outer ;
+  geometry:object vikodbCe2:G_Cylinder_riserTube_outer ;
+.
+vikodbCe2:G_Tra_SheetRand_1
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_SheetRand_1 ;
+  geometry:object vikodbCe2:G_Box_SheetRand ;
+.
+vikodbCe2:G_Tra_SheetRand_2
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_SheetRand_2 ;
+  geometry:object vikodbCe2:G_Box_SheetRand ;
+.
+vikodbCe2:G_Tra_ThickPipe_inner
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_ThickPipe_inner ;
+  geometry:object vikodbCe2:G_Cylinder_ThickPipe_outer ;
+.
+vikodbCe2:G_Tra_ThickPipe_outer
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_ThickPipe_outer ;
+  geometry:object vikodbCe2:G_Cylinder_ThickPipe_outer ;
+.
+vikodbCe2:G_Tra_VisualCoverAbsorber_Aussen
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_VisualCoverAbsorber_Aussen ;
+  geometry:object vikodbCe2:G_Box_VisualCoverAbsorber_Aussen ;
+.
+vikodbCe2:G_Tra_VisualCoverAbsorber_Innen
+  rdf:type geometry:Transformation ;
+  geometry:matrix vikodbCe2:G_Ma_VisualCoverAbsorber_Innen ;
+  geometry:object vikodbCe2:G_Box_VisualCoverAbsorber_Innen ;
+.
