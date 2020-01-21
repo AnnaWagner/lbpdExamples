@@ -13,11 +13,13 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
+@prefix spin: <http://spinrdf.org/spin#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://github.com/AnnaWagner/lbpdExamples/freedomOfModelling/PVShade_V1>
   rdf:type owl:Ontology ;
+  spin:imports <http://topbraid.org/spin/owlrl-all> ;
   owl:imports <http://rdf.bg/geometry.ttl> ;
   owl:imports <https://w3id.org/bpo> ;
   owl:imports <https://w3id.org/fog> ;
@@ -1715,21 +1717,6 @@ PVSv1:Co_BIPV_module
   bpo:isComposedOfEntity PVSv1:E_cavity_2 ;
   bpo:isComposedOfEntity PVSv1:E_external_el_config ;
   fog:asGeomOntology PVSv1:GCo_BIPV_module ;
-.
-PVSv1:GCo_BIPV_module
-  rdf:type geometry:Collection ;
-  geometry:objects PVSv1:GE_FC_glass_1 ;
-  geometry:objects PVSv1:GE_FE_material_1 ;
-  geometry:objects PVSv1:GE_FE_material_2 ;
-  geometry:objects PVSv1:GE_PV_FC_1_glass_2 ;
-  geometry:objects PVSv1:GE_PV_FC_2_glass_3 ;
-  geometry:objects PVSv1:GE_PV_cell_layer_1 ;
-  geometry:objects PVSv1:GE_PV_cell_layer_2 ;
-  geometry:objects PVSv1:GE_RC_1_glass_4 ;
-  geometry:objects PVSv1:GE_RC_2_glass_5 ;
-  geometry:objects PVSv1:GE_cavity_1 ;
-  geometry:objects PVSv1:GE_cavity_2 ;
-  geometry:objects PVSv1:GE_external_el_config ;
 .
 PVSv1:Co_FC_glass_1
   rdf:type owl:NamedIndividual ;
@@ -3656,7 +3643,7 @@ PVSv1:E_cavity_1
 .
 PVSv1:E_cavity_2
   rdf:type bpo:SingularEntity ;
-  bpo:realisesObject PVSv1:Co_cavity_1 ;
+  bpo:realisesObject PVSv1:Co_cavity_2 ;
   fog:asGeomOntology PVSv1:GE_cavity_2 ;
 .
 PVSv1:E_external_el_config
@@ -3673,6 +3660,21 @@ PVSv1:E_interconnectors_PV_cell_layer_2
   rdf:type bpo:SingularEntity ;
   bpo:realisesObject PVSv1:Co_interconnectors ;
   fog:asGeomOntology PVSv1:GE_interconnectors_PV_cell_layer_2 ;
+.
+PVSv1:GCo_BIPV_module
+  rdf:type geometry:Collection ;
+  geometry:objects PVSv1:GE_FC_glass_1 ;
+  geometry:objects PVSv1:GE_FE_material_1 ;
+  geometry:objects PVSv1:GE_FE_material_2 ;
+  geometry:objects PVSv1:GE_PV_FC_1_glass_2 ;
+  geometry:objects PVSv1:GE_PV_FC_2_glass_3 ;
+  geometry:objects PVSv1:GE_PV_cell_layer_1 ;
+  geometry:objects PVSv1:GE_PV_cell_layer_2 ;
+  geometry:objects PVSv1:GE_RC_1_glass_4 ;
+  geometry:objects PVSv1:GE_RC_2_glass_5 ;
+  geometry:objects PVSv1:GE_cavity_1 ;
+  geometry:objects PVSv1:GE_cavity_2 ;
+  geometry:objects PVSv1:GE_external_el_config ;
 .
 PVSv1:GCo_FC_glass_1
   rdf:type geometry:Collection ;

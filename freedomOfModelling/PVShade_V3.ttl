@@ -14,11 +14,13 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
+@prefix spin: <http://spinrdf.org/spin#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://github.com/AnnaWagner/lbpdExamples/freedomOfModelling/PVShade_V3>
   rdf:type owl:Ontology ;
+  spin:imports <http://topbraid.org/spin/owlrl-all> ;
   owl:imports <http://rdf.bg/geometry.ttl> ;
   owl:imports <https://w3id.org/bpo> ;
   owl:imports <https://w3id.org/fog> ;
@@ -516,22 +518,7 @@ PVSv3:Co_BIPVModule
   bpo:isComposedOfEntity PVSv3:E_PVFrontCover_2 ;
   bpo:isComposedOfEntity PVSv3:E_RearCoverGlass_1 ;
   bpo:isComposedOfEntity PVSv3:E_RearCoverGlass_2 ;
-  fog:asGeomOntology PVSv3:GCo_BIPVModule;
-.
-PVSv3:GCo_BIPVModule
-  rdf:type geometry:Collection ;
-  geometry:objects PVSv3:GE_Cavity_1 ;
-  geometry:objects PVSv3:GE_Cavity_2 ;
-  geometry:objects PVSv3:GE_ExternalEl_Configuration ;
-  geometry:objects PVSv3:GE_FrontCover ;
-  geometry:objects PVSv3:GE_FrontEmbeddingMaterial_1 ;
-  geometry:objects PVSv3:GE_FrontEmbeddingMaterial_2 ;
-  geometry:objects PVSv3:GE_PVCellLayer_1 ;
-  geometry:objects PVSv3:GE_PVCellLayer_2 ;
-  geometry:objects PVSv3:GE_PVFrontCover_1 ;
-  geometry:objects PVSv3:GE_PVFrontCover_2 ;
-  geometry:objects PVSv3:GE_RearCoverGlass_1 ;
-  geometry:objects PVSv3:GE_RearCoverGlass_2 ;
+  fog:asGeomOntology PVSv3:GCo_BIPVModule ;
 .
 PVSv3:Co_Cavity_1
   rdf:type owl:NamedIndividual ;
@@ -743,6 +730,21 @@ PVSv3:E_RearCoverGlass_2
   rdf:type bpo:SingularEntity ;
   bpo:realisesObject PVSv3:Co_RearCoverGlass_2 ;
   fog:asGeomOntology PVSv3:GE_RearCoverGlass_2 ;
+.
+PVSv3:GCo_BIPVModule
+  rdf:type geometry:Collection ;
+  geometry:objects PVSv3:GE_Cavity_1 ;
+  geometry:objects PVSv3:GE_Cavity_2 ;
+  geometry:objects PVSv3:GE_ExternalEl_Configuration ;
+  geometry:objects PVSv3:GE_FrontCover ;
+  geometry:objects PVSv3:GE_FrontEmbeddingMaterial_1 ;
+  geometry:objects PVSv3:GE_FrontEmbeddingMaterial_2 ;
+  geometry:objects PVSv3:GE_PVCellLayer_1 ;
+  geometry:objects PVSv3:GE_PVCellLayer_2 ;
+  geometry:objects PVSv3:GE_PVFrontCover_1 ;
+  geometry:objects PVSv3:GE_PVFrontCover_2 ;
+  geometry:objects PVSv3:GE_RearCoverGlass_1 ;
+  geometry:objects PVSv3:GE_RearCoverGlass_2 ;
 .
 PVSv3:GCo_PVCellLayer
   rdf:type geometry:Collection ;

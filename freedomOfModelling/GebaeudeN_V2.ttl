@@ -1,8 +1,7 @@
 # baseURI: https://github.com/AnnaWagner/lbpdExamples/freedomOfModelling/GebaeudeN_V2
-# imports: http://www.solconpro.de/ontologies/scp
-# imports: https://w3id.org/bpo
-# imports: https://w3id.org/fog
 # imports: http://rdf.bg/geometry.ttl
+# imports: https://w3id.org/bpo
+# imports: https://w3id.org/omg
 # prefix: GebNv2
 
 @prefix GebNv2: <https://github.com/AnnaWagner/lbpdExamples/freedomOfModelling/GebaeudeN_V2#> .
@@ -14,11 +13,13 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
+@prefix spin: <http://spinrdf.org/spin#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://github.com/AnnaWagner/lbpdExamples/freedomOfModelling/GebaeudeN_V2>
   rdf:type owl:Ontology ;
+  spin:imports <http://topbraid.org/spin/owlrl-all> ;
   owl:imports <http://rdf.bg/geometry.ttl> ;
   owl:imports <https://w3id.org/bpo> ;
   owl:imports <https://w3id.org/omg> ;
@@ -375,8 +376,8 @@ GebNv2:CC_sc9_Diode
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
 GebNv2:Co_BIPVModule
-  rdf:type bpo:Assembly ;
   rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Assembly ;
   rdf:type bpo:Product ;
   bpo:hasAttribute GebNv2:A_BIPVModule_Current_I ;
   bpo:hasAttribute GebNv2:A_BIPVModule_Efficiency ;
@@ -404,14 +405,6 @@ GebNv2:Co_BIPVModule
   bpo:isComposedOfEntity GebNv2:E_Layer_4 ;
   bpo:isComposedOfEntity GebNv2:E_Layer_5 ;
   fog:asGeomOntology GebNv2:Co_BIPVModule ;
-.
-GebNv2:Co_BIPVModule
-  rdf:type geometry:Collection ;
-  geometry:objects GebNv2:GE_Layer_1 ;
-  geometry:objects GebNv2:GE_Layer_2 ;
-  geometry:objects GebNv2:GE_Layer_3 ;
-  geometry:objects GebNv2:GE_Layer_4 ;
-  geometry:objects GebNv2:GE_Layer_5 ;
 .
 GebNv2:Co_BackingMaterial
   rdf:type owl:NamedIndividual ;
