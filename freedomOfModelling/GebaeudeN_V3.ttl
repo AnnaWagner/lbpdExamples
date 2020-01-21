@@ -327,14 +327,9 @@ GebNv3:CC_output
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
 GebNv3:Co_BIPVModule
-  rdf:type geometry:Collection ;
+  rdf:type bpo:Assembly ;
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Product ;
-  geometry:objects GebNv3:GE_Layer_1 ;
-  geometry:objects GebNv3:GE_Layer_2 ;
-  geometry:objects GebNv3:GE_Layer_3 ;
-  geometry:objects GebNv3:GE_Layer_4 ;
-  geometry:objects GebNv3:GE_Layer_5 ;
   bpo:hasAttribute GebNv3:A_BIPVModule_Current_I ;
   bpo:hasAttribute GebNv3:A_BIPVModule_Efficiency ;
   bpo:hasAttribute GebNv3:A_BIPVModule_FillFactor ;
@@ -360,6 +355,15 @@ GebNv3:Co_BIPVModule
   bpo:isComposedOfEntity GebNv3:E_Layer_3 ;
   bpo:isComposedOfEntity GebNv3:E_Layer_4 ;
   bpo:isComposedOfEntity GebNv3:E_Layer_5 ;
+  fog:asGeomOntology GebNv3:Co_BIPVModule ;
+.
+GebNv3:Co_BIPVModule
+  rdf:type geometry:Collection ;
+  geometry:objects GebNv3:GE_Layer_1 ;
+  geometry:objects GebNv3:GE_Layer_2 ;
+  geometry:objects GebNv3:GE_Layer_3 ;
+  geometry:objects GebNv3:GE_Layer_4 ;
+  geometry:objects GebNv3:GE_Layer_5 ;
 .
 GebNv3:Co_BackingMaterial
   rdf:type owl:NamedIndividual ;

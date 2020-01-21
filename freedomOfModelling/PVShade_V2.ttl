@@ -521,6 +521,22 @@ PVSv2:Co_BIPVModule
   bpo:isComposedOfEntity PVSv2:E_PVFrontCover_2 ;
   bpo:isComposedOfEntity PVSv2:E_RearCoverGlass_1 ;
   bpo:isComposedOfEntity PVSv2:E_RearCoverGlass_2 ;
+  fog:asGeomOntology PVSv2:Co_BIPVModule ;
+.
+PVSv2:Co_BIPVModule
+  rdf:type geometry:Collection ;
+  geometry:objects PVSv2:GE_Cavity_1 ;
+  geometry:objects PVSv2:GE_Cavity_2 ;
+  geometry:objects PVSv2:GE_ExternalEl_Configuration ;
+  geometry:objects PVSv2:GE_FrontCover ;
+  geometry:objects PVSv2:GE_FrontEmbeddingMaterial_1 ;
+  geometry:objects PVSv2:GE_FrontEmbeddingMaterial_2 ;
+  geometry:objects PVSv2:GE_PVCellLayer_1 ;
+  geometry:objects PVSv2:GE_PVCellLayer_2 ;
+  geometry:objects PVSv2:GE_PVFrontCover_1 ;
+  geometry:objects PVSv2:GE_PVFrontCover_2 ;
+  geometry:objects PVSv2:GE_RearCoverGlass_1 ;
+  geometry:objects PVSv2:GE_RearCoverGlass_2 ;
 .
 PVSv2:Co_Cavity_1
   rdf:type owl:NamedIndividual ;

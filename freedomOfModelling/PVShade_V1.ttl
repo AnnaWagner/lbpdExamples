@@ -1677,32 +1677,6 @@ PVSv1:Co_BIPV_module
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Assembly ;
   rdf:type bpo:Product ;
-  geometry:objects PVSv1:GE_FC_glass_1 ;
-  geometry:objects PVSv1:GE_FE_material_1 ;
-  geometry:objects PVSv1:GE_FE_material_2 ;
-  geometry:objects PVSv1:GE_PV_FC_1_glass_2 ;
-  geometry:objects PVSv1:GE_PV_FC_2_glass_3 ;
-  geometry:objects PVSv1:GE_PV_cell_layer_1 ;
-  geometry:objects PVSv1:GE_PV_cell_layer_2 ;
-  geometry:objects PVSv1:GE_RC_1_glass_4 ;
-  geometry:objects PVSv1:GE_RC_2_glass_5 ;
-  geometry:objects PVSv1:GE_cavity_1 ;
-  geometry:objects PVSv1:GE_cavity_2 ;
-  geometry:objects PVSv1:GE_external_el_config ;
-  bpo:consistsOf PVSv1:Co_FC_glass_1 ;
-  bpo:consistsOf PVSv1:Co_FE_material_1 ;
-  bpo:consistsOf PVSv1:Co_FE_material_2 ;
-  bpo:consistsOf PVSv1:Co_PV_FC_1_glass_2 ;
-  bpo:consistsOf PVSv1:Co_PV_FC_2_glass_3 ;
-  bpo:consistsOf PVSv1:Co_PV_cell_layer_1 ;
-  bpo:consistsOf PVSv1:Co_PV_cell_layer_2 ;
-  bpo:consistsOf PVSv1:Co_PV_cells ;
-  bpo:consistsOf PVSv1:Co_RC_1_glass_4 ;
-  bpo:consistsOf PVSv1:Co_RC_2_glass_5 ;
-  bpo:consistsOf PVSv1:Co_cavity_1 ;
-  bpo:consistsOf PVSv1:Co_cavity_2 ;
-  bpo:consistsOf PVSv1:Co_external_el_config ;
-  bpo:consistsOf PVSv1:Co_interconnectors ;
   bpo:hasAttribute PVSv1:A_BIPV_module_fill_factor ;
   bpo:hasAttribute PVSv1:A_BIPV_module_length ;
   bpo:hasAttribute PVSv1:A_BIPV_module_max_system_voltage ;
@@ -1740,6 +1714,22 @@ PVSv1:Co_BIPV_module
   bpo:isComposedOfEntity PVSv1:E_cavity_1 ;
   bpo:isComposedOfEntity PVSv1:E_cavity_2 ;
   bpo:isComposedOfEntity PVSv1:E_external_el_config ;
+  fog:asGeomOntology PVSv1:GCo_BIPV_module ;
+.
+PVSv1:GCo_BIPV_module
+  rdf:type geometry:Collection ;
+  geometry:objects PVSv1:GE_FC_glass_1 ;
+  geometry:objects PVSv1:GE_FE_material_1 ;
+  geometry:objects PVSv1:GE_FE_material_2 ;
+  geometry:objects PVSv1:GE_PV_FC_1_glass_2 ;
+  geometry:objects PVSv1:GE_PV_FC_2_glass_3 ;
+  geometry:objects PVSv1:GE_PV_cell_layer_1 ;
+  geometry:objects PVSv1:GE_PV_cell_layer_2 ;
+  geometry:objects PVSv1:GE_RC_1_glass_4 ;
+  geometry:objects PVSv1:GE_RC_2_glass_5 ;
+  geometry:objects PVSv1:GE_cavity_1 ;
+  geometry:objects PVSv1:GE_cavity_2 ;
+  geometry:objects PVSv1:GE_external_el_config ;
 .
 PVSv1:Co_FC_glass_1
   rdf:type owl:NamedIndividual ;

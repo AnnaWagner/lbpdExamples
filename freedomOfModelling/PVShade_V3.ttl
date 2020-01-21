@@ -478,14 +478,6 @@ PVSv3:Co_BIPVModule
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Assembly ;
   rdf:type bpo:Product ;
-  geometry:objects PVSv3:GE_Cavity_2 ;
-  geometry:objects PVSv3:GE_FrontCover ;
-  geometry:objects PVSv3:GE_PVCellLayer_1 ;
-  geometry:objects PVSv3:GE_PVCellLayer_2 ;
-  geometry:objects PVSv3:GE_PVFrontCover_1 ;
-  geometry:objects PVSv3:GE_PVFrontCover_2 ;
-  geometry:objects PVSv3:GE_RearCoverGlass_1 ;
-  geometry:objects PVSv3:GE_RearCoverGlass_2 ;
   bpo:hasAttribute PVSv3:A_BIPVModule_Efficiency ;
   bpo:hasAttribute PVSv3:A_BIPVModule_FillFactor ;
   bpo:hasAttribute PVSv3:A_BIPVModule_Length ;
@@ -524,6 +516,22 @@ PVSv3:Co_BIPVModule
   bpo:isComposedOfEntity PVSv3:E_PVFrontCover_2 ;
   bpo:isComposedOfEntity PVSv3:E_RearCoverGlass_1 ;
   bpo:isComposedOfEntity PVSv3:E_RearCoverGlass_2 ;
+  fog:asGeomOntology PVSv3:GCo_BIPVModule;
+.
+PVSv3:GCo_BIPVModule
+  rdf:type geometry:Collection ;
+  geometry:objects PVSv3:GE_Cavity_1 ;
+  geometry:objects PVSv3:GE_Cavity_2 ;
+  geometry:objects PVSv3:GE_ExternalEl_Configuration ;
+  geometry:objects PVSv3:GE_FrontCover ;
+  geometry:objects PVSv3:GE_FrontEmbeddingMaterial_1 ;
+  geometry:objects PVSv3:GE_FrontEmbeddingMaterial_2 ;
+  geometry:objects PVSv3:GE_PVCellLayer_1 ;
+  geometry:objects PVSv3:GE_PVCellLayer_2 ;
+  geometry:objects PVSv3:GE_PVFrontCover_1 ;
+  geometry:objects PVSv3:GE_PVFrontCover_2 ;
+  geometry:objects PVSv3:GE_RearCoverGlass_1 ;
+  geometry:objects PVSv3:GE_RearCoverGlass_2 ;
 .
 PVSv3:Co_Cavity_1
   rdf:type owl:NamedIndividual ;

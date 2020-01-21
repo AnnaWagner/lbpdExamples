@@ -641,11 +641,6 @@ GebN:Co_BIPVModule
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Assembly ;
   rdf:type bpo:Product ;
-  geometry:objects GebN:GE_Layer_1 ;
-  geometry:objects GebN:GE_Layer_2 ;
-  geometry:objects GebN:GE_Layer_3 ;
-  geometry:objects GebN:GE_Layer_4 ;
-  geometry:objects GebN:GE_Layer_5 ;
   bpo:hasAttribute GebN:A_BIPVModule_Efficiency ;
   bpo:hasAttribute GebN:A_BIPVModule_FillFactor ;
   bpo:hasAttribute GebN:A_BIPVModule_IncidenceAngleModifier ;
