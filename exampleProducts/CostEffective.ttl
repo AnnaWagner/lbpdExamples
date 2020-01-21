@@ -30,19 +30,19 @@ geometry:Material
 .
 vikodbCe1:A_AbsorberConnector_Length
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.02"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_AbsorberConnector_Thickness
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.02"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_AbsorberConnector_Width
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.196"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
@@ -74,7 +74,7 @@ vikodbCe1:A_AluProfile_ThermalConductivity
 .
 vikodbCe1:A_FixingAbsorber_Length
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "2.601"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
@@ -86,91 +86,91 @@ vikodbCe1:A_FixingAbsorber_ThermalConductivity
 .
 vikodbCe1:A_FixingAbsorber_Thickness
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.243"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_FixingAbsorber_Width
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.07"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_FormedSheet_Length
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "2.5"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_FormedSheet_Width
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.26"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_GlassCent_Length
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "2.601"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_GlassCent_Thickness
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.243"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_GlassCent_Width
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.08"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_GlassExt_Length
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "2.601"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_GlassExt_Thickness
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.243"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_GlassExt_Width
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.08"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_GlassInt_Length
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "2.601"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_GlassInt_Thickness
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.243"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_GlassInt_Width
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.08"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_Glazing_Length
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "2.601"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_Glazing_Thickness
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.243"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
@@ -182,43 +182,43 @@ vikodbCe1:A_Glazing_UValue
 .
 vikodbCe1:A_Glazing_Width
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.032"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_HeaderTube_Length
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "2.515"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_HeaderTube_Thickness
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.002"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_HeaderTube_ThicknessOfThePipeWall
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.034"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_HeaderTube_Width
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.034"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_Insulation_Diameter
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.1"^^xsd:double ;
   bpo:hasBSDDGUID "1uL5_0VSmHtm00025QrE$V" ;
 .
 vikodbCe1:A_Insulation_Length
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.273"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
@@ -230,7 +230,7 @@ vikodbCe1:A_Insulation_ThermalConductivity
 .
 vikodbCe1:A_Insulation_ThicknessOfTheInsulation
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.0325"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
@@ -252,73 +252,73 @@ vikodbCe1:A_Module_Pricing
 .
 vikodbCe1:A_PipeConnector_Length
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.04"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_PipeConnector_Thickness
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.08"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_PipeConnector_Width
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.0225"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_Pipes_Diameter
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.035"^^xsd:double ;
   bpo:hasBSDDGUID "1uL5_0VSmHtm00025QrE$V" ;
 .
 vikodbCe1:A_Pipes_Length
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.273"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_Pipes_ThicknessOfThePipeWall
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.001"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_RiserTube_Diameter
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.01"^^xsd:double ;
   bpo:hasBSDDGUID "1uL5_0VSmHtm00025QrE$V" ;
 .
 vikodbCe1:A_RiserTube_Length
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.126"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_RiserTube_ThicknessOfThePipeWall
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.002"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_Sheet_Length
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "2.65"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_Sheet_Thickness
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.26"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_Sheet_Width
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.0015"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
@@ -330,7 +330,7 @@ vikodbCe1:A_VisualCoverAbsorber_Colour
 .
 vikodbCe1:A_VisualCoverAbsorber_Length
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "2.585"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
@@ -346,13 +346,13 @@ vikodbCe1:A_VisualCoverAbsorber_Surface
 .
 vikodbCe1:A_VisualCoverAbsorber_Thickness
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.231"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_VisualCoverAbsorber_Width
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.005"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
@@ -364,7 +364,7 @@ vikodbCe1:A_VisualCoverExterior_Colour
 .
 vikodbCe1:A_VisualCoverExterior_Length
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "2.551"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
@@ -380,13 +380,13 @@ vikodbCe1:A_VisualCoverExterior_Surface
 .
 vikodbCe1:A_VisualCoverExterior_Thickness
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.13"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbCe1:A_VisualCoverExterior_Width
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.006"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
@@ -398,7 +398,7 @@ vikodbCe1:A_WallElement_HeatFluxToTheBuildingInterior
 .
 vikodbCe1:A_WallElement_Length
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "3.065"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
@@ -421,7 +421,7 @@ vikodbCe1:A_WallElement_Thick
 .
 vikodbCe1:A_WallElement_Width
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/CostEffective/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.243"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .

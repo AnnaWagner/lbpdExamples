@@ -35,7 +35,7 @@ vikodbPs1:A_BIPV_module_fill_factor
 vikodbPs1:A_BIPV_module_length
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.524"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
@@ -162,7 +162,7 @@ vikodbPs1:A_BIPV_module_temp_coefficient_voltage
 vikodbPs1:A_BIPV_module_thickness
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.052"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
@@ -183,14 +183,14 @@ vikodbPs1:A_BIPV_module_weight
 vikodbPs1:A_BIPV_module_width
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.974"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
 vikodbPs1:A_FC_glass_1_length
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.524"^^xsd:double ;
   rdfs:comment "If no frame, equal to Module width" ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
@@ -198,14 +198,14 @@ vikodbPs1:A_FC_glass_1_length
 vikodbPs1:A_FC_glass_1_thickness
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.008"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbPs1:A_FC_glass_1_width
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.974"^^xsd:double ;
   rdfs:comment "If no frame, equal to Module width" ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
@@ -237,49 +237,49 @@ vikodbPs1:A_Module_Name
 vikodbPs1:A_PV_FC_1_glass_2_length
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.371"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
 vikodbPs1:A_PV_FC_1_glass_2_thickness
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.0032"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbPs1:A_PV_FC_1_glass_2_width
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.866"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
 vikodbPs1:A_PV_FC_2_glass_3_length
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.371"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
 vikodbPs1:A_PV_FC_2_glass_3_thickness
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.0032"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbPs1:A_PV_FC_2_glass_3_width
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.866"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
 vikodbPs1:A_PV_cell_layer_2_vertical_offset_to_layer_1
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.001"^^xsd:double ;
   bpo:hasBSDDGUID "scp011" ;
 .
@@ -292,7 +292,7 @@ vikodbPs1:A_PV_cells_cell_type
 vikodbPs1:A_PV_cells_gap_width
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.00241"^^xsd:double ;
   rdfs:comment "gaps between stripes" ;
   bpo:hasBSDDGUID "3JRn4VtlrAcRXlB6Yz6fqe" ;
@@ -300,7 +300,7 @@ vikodbPs1:A_PV_cells_gap_width
 vikodbPs1:A_PV_cells_length
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.371"^^xsd:double ;
   rdfs:comment "stripes, length equal to PV front cover glass" ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
@@ -308,7 +308,7 @@ vikodbPs1:A_PV_cells_length
 vikodbPs1:A_PV_cells_width
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.00465"^^xsd:double ;
   rdfs:comment "stripes" ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
@@ -316,7 +316,7 @@ vikodbPs1:A_PV_cells_width
 vikodbPs1:A_RC_glass_4_length
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.524"^^xsd:double ;
   rdfs:comment "If no frame, equal to Module width" ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
@@ -324,14 +324,14 @@ vikodbPs1:A_RC_glass_4_length
 vikodbPs1:A_RC_glass_4_thickness
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.006"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbPs1:A_RC_glass_4_width
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.974"^^xsd:double ;
   rdfs:comment "If no frame, equal to Module width" ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
@@ -339,7 +339,7 @@ vikodbPs1:A_RC_glass_4_width
 vikodbPs1:A_RC_glass_5_length
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "1.524"^^xsd:double ;
   rdfs:comment "If no frame, equal to Module width" ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
@@ -347,14 +347,14 @@ vikodbPs1:A_RC_glass_5_length
 vikodbPs1:A_RC_glass_5_thickness
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.008"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
 vikodbPs1:A_RC_glass_5_width
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "0.974"^^xsd:double ;
   rdfs:comment "If no frame, equal to Module width" ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
@@ -378,14 +378,14 @@ vikodbPs1:A_cavity_2_thickness
 vikodbPs1:A_external_el_config_connection_cable_length_minus
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "3"^^xsd:double ;
   bpo:hasBSDDGUID "0kWDBLnKfEMw_ryes5DWyM" ;
 .
 vikodbPs1:A_external_el_config_connection_cable_length_plus
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/PVShade/data/M> ;
+  <http://qudt.org/schema/qudt#unit> unit:M ;
   <http://schema.org/value> "3"^^xsd:double ;
   bpo:hasBSDDGUID "0kWDBLnKfEMw_ryes5DWyM" ;
 .

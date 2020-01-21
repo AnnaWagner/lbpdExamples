@@ -1,2241 +1,2076 @@
-# baseURI: http://vikodb.solconpro.de/GebaeudeN/data/V3
-# imports: http://www.solconpro.de/ontologies/scp
+# baseURI: https://github.com/AnnaWagner/lbpdExamples/exampleProducts/GebaeudeN
+# imports: http://rdf.bg/geometry.ttl
+# imports: https://github.com/AnnaWagner/lbpdExamples/exampleProducts/GebaeudeN_cell
 # imports: https://w3id.org/bpo
-# imports: https://w3id.org/omg
-# prefix: vikodbGn3
+# imports: https://w3id.org/fog
+# prefix: GebN
 
+@prefix GebN: <https://github.com/AnnaWagner/lbpdExamples/exampleProducts/GebaeudeN#> .
+@prefix GebNcell: <https://github.com/AnnaWagner/lbpdExamples/exampleProducts/GebaeudeN_cell#> .
 @prefix bpo: <https://w3id.org/bpo#> .
+@prefix fog: <https://w3id.org/fog#> .
 @prefix geometry: <http://rdf.bg/geometry.ttl#> .
-@prefix omg: <https://w3id.org/omg#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix qudt: <http://qudt.org/schema/qudt#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix scp: <http://www.solconpro.de/ontologies/scp#> .
-@prefix spin: <http://spinrdf.org/spin#> .
-@prefix vikodbGn3: <http://vikodb.solconpro.de/GebaeudeN/data/V3#> .
+@prefix schema: <http://schema.org/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://vikodb.solconpro.de/GebaeudeN/data/V3>
+<https://github.com/AnnaWagner/lbpdExamples/exampleProducts/GebaeudeN>
   rdf:type owl:Ontology ;
-  spin:imports <http://topbraid.org/spin/owlrl-all> ;
-  owl:imports <http://www.solconpro.de/ontologies/scp> ;
+  owl:imports <http://rdf.bg/geometry.ttl> ;
+  owl:imports <https://github.com/AnnaWagner/lbpdExamples/exampleProducts/GebaeudeN_cell> ;
   owl:imports <https://w3id.org/bpo> ;
-  owl:imports <https://w3id.org/omg> ;
+  owl:imports <https://w3id.org/fog> ;
 .
-vikodbGn3:A_BIPVModule_Efficiency
+GebN:A_BIPVModule_Efficiency
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/PERCENT> ;
-  <http://schema.org/value> "16.56472987"^^xsd:double ;
+  qudt:unit unit:PERCENT ;
+  schema:value "16.56472987"^^xsd:double ;
   rdfs:comment "Pmpp/(Width*Length)/1000" ;
   bpo:hasBSDDGUID "30OJK08dmHu000025QrE$V" ;
 .
-vikodbGn3:A_BIPVModule_FillFactor
+GebN:A_BIPVModule_FillFactor
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/PERCENT> ;
-  <http://schema.org/value> "77.325529"^^xsd:double ;
+  qudt:unit unit:PERCENT ;
+  schema:value "77.325529"^^xsd:double ;
   rdfs:comment "Vmpp*Impp/(Voc*Isc)" ;
   bpo:hasBSDDGUID "0RELddW1jE5heHJSzplaSO" ;
 .
-vikodbGn3:A_BIPVModule_IncidenceAngleModifier
+GebN:A_BIPVModule_IncidenceAngleModifier
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://schema.org/value> "0.2"^^xsd:double ;
+  schema:value "0.2"^^xsd:double ;
   bpo:hasBSDDGUID "2Fm2fQEGf4UuYPGMgEBjKe" ;
 .
-vikodbGn3:A_BIPVModule_Length
+GebN:A_BIPVModule_Length
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
-  <http://schema.org/value> "1.09"^^xsd:double ;
+  qudt:unit unit:M ;
+  schema:value "1.09"^^xsd:double ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
-vikodbGn3:A_BIPVModule_MaximumSystemVoltage
+GebN:A_BIPVModule_MaximumSystemVoltage
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/V> ;
-  <http://schema.org/value> "1000.0"^^xsd:double ;
+  qudt:unit unit:V ;
+  schema:value "1000.0"^^xsd:double ;
   bpo:hasBSDDGUID "scp002" ;
 .
-vikodbGn3:A_BIPVModule_NominalCurrent
+GebN:A_BIPVModule_NominalCurrent
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/A> ;
-  <http://schema.org/value> "5.43"^^xsd:double ;
+  qudt:unit unit:A ;
+  schema:value "5.43"^^xsd:double ;
   bpo:hasBSDDGUID "3zlb6A3k93zh9r1smoIKny" ;
 .
-vikodbGn3:A_BIPVModule_NominalPower
+GebN:A_BIPVModule_NominalPower
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/W> ;
-  <http://schema.org/value> "195.0"^^xsd:double ;
+  qudt:unit unit:W ;
+  schema:value "195.0"^^xsd:double ;
   bpo:hasBSDDGUID "0Sb4pS1dbAqRPQUfvlqXBX" ;
 .
-vikodbGn3:A_BIPVModule_NominalVoltage
+GebN:A_BIPVModule_NominalVoltage
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/V> ;
-  <http://schema.org/value> "36.1"^^xsd:double ;
+  qudt:unit unit:V ;
+  schema:value "36.1"^^xsd:double ;
   bpo:hasBSDDGUID "34GU_bY$rD5fYBh$PkB_gO" ;
 .
-vikodbGn3:A_BIPVModule_OpenCircuitVoltage
+GebN:A_BIPVModule_OpenCircuitVoltage
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/V> ;
-  <http://schema.org/value> "43.26"^^xsd:double ;
+  qudt:unit unit:V ;
+  schema:value "43.26"^^xsd:double ;
   bpo:hasBSDDGUID "1MFuBqRob9HvEudz3$YlSb" ;
 .
-vikodbGn3:A_BIPVModule_Pricing
+GebN:A_BIPVModule_Pricing
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/Euro> ;
-  <http://schema.org/value> "400"^^xsd:double ;
+  qudt:unit unit:Euro ;
+  schema:value "400"^^xsd:double ;
   bpo:hasBSDDGUID "1gC$w0QjiHuO00025QrE$V" ;
 .
-vikodbGn3:A_BIPVModule_ShortCircuitCurrent
+GebN:A_BIPVModule_ShortCircuitCurrent
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/A> ;
-  <http://schema.org/value> "5.86"^^xsd:double ;
+  qudt:unit unit:A ;
+  schema:value "5.86"^^xsd:double ;
   bpo:hasBSDDGUID "2Wi260qX4HuO00025QrE$V" ;
 .
-vikodbGn3:A_BIPVModule_TemperatureCoefficientCurrent
+GebN:A_BIPVModule_TemperatureCoefficientCurrent
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> vikodbGn3:U_PercentPerKelvin ;
-  <http://schema.org/value> "0.06"^^xsd:double ;
+  qudt:unit GebN:U_PercentPerKelvin ;
+  schema:value "0.06"^^xsd:double ;
   bpo:hasBSDDGUID "2Zp3c5RIb3rwglBIyyCqn$" ;
 .
-vikodbGn3:A_BIPVModule_TemperatureCoefficientPower
+GebN:A_BIPVModule_TemperatureCoefficientPower
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> vikodbGn3:U_PercentPerKelvin ;
-  <http://schema.org/value> "-0.32"^^xsd:double ;
+  qudt:unit GebN:U_PercentPerKelvin ;
+  schema:value "-0.32"^^xsd:double ;
   bpo:hasBSDDGUID "2equ05kPfDQP1iJTwmCRL6" ;
 .
-vikodbGn3:A_BIPVModule_TemperatureCoefficientVoltage
+GebN:A_BIPVModule_TemperatureCoefficientVoltage
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> vikodbGn3:U_PercentPerKelvin ;
-  <http://schema.org/value> "-0.26"^^xsd:double ;
+  qudt:unit GebN:U_PercentPerKelvin ;
+  schema:value "-0.26"^^xsd:double ;
   bpo:hasBSDDGUID "3GTMWeAjr2tBJf1s0hPjVs" ;
 .
-vikodbGn3:A_BIPVModule_Thickness
+GebN:A_BIPVModule_Thickness
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
-  <http://schema.org/value> "0.01128"^^xsd:double ;
+  qudt:unit unit:M ;
+  schema:value "0.01128"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
-vikodbGn3:A_BIPVModule_ToleranceNominalOutputPower
+GebN:A_BIPVModule_ToleranceNominalOutputPower
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> vikodbGn3:U_PlusminusPercent ;
-  <http://schema.org/value> "5.0"^^xsd:double ;
+  qudt:unit GebN:U_PlusminusPercent ;
+  schema:value "5.0"^^xsd:double ;
   bpo:hasBSDDGUID "scp005" ;
 .
-vikodbGn3:A_BIPVModule_Weight
+GebN:A_BIPVModule_Weight
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/KiloGM> ;
-  <http://schema.org/value> "29.7"^^xsd:double ;
+  qudt:unit unit:KiloGM ;
+  schema:value "29.7"^^xsd:double ;
   bpo:hasBSDDGUID "36XlMAWJWHu000025QrE$V" ;
 .
-vikodbGn3:A_BIPVModule_Width
+GebN:A_BIPVModule_Width
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
-  <http://schema.org/value> "1.08"^^xsd:double ;
+  qudt:unit unit:M ;
+  schema:value "1.08"^^xsd:double ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
-vikodbGn3:A_BackingMaterial_Length
+GebN:A_BackingMaterial_Length
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
-  <http://schema.org/value> "1.09"^^xsd:double ;
+  qudt:unit unit:M ;
+  schema:value "1.09"^^xsd:double ;
   rdfs:comment "equal to module length" ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
-vikodbGn3:A_BackingMaterial_Thickness
+GebN:A_BackingMaterial_Thickness
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
-  <http://schema.org/value> "0.004"^^xsd:double ;
+  qudt:unit unit:M ;
+  schema:value "0.004"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
-vikodbGn3:A_BackingMaterial_Width
+GebN:A_BackingMaterial_Width
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
-  <http://schema.org/value> "1.08"^^xsd:double ;
+  qudt:unit unit:M ;
+  schema:value "1.08"^^xsd:double ;
   rdfs:comment "equal to module width" ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
-vikodbGn3:A_FrontCover_Length
+GebN:A_FrontCover_Length
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
-  <http://schema.org/value> "1.09"^^xsd:double ;
+  qudt:unit unit:M ;
+  schema:value "1.09"^^xsd:double ;
   rdfs:comment "equal to module length" ;
   bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
 .
-vikodbGn3:A_FrontCover_Thickness
+GebN:A_FrontCover_Thickness
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
-  <http://schema.org/value> "0.005"^^xsd:double ;
+  qudt:unit unit:M ;
+  schema:value "0.005"^^xsd:double ;
   bpo:hasBSDDGUID "3vHk8uoT0Hsm00051Mm008" ;
 .
-vikodbGn3:A_FrontCover_Width
+GebN:A_FrontCover_Width
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
-  <http://schema.org/value> "1.08"^^xsd:double ;
+  qudt:unit unit:M ;
+  schema:value "1.08"^^xsd:double ;
   rdfs:comment "equal to module width" ;
   bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
 .
-vikodbGn3:A_Module_Manufacturer
+GebN:A_Module_Manufacturer
   rdf:type bpo:Attribute ;
-  <http://schema.org/value> "Manufacturer B" ;
+  schema:value "Manufacturer B" ;
   bpo:hasBSDDGUID "3vtaYeoT0Hsm00051Mm008" ;
 .
-vikodbGn3:A_Module_Name
+GebN:A_Module_Name
   rdf:type bpo:Attribute ;
-  <http://schema.org/value> "Gebäude N, statisch, V3" ;
+  schema:value "Gebäude N, statisch, V3" ;
   bpo:hasBSDDGUID "112ymA1KKHuO00025QrE$V" ;
 .
-vikodbGn3:A_Module_Pricing
+GebN:A_Module_Pricing
   rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/Euro> ;
+  qudt:unit unit:Euro ;
   bpo:hasBSDDGUID "1gC$w0QjiHuO00025QrE$V" ;
 .
-vikodbGn3:A_PVCells_CellType
-  rdf:type owl:NamedIndividual ;
-  rdf:type bpo:Attribute ;
-  <http://schema.org/value> "Monocrystalline Silicon, interdigitated back-contact (IBC)" ;
-  bpo:hasBSDDGUID "0BgoUAWJaHu000025QrE$V" ;
-.
-vikodbGn3:A_PVCells_Length
-  rdf:type owl:NamedIndividual ;
-  rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
-  <http://schema.org/value> "0.125"^^xsd:double ;
-  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
-.
-vikodbGn3:A_PVCells_NominalPower
-  rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/W> ;
-  <http://schema.org/value> "3.19"^^xsd:double ;
-  bpo:hasBSDDGUID "0Sb4pS1dbAqRPQUfvlqXBX" ;
-.
-vikodbGn3:A_PVCells_Width
-  rdf:type bpo:Attribute ;
-  <http://qudt.org/schema/qudt#unit> <http://vikodb.solconpro.de/GebaeudeN/data/M> ;
-  <http://schema.org/value> "0.125"^^xsd:double ;
-  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
-.
-vikodbGn3:BooleanOperation_1
-  rdf:type geometry:BooleanOperation ;
-  geometry:firstObject vikodbGn3:Box_1 ;
-  geometry:secondObject vikodbGn3:Transformation_SecondObject ;
-  geometry:type 3 ;
-.
-vikodbGn3:Box_1
-  rdf:type geometry:Box ;
-  geometry:height "0.76"^^xsd:double ;
-  geometry:length "125"^^xsd:double ;
-  geometry:material vikodbGn3:Material_Blue ;
-  geometry:width "125"^^xsd:double ;
-.
-vikodbGn3:Box_2
-  rdf:type geometry:Box ;
-  geometry:height "0.76"^^xsd:double ;
-  geometry:length "164"^^xsd:double ;
-  geometry:material vikodbGn3:Material_Blue ;
-  geometry:width "164"^^xsd:double ;
-.
-vikodbGn3:Box_BackingMaterial
+GebN:Box_BackingMaterial
   rdf:type geometry:Box ;
   geometry:height "4"^^xsd:double ;
   geometry:length "1090"^^xsd:double ;
-  geometry:material vikodbGn3:Material_glass ;
+  geometry:material GebN:Material_glass ;
   geometry:width "1080"^^xsd:double ;
 .
-vikodbGn3:Box_FC
+GebN:Box_FC
   rdf:type geometry:Box ;
   geometry:height "5"^^xsd:double ;
   geometry:length "1090"^^xsd:double ;
-  geometry:material vikodbGn3:Material_glass ;
+  geometry:material GebN:Material_glass ;
   geometry:width "1080"^^xsd:double ;
 .
-vikodbGn3:Box_FE_material
+GebN:Box_FE_material
   rdf:type geometry:Box ;
   geometry:height "0.76"^^xsd:double ;
   geometry:length "1090"^^xsd:double ;
-  geometry:material vikodbGn3:Material_glass ;
+  geometry:material GebN:Material_glass ;
   geometry:width "1080"^^xsd:double ;
 .
-vikodbGn3:Box_RE_material
+GebN:Box_RE_material
   rdf:type geometry:Box ;
   geometry:height "0.76"^^xsd:double ;
   geometry:length "1090"^^xsd:double ;
-  geometry:material vikodbGn3:Material_glass ;
+  geometry:material GebN:Material_glass ;
   geometry:width "1080"^^xsd:double ;
 .
-vikodbGn3:CC_pcdiode1_cell_01
+GebN:CC_input
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_Diodes_01 ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_01 ;
+  bpo:connectsInputOf GebN:E_Diodes_01 ;
+  bpo:connectsInputOf GebN:E_PVCells_01 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_pcdiode1_cell_08
+GebN:CC_output
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_Diodes_02 ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_16 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_pcdiode2_cell_09
+GebN:CC_row12
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_Diodes_03 ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_17 ;
+  bpo:connectsInputOf GebN:E_Diodes_02 ;
+  bpo:connectsInputOf GebN:E_PVCells_16 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_pcdiode2_cell_16
+GebN:CC_row23
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf GebN:E_Diodes_03 ;
+  bpo:connectsInputOf GebN:E_PVCells_17 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_pcdiode3_cell_17
+GebN:CC_row34
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf GebN:E_Diodes_04 ;
+  bpo:connectsInputOf GebN:E_PVCells_32 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_pcdiode3_cell_24
+GebN:CC_row45
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_Diodes_04 ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_32 ;
+  bpo:connectsInputOf GebN:E_Diodes_05 ;
+  bpo:connectsInputOf GebN:E_PVCells_33 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_pcdiode4_cell_25
+GebN:CC_row56
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_Diodes_05 ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_33 ;
+  bpo:connectsInputOf GebN:E_Diodes_06 ;
+  bpo:connectsInputOf GebN:E_PVCells_48 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_pcdiode4_cell_32
+GebN:CC_row67
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf GebN:E_Diodes_07 ;
+  bpo:connectsInputOf GebN:E_PVCells_49 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_pcdiode5_cell_33
+GebN:CC_row78
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf GebN:E_Diodes_08 ;
+  bpo:connectsInputOf GebN:E_PVCells_64 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_pcdiode5_cell_40
+GebN:CC_sc10_9
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_Diodes_06 ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_48 ;
+  bpo:connectsInputOf GebN:E_PVCells_09 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_pcdiode6_cell_41
+GebN:CC_sc11_10
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf GebN:E_PVCells_10 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_pcdiode6_cell_48
+GebN:CC_sc12_11
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf GebN:E_PVCells_11 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_pcdiode7_cell_49
+GebN:CC_sc13_12
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_Diodes_07 ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_49 ;
+  bpo:connectsInputOf GebN:E_PVCells_12 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_pcdiode7_cell_56
+GebN:CC_sc14_13
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf GebN:E_PVCells_13 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_pcdiode8_cell_57
+GebN:CC_sc15_14
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf GebN:E_PVCells_14 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_pcdiode8_cell_64
+GebN:CC_sc16_15
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_Diodes_08 ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_64 ;
+  bpo:connectsInputOf GebN:E_PVCells_15 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc10_9
+GebN:CC_sc17_18
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_09 ;
+  bpo:connectsInputOf GebN:E_PVCells_18 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc11_10
+GebN:CC_sc18_19
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_10 ;
+  bpo:connectsInputOf GebN:E_PVCells_19 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc12_11
+GebN:CC_sc19_20
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_11 ;
+  bpo:connectsInputOf GebN:E_PVCells_20 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc13_12
+GebN:CC_sc1_2
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_12 ;
+  bpo:connectsInputOf GebN:E_PVCells_02 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc14_13
+GebN:CC_sc20_21
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_13 ;
+  bpo:connectsInputOf GebN:E_PVCells_21 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc15_14
+GebN:CC_sc21_22
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_14 ;
+  bpo:connectsInputOf GebN:E_PVCells_22 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc16_15
+GebN:CC_sc22_23
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_15 ;
+  bpo:connectsInputOf GebN:E_PVCells_23 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc17_18
+GebN:CC_sc23_24
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_18 ;
+  bpo:connectsInputOf GebN:E_PVCells_24 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc18_19
+GebN:CC_sc26_25
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_19 ;
+  bpo:connectsInputOf GebN:E_PVCells_25 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc19_20
+GebN:CC_sc27_26
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_20 ;
+  bpo:connectsInputOf GebN:E_PVCells_26 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc1_2
+GebN:CC_sc28_27
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_02 ;
+  bpo:connectsInputOf GebN:E_PVCells_27 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc20_21
+GebN:CC_sc29_28
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_21 ;
+  bpo:connectsInputOf GebN:E_PVCells_28 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc21_22
+GebN:CC_sc2_3
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_22 ;
+  bpo:connectsInputOf GebN:E_PVCells_03 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc22_23
+GebN:CC_sc30_29
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_23 ;
+  bpo:connectsInputOf GebN:E_PVCells_29 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc23_24
+GebN:CC_sc31_30
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_24 ;
+  bpo:connectsInputOf GebN:E_PVCells_30 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc24_32
+GebN:CC_sc32_31
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf GebN:E_PVCells_31 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc25_33
+GebN:CC_sc33_34
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf GebN:E_PVCells_34 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc26_25
+GebN:CC_sc34_35
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_25 ;
+  bpo:connectsInputOf GebN:E_PVCells_35 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc27_26
+GebN:CC_sc35_36
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_26 ;
+  bpo:connectsInputOf GebN:E_PVCells_36 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc28_27
+GebN:CC_sc36_37
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_27 ;
+  bpo:connectsInputOf GebN:E_PVCells_37 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc29_28
+GebN:CC_sc37_38
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_28 ;
+  bpo:connectsInputOf GebN:E_PVCells_38 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc2_3
+GebN:CC_sc38_39
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_03 ;
+  bpo:connectsInputOf GebN:E_PVCells_39 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc30_29
+GebN:CC_sc39_40
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_29 ;
+  bpo:connectsInputOf GebN:E_PVCells_40 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc31_30
+GebN:CC_sc3_4
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_30 ;
+  bpo:connectsInputOf GebN:E_PVCells_04 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc32_31
+GebN:CC_sc42_41
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_31 ;
+  bpo:connectsInputOf GebN:E_PVCells_41 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc33_34
+GebN:CC_sc43_42
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_34 ;
+  bpo:connectsInputOf GebN:E_PVCells_42 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc34_35
+GebN:CC_sc44_43
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_35 ;
+  bpo:connectsInputOf GebN:E_PVCells_43 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc35_36
+GebN:CC_sc45_44
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_36 ;
+  bpo:connectsInputOf GebN:E_PVCells_44 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc36_37
+GebN:CC_sc46_45
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_37 ;
+  bpo:connectsInputOf GebN:E_PVCells_45 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc37_38
+GebN:CC_sc47_46
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_38 ;
+  bpo:connectsInputOf GebN:E_PVCells_46 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc38_39
+GebN:CC_sc48_47
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_39 ;
+  bpo:connectsInputOf GebN:E_PVCells_47 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc39_40
+GebN:CC_sc49_50
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_40 ;
+  bpo:connectsInputOf GebN:E_PVCells_50 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc3_4
+GebN:CC_sc4_5
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_04 ;
+  bpo:connectsInputOf GebN:E_PVCells_05 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc40_48
+GebN:CC_sc50_51
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
+  bpo:connectsInputOf GebN:E_PVCells_51 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc41_49
+GebN:CC_sc51_52
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_49 ;
+  bpo:connectsInputOf GebN:E_PVCells_52 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc42_41
+GebN:CC_sc52_53
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_41 ;
+  bpo:connectsInputOf GebN:E_PVCells_53 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc43_42
+GebN:CC_sc53_54
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_42 ;
+  bpo:connectsInputOf GebN:E_PVCells_54 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc44_43
+GebN:CC_sc54_55
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_43 ;
+  bpo:connectsInputOf GebN:E_PVCells_55 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc45_44
+GebN:CC_sc55_56
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_44 ;
+  bpo:connectsInputOf GebN:E_PVCells_56 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc46_45
+GebN:CC_sc58_57
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_45 ;
+  bpo:connectsInputOf GebN:E_PVCells_57 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc47_46
+GebN:CC_sc59_58
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_46 ;
+  bpo:connectsInputOf GebN:E_PVCells_58 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc48_47
+GebN:CC_sc5_6
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_47 ;
+  bpo:connectsInputOf GebN:E_PVCells_06 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc49_50
+GebN:CC_sc60_59
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_50 ;
+  bpo:connectsInputOf GebN:E_PVCells_59 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc4_5
+GebN:CC_sc61_60
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_05 ;
+  bpo:connectsInputOf GebN:E_PVCells_60 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc50_51
+GebN:CC_sc62_61
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_51 ;
+  bpo:connectsInputOf GebN:E_PVCells_61 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc51_52
+GebN:CC_sc63_62
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_52 ;
+  bpo:connectsInputOf GebN:E_PVCells_62 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc52_53
+GebN:CC_sc64_63
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_53 ;
+  bpo:connectsInputOf GebN:E_PVCells_63 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc53_54
+GebN:CC_sc6_7
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_54 ;
+  bpo:connectsInputOf GebN:E_PVCells_07 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc54_55
+GebN:CC_sc7_8
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_55 ;
+  bpo:connectsInputOf GebN:E_PVCells_08 ;
   bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
 .
-vikodbGn3:CC_sc55_56
+GebN:Co_BIPVModule
   rdf:type owl:NamedIndividual ;
-  rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_56 ;
-  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
-.
-vikodbGn3:CC_sc56_64
-  rdf:type owl:NamedIndividual ;
-  rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_64 ;
-  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
-.
-vikodbGn3:CC_sc58_57
-  rdf:type owl:NamedIndividual ;
-  rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_57 ;
-  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
-.
-vikodbGn3:CC_sc59_58
-  rdf:type owl:NamedIndividual ;
-  rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_58 ;
-  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
-.
-vikodbGn3:CC_sc5_6
-  rdf:type owl:NamedIndividual ;
-  rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_06 ;
-  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
-.
-vikodbGn3:CC_sc60_59
-  rdf:type owl:NamedIndividual ;
-  rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_59 ;
-  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
-.
-vikodbGn3:CC_sc61_60
-  rdf:type owl:NamedIndividual ;
-  rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_60 ;
-  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
-.
-vikodbGn3:CC_sc62_61
-  rdf:type owl:NamedIndividual ;
-  rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_61 ;
-  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
-.
-vikodbGn3:CC_sc63_62
-  rdf:type owl:NamedIndividual ;
-  rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_62 ;
-  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
-.
-vikodbGn3:CC_sc64_63
-  rdf:type owl:NamedIndividual ;
-  rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_63 ;
-  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
-.
-vikodbGn3:CC_sc6_7
-  rdf:type owl:NamedIndividual ;
-  rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_07 ;
-  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
-.
-vikodbGn3:CC_sc7_8
-  rdf:type owl:NamedIndividual ;
-  rdf:type bpo:ComponentConnection ;
-  bpo:connectsInputOf vikodbGn3:E_PVCells_08 ;
-  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
-.
-vikodbGn3:CC_sc8_16
-  rdf:type owl:NamedIndividual ;
-  rdf:type bpo:ComponentConnection ;
-  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
-.
-vikodbGn3:CC_sc9_17
-  rdf:type owl:NamedIndividual ;
-  rdf:type bpo:ComponentConnection ;
-  bpo:hasBSDDGUID "20CJ_pa3X0zgyNO1ughqNC" ;
-.
-vikodbGn3:Co_BIPVModule
-  rdf:type geometry:Collection ;
-  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Assembly ;
   rdf:type bpo:Product ;
-  geometry:objects vikodbGn3:GE_Layer_1 ;
-  geometry:objects vikodbGn3:GE_Layer_2 ;
-  geometry:objects vikodbGn3:GE_Layer_3 ;
-  geometry:objects vikodbGn3:GE_Layer_4 ;
-  geometry:objects vikodbGn3:GE_Layer_5 ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_Efficiency ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_FillFactor ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_IncidenceAngleModifier ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_Length ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_MaximumSystemVoltage ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_NominalCurrent ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_NominalPower ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_NominalVoltage ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_OpenCircuitVoltage ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_Pricing ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_ShortCircuitCurrent ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_TemperatureCoefficientCurrent ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_TemperatureCoefficientPower ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_TemperatureCoefficientVoltage ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_Thickness ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_ToleranceNominalOutputPower ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_Weight ;
-  bpo:hasAttribute vikodbGn3:A_BIPVModule_Width ;
-  bpo:hasAttribute vikodbGn3:A_Module_Manufacturer ;
-  bpo:hasAttribute vikodbGn3:A_Module_Name ;
+  geometry:objects GebN:GE_Layer_1 ;
+  geometry:objects GebN:GE_Layer_2 ;
+  geometry:objects GebN:GE_Layer_3 ;
+  geometry:objects GebN:GE_Layer_4 ;
+  geometry:objects GebN:GE_Layer_5 ;
+  bpo:hasAttribute GebN:A_BIPVModule_Efficiency ;
+  bpo:hasAttribute GebN:A_BIPVModule_FillFactor ;
+  bpo:hasAttribute GebN:A_BIPVModule_IncidenceAngleModifier ;
+  bpo:hasAttribute GebN:A_BIPVModule_Length ;
+  bpo:hasAttribute GebN:A_BIPVModule_MaximumSystemVoltage ;
+  bpo:hasAttribute GebN:A_BIPVModule_NominalCurrent ;
+  bpo:hasAttribute GebN:A_BIPVModule_NominalPower ;
+  bpo:hasAttribute GebN:A_BIPVModule_NominalVoltage ;
+  bpo:hasAttribute GebN:A_BIPVModule_OpenCircuitVoltage ;
+  bpo:hasAttribute GebN:A_BIPVModule_Pricing ;
+  bpo:hasAttribute GebN:A_BIPVModule_ShortCircuitCurrent ;
+  bpo:hasAttribute GebN:A_BIPVModule_TemperatureCoefficientCurrent ;
+  bpo:hasAttribute GebN:A_BIPVModule_TemperatureCoefficientPower ;
+  bpo:hasAttribute GebN:A_BIPVModule_TemperatureCoefficientVoltage ;
+  bpo:hasAttribute GebN:A_BIPVModule_Thickness ;
+  bpo:hasAttribute GebN:A_BIPVModule_ToleranceNominalOutputPower ;
+  bpo:hasAttribute GebN:A_BIPVModule_Weight ;
+  bpo:hasAttribute GebN:A_BIPVModule_Width ;
+  bpo:hasAttribute GebN:A_Module_Manufacturer ;
+  bpo:hasAttribute GebN:A_Module_Name ;
+  bpo:hasAttribute GebN:A_Module_Pricing ;
   bpo:hasBSDDGUID "scp010" ;
-  bpo:isComposedOfEntity vikodbGn3:E_Layer_1 ;
-  bpo:isComposedOfEntity vikodbGn3:E_Layer_2 ;
-  bpo:isComposedOfEntity vikodbGn3:E_Layer_3 ;
-  bpo:isComposedOfEntity vikodbGn3:E_Layer_4 ;
-  bpo:isComposedOfEntity vikodbGn3:E_Layer_5 ;
+  bpo:isComposedOfEntity GebN:E_Layer_1 ;
+  bpo:isComposedOfEntity GebN:E_Layer_2 ;
+  bpo:isComposedOfEntity GebN:E_Layer_3 ;
+  bpo:isComposedOfEntity GebN:E_Layer_4 ;
+  bpo:isComposedOfEntity GebN:E_Layer_5 ;
 .
-vikodbGn3:Co_BackingMaterial
+GebN:Co_BackingMaterial
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Element ;
-  bpo:hasAttribute vikodbGn3:A_BackingMaterial_Length ;
-  bpo:hasAttribute vikodbGn3:A_BackingMaterial_Thickness ;
-  bpo:hasAttribute vikodbGn3:A_BackingMaterial_Width ;
+  bpo:hasAttribute GebN:A_BackingMaterial_Length ;
+  bpo:hasAttribute GebN:A_BackingMaterial_Thickness ;
+  bpo:hasAttribute GebN:A_BackingMaterial_Width ;
   bpo:hasBSDDGUID "3vHVocoT0Hsm00051Mm008" ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GCo_BackingMaterial ;
+  fog:asGeomOntology GebN:GCo_BackingMaterial ;
 .
-vikodbGn3:Co_Diodes
+GebN:Co_Diodes
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Element ;
   bpo:hasBSDDGUID "2CpJq5kyX4Pw8xeuv70bG3" ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GCo_Diodes ;
 .
-vikodbGn3:Co_FrontCover
+GebN:Co_FrontCover
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Element ;
-  bpo:hasAttribute vikodbGn3:A_FrontCover_Length ;
-  bpo:hasAttribute vikodbGn3:A_FrontCover_Thickness ;
-  bpo:hasAttribute vikodbGn3:A_FrontCover_Width ;
+  bpo:hasAttribute GebN:A_FrontCover_Length ;
+  bpo:hasAttribute GebN:A_FrontCover_Thickness ;
+  bpo:hasAttribute GebN:A_FrontCover_Width ;
   bpo:hasBSDDGUID "scp012" ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GCo_FrontCover ;
+  fog:asGeomOntology GebN:GCo_FrontCover ;
 .
-vikodbGn3:Co_FrontEmbeddingMaterial
+GebN:Co_FrontEmbeddingMaterial
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Element ;
   bpo:hasBSDDGUID "scp018" ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GCo_FrontEmbeddingMaterial ;
+  fog:asGeomOntology GebN:GCo_FrontEmbeddingMaterial ;
 .
-vikodbGn3:Co_Interconnectors
+GebN:Co_Interconnectors
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Element ;
   bpo:hasBSDDGUID "scp025" ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GCo_Interconnectors ;
+  fog:asGeomOntology GebN:GCo_Interconnectors ;
 .
-vikodbGn3:Co_PVCellLayer
+GebN:Co_PVCellLayer
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Assembly ;
-  bpo:consistsOf vikodbGn3:Co_Interconnectors ;
+  bpo:consistsOf GebN:Co_Interconnectors ;
   bpo:hasBSDDGUID "scp009" ;
-  bpo:isComposedOfEntity vikodbGn3:E_Diodes_01 ;
-  bpo:isComposedOfEntity vikodbGn3:E_Diodes_02 ;
-  bpo:isComposedOfEntity vikodbGn3:E_Diodes_03 ;
-  bpo:isComposedOfEntity vikodbGn3:E_Diodes_04 ;
-  bpo:isComposedOfEntity vikodbGn3:E_Diodes_05 ;
-  bpo:isComposedOfEntity vikodbGn3:E_Diodes_06 ;
-  bpo:isComposedOfEntity vikodbGn3:E_Diodes_07 ;
-  bpo:isComposedOfEntity vikodbGn3:E_Diodes_08 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_01 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_02 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_03 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_04 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_05 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_06 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_07 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_08 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_09 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_10 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_11 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_12 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_13 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_14 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_15 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_16 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_17 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_18 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_19 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_20 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_21 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_22 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_23 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_24 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_25 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_26 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_27 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_28 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_29 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_30 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_31 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_32 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_33 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_34 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_35 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_36 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_37 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_38 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_39 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_40 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_41 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_42 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_43 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_44 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_45 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_46 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_47 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_48 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_49 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_50 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_51 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_52 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_53 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_54 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_55 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_56 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_57 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_58 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_59 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_60 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_61 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_62 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_63 ;
-  bpo:isComposedOfEntity vikodbGn3:E_PVCells_64 ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GCo_PVCellLayer ;
+  bpo:isComposedOfEntity GebN:E_Diodes_01 ;
+  bpo:isComposedOfEntity GebN:E_Diodes_02 ;
+  bpo:isComposedOfEntity GebN:E_Diodes_03 ;
+  bpo:isComposedOfEntity GebN:E_Diodes_04 ;
+  bpo:isComposedOfEntity GebN:E_Diodes_05 ;
+  bpo:isComposedOfEntity GebN:E_Diodes_06 ;
+  bpo:isComposedOfEntity GebN:E_Diodes_07 ;
+  bpo:isComposedOfEntity GebN:E_Diodes_08 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_01 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_02 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_03 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_04 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_05 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_06 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_07 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_08 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_09 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_10 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_11 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_12 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_13 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_14 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_15 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_16 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_17 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_18 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_19 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_20 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_21 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_22 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_23 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_24 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_25 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_26 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_27 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_28 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_29 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_30 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_31 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_32 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_33 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_34 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_35 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_36 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_37 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_38 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_39 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_40 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_41 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_42 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_43 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_44 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_45 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_46 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_47 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_48 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_49 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_50 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_51 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_52 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_53 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_54 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_55 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_56 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_57 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_58 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_59 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_60 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_61 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_62 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_63 ;
+  bpo:isComposedOfEntity GebN:E_PVCells_64 ;
+  fog:asGeomOntology GebN:GCo_PVCellLayer ;
 .
-vikodbGn3:Co_PVCells
+GebN:Co_RearEmbeddingMaterial
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:Element ;
-  bpo:hasAttribute vikodbGn3:A_PVCells_CellType ;
-  bpo:hasAttribute vikodbGn3:A_PVCells_Length ;
-  bpo:hasAttribute vikodbGn3:A_PVCells_NominalPower ;
-  bpo:hasAttribute vikodbGn3:A_PVCells_Width ;
-  bpo:hasBSDDGUID "3vHNbSoT0Hsm00051Mm008" ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GCo_PVCells ;
-.
-vikodbGn3:Co_RearEmbeddingMaterial
-  rdf:type owl:NamedIndividual ;
-  rdf:type bpo:Element ;
-  geometry:objects vikodbGn3:Box_RE_material ;
+  geometry:objects GebN:Box_RE_material ;
   bpo:hasBSDDGUID "scp031" ;
 .
-vikodbGn3:ColorComponent_Blue
-  rdf:type geometry:ColorComponent ;
-  geometry:B "1"^^xsd:double ;
-  geometry:G "0"^^xsd:double ;
-  geometry:R "0"^^xsd:double ;
-  geometry:W "1"^^xsd:double ;
-.
-vikodbGn3:ColorComponent_white
+GebN:ColorComponent_white
   rdf:type geometry:ColorComponent ;
   geometry:B "0"^^xsd:double ;
   geometry:G "0"^^xsd:double ;
   geometry:R "0"^^xsd:double ;
   geometry:W "0.1"^^xsd:double ;
 .
-vikodbGn3:Color_Blue
+GebN:Color_white
   rdf:type geometry:Color ;
-  geometry:ambient vikodbGn3:ColorComponent_Blue ;
+  geometry:ambient GebN:ColorComponent_white ;
 .
-vikodbGn3:Color_white
-  rdf:type geometry:Color ;
-  geometry:ambient vikodbGn3:ColorComponent_white ;
-.
-vikodbGn3:E_Diodes_01
+GebN:E_Diodes_01
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_pcdiode1_cell_08 ;
-  bpo:realisesObject vikodbGn3:Co_Diodes ;
+  bpo:hasOutgoingConnection GebN:CC_row12 ;
+  bpo:realisesObject GebN:Co_Diodes ;
 .
-vikodbGn3:E_Diodes_02
+GebN:E_Diodes_02
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_pcdiode2_cell_09 ;
-  bpo:realisesObject vikodbGn3:Co_Diodes ;
+  bpo:hasOutgoingConnection GebN:CC_row23 ;
+  bpo:realisesObject GebN:Co_Diodes ;
 .
-vikodbGn3:E_Diodes_03
+GebN:E_Diodes_03
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_pcdiode3_cell_24 ;
-  bpo:realisesObject vikodbGn3:Co_Diodes ;
+  bpo:hasOutgoingConnection GebN:CC_row34 ;
+  bpo:realisesObject GebN:Co_Diodes ;
 .
-vikodbGn3:E_Diodes_04
+GebN:E_Diodes_04
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_pcdiode4_cell_25 ;
-  bpo:realisesObject vikodbGn3:Co_Diodes ;
+  bpo:hasOutgoingConnection GebN:CC_row45 ;
+  bpo:realisesObject GebN:Co_Diodes ;
 .
-vikodbGn3:E_Diodes_05
+GebN:E_Diodes_05
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_pcdiode5_cell_40 ;
-  bpo:realisesObject vikodbGn3:Co_Diodes ;
+  bpo:hasOutgoingConnection GebN:CC_row56 ;
+  bpo:realisesObject GebN:Co_Diodes ;
 .
-vikodbGn3:E_Diodes_06
+GebN:E_Diodes_06
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_pcdiode6_cell_41 ;
-  bpo:realisesObject vikodbGn3:Co_Diodes ;
+  bpo:hasOutgoingConnection GebN:CC_row67 ;
+  bpo:realisesObject GebN:Co_Diodes ;
 .
-vikodbGn3:E_Diodes_07
+GebN:E_Diodes_07
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_pcdiode7_cell_56 ;
-  bpo:realisesObject vikodbGn3:Co_Diodes ;
+  bpo:hasOutgoingConnection GebN:CC_row78 ;
+  bpo:realisesObject GebN:Co_Diodes ;
 .
-vikodbGn3:E_Diodes_08
+GebN:E_Diodes_08
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_pcdiode8_cell_57 ;
-  bpo:realisesObject vikodbGn3:Co_Diodes ;
+  bpo:hasOutgoingConnection GebN:CC_output ;
+  bpo:realisesObject GebN:Co_Diodes ;
 .
-vikodbGn3:E_Layer_1
+GebN:E_Layer_1
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:realisesObject vikodbGn3:Co_FrontCover ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_Layer_1 ;
+  bpo:realisesObject GebN:Co_FrontCover ;
+  fog:asGeomOntology GebN:GE_Layer_1 ;
 .
-vikodbGn3:E_Layer_2
+GebN:E_Layer_2
   rdf:type bpo:SingularEntity ;
-  bpo:realisesObject vikodbGn3:Co_FrontEmbeddingMaterial ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_Layer_2 ;
+  bpo:realisesObject GebN:Co_FrontEmbeddingMaterial ;
+  fog:asGeomOntology GebN:GE_Layer_2 ;
 .
-vikodbGn3:E_Layer_3
+GebN:E_Layer_3
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:realisesObject vikodbGn3:Co_PVCellLayer ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_Layer_3 ;
+  bpo:realisesObject GebN:Co_PVCellLayer ;
+  fog:asGeomOntology GebN:GE_Layer_3 ;
 .
-vikodbGn3:E_Layer_4
+GebN:E_Layer_4
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:realisesObject vikodbGn3:Co_RearEmbeddingMaterial ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_Layer_4 ;
+  bpo:realisesObject GebN:Co_RearEmbeddingMaterial ;
+  fog:asGeomOntology GebN:GE_Layer_4 ;
 .
-vikodbGn3:E_Layer_5
+GebN:E_Layer_5
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:realisesObject vikodbGn3:Co_BackingMaterial ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_Layer_5 ;
+  bpo:realisesObject GebN:Co_BackingMaterial ;
+  fog:asGeomOntology GebN:GE_Layer_5 ;
 .
-vikodbGn3:E_PVCells_01
+GebN:E_PVCells_01
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc1_2 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_01 ;
+  bpo:hasOutgoingConnection GebN:CC_sc1_2 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_01 ;
 .
-vikodbGn3:E_PVCells_02
+GebN:E_PVCells_02
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc2_3 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_02 ;
+  bpo:hasOutgoingConnection GebN:CC_sc2_3 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_02 ;
 .
-vikodbGn3:E_PVCells_03
+GebN:E_PVCells_03
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc3_4 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_03 ;
+  bpo:hasOutgoingConnection GebN:CC_sc3_4 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_03 ;
 .
-vikodbGn3:E_PVCells_04
+GebN:E_PVCells_04
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc4_5 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_04 ;
+  bpo:hasOutgoingConnection GebN:CC_sc4_5 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_04 ;
 .
-vikodbGn3:E_PVCells_05
+GebN:E_PVCells_05
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc5_6 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_05 ;
+  bpo:hasOutgoingConnection GebN:CC_sc5_6 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_05 ;
 .
-vikodbGn3:E_PVCells_06
+GebN:E_PVCells_06
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc6_7 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_06 ;
+  bpo:hasOutgoingConnection GebN:CC_sc6_7 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_06 ;
 .
-vikodbGn3:E_PVCells_07
+GebN:E_PVCells_07
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc7_8 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_07 ;
+  bpo:hasOutgoingConnection GebN:CC_sc7_8 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_07 ;
 .
-vikodbGn3:E_PVCells_08
+GebN:E_PVCells_08
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_pcdiode1_cell_08 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_08 ;
+  bpo:hasOutgoingConnection GebN:CC_row12 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_08 ;
 .
-vikodbGn3:E_PVCells_09
+GebN:E_PVCells_09
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_pcdiode2_cell_09 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_09 ;
+  bpo:hasOutgoingConnection GebN:CC_row23 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_09 ;
 .
-vikodbGn3:E_PVCells_10
+GebN:E_PVCells_10
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc10_9 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_10 ;
+  bpo:hasOutgoingConnection GebN:CC_sc10_9 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_10 ;
 .
-vikodbGn3:E_PVCells_11
+GebN:E_PVCells_11
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc11_10 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_11 ;
+  bpo:hasOutgoingConnection GebN:CC_sc11_10 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_11 ;
 .
-vikodbGn3:E_PVCells_12
+GebN:E_PVCells_12
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc12_11 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_12 ;
+  bpo:hasOutgoingConnection GebN:CC_sc12_11 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_12 ;
 .
-vikodbGn3:E_PVCells_13
+GebN:E_PVCells_13
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc13_12 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_13 ;
+  bpo:hasOutgoingConnection GebN:CC_sc13_12 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_13 ;
 .
-vikodbGn3:E_PVCells_14
+GebN:E_PVCells_14
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc14_13 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_14 ;
+  bpo:hasOutgoingConnection GebN:CC_sc14_13 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_14 ;
 .
-vikodbGn3:E_PVCells_15
+GebN:E_PVCells_15
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc15_14 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_15 ;
+  bpo:hasOutgoingConnection GebN:CC_sc15_14 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_15 ;
 .
-vikodbGn3:E_PVCells_16
+GebN:E_PVCells_16
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc16_15 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_16 ;
+  bpo:hasOutgoingConnection GebN:CC_sc16_15 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_16 ;
 .
-vikodbGn3:E_PVCells_17
+GebN:E_PVCells_17
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc17_18 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_17 ;
+  bpo:hasOutgoingConnection GebN:CC_sc17_18 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_17 ;
 .
-vikodbGn3:E_PVCells_18
+GebN:E_PVCells_18
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc18_19 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_18 ;
+  bpo:hasOutgoingConnection GebN:CC_sc18_19 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_18 ;
 .
-vikodbGn3:E_PVCells_19
+GebN:E_PVCells_19
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc19_20 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_19 ;
+  bpo:hasOutgoingConnection GebN:CC_sc19_20 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_19 ;
 .
-vikodbGn3:E_PVCells_20
+GebN:E_PVCells_20
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc20_21 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_20 ;
+  bpo:hasOutgoingConnection GebN:CC_sc20_21 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_20 ;
 .
-vikodbGn3:E_PVCells_21
+GebN:E_PVCells_21
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc21_22 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_21 ;
+  bpo:hasOutgoingConnection GebN:CC_sc21_22 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_21 ;
 .
-vikodbGn3:E_PVCells_22
+GebN:E_PVCells_22
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc22_23 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_22 ;
+  bpo:hasOutgoingConnection GebN:CC_sc22_23 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_22 ;
 .
-vikodbGn3:E_PVCells_23
+GebN:E_PVCells_23
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc23_24 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_23 ;
+  bpo:hasOutgoingConnection GebN:CC_sc23_24 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_23 ;
 .
-vikodbGn3:E_PVCells_24
+GebN:E_PVCells_24
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_pcdiode3_cell_24 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_24 ;
+  bpo:hasOutgoingConnection GebN:CC_row34 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_24 ;
 .
-vikodbGn3:E_PVCells_25
+GebN:E_PVCells_25
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_pcdiode4_cell_25 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_25 ;
+  bpo:hasOutgoingConnection GebN:CC_row45 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_25 ;
 .
-vikodbGn3:E_PVCells_26
+GebN:E_PVCells_26
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc26_25 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_26 ;
+  bpo:hasOutgoingConnection GebN:CC_sc26_25 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_26 ;
 .
-vikodbGn3:E_PVCells_27
+GebN:E_PVCells_27
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc27_26 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_27 ;
+  bpo:hasOutgoingConnection GebN:CC_sc27_26 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_27 ;
 .
-vikodbGn3:E_PVCells_28
+GebN:E_PVCells_28
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc28_27 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_28 ;
+  bpo:hasOutgoingConnection GebN:CC_sc28_27 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_28 ;
 .
-vikodbGn3:E_PVCells_29
+GebN:E_PVCells_29
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc29_28 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_29 ;
+  bpo:hasOutgoingConnection GebN:CC_sc29_28 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_29 ;
 .
-vikodbGn3:E_PVCells_30
+GebN:E_PVCells_30
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc30_29 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_30 ;
+  bpo:hasOutgoingConnection GebN:CC_sc30_29 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_30 ;
 .
-vikodbGn3:E_PVCells_31
+GebN:E_PVCells_31
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc31_30 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_31 ;
+  bpo:hasOutgoingConnection GebN:CC_sc31_30 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_31 ;
 .
-vikodbGn3:E_PVCells_32
+GebN:E_PVCells_32
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc32_31 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_32 ;
+  bpo:hasOutgoingConnection GebN:CC_sc32_31 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_32 ;
 .
-vikodbGn3:E_PVCells_33
+GebN:E_PVCells_33
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc33_34 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_33 ;
+  bpo:hasOutgoingConnection GebN:CC_sc33_34 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_33 ;
 .
-vikodbGn3:E_PVCells_34
+GebN:E_PVCells_34
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc34_35 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_34 ;
+  bpo:hasOutgoingConnection GebN:CC_sc34_35 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_34 ;
 .
-vikodbGn3:E_PVCells_35
+GebN:E_PVCells_35
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc35_36 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_35 ;
+  bpo:hasOutgoingConnection GebN:CC_sc35_36 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_35 ;
 .
-vikodbGn3:E_PVCells_36
+GebN:E_PVCells_36
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc36_37 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_36 ;
+  bpo:hasOutgoingConnection GebN:CC_sc36_37 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_36 ;
 .
-vikodbGn3:E_PVCells_37
+GebN:E_PVCells_37
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc37_38 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_37 ;
+  bpo:hasOutgoingConnection GebN:CC_sc37_38 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_37 ;
 .
-vikodbGn3:E_PVCells_38
+GebN:E_PVCells_38
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc38_39 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_38 ;
+  bpo:hasOutgoingConnection GebN:CC_sc38_39 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_38 ;
 .
-vikodbGn3:E_PVCells_39
+GebN:E_PVCells_39
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc39_40 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_39 ;
+  bpo:hasOutgoingConnection GebN:CC_sc39_40 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_39 ;
 .
-vikodbGn3:E_PVCells_40
+GebN:E_PVCells_40
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_pcdiode5_cell_40 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_40 ;
+  bpo:hasOutgoingConnection GebN:CC_row56 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_40 ;
 .
-vikodbGn3:E_PVCells_41
+GebN:E_PVCells_41
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_pcdiode6_cell_41 ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc41_49 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_41 ;
+  bpo:hasOutgoingConnection GebN:CC_row67 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_41 ;
 .
-vikodbGn3:E_PVCells_42
+GebN:E_PVCells_42
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc42_41 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_42 ;
+  bpo:hasOutgoingConnection GebN:CC_sc42_41 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_42 ;
 .
-vikodbGn3:E_PVCells_43
+GebN:E_PVCells_43
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc43_42 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_43 ;
+  bpo:hasOutgoingConnection GebN:CC_sc43_42 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_43 ;
 .
-vikodbGn3:E_PVCells_44
+GebN:E_PVCells_44
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc44_43 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_44 ;
+  bpo:hasOutgoingConnection GebN:CC_sc44_43 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_44 ;
 .
-vikodbGn3:E_PVCells_45
+GebN:E_PVCells_45
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc45_44 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_45 ;
+  bpo:hasOutgoingConnection GebN:CC_sc45_44 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_45 ;
 .
-vikodbGn3:E_PVCells_46
+GebN:E_PVCells_46
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc46_45 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_46 ;
+  bpo:hasOutgoingConnection GebN:CC_sc46_45 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_46 ;
 .
-vikodbGn3:E_PVCells_47
+GebN:E_PVCells_47
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc47_46 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_47 ;
+  bpo:hasOutgoingConnection GebN:CC_sc47_46 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_47 ;
 .
-vikodbGn3:E_PVCells_48
+GebN:E_PVCells_48
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc48_47 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_48 ;
+  bpo:hasOutgoingConnection GebN:CC_sc48_47 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_48 ;
 .
-vikodbGn3:E_PVCells_49
+GebN:E_PVCells_49
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc49_50 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_49 ;
+  bpo:hasOutgoingConnection GebN:CC_sc49_50 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_49 ;
 .
-vikodbGn3:E_PVCells_50
+GebN:E_PVCells_50
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc50_51 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_50 ;
+  bpo:hasOutgoingConnection GebN:CC_sc50_51 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_50 ;
 .
-vikodbGn3:E_PVCells_51
+GebN:E_PVCells_51
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc51_52 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_51 ;
+  bpo:hasOutgoingConnection GebN:CC_sc51_52 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_51 ;
 .
-vikodbGn3:E_PVCells_52
+GebN:E_PVCells_52
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc52_53 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_52 ;
+  bpo:hasOutgoingConnection GebN:CC_sc52_53 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_52 ;
 .
-vikodbGn3:E_PVCells_53
+GebN:E_PVCells_53
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc53_54 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_53 ;
+  bpo:hasOutgoingConnection GebN:CC_sc53_54 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_53 ;
 .
-vikodbGn3:E_PVCells_54
+GebN:E_PVCells_54
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc54_55 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_54 ;
+  bpo:hasOutgoingConnection GebN:CC_sc54_55 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_54 ;
 .
-vikodbGn3:E_PVCells_55
+GebN:E_PVCells_55
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc55_56 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_55 ;
+  bpo:hasOutgoingConnection GebN:CC_sc55_56 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_55 ;
 .
-vikodbGn3:E_PVCells_56
+GebN:E_PVCells_56
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_pcdiode7_cell_56 ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc56_64 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_56 ;
+  bpo:hasOutgoingConnection GebN:CC_row78 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_56 ;
 .
-vikodbGn3:E_PVCells_57
+GebN:E_PVCells_57
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_pcdiode8_cell_57 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_57 ;
+  bpo:hasOutgoingConnection GebN:CC_output ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_57 ;
 .
-vikodbGn3:E_PVCells_58
+GebN:E_PVCells_58
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc58_57 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_58 ;
+  bpo:hasOutgoingConnection GebN:CC_sc58_57 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_58 ;
 .
-vikodbGn3:E_PVCells_59
+GebN:E_PVCells_59
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc59_58 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_59 ;
+  bpo:hasOutgoingConnection GebN:CC_sc59_58 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_59 ;
 .
-vikodbGn3:E_PVCells_60
+GebN:E_PVCells_60
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc60_59 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_60 ;
+  bpo:hasOutgoingConnection GebN:CC_sc60_59 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_60 ;
 .
-vikodbGn3:E_PVCells_61
+GebN:E_PVCells_61
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc61_60 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_61 ;
+  bpo:hasOutgoingConnection GebN:CC_sc61_60 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_61 ;
 .
-vikodbGn3:E_PVCells_62
+GebN:E_PVCells_62
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc62_61 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_62 ;
+  bpo:hasOutgoingConnection GebN:CC_sc62_61 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_62 ;
 .
-vikodbGn3:E_PVCells_63
+GebN:E_PVCells_63
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc63_62 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_63 ;
+  bpo:hasOutgoingConnection GebN:CC_sc63_62 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_63 ;
 .
-vikodbGn3:E_PVCells_64
+GebN:E_PVCells_64
   rdf:type owl:NamedIndividual ;
   rdf:type bpo:SingularEntity ;
-  bpo:hasOutgoingConnection vikodbGn3:CC_sc64_63 ;
-  bpo:realisesObject vikodbGn3:Co_PVCells ;
-  <https://w3id.org/fog#asGeomOntology> vikodbGn3:GE_PVCells_64 ;
+  bpo:hasOutgoingConnection GebN:CC_sc64_63 ;
+  bpo:realisesObject GebNcell:Co_PVCells ;
+  fog:asGeomOntology GebN:GE_PVCells_64 ;
 .
-vikodbGn3:GCo_BackingMaterial
+GebN:GCo_BackingMaterial
   rdf:type geometry:Collection ;
-  geometry:objects vikodbGn3:Box_BackingMaterial ;
+  geometry:objects GebN:Box_BackingMaterial ;
 .
-vikodbGn3:GCo_Diodes
+GebN:GCo_FrontCover
   rdf:type geometry:Collection ;
+  geometry:objects GebN:Box_FC ;
 .
-vikodbGn3:GCo_FrontCover
+GebN:GCo_FrontEmbeddingMaterial
   rdf:type geometry:Collection ;
-  geometry:objects vikodbGn3:Box_FC ;
+  geometry:objects GebN:Box_FE_material ;
 .
-vikodbGn3:GCo_FrontEmbeddingMaterial
-  rdf:type geometry:Collection ;
-  geometry:objects vikodbGn3:Box_FE_material ;
-.
-vikodbGn3:GCo_Interconnectors
+GebN:GCo_Interconnectors
   rdf:type geometry:Collection ;
 .
-vikodbGn3:GCo_PVCellLayer
+GebN:GCo_PVCellLayer
   rdf:type geometry:Collection ;
-  geometry:objects vikodbGn3:GE_PVCells_01 ;
-  geometry:objects vikodbGn3:GE_PVCells_02 ;
-  geometry:objects vikodbGn3:GE_PVCells_03 ;
-  geometry:objects vikodbGn3:GE_PVCells_04 ;
-  geometry:objects vikodbGn3:GE_PVCells_05 ;
-  geometry:objects vikodbGn3:GE_PVCells_06 ;
-  geometry:objects vikodbGn3:GE_PVCells_07 ;
-  geometry:objects vikodbGn3:GE_PVCells_08 ;
-  geometry:objects vikodbGn3:GE_PVCells_09 ;
-  geometry:objects vikodbGn3:GE_PVCells_10 ;
-  geometry:objects vikodbGn3:GE_PVCells_11 ;
-  geometry:objects vikodbGn3:GE_PVCells_12 ;
-  geometry:objects vikodbGn3:GE_PVCells_13 ;
-  geometry:objects vikodbGn3:GE_PVCells_14 ;
-  geometry:objects vikodbGn3:GE_PVCells_15 ;
-  geometry:objects vikodbGn3:GE_PVCells_16 ;
-  geometry:objects vikodbGn3:GE_PVCells_17 ;
-  geometry:objects vikodbGn3:GE_PVCells_18 ;
-  geometry:objects vikodbGn3:GE_PVCells_19 ;
-  geometry:objects vikodbGn3:GE_PVCells_20 ;
-  geometry:objects vikodbGn3:GE_PVCells_21 ;
-  geometry:objects vikodbGn3:GE_PVCells_22 ;
-  geometry:objects vikodbGn3:GE_PVCells_23 ;
-  geometry:objects vikodbGn3:GE_PVCells_24 ;
-  geometry:objects vikodbGn3:GE_PVCells_25 ;
-  geometry:objects vikodbGn3:GE_PVCells_26 ;
-  geometry:objects vikodbGn3:GE_PVCells_27 ;
-  geometry:objects vikodbGn3:GE_PVCells_28 ;
-  geometry:objects vikodbGn3:GE_PVCells_29 ;
-  geometry:objects vikodbGn3:GE_PVCells_30 ;
-  geometry:objects vikodbGn3:GE_PVCells_31 ;
-  geometry:objects vikodbGn3:GE_PVCells_32 ;
-  geometry:objects vikodbGn3:GE_PVCells_33 ;
-  geometry:objects vikodbGn3:GE_PVCells_34 ;
-  geometry:objects vikodbGn3:GE_PVCells_35 ;
-  geometry:objects vikodbGn3:GE_PVCells_36 ;
-  geometry:objects vikodbGn3:GE_PVCells_37 ;
-  geometry:objects vikodbGn3:GE_PVCells_38 ;
-  geometry:objects vikodbGn3:GE_PVCells_39 ;
-  geometry:objects vikodbGn3:GE_PVCells_40 ;
-  geometry:objects vikodbGn3:GE_PVCells_41 ;
-  geometry:objects vikodbGn3:GE_PVCells_42 ;
-  geometry:objects vikodbGn3:GE_PVCells_43 ;
-  geometry:objects vikodbGn3:GE_PVCells_44 ;
-  geometry:objects vikodbGn3:GE_PVCells_45 ;
-  geometry:objects vikodbGn3:GE_PVCells_46 ;
-  geometry:objects vikodbGn3:GE_PVCells_47 ;
-  geometry:objects vikodbGn3:GE_PVCells_48 ;
-  geometry:objects vikodbGn3:GE_PVCells_49 ;
-  geometry:objects vikodbGn3:GE_PVCells_50 ;
-  geometry:objects vikodbGn3:GE_PVCells_51 ;
-  geometry:objects vikodbGn3:GE_PVCells_52 ;
-  geometry:objects vikodbGn3:GE_PVCells_53 ;
-  geometry:objects vikodbGn3:GE_PVCells_54 ;
-  geometry:objects vikodbGn3:GE_PVCells_55 ;
-  geometry:objects vikodbGn3:GE_PVCells_56 ;
-  geometry:objects vikodbGn3:GE_PVCells_57 ;
-  geometry:objects vikodbGn3:GE_PVCells_58 ;
-  geometry:objects vikodbGn3:GE_PVCells_59 ;
-  geometry:objects vikodbGn3:GE_PVCells_60 ;
-  geometry:objects vikodbGn3:GE_PVCells_61 ;
-  geometry:objects vikodbGn3:GE_PVCells_62 ;
-  geometry:objects vikodbGn3:GE_PVCells_63 ;
-  geometry:objects vikodbGn3:GE_PVCells_64 ;
+  geometry:objects GebN:GE_PVCells_01 ;
+  geometry:objects GebN:GE_PVCells_02 ;
+  geometry:objects GebN:GE_PVCells_03 ;
+  geometry:objects GebN:GE_PVCells_04 ;
+  geometry:objects GebN:GE_PVCells_05 ;
+  geometry:objects GebN:GE_PVCells_06 ;
+  geometry:objects GebN:GE_PVCells_07 ;
+  geometry:objects GebN:GE_PVCells_08 ;
+  geometry:objects GebN:GE_PVCells_09 ;
+  geometry:objects GebN:GE_PVCells_10 ;
+  geometry:objects GebN:GE_PVCells_11 ;
+  geometry:objects GebN:GE_PVCells_12 ;
+  geometry:objects GebN:GE_PVCells_13 ;
+  geometry:objects GebN:GE_PVCells_14 ;
+  geometry:objects GebN:GE_PVCells_15 ;
+  geometry:objects GebN:GE_PVCells_16 ;
+  geometry:objects GebN:GE_PVCells_17 ;
+  geometry:objects GebN:GE_PVCells_18 ;
+  geometry:objects GebN:GE_PVCells_19 ;
+  geometry:objects GebN:GE_PVCells_20 ;
+  geometry:objects GebN:GE_PVCells_21 ;
+  geometry:objects GebN:GE_PVCells_22 ;
+  geometry:objects GebN:GE_PVCells_23 ;
+  geometry:objects GebN:GE_PVCells_24 ;
+  geometry:objects GebN:GE_PVCells_25 ;
+  geometry:objects GebN:GE_PVCells_26 ;
+  geometry:objects GebN:GE_PVCells_27 ;
+  geometry:objects GebN:GE_PVCells_28 ;
+  geometry:objects GebN:GE_PVCells_29 ;
+  geometry:objects GebN:GE_PVCells_30 ;
+  geometry:objects GebN:GE_PVCells_31 ;
+  geometry:objects GebN:GE_PVCells_32 ;
+  geometry:objects GebN:GE_PVCells_33 ;
+  geometry:objects GebN:GE_PVCells_34 ;
+  geometry:objects GebN:GE_PVCells_35 ;
+  geometry:objects GebN:GE_PVCells_36 ;
+  geometry:objects GebN:GE_PVCells_37 ;
+  geometry:objects GebN:GE_PVCells_38 ;
+  geometry:objects GebN:GE_PVCells_39 ;
+  geometry:objects GebN:GE_PVCells_40 ;
+  geometry:objects GebN:GE_PVCells_41 ;
+  geometry:objects GebN:GE_PVCells_42 ;
+  geometry:objects GebN:GE_PVCells_43 ;
+  geometry:objects GebN:GE_PVCells_44 ;
+  geometry:objects GebN:GE_PVCells_45 ;
+  geometry:objects GebN:GE_PVCells_46 ;
+  geometry:objects GebN:GE_PVCells_47 ;
+  geometry:objects GebN:GE_PVCells_48 ;
+  geometry:objects GebN:GE_PVCells_49 ;
+  geometry:objects GebN:GE_PVCells_50 ;
+  geometry:objects GebN:GE_PVCells_51 ;
+  geometry:objects GebN:GE_PVCells_52 ;
+  geometry:objects GebN:GE_PVCells_53 ;
+  geometry:objects GebN:GE_PVCells_54 ;
+  geometry:objects GebN:GE_PVCells_55 ;
+  geometry:objects GebN:GE_PVCells_56 ;
+  geometry:objects GebN:GE_PVCells_57 ;
+  geometry:objects GebN:GE_PVCells_58 ;
+  geometry:objects GebN:GE_PVCells_59 ;
+  geometry:objects GebN:GE_PVCells_60 ;
+  geometry:objects GebN:GE_PVCells_61 ;
+  geometry:objects GebN:GE_PVCells_62 ;
+  geometry:objects GebN:GE_PVCells_63 ;
+  geometry:objects GebN:GE_PVCells_64 ;
 .
-vikodbGn3:GCo_PVCells
+GebN:GE_Layer_1
+  rdf:type geometry:Transformation ;
+  geometry:object GebN:GCo_FrontCover ;
+.
+GebN:GE_Layer_2
+  rdf:type geometry:Transformation ;
+  geometry:matrix GebN:M_FE_material ;
+  geometry:object GebN:GCo_FrontEmbeddingMaterial ;
+.
+GebN:GE_Layer_3
+  rdf:type geometry:Transformation ;
+  geometry:matrix GebN:M_PVCellLayer ;
+  geometry:object GebN:GCo_PVCellLayer ;
+.
+GebN:GE_Layer_4
+  rdf:type geometry:Transformation ;
+  geometry:matrix GebN:M_RE_material ;
+  geometry:object GebN:Co_RearEmbeddingMaterial ;
+.
+GebN:GE_Layer_5
+  rdf:type geometry:Transformation ;
+  geometry:matrix GebN:M_BackingMaterial ;
+  geometry:object GebN:GCo_BackingMaterial ;
+.
+GebN:GE_PVCells_01
   rdf:type geometry:Collection ;
-  geometry:objects vikodbGn3:BooleanOperation_1 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_Layer_1
+GebN:GE_PVCells_02
   rdf:type geometry:Transformation ;
-  geometry:object vikodbGn3:GCo_FrontCover ;
+  geometry:matrix GebN:M_PVCell_2 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_Layer_2
+GebN:GE_PVCells_03
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_FE_material ;
-  geometry:object vikodbGn3:GCo_FrontEmbeddingMaterial ;
+  geometry:matrix GebN:M_PVCell_3 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_Layer_3
+GebN:GE_PVCells_04
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCellLayer ;
-  geometry:object vikodbGn3:GCo_PVCellLayer ;
+  geometry:matrix GebN:M_PVCell_4 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_Layer_4
+GebN:GE_PVCells_05
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_RE_material ;
-  geometry:object vikodbGn3:Co_RearEmbeddingMaterial ;
+  geometry:matrix GebN:M_PVCell_5 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_Layer_5
+GebN:GE_PVCells_06
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_BackingMaterial ;
-  geometry:object vikodbGn3:GCo_BackingMaterial ;
+  geometry:matrix GebN:M_PVCell_6 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_01
+GebN:GE_PVCells_07
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_1 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_7 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_02
+GebN:GE_PVCells_08
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_2 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_8 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_03
+GebN:GE_PVCells_09
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_3 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_9 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_04
+GebN:GE_PVCells_10
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_4 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_10 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_05
+GebN:GE_PVCells_11
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_5 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_11 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_06
+GebN:GE_PVCells_12
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_6 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_12 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_07
+GebN:GE_PVCells_13
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_7 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_13 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_08
+GebN:GE_PVCells_14
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_8 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_14 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_09
+GebN:GE_PVCells_15
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_9 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_15 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_10
+GebN:GE_PVCells_16
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_10 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_16 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_11
+GebN:GE_PVCells_17
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_11 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_17 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_12
+GebN:GE_PVCells_18
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_12 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_18 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_13
+GebN:GE_PVCells_19
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_13 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_19 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_14
+GebN:GE_PVCells_20
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_14 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_20 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_15
+GebN:GE_PVCells_21
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_15 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_21 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_16
+GebN:GE_PVCells_22
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_16 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_22 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_17
+GebN:GE_PVCells_23
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_17 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_23 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_18
+GebN:GE_PVCells_24
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_18 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_24 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_19
+GebN:GE_PVCells_25
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_19 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_25 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_20
+GebN:GE_PVCells_26
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_20 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_26 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_21
+GebN:GE_PVCells_27
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_21 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_27 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_22
+GebN:GE_PVCells_28
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_22 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_28 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_23
+GebN:GE_PVCells_29
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_23 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_29 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_24
+GebN:GE_PVCells_30
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_24 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_30 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_25
+GebN:GE_PVCells_31
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_25 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_31 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_26
+GebN:GE_PVCells_32
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_26 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_32 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_27
+GebN:GE_PVCells_33
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_27 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_33 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_28
+GebN:GE_PVCells_34
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_28 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_34 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_29
+GebN:GE_PVCells_35
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_29 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_35 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_30
+GebN:GE_PVCells_36
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_30 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_36 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_31
+GebN:GE_PVCells_37
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_31 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_37 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_32
+GebN:GE_PVCells_38
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_32 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_38 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_33
+GebN:GE_PVCells_39
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_33 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_39 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_34
+GebN:GE_PVCells_40
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_34 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_40 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_35
+GebN:GE_PVCells_41
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_35 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_41 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_36
+GebN:GE_PVCells_42
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_36 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_42 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_37
+GebN:GE_PVCells_43
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_37 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_43 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_38
+GebN:GE_PVCells_44
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_38 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_44 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_39
+GebN:GE_PVCells_45
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_39 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_45 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_40
+GebN:GE_PVCells_46
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_40 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_46 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_41
+GebN:GE_PVCells_47
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_41 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_47 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_42
+GebN:GE_PVCells_48
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_42 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_48 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_43
+GebN:GE_PVCells_49
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_43 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_49 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_44
+GebN:GE_PVCells_50
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_44 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_50 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_45
+GebN:GE_PVCells_51
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_45 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_51 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_46
+GebN:GE_PVCells_52
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_46 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_52 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_47
+GebN:GE_PVCells_53
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_47 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_53 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_48
+GebN:GE_PVCells_54
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_48 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_54 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_49
+GebN:GE_PVCells_55
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_49 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_55 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_50
+GebN:GE_PVCells_56
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_50 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_56 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_51
+GebN:GE_PVCells_57
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_51 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_57 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_52
+GebN:GE_PVCells_58
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_52 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_58 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_53
+GebN:GE_PVCells_59
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_53 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_59 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_54
+GebN:GE_PVCells_60
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_54 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_60 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_55
+GebN:GE_PVCells_61
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_55 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_61 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_56
+GebN:GE_PVCells_62
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_56 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_62 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_57
+GebN:GE_PVCells_63
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_57 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_63 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_58
+GebN:GE_PVCells_64
   rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_58 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
+  geometry:matrix GebN:M_PVCell_64 ;
+  geometry:object GebNcell:GCo_PVCells ;
 .
-vikodbGn3:GE_PVCells_59
-  rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_59 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
-.
-vikodbGn3:GE_PVCells_60
-  rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_60 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
-.
-vikodbGn3:GE_PVCells_61
-  rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_61 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
-.
-vikodbGn3:GE_PVCells_62
-  rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_62 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
-.
-vikodbGn3:GE_PVCells_63
-  rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_63 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
-.
-vikodbGn3:GE_PVCells_64
-  rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_PVCell_64 ;
-  geometry:object vikodbGn3:GCo_PVCells ;
-.
-vikodbGn3:M_BackingMaterial
+GebN:M_BackingMaterial
   rdf:type geometry:Matrix ;
   geometry:_43 "7.28"^^xsd:double ;
 .
-vikodbGn3:M_FE_material
+GebN:M_FE_material
   rdf:type geometry:Matrix ;
   geometry:_43 "5"^^xsd:double ;
 .
-vikodbGn3:M_PVCellLayer
+GebN:M_PVCellLayer
   rdf:type geometry:Matrix ;
   geometry:_41 "28"^^xsd:double ;
   geometry:_42 "30"^^xsd:double ;
   geometry:_43 "5.76"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_1
-  rdf:type geometry:Matrix ;
-.
-vikodbGn3:M_PVCell_10
+GebN:M_PVCell_10
   rdf:type geometry:Matrix ;
   geometry:_41 "128"^^xsd:double ;
   geometry:_42 "128"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_11
+GebN:M_PVCell_11
   rdf:type geometry:Matrix ;
   geometry:_41 "256"^^xsd:double ;
   geometry:_42 "128"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_12
+GebN:M_PVCell_12
   rdf:type geometry:Matrix ;
   geometry:_41 "384"^^xsd:double ;
   geometry:_42 "128"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_13
+GebN:M_PVCell_13
   rdf:type geometry:Matrix ;
   geometry:_41 "512"^^xsd:double ;
   geometry:_42 "128"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_14
+GebN:M_PVCell_14
   rdf:type geometry:Matrix ;
   geometry:_41 "640"^^xsd:double ;
   geometry:_42 "128"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_15
+GebN:M_PVCell_15
   rdf:type geometry:Matrix ;
   geometry:_41 "768"^^xsd:double ;
   geometry:_42 "128"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_16
+GebN:M_PVCell_16
   rdf:type geometry:Matrix ;
   geometry:_41 "896"^^xsd:double ;
   geometry:_42 "128"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_17
+GebN:M_PVCell_17
   rdf:type geometry:Matrix ;
   geometry:_42 "256"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_18
+GebN:M_PVCell_18
   rdf:type geometry:Matrix ;
   geometry:_41 "128"^^xsd:double ;
   geometry:_42 "256"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_19
+GebN:M_PVCell_19
   rdf:type geometry:Matrix ;
   geometry:_41 "256"^^xsd:double ;
   geometry:_42 "256"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_2
+GebN:M_PVCell_2
   rdf:type geometry:Matrix ;
   geometry:_41 "128"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_20
+GebN:M_PVCell_20
   rdf:type geometry:Matrix ;
   geometry:_41 "384"^^xsd:double ;
   geometry:_42 "256"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_21
+GebN:M_PVCell_21
   rdf:type geometry:Matrix ;
   geometry:_41 "512"^^xsd:double ;
   geometry:_42 "256"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_22
+GebN:M_PVCell_22
   rdf:type geometry:Matrix ;
   geometry:_41 "640"^^xsd:double ;
   geometry:_42 "256"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_23
+GebN:M_PVCell_23
   rdf:type geometry:Matrix ;
   geometry:_41 "768"^^xsd:double ;
   geometry:_42 "256"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_24
+GebN:M_PVCell_24
   rdf:type geometry:Matrix ;
   geometry:_41 "896"^^xsd:double ;
   geometry:_42 "256"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_25
+GebN:M_PVCell_25
   rdf:type geometry:Matrix ;
   geometry:_42 "384"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_26
+GebN:M_PVCell_26
   rdf:type geometry:Matrix ;
   geometry:_41 "128"^^xsd:double ;
   geometry:_42 "384"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_27
+GebN:M_PVCell_27
   rdf:type geometry:Matrix ;
   geometry:_41 "256"^^xsd:double ;
   geometry:_42 "384"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_28
+GebN:M_PVCell_28
   rdf:type geometry:Matrix ;
   geometry:_41 "384"^^xsd:double ;
   geometry:_42 "384"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_29
+GebN:M_PVCell_29
   rdf:type geometry:Matrix ;
   geometry:_41 "512"^^xsd:double ;
   geometry:_42 "384"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_3
+GebN:M_PVCell_3
   rdf:type geometry:Matrix ;
   geometry:_41 "256"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_30
+GebN:M_PVCell_30
   rdf:type geometry:Matrix ;
   geometry:_41 "640"^^xsd:double ;
   geometry:_42 "384"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_31
+GebN:M_PVCell_31
   rdf:type geometry:Matrix ;
   geometry:_41 "768"^^xsd:double ;
   geometry:_42 "384"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_32
+GebN:M_PVCell_32
   rdf:type geometry:Matrix ;
   geometry:_41 "896"^^xsd:double ;
   geometry:_42 "384"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_33
+GebN:M_PVCell_33
   rdf:type geometry:Matrix ;
   geometry:_42 "512"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_34
+GebN:M_PVCell_34
   rdf:type geometry:Matrix ;
   geometry:_41 "128"^^xsd:double ;
   geometry:_42 "512"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_35
+GebN:M_PVCell_35
   rdf:type geometry:Matrix ;
   geometry:_41 "256"^^xsd:double ;
   geometry:_42 "512"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_36
+GebN:M_PVCell_36
   rdf:type geometry:Matrix ;
   geometry:_41 "384"^^xsd:double ;
   geometry:_42 "512"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_37
+GebN:M_PVCell_37
   rdf:type geometry:Matrix ;
   geometry:_41 "512"^^xsd:double ;
   geometry:_42 "512"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_38
+GebN:M_PVCell_38
   rdf:type geometry:Matrix ;
   geometry:_41 "640"^^xsd:double ;
   geometry:_42 "512"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_39
+GebN:M_PVCell_39
   rdf:type geometry:Matrix ;
   geometry:_41 "768"^^xsd:double ;
   geometry:_42 "512"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_4
+GebN:M_PVCell_4
   rdf:type geometry:Matrix ;
   geometry:_41 "384"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_40
+GebN:M_PVCell_40
   rdf:type geometry:Matrix ;
   geometry:_41 "896"^^xsd:double ;
   geometry:_42 "512"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_41
+GebN:M_PVCell_41
   rdf:type geometry:Matrix ;
   geometry:_42 "640"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_42
+GebN:M_PVCell_42
   rdf:type geometry:Matrix ;
   geometry:_41 "128"^^xsd:double ;
   geometry:_42 "640"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_43
+GebN:M_PVCell_43
   rdf:type geometry:Matrix ;
   geometry:_41 "256"^^xsd:double ;
   geometry:_42 "640"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_44
+GebN:M_PVCell_44
   rdf:type geometry:Matrix ;
   geometry:_41 "384"^^xsd:double ;
   geometry:_42 "640"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_45
+GebN:M_PVCell_45
   rdf:type geometry:Matrix ;
   geometry:_41 "512"^^xsd:double ;
   geometry:_42 "640"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_46
+GebN:M_PVCell_46
   rdf:type geometry:Matrix ;
   geometry:_41 "640"^^xsd:double ;
   geometry:_42 "640"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_47
+GebN:M_PVCell_47
   rdf:type geometry:Matrix ;
   geometry:_41 "768"^^xsd:double ;
   geometry:_42 "640"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_48
+GebN:M_PVCell_48
   rdf:type geometry:Matrix ;
   geometry:_41 "896"^^xsd:double ;
   geometry:_42 "640"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_49
+GebN:M_PVCell_49
   rdf:type geometry:Matrix ;
   geometry:_42 "768"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_5
+GebN:M_PVCell_5
   rdf:type geometry:Matrix ;
   geometry:_41 "512"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_50
+GebN:M_PVCell_50
   rdf:type geometry:Matrix ;
   geometry:_41 "128"^^xsd:double ;
   geometry:_42 "768"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_51
+GebN:M_PVCell_51
   rdf:type geometry:Matrix ;
   geometry:_41 "256"^^xsd:double ;
   geometry:_42 "768"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_52
+GebN:M_PVCell_52
   rdf:type geometry:Matrix ;
   geometry:_41 "384"^^xsd:double ;
   geometry:_42 "768"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_53
+GebN:M_PVCell_53
   rdf:type geometry:Matrix ;
   geometry:_41 "512"^^xsd:double ;
   geometry:_42 "768"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_54
+GebN:M_PVCell_54
   rdf:type geometry:Matrix ;
   geometry:_41 "640"^^xsd:double ;
   geometry:_42 "768"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_55
+GebN:M_PVCell_55
   rdf:type geometry:Matrix ;
   geometry:_41 "768"^^xsd:double ;
   geometry:_42 "768"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_56
+GebN:M_PVCell_56
   rdf:type geometry:Matrix ;
   geometry:_41 "896"^^xsd:double ;
   geometry:_42 "768"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_57
+GebN:M_PVCell_57
   rdf:type geometry:Matrix ;
   geometry:_42 "896"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_58
+GebN:M_PVCell_58
   rdf:type geometry:Matrix ;
   geometry:_41 "128"^^xsd:double ;
   geometry:_42 "896"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_59
+GebN:M_PVCell_59
   rdf:type geometry:Matrix ;
   geometry:_41 "256"^^xsd:double ;
   geometry:_42 "896"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_6
+GebN:M_PVCell_6
   rdf:type geometry:Matrix ;
   geometry:_41 "640"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_60
+GebN:M_PVCell_60
   rdf:type geometry:Matrix ;
   geometry:_41 "384"^^xsd:double ;
   geometry:_42 "896"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_61
+GebN:M_PVCell_61
   rdf:type geometry:Matrix ;
   geometry:_41 "512"^^xsd:double ;
   geometry:_42 "896"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_62
+GebN:M_PVCell_62
   rdf:type geometry:Matrix ;
   geometry:_41 "640"^^xsd:double ;
   geometry:_42 "896"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_63
+GebN:M_PVCell_63
   rdf:type geometry:Matrix ;
   geometry:_41 "768"^^xsd:double ;
   geometry:_42 "896"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_64
+GebN:M_PVCell_64
   rdf:type geometry:Matrix ;
   geometry:_41 "896"^^xsd:double ;
   geometry:_42 "896"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_7
+GebN:M_PVCell_7
   rdf:type geometry:Matrix ;
   geometry:_41 "768"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_8
+GebN:M_PVCell_8
   rdf:type geometry:Matrix ;
   geometry:_41 "896"^^xsd:double ;
 .
-vikodbGn3:M_PVCell_9
+GebN:M_PVCell_9
   rdf:type geometry:Matrix ;
   geometry:_42 "128"^^xsd:double ;
 .
-vikodbGn3:M_RE_material
+GebN:M_RE_material
   rdf:type geometry:Matrix ;
   geometry:_43 "6.52"^^xsd:double ;
 .
-vikodbGn3:M_SecondObject
-  rdf:type geometry:Matrix ;
-  geometry:_11 "0.707107"^^xsd:double ;
-  geometry:_12 "-0.707107"^^xsd:double ;
-  geometry:_21 "0.707107"^^xsd:double ;
-  geometry:_22 "0.707107"^^xsd:double ;
-  geometry:_33 "1"^^xsd:double ;
-  geometry:_41 "-54"^^xsd:double ;
-  geometry:_42 "63"^^xsd:double ;
-  rdfs:label "Test_Type" ;
-.
-vikodbGn3:Material_Blue
+GebN:Material_glass
   rdf:type geometry:Material ;
-  geometry:color vikodbGn3:Color_Blue ;
+  geometry:color GebN:Color_white ;
 .
-vikodbGn3:Material_glass
-  rdf:type geometry:Material ;
-  geometry:color vikodbGn3:Color_white ;
-.
-vikodbGn3:Transformation_SecondObject
-  rdf:type geometry:Transformation ;
-  geometry:matrix vikodbGn3:M_SecondObject ;
-  geometry:object vikodbGn3:Box_2 ;
-  rdfs:label "Test_Type" ;
+GebNcell:GCo_PVCells
+  rdf:type geometry:Collection ;
+  geometry:objects GebN:BooleanOperation_1 ;
 .

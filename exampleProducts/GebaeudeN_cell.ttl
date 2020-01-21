@@ -1,0 +1,114 @@
+# baseURI: https://github.com/AnnaWagner/lbpdExamples/exampleProducts/GebaeudeN_cell
+# imports: https://w3id.org/bpo
+# imports: https://w3id.org/fog
+# prefix: GebNcell
+
+@prefix bpo: <https://w3id.org/bpo#> .
+@prefix fog: <https://w3id.org/fog#> .
+@prefix GebNcell: <https://github.com/AnnaWagner/lbpdExamples/exampleProducts/GebaeudeN_cell#> .
+@prefix geometry: <http://rdf.bg/geometry.ttl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix qudt: <http://qudt.org/schema/qudt#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://github.com/AnnaWagner/lbpdExamples/exampleProducts/GebaeudeN_cell>
+  rdf:type owl:Ontology ;
+  owl:imports <http://rdf.bg/geometry.ttl> ;
+  owl:imports <https://w3id.org/bpo> ;
+  owl:imports <https://w3id.org/fog> ;
+.
+GebNcell:A_PVCells_CellType
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  schema:value "Monocrystalline Silicon, interdigitated back-contact (IBC)" ;
+  bpo:hasBSDDGUID "0BgoUAWJaHu000025QrE$V" ;
+.
+GebNcell:A_PVCells_Length
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Attribute ;
+  qudt:unit unit:M ;
+  schema:value "0.125"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHhqmoT0Hsm00051Mm008" ;
+.
+GebNcell:A_PVCells_NominalPower
+  rdf:type bpo:Attribute ;
+  qudt:unit unit:W ;
+  schema:value "3.19"^^xsd:double ;
+  bpo:hasBSDDGUID "0Sb4pS1dbAqRPQUfvlqXBX" ;
+.
+GebNcell:A_PVCells_Width
+  rdf:type bpo:Attribute ;
+  qudt:unit unit:M ;
+  schema:value "0.125"^^xsd:double ;
+  bpo:hasBSDDGUID "3vHi0KoT0Hsm00051Mm008" ;
+.
+GebNcell:BooleanOperation_1
+  rdf:type geometry:BooleanOperation ;
+  geometry:firstObject GebNcell:Box_1 ;
+  geometry:secondObject GebNcell:Transformation_SecondObject ;
+  geometry:type 3 ;
+.
+GebNcell:Box_1
+  rdf:type geometry:Box ;
+  geometry:height "0.76"^^xsd:double ;
+  geometry:length "125"^^xsd:double ;
+  geometry:material GebNcell:Material_Blue ;
+  geometry:width "125"^^xsd:double ;
+.
+GebNcell:Box_2
+  rdf:type geometry:Box ;
+  geometry:height "0.76"^^xsd:double ;
+  geometry:length "164"^^xsd:double ;
+  geometry:material GebNcell:Material_Blue ;
+  geometry:width "164"^^xsd:double ;
+.
+GebNcell:Co_PVCells
+  rdf:type owl:NamedIndividual ;
+  rdf:type bpo:Element, bpo:Product ;
+  bpo:hasAttribute GebNcell:A_PVCells_CellType ;
+  bpo:hasAttribute GebNcell:A_PVCells_Length ;
+  bpo:hasAttribute GebNcell:A_PVCells_NominalPower ;
+  bpo:hasAttribute GebNcell:A_PVCells_Width ;
+  bpo:hasBSDDGUID "3vHNbSoT0Hsm00051Mm008" ;
+  fog:asGeomOntology GebNcell:GCo_PVCells ;
+.
+GebNcell:ColorComponent_Blue
+  rdf:type geometry:ColorComponent ;
+  geometry:B "1"^^xsd:double ;
+  geometry:G "0"^^xsd:double ;
+  geometry:R "0"^^xsd:double ;
+  geometry:W "1"^^xsd:double ;
+.
+GebNcell:Color_Blue
+  rdf:type geometry:Color ;
+  geometry:ambient GebNcell:ColorComponent_Blue ;
+.
+GebNcell:GCo_PVCells
+  rdf:type geometry:Collection ;
+  geometry:objects GebNcell:BooleanOperation_1 ;
+.
+GebNcell:M_SecondObject
+  rdf:type geometry:Matrix ;
+  geometry:_11 "0.707107"^^xsd:double ;
+  geometry:_12 "-0.707107"^^xsd:double ;
+  geometry:_21 "0.707107"^^xsd:double ;
+  geometry:_22 "0.707107"^^xsd:double ;
+  geometry:_33 "1"^^xsd:double ;
+  geometry:_41 "-54"^^xsd:double ;
+  geometry:_42 "63"^^xsd:double ;
+  rdfs:label "Test_Type" ;
+.
+GebNcell:Material_Blue
+  rdf:type geometry:Material ;
+  geometry:color GebNcell:Color_Blue ;
+.
+GebNcell:Transformation_SecondObject
+  rdf:type geometry:Transformation ;
+  geometry:matrix GebNcell:M_SecondObject ;
+  geometry:object GebNcell:Box_2 ;
+  rdfs:label "Test_Type" ;
+.
