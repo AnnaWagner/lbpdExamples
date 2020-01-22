@@ -1,0 +1,1455 @@
+@prefix GebN: <https://github.com/AnnaWagner/lbpdExamples/modularity/occGeometry> .
+@prefix occ: <https://projekt-scope.de/ontologies/occ#> .
+@prefix omg: <https://w3id.org/omg#> .
+@prefix oop: <https://projekt-scope.de/ontologies/oop#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+GebN:G_PVCells_01 omg:hasComplexGeometryDescription GebN:_QXIJxTJe .
+
+GebN:G_PVCells_02 omg:hasComplexGeometryDescription GebN:_TTfwUPdt .
+
+GebN:G_PVCells_03 omg:hasComplexGeometryDescription GebN:_uJwPzSCR .
+
+GebN:G_PVCells_04 omg:hasComplexGeometryDescription GebN:_zcOsTwFZ .
+
+GebN:G_PVCells_05 omg:hasComplexGeometryDescription GebN:_KmhZqLBt .
+
+GebN:G_PVCells_06 omg:hasComplexGeometryDescription GebN:_HniKSGFO .
+
+GebN:G_PVCells_07 omg:hasComplexGeometryDescription GebN:_LvNBtYuD .
+
+GebN:G_PVCells_08 omg:hasComplexGeometryDescription GebN:_VokyiDBf .
+
+GebN:G_PVCells_09 omg:hasComplexGeometryDescription GebN:_WMcCPrXJ .
+
+GebN:G_PVCells_10 omg:hasComplexGeometryDescription GebN:_qzLsMqAP .
+
+GebN:G_PVCells_11 omg:hasComplexGeometryDescription GebN:_bjxCPfJT .
+
+GebN:G_PVCells_12 omg:hasComplexGeometryDescription GebN:_UkquHWAA .
+
+GebN:G_PVCells_13 omg:hasComplexGeometryDescription GebN:_aDVjIgvy .
+
+GebN:G_PVCells_14 omg:hasComplexGeometryDescription GebN:_ZgayzAaB .
+
+GebN:G_PVCells_15 omg:hasComplexGeometryDescription GebN:_kqqtAHfP .
+
+GebN:G_PVCells_16 omg:hasComplexGeometryDescription GebN:_BbskjRfq .
+
+GebN:G_PVCells_17 omg:hasComplexGeometryDescription GebN:_OcRDtvMn .
+
+GebN:G_PVCells_18 omg:hasComplexGeometryDescription GebN:_BrcAoWYg .
+
+GebN:G_PVCells_19 omg:hasComplexGeometryDescription GebN:_NRtvaqqI .
+
+GebN:G_PVCells_20 omg:hasComplexGeometryDescription GebN:_WGaahdDR .
+
+GebN:G_PVCells_21 omg:hasComplexGeometryDescription GebN:_qjyjpYxu .
+
+GebN:G_PVCells_22 omg:hasComplexGeometryDescription GebN:_wfbbHxCv .
+
+GebN:G_PVCells_23 omg:hasComplexGeometryDescription GebN:_cffbDnXB .
+
+GebN:G_PVCells_24 omg:hasComplexGeometryDescription GebN:_GAXKhIsX .
+
+GebN:G_PVCells_25 omg:hasComplexGeometryDescription GebN:_bVdAyDQF .
+
+GebN:G_PVCells_26 omg:hasComplexGeometryDescription GebN:_VzpdfNzN .
+
+GebN:G_PVCells_27 omg:hasComplexGeometryDescription GebN:_HfTiPynq .
+
+GebN:G_PVCells_28 omg:hasComplexGeometryDescription GebN:_wNkqCinv .
+
+GebN:G_PVCells_29 omg:hasComplexGeometryDescription GebN:_XyrYgFEn .
+
+GebN:G_PVCells_30 omg:hasComplexGeometryDescription GebN:_GuxdrWtP .
+
+GebN:G_PVCells_31 omg:hasComplexGeometryDescription GebN:_ohqclqxi .
+
+GebN:G_PVCells_32 omg:hasComplexGeometryDescription GebN:_olJLtKMc .
+
+GebN:G_PVCells_33 omg:hasComplexGeometryDescription GebN:_YJrRrmky .
+
+GebN:G_PVCells_34 omg:hasComplexGeometryDescription GebN:_ESUUjDDq .
+
+GebN:G_PVCells_35 omg:hasComplexGeometryDescription GebN:_NGsBgxcC .
+
+GebN:G_PVCells_36 omg:hasComplexGeometryDescription GebN:_SceypkSo .
+
+GebN:G_PVCells_37 omg:hasComplexGeometryDescription GebN:_vKARCaKN .
+
+GebN:G_PVCells_38 omg:hasComplexGeometryDescription GebN:_DECeFJYi .
+
+GebN:G_PVCells_39 omg:hasComplexGeometryDescription GebN:_XpsOZxdN .
+
+GebN:G_PVCells_40 omg:hasComplexGeometryDescription GebN:_xGWSGhYn .
+
+GebN:G_PVCells_41 omg:hasComplexGeometryDescription GebN:_DFCSSiKo .
+
+GebN:G_PVCells_42 omg:hasComplexGeometryDescription GebN:_oEFXJvsB .
+
+GebN:G_PVCells_43 omg:hasComplexGeometryDescription GebN:_vjFVexXU .
+
+GebN:G_PVCells_44 omg:hasComplexGeometryDescription GebN:_ecKApqex .
+
+GebN:G_PVCells_45 omg:hasComplexGeometryDescription GebN:_kNlDPhmK .
+
+GebN:G_PVCells_46 omg:hasComplexGeometryDescription GebN:_GhLjWIjo .
+
+GebN:G_PVCells_47 omg:hasComplexGeometryDescription GebN:_QKnzDpvt .
+
+GebN:G_PVCells_48 omg:hasComplexGeometryDescription GebN:_SeGPyIJQ .
+
+GebN:G_PVCells_49 omg:hasComplexGeometryDescription GebN:_rzUOsOnb .
+
+GebN:G_PVCells_50 omg:hasComplexGeometryDescription GebN:_csppOSnM .
+
+GebN:G_PVCells_51 omg:hasComplexGeometryDescription GebN:_TfDJNDbF .
+
+GebN:G_PVCells_52 omg:hasComplexGeometryDescription GebN:_rGvamQdx .
+
+GebN:G_PVCells_53 omg:hasComplexGeometryDescription GebN:_WKZHycUK .
+
+GebN:G_PVCells_54 omg:hasComplexGeometryDescription GebN:_JmsszuNi .
+
+GebN:G_PVCells_55 omg:hasComplexGeometryDescription GebN:_XtlMyjzM .
+
+GebN:G_PVCells_56 omg:hasComplexGeometryDescription GebN:_dyELWUSB .
+
+GebN:G_PVCells_57 omg:hasComplexGeometryDescription GebN:_aBsSbLgZ .
+
+GebN:G_PVCells_58 omg:hasComplexGeometryDescription GebN:_WuhxhMlr .
+
+GebN:G_PVCells_59 omg:hasComplexGeometryDescription GebN:_OzdBTogl .
+
+GebN:G_PVCells_60 omg:hasComplexGeometryDescription GebN:_IkeHMdlO .
+
+GebN:G_PVCells_61 omg:hasComplexGeometryDescription GebN:_DWLHnSGa .
+
+GebN:G_PVCells_62 omg:hasComplexGeometryDescription GebN:_kaXvvwzW .
+
+GebN:G_PVCells_63 omg:hasComplexGeometryDescription GebN:_ptRVHCQu .
+
+GebN:G_PVCells_64 omg:hasComplexGeometryDescription GebN:_KOBozgwB .
+
+GebN:_VhGBvuhp omg:hasComplexGeometryDescription GebN:_ruWoaAAS .
+
+GebN:_AFHaLpLt a occ:Shape .
+
+GebN:_AIgJtbgv a occ:SetTranslation ;
+    oop:hasParameter GebN:_CRNXUFrC .
+
+GebN:_AJeelPPd a occ:gp_Vec ;
+    oop:hasParameter ( "Nd99dd960a39b47c0a04088f0f9f4b2f4" 412 158 5 ) .
+
+GebN:_AjiuQvLN omg:hasComplexGeometryDescription GebN:_iRqVYYEL .
+
+GebN:_AkLfkeFk omg:hasComplexGeometryDescription GebN:_KnbVtKzi .
+
+GebN:_AnCExnOs a occ:gp_Vec ;
+    oop:hasParameter ( "N36bb966294be426b8a1ea5375db92495" 156 286 5 ) .
+
+GebN:_AruYltMs a occ:Add ;
+    oop:hasParameter GebN:_mqAAyHFA .
+
+GebN:_AxgcuarC omg:hasComplexGeometryDescription GebN:_ePGKissX .
+
+GebN:_BLBQzJbR a occ:gp_Trsf ;
+    oop:hasMethod GebN:_TPHHzfor .
+
+GebN:_BRhyvwSV omg:hasComplexGeometryDescription GebN:_vIVGetRh .
+
+GebN:_BWsWbxec a occ:SetTranslation ;
+    oop:hasParameter GebN:_IyGXrWfC .
+
+GebN:_BbskjRfq a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_FTMoxeww ;
+    oop:hasParameter ( "Nb3a090111a0a4134ab32b764f3996d9a" GebN:_mQueiQDd GebN:_SyXmvKPS ) .
+
+GebN:_BrcAoWYg a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_joxnVcxn ;
+    oop:hasParameter ( "N5ba79d1870824748bd9cba2b484a51fb" GebN:_mQueiQDd GebN:_KEoAIrbJ ) .
+
+GebN:_BrgYEXHV a occ:SetTranslation ;
+    oop:hasParameter GebN:_eUxMyfOe .
+
+GebN:_BsqsGEFJ a occ:gp_Trsf ;
+    oop:hasMethod GebN:_bvVEXPrO .
+
+GebN:_BwzXFyXP a occ:gp_Trsf ;
+    oop:hasMethod GebN:_GROCUbkh .
+
+GebN:_CRNXUFrC omg:hasComplexGeometryDescription GebN:_CvfZJIaJ .
+
+GebN:_CUKEirou omg:hasComplexGeometryDescription GebN:_EtxISBID .
+
+GebN:_CVgtLDYA omg:hasComplexGeometryDescription GebN:_urCdKasm .
+
+GebN:_CpafVzJK omg:hasComplexGeometryDescription GebN:_Vbsuiadt .
+
+GebN:_CtXDjLpI omg:hasComplexGeometryDescription GebN:_hGQbiMPn .
+
+GebN:_CumEHRWC a occ:gp_Trsf ;
+    oop:hasMethod GebN:_QBWfBrfX .
+
+GebN:_CuppTNWA omg:hasComplexGeometryDescription GebN:_YeRFcGoK .
+
+GebN:_CvfZJIaJ a occ:gp_Vec ;
+    oop:hasParameter ( "N5d9a38be89b24f54bb57a0939f47fd63" 156 30 5 ) .
+
+GebN:_DCYyiBpP omg:hasComplexGeometryDescription GebN:_LJwqiFIu .
+
+GebN:_DDBmeYUY a occ:gp_Vec ;
+    oop:hasParameter ( "Nc0da309b228b4683a290cf2117fd231d" 924 286 5 ) .
+
+GebN:_DECeFJYi a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_UiupjFNt ;
+    oop:hasParameter ( "N560f40a762244ba6ae332174bab3acdd" GebN:_mQueiQDd GebN:_QQzeJCKU ) .
+
+GebN:_DFCSSiKo a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_WhXxGaGb ;
+    oop:hasParameter ( "N6b2010b679d1413d8e6a2bd8f35054bb" GebN:_mQueiQDd GebN:_dTTCLeEI ) .
+
+GebN:_DWLHnSGa a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_bTIlBVVG ;
+    oop:hasParameter ( "Nd430ca11ec254b5e88cb1370ef6a7392" GebN:_mQueiQDd GebN:_reJesFIl ) .
+
+GebN:_DaRGBSbb omg:hasComplexGeometryDescription GebN:_pykhxgmr .
+
+GebN:_DcPMNmKh omg:hasComplexGeometryDescription GebN:_sowRmWHA .
+
+GebN:_DenFRlyK omg:hasComplexGeometryDescription GebN:_LQSsqiKK .
+
+GebN:_DevqoDBo a occ:SetTranslation ;
+    oop:hasParameter GebN:_NcoiXTkS .
+
+GebN:_DhHAwGwi a occ:Shape .
+
+GebN:_DiesdXXN a occ:gp_Vec ;
+    oop:hasParameter ( "Nc31dd29511e54d86bd887566af5f6936" 924 414 5 ) .
+
+GebN:_EGGrmjfY a occ:SetTranslation ;
+    oop:hasParameter GebN:_MxxbXUAT .
+
+GebN:_ENLaTxBg omg:hasComplexGeometryDescription GebN:_sMKWbqzD .
+
+GebN:_ENMYXHHe a occ:Shape .
+
+GebN:_ESUUjDDq a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_kiisgqhD ;
+    oop:hasParameter ( "N58b2517546c64159829ba54a2b1808d7" GebN:_mQueiQDd GebN:_MgENiDuX ) .
+
+GebN:_ESqbJHOQ a occ:SetTranslation ;
+    oop:hasParameter GebN:_bTTnASmZ .
+
+GebN:_EadNsooN a occ:Shape .
+
+GebN:_EdViKhFK a occ:Shape .
+
+GebN:_EtxISBID a occ:gp_Vec ;
+    oop:hasParameter ( "Nd8518a877425446aa13e1f6c098942a3" 28 670 5 ) .
+
+GebN:_EvWYLfkL a occ:gp_Pnt ;
+    oop:hasParameter ( "N35b1c6a7281f4314b15632fc9afdd395" 0 10 0 ) .
+
+GebN:_EwgcLEvY a occ:SetTranslation ;
+    oop:hasParameter GebN:_AjiuQvLN .
+
+GebN:_EyniGnTX a occ:gp_Trsf ;
+    oop:hasMethod GebN:_NkKRNTxQ .
+
+GebN:_FBqVpXUl a occ:gp_Vec ;
+    oop:hasParameter ( "N1b0fe8f2d14d445ba822b37e3830219c" 540 926 5 ) .
+
+GebN:_FFXZBqok a occ:gp_Trsf ;
+    oop:hasMethod GebN:_EwgcLEvY .
+
+GebN:_FOkDGvoM omg:hasComplexGeometryDescription GebN:_EyniGnTX .
+
+GebN:_FTMoxeww a occ:Shape .
+
+GebN:_FYdfyUDu omg:hasComplexGeometryDescription GebN:_UnRMBISp .
+
+GebN:_FdJUsxvI a occ:SetTranslation ;
+    oop:hasParameter GebN:_qTZUVCRk .
+
+GebN:_FnwlGOHR a occ:SetTranslation ;
+    oop:hasParameter GebN:_WABvaugc .
+
+GebN:_FnzXOuuX omg:hasComplexGeometryDescription GebN:_fJyESNSd .
+
+GebN:_FovljPKg omg:hasComplexGeometryDescription GebN:_mzUWRzgn .
+
+GebN:_GAXKhIsX a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_GRbbommp ;
+    oop:hasParameter ( "Nfd7609a3f0c549569c56a1e3d103f13d" GebN:_mQueiQDd GebN:_KThciohD ) .
+
+GebN:_GBVFHujV a occ:gp_Pnt ;
+    oop:hasParameter ( "N6819c9ebcf5a453dbfa36e126d0cdda9" 125 10 0 ) .
+
+GebN:_GDTGLxGt omg:hasComplexGeometryDescription GebN:_fVflzsmR .
+
+GebN:_GNmQwNBv a occ:gp_Vec ;
+    oop:hasParameter ( "N7a54c73cf4c34a0d9e1e83d9731e8e85" 668 926 5 ) .
+
+GebN:_GQCSZTeJ a occ:gp_Vec ;
+    oop:hasParameter ( "N1e1c749016684171819ea90bf1dba111" 924 670 5 ) .
+
+GebN:_GROCUbkh a occ:SetTranslation ;
+    oop:hasParameter GebN:_CtXDjLpI .
+
+GebN:_GRbbommp a occ:Shape .
+
+GebN:_GUXrqRHU a occ:gp_Vec ;
+    oop:hasParameter ( "N196cdd1cbaf6439a870ad999e962901c" 540 670 5 ) .
+
+GebN:_GWcTqNag a occ:Shape .
+
+GebN:_GhLjWIjo a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_TsFBPXXF ;
+    oop:hasParameter ( "Nde7a4422bbd842619df7968030a6b417" GebN:_mQueiQDd GebN:_edYTtLvb ) .
+
+GebN:_GoTgOaKN a occ:gp_Trsf ;
+    oop:hasMethod GebN:_pgCzxmIW .
+
+GebN:_GqolZflB omg:hasComplexGeometryDescription GebN:_OxWgbZWv .
+
+GebN:_GsQEVlHO a occ:Shape .
+
+GebN:_GuxdrWtP a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_GsQEVlHO ;
+    oop:hasParameter ( "N7b767eb601404863ad287b9dd48ac809" GebN:_mQueiQDd GebN:_ENLaTxBg ) .
+
+GebN:_HSCbmvkm omg:hasComplexGeometryDescription GebN:_kzPhVYFg .
+
+GebN:_HUJDxmKM a occ:Shape .
+
+GebN:_HenDXRqh omg:hasComplexGeometryDescription GebN:_VRXpxiBY .
+
+GebN:_HfTiPynq a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_vwazHfGW ;
+    oop:hasParameter ( "Nb693cc07285a40fc854ef27bea026142" GebN:_mQueiQDd GebN:_pfPYluEH ) .
+
+GebN:_HniKSGFO a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_vRFPQbAP ;
+    oop:hasParameter ( "N1a7495d6a6de43df9276303028cc6845" GebN:_mQueiQDd GebN:_uQEArYmG ) .
+
+GebN:_HtkRPPrL a occ:gp_Vec ;
+    oop:hasParameter ( "N68d606a025f144038a2e71b442da6f56" 412 414 5 ) .
+
+GebN:_HxlrvoZL a occ:gp_Trsf ;
+    oop:hasMethod GebN:_VqZRusen .
+
+GebN:_IREadKNk a occ:gp_Vec ;
+    oop:hasParameter ( "Ndcdd72bd689248f8bb710d17ee783299" 284 542 5 ) .
+
+GebN:_IUpRGjrU a occ:Shape .
+
+GebN:_IbUVyVff omg:hasComplexGeometryDescription GebN:_GBVFHujV .
+
+GebN:_IdIVLbOi a occ:Add ;
+    oop:hasParameter GebN:_QaxYUZct .
+
+GebN:_IkeHMdlO a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_mXzmONen ;
+    oop:hasParameter ( "Ncbf69c8c270e4510866572f8fe46bfd5" GebN:_mQueiQDd GebN:_yiDFfeWx ) .
+
+GebN:_IyGXrWfC omg:hasComplexGeometryDescription GebN:_eNuZklcy .
+
+GebN:_JEIFbYzq a occ:gp_Vec ;
+    oop:hasParameter ( "N1adf791ba9c84cdb8c6942725acfd3b9" 540 30 5 ) .
+
+GebN:_JFCoAspi a occ:gp_Vec ;
+    oop:hasParameter ( "N40518f4d50934811ba0ef911b4788ffe" 412 30 5 ) .
+
+GebN:_JNnsgYDn a occ:Shape .
+
+GebN:_JdKDMBMY a occ:Add ;
+    oop:hasParameter GebN:_IbUVyVff .
+
+GebN:_JexbCDbR a occ:gp_Vec ;
+    oop:hasParameter ( "Nb21f7620468e4f70bc2d5aa1f4e390d5" 412 286 5 ) .
+
+GebN:_JfQSGpdw a occ:Shape .
+
+GebN:_JgBFcsri omg:hasComplexGeometryDescription GebN:_HtkRPPrL .
+
+GebN:_JmsszuNi a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_AFHaLpLt ;
+    oop:hasParameter ( "N8ceedf0f78f24e25ad6fef70ae10373a" GebN:_mQueiQDd GebN:_BRhyvwSV ) .
+
+GebN:_JuYlFUuP a occ:gp_Vec ;
+    oop:hasParameter ( "N31500f6c60874765aadb1231854241fe" 796 926 5 ) .
+
+GebN:_KEoAIrbJ omg:hasComplexGeometryDescription GebN:_GoTgOaKN .
+
+GebN:_KJkyHEHs a occ:SetTranslation ;
+    oop:hasParameter GebN:_CUKEirou .
+
+GebN:_KLulAoEb a occ:gp_Trsf ;
+    oop:hasMethod GebN:_jPkBFasA .
+
+GebN:_KOBozgwB a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_EadNsooN ;
+    oop:hasParameter ( "N27e4b122deb64301b7d41070c5ce0242" GebN:_mQueiQDd GebN:_DCYyiBpP ) .
+
+GebN:_KThciohD omg:hasComplexGeometryDescription GebN:_CumEHRWC .
+
+GebN:_KcmwMFtA a occ:gp_Vec ;
+    oop:hasParameter ( "Nc4e316d3b0d64babb8275c220e6f2ca2" 924 798 5 ) .
+
+GebN:_KefpFPbt a occ:gp_Vec ;
+    oop:hasParameter ( "N09675b46b5334884be3d825cfbf14114" 28 798 5 ) .
+
+GebN:_KmhZqLBt a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_RzoimMDS ;
+    oop:hasParameter ( "Nc3022b54002d45b8a1bf3a03872f0dbe" GebN:_mQueiQDd GebN:_WjgQNDnH ) .
+
+GebN:_KnbVtKzi a occ:gp_Vec ;
+    oop:hasParameter ( "N304e55681c6b47f695eac118bedbaf4f" 28 286 5 ) .
+
+GebN:_KpfjgVKJ a occ:gp_Trsf ;
+    oop:hasMethod GebN:_OKQlaDEf .
+
+GebN:_LCnTKOfB a occ:gp_Pnt ;
+    oop:hasParameter ( "Nc15e890a802e485fb0f8f9bb6aef95d6" 115 125 0 ) .
+
+GebN:_LHLyfYGh a occ:SetTranslation ;
+    oop:hasParameter GebN:_QwKhiRbU .
+
+GebN:_LHpfAFlS a occ:SetTranslation ;
+    oop:hasParameter GebN:_eknNauHc .
+
+GebN:_LJwqiFIu a occ:gp_Trsf ;
+    oop:hasMethod GebN:_MJLHlyFT .
+
+GebN:_LQSsqiKK a occ:gp_Vec ;
+    oop:hasParameter ( "N05b3f772c73844fe9770e62ffd5c0a57" 796 798 5 ) .
+
+GebN:_LTYsMcjF a occ:Shape .
+
+GebN:_LiOKSOrv a occ:gp_Trsf ;
+    oop:hasMethod GebN:_NFKeOTPk .
+
+GebN:_LjBHMBBM a occ:gp_Trsf ;
+    oop:hasMethod GebN:_SkJpyCSc .
+
+GebN:_LrwqILAV a occ:gp_Trsf ;
+    oop:hasMethod GebN:_afcMDBZG .
+
+GebN:_LsRFcVWM omg:hasComplexGeometryDescription GebN:_sCduKPth .
+
+GebN:_LvNBtYuD a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_ozxzpspV ;
+    oop:hasParameter ( "N4d492ebd7356497e927fc24e9a641dd5" GebN:_mQueiQDd GebN:_RrShHqSo ) .
+
+GebN:_LvaeIITf a occ:gp_Trsf ;
+    oop:hasMethod GebN:_EGGrmjfY .
+
+GebN:_LwxdRTuC a occ:gp_Trsf ;
+    oop:hasMethod GebN:_XJWwcSba .
+
+GebN:_LxdUpkov omg:hasComplexGeometryDescription GebN:_shmuoyqh .
+
+GebN:_MJLHlyFT a occ:SetTranslation ;
+    oop:hasParameter GebN:_FYdfyUDu .
+
+GebN:_MWhMezQL omg:hasComplexGeometryDescription GebN:_ssObkcII .
+
+GebN:_MXBtRSim omg:hasComplexGeometryDescription GebN:_HxlrvoZL .
+
+GebN:_MgENiDuX omg:hasComplexGeometryDescription GebN:_ZVJXCyGT .
+
+GebN:_MvJivtXW a occ:BRepPrimAPI_MakePrism ;
+    oop:hasMethod GebN:_kGvUWBNX ;
+    oop:hasParameter ( "N56cca3028d6641c08a2504d44a566643" GebN:_myzxNRXa GebN:_aymZMFaH ) .
+
+GebN:_MxxbXUAT omg:hasComplexGeometryDescription GebN:_tKYzUCYc .
+
+GebN:_NFBmjeBq a occ:gp_Trsf ;
+    oop:hasMethod GebN:_LHLyfYGh .
+
+GebN:_NFKeOTPk a occ:SetTranslation ;
+    oop:hasParameter GebN:_hfvlTvhm .
+
+GebN:_NGocniGE omg:hasComplexGeometryDescription GebN:_FFXZBqok .
+
+GebN:_NGsBgxcC a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_LTYsMcjF ;
+    oop:hasParameter ( "N2f16ca643df04ef9ab4d65e4249629f7" GebN:_mQueiQDd GebN:_YgRekQqS ) .
+
+GebN:_NLlRjnOM a occ:SetTranslation ;
+    oop:hasParameter GebN:_NgBftmsp .
+
+GebN:_NORyRZDY omg:hasComplexGeometryDescription GebN:_YQDmekhR .
+
+GebN:_NRtvaqqI a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_vQbVZFMY ;
+    oop:hasParameter ( "Nc39b66089b9b40afaaa406b63e04e6d7" GebN:_mQueiQDd GebN:_UmyMjsbm ) .
+
+GebN:_NXBfIHrD a occ:gp_Pnt ;
+    oop:hasParameter ( "Nde964ae3de15494187b7bbd50652a514" 0 115 0 ) .
+
+GebN:_NcoiXTkS omg:hasComplexGeometryDescription GebN:_GQCSZTeJ .
+
+GebN:_NgBftmsp omg:hasComplexGeometryDescription GebN:_VObrCDjY .
+
+GebN:_NkKRNTxQ a occ:SetTranslation ;
+    oop:hasParameter GebN:_wEtDyAvP .
+
+GebN:_OKQlaDEf a occ:SetTranslation ;
+    oop:hasParameter GebN:_qMebPlTN .
+
+GebN:_OcRDtvMn a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_wuUjvwhr ;
+    oop:hasParameter ( "N9bae3ffa3c194daca45d93c801156172" GebN:_mQueiQDd GebN:_WJsfPJCV ) .
+
+GebN:_OgntsfRq a occ:Close .
+
+GebN:_OjxlfPGR a occ:SetTranslation ;
+    oop:hasParameter GebN:_PgyJrylu .
+
+GebN:_OuFcMbGU a occ:Shape .
+
+GebN:_OxWgbZWv a occ:gp_Vec ;
+    oop:hasParameter ( "N0f1bf001cf3343158d8c928372e290c2" 540 798 5 ) .
+
+GebN:_OzdBTogl a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_ehwdFatR ;
+    oop:hasParameter ( "N87a2d3faefb14fa9bd0061d426599885" GebN:_mQueiQDd GebN:_AxgcuarC ) .
+
+GebN:_PNscWPWo a occ:gp_Vec ;
+    oop:hasParameter ( "Nb3f3e7ad774b49e989f597f8f3229bb8" 156 670 5 ) .
+
+GebN:_PXVRmCPT omg:hasComplexGeometryDescription GebN:_ZKEDBSTe .
+
+GebN:_PcfOoeaq omg:hasComplexGeometryDescription GebN:_kIkBriad .
+
+GebN:_PeAGWbrM a occ:gp_Vec ;
+    oop:hasParameter ( "Nb150dc8336f048b4a21029c0f6cd8326" 156 926 5 ) .
+
+GebN:_PgyJrylu omg:hasComplexGeometryDescription GebN:_hKwQZFFs .
+
+GebN:_Phwynkzu a occ:SetTranslation ;
+    oop:hasParameter GebN:_HSCbmvkm .
+
+GebN:_PjcmatmO a occ:gp_Vec ;
+    oop:hasParameter ( "N45d77a0ecd3a412eaad2c789f7039fb6" 284 670 5 ) .
+
+GebN:_PushdwpU omg:hasComplexGeometryDescription GebN:_NFBmjeBq .
+
+GebN:_QAUElVFU omg:hasComplexGeometryDescription GebN:_cUMcCrSI .
+
+GebN:_QBWfBrfX a occ:SetTranslation ;
+    oop:hasParameter GebN:_XEnmiQTn .
+
+GebN:_QCYDQDhg omg:hasComplexGeometryDescription GebN:_BwzXFyXP .
+
+GebN:_QKnzDpvt a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_TXZdUlbD ;
+    oop:hasParameter ( "Nac9f86c5aef0417b90fdc49be1614852" GebN:_mQueiQDd GebN:_GDTGLxGt ) .
+
+GebN:_QQzeJCKU omg:hasComplexGeometryDescription GebN:_KLulAoEb .
+
+GebN:_QXIJxTJe a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_tApsvjea ;
+    oop:hasParameter ( "N51e6461162db49b3ac264cfb47f5729f" GebN:_mQueiQDd GebN:_UTvukZcp ) .
+
+GebN:_QaxYUZct omg:hasComplexGeometryDescription GebN:_LCnTKOfB .
+
+GebN:_QiqWFvvE a occ:SetTranslation ;
+    oop:hasParameter GebN:_JgBFcsri .
+
+GebN:_QlsLGFBm omg:hasComplexGeometryDescription GebN:_KpfjgVKJ .
+
+GebN:_QwKhiRbU omg:hasComplexGeometryDescription GebN:_uPMKYuWL .
+
+GebN:_RAUuybjU a occ:Add ;
+    oop:hasParameter GebN:_wiwBoQfU .
+
+GebN:_RIRiwiyr a occ:SetTranslation ;
+    oop:hasParameter GebN:_ZYZrsVUO .
+
+GebN:_ROiYHtiC a occ:Shape .
+
+GebN:_RcffPJCL a occ:SetTranslation ;
+    oop:hasParameter GebN:_GqolZflB .
+
+GebN:_RdmQbOoY a occ:Shape .
+
+GebN:_RiebRVov omg:hasComplexGeometryDescription GebN:_iOJIwFjB .
+
+GebN:_RrShHqSo omg:hasComplexGeometryDescription GebN:_bojrNrRj .
+
+GebN:_RsBnLfOz a occ:gp_Trsf ;
+    oop:hasMethod GebN:_lUFXskrG .
+
+GebN:_RzoimMDS a occ:Shape .
+
+GebN:_RzwiTsgF a occ:Shape .
+
+GebN:_SFLhDkRR a occ:gp_Vec ;
+    oop:hasParameter ( "Ne847decaf8d847b0bfcb8400f8aa1f9e" 924 158 5 ) .
+
+GebN:_SHGoZcGq omg:hasComplexGeometryDescription GebN:_BsqsGEFJ .
+
+GebN:_SJiYmMQs omg:hasComplexGeometryDescription GebN:_zLSvnMjx .
+
+GebN:_SKhozrpC a occ:Add ;
+    oop:hasParameter GebN:_Tsoulghw .
+
+GebN:_SakUSpRD a occ:gp_Trsf ;
+    oop:hasMethod GebN:_exArsQRn .
+
+GebN:_SceypkSo a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_teCKJscF ;
+    oop:hasParameter ( "N5330d3476b1e406d841fe25bbf1a3d0b" GebN:_mQueiQDd GebN:_VXymOuJz ) .
+
+GebN:_SdHLVNIo a occ:gp_Trsf ;
+    oop:hasMethod GebN:_ijZqxkqI .
+
+GebN:_SeGPyIJQ a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_fMgLfxjB ;
+    oop:hasParameter ( "N3ed9427e93274787931f8fec894081f1" GebN:_mQueiQDd GebN:_doNSpwth ) .
+
+GebN:_SkJpyCSc a occ:SetTranslation ;
+    oop:hasParameter GebN:_CVgtLDYA .
+
+GebN:_SnHmwlKb a occ:gp_Trsf ;
+    oop:hasMethod GebN:_qRvvJSXq .
+
+GebN:_SuSMtedm a occ:gp_Trsf ;
+    oop:hasMethod GebN:_FnwlGOHR .
+
+GebN:_SyXmvKPS omg:hasComplexGeometryDescription GebN:_BLBQzJbR .
+
+GebN:_TPHHzfor a occ:SetTranslation ;
+    oop:hasParameter GebN:_eQHdLwCh .
+
+GebN:_TTfwUPdt a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_EdViKhFK ;
+    oop:hasParameter ( "N6cf09886f80c495fb3f4a6a6705610bf" GebN:_mQueiQDd GebN:_eaBxGZIl ) .
+
+GebN:_TXZdUlbD a occ:Shape .
+
+GebN:_TaubjyHF a occ:Shape .
+
+GebN:_TfDJNDbF a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_tnioZZWy ;
+    oop:hasParameter ( "N9c247029fc144d089fc640313e8affcc" GebN:_mQueiQDd GebN:_qbbPjQmy ) .
+
+GebN:_TgfyIplM omg:hasComplexGeometryDescription GebN:_xHUzHsLA .
+
+GebN:_TqaEpQwE a occ:SetTranslation ;
+    oop:hasParameter GebN:_vZeZaKCA .
+
+GebN:_TsFBPXXF a occ:Shape .
+
+GebN:_Tsoulghw omg:hasComplexGeometryDescription GebN:_EvWYLfkL .
+
+GebN:_UOuaKLtI a occ:gp_Trsf ;
+    oop:hasMethod GebN:_xujgQWFL .
+
+GebN:_UTvukZcp omg:hasComplexGeometryDescription GebN:_bBDTwFOi .
+
+GebN:_UVIpZjLn a occ:gp_Trsf ;
+    oop:hasMethod GebN:_YhjLpdnK .
+
+GebN:_UgzwhuDk omg:hasComplexGeometryDescription GebN:_AnCExnOs .
+
+GebN:_UiupjFNt a occ:Shape .
+
+GebN:_UkquHWAA a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_gPIUmKxy ;
+    oop:hasParameter ( "Nc0271bedcca74a309e87f69266454494" GebN:_mQueiQDd GebN:_hluIJRWH ) .
+
+GebN:_UmyMjsbm omg:hasComplexGeometryDescription GebN:_LjBHMBBM .
+
+GebN:_UnRMBISp a occ:gp_Vec ;
+    oop:hasParameter ( "N39d9a72c649a406ebc327b84b3d32072" 28 926 5 ) .
+
+GebN:_VFwDfAWD a occ:Shape .
+
+GebN:_VObrCDjY a occ:gp_Vec ;
+    oop:hasParameter ( "Neb03030bec724f70a16e43b2b830e014" 412 670 5 ) .
+
+GebN:_VRXpxiBY a occ:BRepBuilderAPI_MakePolygon ;
+    oop:hasMethod ( "Ne6c8495561b743d9aee5283985c86bdd" GebN:_nRITmGrJ GebN:_WdnoHvIE GebN:_JdKDMBMY GebN:_ZsKbOCeQ GebN:_IdIVLbOi GebN:_AruYltMs GebN:_RAUuybjU GebN:_SKhozrpC GebN:_OgntsfRq GebN:_xVNnbqfY ) .
+
+GebN:_VXymOuJz omg:hasComplexGeometryDescription GebN:_qblYdYXJ .
+
+GebN:_Vbsuiadt a occ:gp_Trsf ;
+    oop:hasMethod GebN:_wgKufgir .
+
+GebN:_VhGZHOuV omg:hasComplexGeometryDescription GebN:_JuYlFUuP .
+
+GebN:_VokyiDBf a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_axPYtCHh ;
+    oop:hasParameter ( "Nbfc2b3b31bb749488345693e6be71887" GebN:_mQueiQDd GebN:_PushdwpU ) .
+
+GebN:_VqZRusen a occ:SetTranslation ;
+    oop:hasParameter GebN:_FnzXOuuX .
+
+GebN:_VrzrRIbZ omg:hasComplexGeometryDescription GebN:_wSdKAUiJ .
+
+GebN:_VzpdfNzN a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_gXDcicFi ;
+    oop:hasParameter ( "Nab16a056f1f747219e41fca263b3685e" GebN:_mQueiQDd GebN:_oHtLDYqQ ) .
+
+GebN:_WABvaugc omg:hasComplexGeometryDescription GebN:_zHsuvAfY .
+
+GebN:_WGaahdDR a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_wGUnuMLv ;
+    oop:hasParameter ( "N7741d4fee4ef45ae8df5ab5aef630b68" GebN:_mQueiQDd GebN:_sPuofKGn ) .
+
+GebN:_WJsfPJCV omg:hasComplexGeometryDescription GebN:_tMeuJavj .
+
+GebN:_WKZHycUK a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_zcUyEViM ;
+    oop:hasParameter ( "N82095a0f2cdf49f0a49962028b895333" GebN:_mQueiQDd GebN:_FovljPKg ) .
+
+GebN:_WMcCPrXJ a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_ENMYXHHe ;
+    oop:hasParameter ( "N381350d1b0e84900ae5c8b28f38b2bb4" GebN:_mQueiQDd GebN:_QlsLGFBm ) .
+
+GebN:_WNZRaChp a occ:Face .
+
+GebN:_WZhkiVYD omg:hasComplexGeometryDescription GebN:_sAZBDaeZ .
+
+GebN:_WdnoHvIE a occ:Add ;
+    oop:hasParameter GebN:_aptQqDwA .
+
+GebN:_WhXxGaGb a occ:Shape .
+
+GebN:_WjgQNDnH omg:hasComplexGeometryDescription GebN:_ugMcaQwm .
+
+GebN:_WuhxhMlr a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_yaLbuUyC ;
+    oop:hasParameter ( "N318c5bacce62462caed4694981bda944" GebN:_mQueiQDd GebN:_lAVJHSoX ) .
+
+GebN:_XEnmiQTn omg:hasComplexGeometryDescription GebN:_DDBmeYUY .
+
+GebN:_XGhJGxxP a occ:gp_Trsf ;
+    oop:hasMethod GebN:_aNZtNpKG .
+
+GebN:_XJWwcSba a occ:SetTranslation ;
+    oop:hasParameter GebN:_LsRFcVWM .
+
+GebN:_XJywstNZ omg:hasComplexGeometryDescription GebN:_LvaeIITf .
+
+GebN:_XKGPurcR a occ:gp_Vec ;
+    oop:hasParameter ( "Nba7baed86e764367b0504e20802ac5f0" 796 670 5 ) .
+
+GebN:_XpsOZxdN a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_ROiYHtiC ;
+    oop:hasParameter ( "N69d27c99461647d1bdd6df7b839a953b" GebN:_mQueiQDd GebN:_RiebRVov ) .
+
+GebN:_XqlTjZXw omg:hasComplexGeometryDescription GebN:_PjcmatmO .
+
+GebN:_XtlMyjzM a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_RdmQbOoY ;
+    oop:hasParameter ( "N3672997619274f09aef362ebdb767a5b" GebN:_mQueiQDd GebN:_TgfyIplM ) .
+
+GebN:_XyrYgFEn a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_IUpRGjrU ;
+    oop:hasParameter ( "N33884433a2014fe4b72d79b1fff038b4" GebN:_mQueiQDd GebN:_biyXnLzc ) .
+
+GebN:_YJrRrmky a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_DhHAwGwi ;
+    oop:hasParameter ( "N7a565801e98a43469ac0eaf8a5ad551c" GebN:_mQueiQDd GebN:_FOkDGvoM ) .
+
+GebN:_YNGfSdXx omg:hasComplexGeometryDescription GebN:_nXGiETwH .
+
+GebN:_YQDmekhR a occ:gp_Trsf ;
+    oop:hasMethod GebN:_dOZWRIXk .
+
+GebN:_YeKKIkuC a occ:gp_Vec ;
+    oop:hasParameter ( "N51d0f5b410654536bb8381a9b4898eb5" 28 542 5 ) .
+
+GebN:_YeRFcGoK a occ:gp_Vec ;
+    oop:hasParameter ( "Nb1ff7587c28242ddb4ab30a91fd93a40" 28 30 5 ) .
+
+GebN:_YgRekQqS omg:hasComplexGeometryDescription GebN:_maCDNLQQ .
+
+GebN:_YhjLpdnK a occ:SetTranslation ;
+    oop:hasParameter GebN:_WZhkiVYD .
+
+GebN:_YvpzcKUN a occ:gp_Trsf ;
+    oop:hasMethod GebN:_LHpfAFlS .
+
+GebN:_YyneDYUw a occ:SetTranslation ;
+    oop:hasParameter GebN:_srqcmlWP .
+
+GebN:_YznHHYLi a occ:SetTranslation ;
+    oop:hasParameter GebN:_zVGcsIzW .
+
+GebN:_ZBPeqdKx a occ:gp_Trsf ;
+    oop:hasMethod GebN:_FdJUsxvI .
+
+GebN:_ZKEDBSTe a occ:gp_Trsf ;
+    oop:hasMethod GebN:_OjxlfPGR .
+
+GebN:_ZPynZDlB omg:hasComplexGeometryDescription GebN:_JFCoAspi .
+
+GebN:_ZVJXCyGT a occ:gp_Trsf ;
+    oop:hasMethod GebN:_YyneDYUw .
+
+GebN:_ZYZrsVUO omg:hasComplexGeometryDescription GebN:_JEIFbYzq .
+
+GebN:_ZcJuTOuW a occ:SetTranslation ;
+    oop:hasParameter GebN:_dKnOsrVt .
+
+GebN:_ZgayzAaB a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_peICBGNo ;
+    oop:hasParameter ( "N5ce477f53cc043388a3712dccda5d163" GebN:_mQueiQDd GebN:_XJywstNZ ) .
+
+GebN:_ZsKbOCeQ a occ:Add ;
+    oop:hasParameter GebN:_cXOYCxRM .
+
+GebN:_ZtRxdWuJ a occ:gp_Vec ;
+    oop:hasParameter ( "Nd420b26b4fc14fd19c2ffa20095cbf79" 668 286 5 ) .
+
+GebN:_ZvoVPOnM a occ:SetTranslation ;
+    oop:hasParameter GebN:_nEvLbKeq .
+
+GebN:_aBsSbLgZ a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_rorFYcfl ;
+    oop:hasParameter ( "N9af7ea70fb394dab990491662c0c7c47" GebN:_mQueiQDd GebN:_cuvnNdAk ) .
+
+GebN:_aDVjIgvy a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_rxPBitMs ;
+    oop:hasParameter ( "Nd944686384844328a7913a61514a8737" GebN:_mQueiQDd GebN:_jATDSrvN ) .
+
+GebN:_aMkXsWbj a occ:gp_Vec ;
+    oop:hasParameter ( "N5bc11ee7f94e49a08d678b3ae65bd732" 796 414 5 ) .
+
+GebN:_aNZtNpKG a occ:SetTranslation ;
+    oop:hasParameter GebN:_nlddnePh .
+
+GebN:_aZKmnnZR a occ:Shape .
+
+GebN:_afcMDBZG a occ:SetTranslation ;
+    oop:hasParameter GebN:_yCrQhYIm .
+
+GebN:_ajcjZMzI a occ:gp_Vec ;
+    oop:hasParameter ( "N4104ef3f182e4bedbecef76007fe3c38" "0"^^xsd:float "0"^^xsd:float "0.76"^^xsd:float ) .
+
+GebN:_aptQqDwA omg:hasComplexGeometryDescription GebN:_xQuuVNVG .
+
+GebN:_auKJiqjh a occ:gp_Vec ;
+    oop:hasParameter ( "N58f988a4f5ed4e67a107f494ce10d0b6" 796 286 5 ) .
+
+GebN:_axPYtCHh a occ:Shape .
+
+GebN:_aymZMFaH omg:hasComplexGeometryDescription GebN:_ajcjZMzI .
+
+GebN:_bBDTwFOi a occ:gp_Trsf ;
+    oop:hasMethod GebN:_xgfHnxpe .
+
+GebN:_bKLdypIe a occ:gp_Vec ;
+    oop:hasParameter ( "Nd3aab53f21d24ef0a5430fb6325602b1" 412 926 5 ) .
+
+GebN:_bTIlBVVG a occ:Shape .
+
+GebN:_bTTnASmZ omg:hasComplexGeometryDescription GebN:_PNscWPWo .
+
+GebN:_bVdAyDQF a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_JfQSGpdw ;
+    oop:hasParameter ( "N51fdf1e54bfa46989868835e601e1259" GebN:_mQueiQDd GebN:_gAWuKZZn ) .
+
+GebN:_biyXnLzc omg:hasComplexGeometryDescription GebN:_cPbkjebL .
+
+GebN:_bjxCPfJT a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_zNwwyhzf ;
+    oop:hasParameter ( "N36c627aac6d84c77839829b1c40bd5bc" GebN:_mQueiQDd GebN:_MWhMezQL ) .
+
+GebN:_bojrNrRj a occ:gp_Trsf ;
+    oop:hasMethod GebN:_lGEOHBLC .
+
+GebN:_bvVEXPrO a occ:SetTranslation ;
+    oop:hasParameter GebN:_tBevVylM .
+
+GebN:_cCeeQRpT a occ:gp_Vec ;
+    oop:hasParameter ( "Nb956ca143d304bae92a1c2a3dd02c9d3" 156 542 5 ) .
+
+GebN:_cPbkjebL a occ:gp_Trsf ;
+    oop:hasMethod GebN:_QiqWFvvE .
+
+GebN:_cUMcCrSI a occ:gp_Vec ;
+    oop:hasParameter ( "Nd82aaf60b7ee47fd8f6d0d85077d3dc3" 156 798 5 ) .
+
+GebN:_cXOYCxRM omg:hasComplexGeometryDescription GebN:_rPGNxDjj .
+
+GebN:_cXzpYDxw omg:hasComplexGeometryDescription GebN:_SakUSpRD .
+
+GebN:_cdhNeKiP a occ:SetTranslation ;
+    oop:hasParameter GebN:_YNGfSdXx .
+
+GebN:_cffbDnXB a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_pQYvyoJd ;
+    oop:hasParameter ( "Nf870bd7fae12490394134c33a0fc8218" GebN:_mQueiQDd GebN:_tnHNkBda ) .
+
+GebN:_csppOSnM a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_TaubjyHF ;
+    oop:hasParameter ( "N0a746a1534dc40659c49cffbfe15add2" GebN:_mQueiQDd GebN:_kgtWCuBA ) .
+
+GebN:_cuvnNdAk omg:hasComplexGeometryDescription GebN:_kkGnoyNX .
+
+GebN:_dKnOsrVt omg:hasComplexGeometryDescription GebN:_bKLdypIe .
+
+GebN:_dOZWRIXk a occ:SetTranslation ;
+    oop:hasParameter GebN:_njHmAkLe .
+
+GebN:_dQcCxAUi omg:hasComplexGeometryDescription GebN:_LrwqILAV .
+
+GebN:_dQhrhkIH omg:hasComplexGeometryDescription GebN:_IREadKNk .
+
+GebN:_dTTCLeEI omg:hasComplexGeometryDescription GebN:_mKcHNFnn .
+
+GebN:_djKrjJyP omg:hasComplexGeometryDescription GebN:_LwxdRTuC .
+
+GebN:_doNSpwth omg:hasComplexGeometryDescription GebN:_fOQWUVMr .
+
+GebN:_dtuXCiCI a occ:Shape .
+
+GebN:_dvkTOYmm a occ:SetTranslation ;
+    oop:hasParameter GebN:_QAUElVFU .
+
+GebN:_dyELWUSB a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_zTjRFkQB ;
+    oop:hasParameter ( "N56eb1fea5c4347fab87363a1265f8e01" GebN:_mQueiQDd GebN:_zRxJMYcm ) .
+
+GebN:_eNuZklcy a occ:gp_Vec ;
+    oop:hasParameter ( "N0302139933fb4b30964f1d9e421eb819" 668 798 5 ) .
+
+GebN:_ePGKissX a occ:gp_Trsf ;
+    oop:hasMethod GebN:_enfYGLGV .
+
+GebN:_eQHdLwCh omg:hasComplexGeometryDescription GebN:_wvEseKnv .
+
+GebN:_eTtkDwxY a occ:SetTranslation ;
+    oop:hasParameter GebN:_exunvSlh .
+
+GebN:_eUxMyfOe omg:hasComplexGeometryDescription GebN:_qOczGKvM .
+
+GebN:_eUxpITnX a occ:Shape .
+
+GebN:_eaBxGZIl omg:hasComplexGeometryDescription GebN:_kBAskAez .
+
+GebN:_eaEHOtww omg:hasComplexGeometryDescription GebN:_rbLOKhXE .
+
+GebN:_ecKApqex a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_miCazCTo ;
+    oop:hasParameter ( "N27c54469d3ff486caeadb42919f92e19" GebN:_mQueiQDd GebN:_gxbiKlVl ) .
+
+GebN:_edQidgFf a occ:SetTranslation ;
+    oop:hasParameter GebN:_oavmsEcH .
+
+GebN:_edYTtLvb omg:hasComplexGeometryDescription GebN:_wtIxQRdo .
+
+GebN:_ehwdFatR a occ:Shape .
+
+GebN:_eknNauHc omg:hasComplexGeometryDescription GebN:_nXjSFPbH .
+
+GebN:_enfYGLGV a occ:SetTranslation ;
+    oop:hasParameter GebN:_xajkeYve .
+
+GebN:_epjjhEps a occ:gp_Vec ;
+    oop:hasParameter ( "Ncf1e1f4755a04512a124aaf9ddff6329" 796 542 5 ) .
+
+GebN:_eutsocUQ a occ:SetTranslation ;
+    oop:hasParameter GebN:_ZPynZDlB .
+
+GebN:_exArsQRn a occ:SetTranslation ;
+    oop:hasParameter GebN:_frafPlsP .
+
+GebN:_exkxPmQd a occ:gp_Vec ;
+    oop:hasParameter ( "N1b3b40f627ac435ab2674a35c64342a2" 284 30 5 ) .
+
+GebN:_exunvSlh omg:hasComplexGeometryDescription GebN:_vpELYcnY .
+
+GebN:_fJyESNSd a occ:gp_Vec ;
+    oop:hasParameter ( "N217ccfd669dc44e09435c28a4b0ee820" 28 414 5 ) .
+
+GebN:_fMgLfxjB a occ:Shape .
+
+GebN:_fOIEsKIs omg:hasComplexGeometryDescription GebN:_jzqKmpeW .
+
+GebN:_fOQWUVMr a occ:gp_Trsf ;
+    oop:hasMethod GebN:_KJkyHEHs .
+
+GebN:_fRucRTKR a occ:Shape .
+
+GebN:_fVflzsmR a occ:gp_Trsf ;
+    oop:hasMethod GebN:_ESqbJHOQ .
+
+GebN:_frafPlsP omg:hasComplexGeometryDescription GebN:_PeAGWbrM .
+
+GebN:_gAWuKZZn omg:hasComplexGeometryDescription GebN:_jjeFbQHC .
+
+GebN:_gPIUmKxy a occ:Shape .
+
+GebN:_gXDcicFi a occ:Shape .
+
+GebN:_gdTcySgP a occ:SetTranslation ;
+    oop:hasParameter GebN:_wQXdkvRV .
+
+GebN:_geKcFRke omg:hasComplexGeometryDescription GebN:_yKedKtIO .
+
+GebN:_gxbiKlVl omg:hasComplexGeometryDescription GebN:_uKUspTQs .
+
+GebN:_hGQbiMPn a occ:gp_Vec ;
+    oop:hasParameter ( "Ne39c43506e75475982b8561588f9728c" 412 798 5 ) .
+
+GebN:_hKwQZFFs a occ:gp_Vec ;
+    oop:hasParameter ( "Nc7277ea01c864036ac280211c5468635" 540 542 5 ) .
+
+GebN:_hfvlTvhm omg:hasComplexGeometryDescription GebN:_AJeelPPd .
+
+GebN:_hluIJRWH omg:hasComplexGeometryDescription GebN:_YvpzcKUN .
+
+GebN:_iOJIwFjB a occ:gp_Trsf ;
+    oop:hasMethod GebN:_gdTcySgP .
+
+GebN:_iPSowmIA a occ:gp_Pnt ;
+    oop:hasParameter ( "N9bfa232995fd4e65b9bd7a364045f0b8" 10 0 0 ) .
+
+GebN:_iRqVYYEL a occ:gp_Vec ;
+    oop:hasParameter ( "N4a6882de98d44dd895ee0da2901c8e0c" 540 286 5 ) .
+
+GebN:_iSgTYGip a occ:Shape .
+
+GebN:_ijZqxkqI a occ:SetTranslation ;
+    oop:hasParameter GebN:_lsjSRgvj .
+
+GebN:_jATDSrvN omg:hasComplexGeometryDescription GebN:_LiOKSOrv .
+
+GebN:_jPkBFasA a occ:SetTranslation ;
+    oop:hasParameter GebN:_zOKFoqlN .
+
+GebN:_jRNZJduf a occ:Shape .
+
+GebN:_jjeFbQHC a occ:gp_Trsf ;
+    oop:hasMethod GebN:_zSpMyaBF .
+
+GebN:_joxnVcxn a occ:Shape .
+
+GebN:_jwjfdcBM omg:hasComplexGeometryDescription GebN:_SuSMtedm .
+
+GebN:_jzqKmpeW a occ:gp_Trsf ;
+    oop:hasMethod GebN:_zHfyveNH .
+
+GebN:_kBAskAez a occ:gp_Trsf ;
+    oop:hasMethod GebN:_AIgJtbgv .
+
+GebN:_kGvUWBNX a occ:Shape .
+
+GebN:_kIkBriad a occ:gp_Trsf ;
+    oop:hasMethod GebN:_cdhNeKiP .
+
+GebN:_kNlDPhmK a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_fRucRTKR ;
+    oop:hasParameter ( "N107240b27fc5404fa1d9850a293d7d3e" GebN:_mQueiQDd GebN:_DaRGBSbb ) .
+
+GebN:_kaXvvwzW a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_iSgTYGip ;
+    oop:hasParameter ( "Nb9d551bf41064a63b856cc0ce0286128" GebN:_mQueiQDd GebN:_PcfOoeaq ) .
+
+GebN:_kgtWCuBA omg:hasComplexGeometryDescription GebN:_noiluScX .
+
+GebN:_kiisgqhD a occ:Shape .
+
+GebN:_kkGnoyNX a occ:gp_Trsf ;
+    oop:hasMethod GebN:_Phwynkzu .
+
+GebN:_kqqtAHfP a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_rTxgBkoQ ;
+    oop:hasParameter ( "N137fe62d5b984299a2efcf06803d7307" GebN:_mQueiQDd GebN:_djKrjJyP ) .
+
+GebN:_kzPhVYFg a occ:gp_Vec ;
+    oop:hasParameter ( "N74eef465a25a46ecaa017aa0d8f69ac8" 924 926 5 ) .
+
+GebN:_lAVJHSoX omg:hasComplexGeometryDescription GebN:_UOuaKLtI .
+
+GebN:_lGEOHBLC a occ:SetTranslation ;
+    oop:hasParameter GebN:_DcPMNmKh .
+
+GebN:_lUFXskrG a occ:SetTranslation ;
+    oop:hasParameter GebN:_yHknELFu .
+
+GebN:_lrqGMJwF omg:hasComplexGeometryDescription GebN:_iPSowmIA .
+
+GebN:_lsjSRgvj omg:hasComplexGeometryDescription GebN:_auKJiqjh .
+
+GebN:_mCZxwAsZ a occ:Shape .
+
+GebN:_mKcHNFnn a occ:gp_Trsf ;
+    oop:hasMethod GebN:_DevqoDBo .
+
+GebN:_mXzmONen a occ:Shape .
+
+GebN:_maCDNLQQ a occ:gp_Trsf ;
+    oop:hasMethod GebN:_yzhKExxu .
+
+GebN:_miCazCTo a occ:Shape .
+
+GebN:_mqAAyHFA omg:hasComplexGeometryDescription GebN:_zMdlqIWs .
+
+GebN:_msDsxiTu omg:hasComplexGeometryDescription GebN:_DiesdXXN .
+
+GebN:_myzxNRXa omg:hasComplexGeometryDescription GebN:_vtkEqeWV .
+
+GebN:_mzUWRzgn a occ:gp_Trsf ;
+    oop:hasMethod GebN:_RcffPJCL .
+
+GebN:_nApxBJle a occ:gp_Trsf ;
+    oop:hasMethod GebN:_svcthsvB .
+
+GebN:_nEvLbKeq omg:hasComplexGeometryDescription GebN:_sMduIWOR .
+
+GebN:_nRITmGrJ a occ:Add ;
+    oop:hasParameter GebN:_lrqGMJwF .
+
+GebN:_nSpBcYpd omg:hasComplexGeometryDescription GebN:_RsBnLfOz .
+
+GebN:_nXGiETwH a occ:gp_Vec ;
+    oop:hasParameter ( "Nff5c7e8f94864d04bd2965d8c8fa4438" 284 926 5 ) .
+
+GebN:_nXjSFPbH a occ:gp_Vec ;
+    oop:hasParameter ( "N754246cc8da349b5a0da5a203dc3814d" 540 158 5 ) .
+
+GebN:_nhxyvybg a occ:Shape .
+
+GebN:_njHmAkLe omg:hasComplexGeometryDescription GebN:_vRNcMEyb .
+
+GebN:_nlddnePh omg:hasComplexGeometryDescription GebN:_KcmwMFtA .
+
+GebN:_noiluScX a occ:gp_Trsf ;
+    oop:hasMethod GebN:_dvkTOYmm .
+
+GebN:_npSNeMCN omg:hasComplexGeometryDescription GebN:_exkxPmQd .
+
+GebN:_oEFXJvsB a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_RzwiTsgF ;
+    oop:hasParameter ( "Ne58cf7e7584d4df0b6dead35d9eee3c1" GebN:_mQueiQDd GebN:_SHGoZcGq ) .
+
+GebN:_oHtLDYqQ omg:hasComplexGeometryDescription GebN:_qhBkUxlT .
+
+GebN:_oavmsEcH omg:hasComplexGeometryDescription GebN:_ZtRxdWuJ .
+
+GebN:_ohqclqxi a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_ymcjqMou ;
+    oop:hasParameter ( "N5590dedfae03414ab75fd5c216782c9a" GebN:_mQueiQDd GebN:_NORyRZDY ) .
+
+GebN:_olJLtKMc a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_OuFcMbGU ;
+    oop:hasParameter ( "N542f9aee1a884d8199c352fe6c19509c" GebN:_mQueiQDd GebN:_MXBtRSim ) .
+
+GebN:_ozxzpspV a occ:Shape .
+
+GebN:_pQYvyoJd a occ:Shape .
+
+GebN:_peICBGNo a occ:Shape .
+
+GebN:_pfPYluEH omg:hasComplexGeometryDescription GebN:_UVIpZjLn .
+
+GebN:_pgCzxmIW a occ:SetTranslation ;
+    oop:hasParameter GebN:_UgzwhuDk .
+
+GebN:_pjQMUhFL a occ:SetTranslation ;
+    oop:hasParameter GebN:_XqlTjZXw .
+
+GebN:_ppzklYNy a occ:Shape .
+
+GebN:_prLsMkGG a occ:gp_Trsf ;
+    oop:hasMethod GebN:_uneYIqZi .
+
+GebN:_ptRVHCQu a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_nhxyvybg ;
+    oop:hasParameter ( "N6b9324071910435984843c7effe823c4" GebN:_mQueiQDd GebN:_cXzpYDxw ) .
+
+GebN:_pwlpeRET a occ:gp_Trsf ;
+    oop:hasMethod GebN:_ZcJuTOuW .
+
+GebN:_pykhxgmr a occ:gp_Trsf ;
+    oop:hasMethod GebN:_NLlRjnOM .
+
+GebN:_qMebPlTN omg:hasComplexGeometryDescription GebN:_SFLhDkRR .
+
+GebN:_qOczGKvM a occ:gp_Vec ;
+    oop:hasParameter ( "N0df9708e60fc4f01b9c86a368bba174b" 668 158 5 ) .
+
+GebN:_qRvvJSXq a occ:SetTranslation ;
+    oop:hasParameter GebN:_tJyqXJyb .
+
+GebN:_qTZUVCRk omg:hasComplexGeometryDescription GebN:_JexbCDbR .
+
+GebN:_qbbPjQmy omg:hasComplexGeometryDescription GebN:_rJVHnmXc .
+
+GebN:_qblYdYXJ a occ:gp_Trsf ;
+    oop:hasMethod GebN:_svkQJAxl .
+
+GebN:_qhBkUxlT a occ:gp_Trsf ;
+    oop:hasMethod GebN:_YznHHYLi .
+
+GebN:_qjyjpYxu a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_jRNZJduf ;
+    oop:hasParameter ( "N9794bd9cfbd94c8ca417737cf7fb6210" GebN:_mQueiQDd GebN:_NGocniGE ) .
+
+GebN:_qzLsMqAP a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_ppzklYNy ;
+    oop:hasParameter ( "N7a8b304fe37f4e7c9a471caa01bc600c" GebN:_mQueiQDd GebN:_fOIEsKIs ) .
+
+GebN:_rGvamQdx a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_mCZxwAsZ ;
+    oop:hasParameter ( "N9a8ebd72055a43cc971ba55b456b6039" GebN:_mQueiQDd GebN:_QCYDQDhg ) .
+
+GebN:_rJVHnmXc a occ:gp_Trsf ;
+    oop:hasMethod GebN:_ZvoVPOnM .
+
+GebN:_rPGNxDjj a occ:gp_Pnt ;
+    oop:hasParameter ( "N99e2a82328d44e7abbb6d541d0db575d" 125 115 0 ) .
+
+GebN:_rTxgBkoQ a occ:Shape .
+
+GebN:_rbLOKhXE a occ:gp_Trsf ;
+    oop:hasMethod GebN:_edQidgFf .
+
+GebN:_reJesFIl omg:hasComplexGeometryDescription GebN:_pwlpeRET .
+
+GebN:_rorFYcfl a occ:Shape .
+
+GebN:_ruWoaAAS a occ:BRepPrimAPI_MakeBox ;
+    oop:hasMethod GebN:_HUJDxmKM ;
+    oop:hasParameter ( "N65b96aabe8ec4227b2556d81bbb32499" "1090"^^xsd:float "1080"^^xsd:float "5"^^xsd:float ) .
+
+GebN:_rxPBitMs a occ:Shape .
+
+GebN:_ryVqAvwG a occ:gp_Vec ;
+    oop:hasParameter ( "Nd538b80b339248918fbd5e36c9584a0b" 796 158 5 ) .
+
+GebN:_rzUOsOnb a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_GWcTqNag ;
+    oop:hasParameter ( "Nd3376ea4acf1437a90b2d6a1b5c21bef" GebN:_mQueiQDd GebN:_nSpBcYpd ) .
+
+GebN:_sAQcqPwR omg:hasComplexGeometryDescription GebN:_ryVqAvwG .
+
+GebN:_sAZBDaeZ a occ:gp_Vec ;
+    oop:hasParameter ( "N6d9d035e80134e85a35d3b53c124a121" 668 414 5 ) .
+
+GebN:_sCduKPth a occ:gp_Vec ;
+    oop:hasParameter ( "N8dbb60146f49441e8d7551d82c370f92" 156 158 5 ) .
+
+GebN:_sMKWbqzD a occ:gp_Trsf ;
+    oop:hasMethod GebN:_eTtkDwxY .
+
+GebN:_sMduIWOR a occ:gp_Vec ;
+    oop:hasParameter ( "N3facd0b5e1904b1c9eba5819da3e8a21" 284 798 5 ) .
+
+GebN:_sPuofKGn omg:hasComplexGeometryDescription GebN:_ZBPeqdKx .
+
+GebN:_shmuoyqh a occ:gp_Trsf ;
+    oop:hasMethod GebN:_eutsocUQ .
+
+GebN:_sowRmWHA a occ:gp_Vec ;
+    oop:hasParameter ( "Na25ae7a34ec74e9badac18092feca616" 796 30 5 ) .
+
+GebN:_srqcmlWP omg:hasComplexGeometryDescription GebN:_cCeeQRpT .
+
+GebN:_ssObkcII a occ:gp_Trsf ;
+    oop:hasMethod GebN:_BrgYEXHV .
+
+GebN:_svcthsvB a occ:SetTranslation ;
+    oop:hasParameter GebN:_SJiYmMQs .
+
+GebN:_svkQJAxl a occ:SetTranslation ;
+    oop:hasParameter GebN:_VrzrRIbZ .
+
+GebN:_tApsvjea a occ:Shape .
+
+GebN:_tBevVylM omg:hasComplexGeometryDescription GebN:_XKGPurcR .
+
+GebN:_tJyqXJyb omg:hasComplexGeometryDescription GebN:_FBqVpXUl .
+
+GebN:_tKYzUCYc a occ:gp_Vec ;
+    oop:hasParameter ( "N17621b268a1144dda723ee7aab92efb7" 284 158 5 ) .
+
+GebN:_tMeuJavj a occ:gp_Trsf ;
+    oop:hasMethod GebN:_zrwTtPEs .
+
+GebN:_taXWspdH a occ:gp_Vec ;
+    oop:hasParameter ( "Na9b8dd7e0c754de1a1e5b63ceb72e1b8" 668 542 5 ) .
+
+GebN:_teCKJscF a occ:Shape .
+
+GebN:_tnHNkBda omg:hasComplexGeometryDescription GebN:_SdHLVNIo .
+
+GebN:_tnioZZWy a occ:Shape .
+
+GebN:_uHowACjf a occ:SetTranslation ;
+    oop:hasParameter GebN:_DenFRlyK .
+
+GebN:_uJwPzSCR a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_JNnsgYDn ;
+    oop:hasParameter ( "N41e915f489ad44ef9b1bf666feefe930" GebN:_mQueiQDd GebN:_CpafVzJK ) .
+
+GebN:_uKUspTQs a occ:gp_Trsf ;
+    oop:hasMethod GebN:_TqaEpQwE .
+
+GebN:_uPMKYuWL a occ:gp_Vec ;
+    oop:hasParameter ( "Nd3808b1f62fb45c0a89c981297f967b2" 924 30 5 ) .
+
+GebN:_uQEArYmG omg:hasComplexGeometryDescription GebN:_prLsMkGG .
+
+GebN:_ugMcaQwm a occ:gp_Trsf ;
+    oop:hasMethod GebN:_RIRiwiyr .
+
+GebN:_uneYIqZi a occ:SetTranslation ;
+    oop:hasParameter GebN:_geKcFRke .
+
+GebN:_urCdKasm a occ:gp_Vec ;
+    oop:hasParameter ( "N50dcab11e6c4480ea7debb026241049a" 284 286 5 ) .
+
+GebN:_vIVGetRh a occ:gp_Trsf ;
+    oop:hasMethod GebN:_BWsWbxec .
+
+GebN:_vKARCaKN a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_aZKmnnZR ;
+    oop:hasParameter ( "N24392105f0a94ff8ba8332cd2d05f51b" GebN:_mQueiQDd GebN:_PXVRmCPT ) .
+
+GebN:_vNQlBgrq a occ:gp_Vec ;
+    oop:hasParameter ( "N1f06f84e9e4348b1af0a170af1e1a59a" 540 414 5 ) .
+
+GebN:_vQbVZFMY a occ:Shape .
+
+GebN:_vRFPQbAP a occ:Shape .
+
+GebN:_vRNcMEyb a occ:gp_Vec ;
+    oop:hasParameter ( "N82ad41280bd147528dfd6f396530da2d" 156 414 5 ) .
+
+GebN:_vZAndqbd a occ:Shape .
+
+GebN:_vZeZaKCA omg:hasComplexGeometryDescription GebN:_GUXrqRHU .
+
+GebN:_vjFVexXU a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_yHeHkAUX ;
+    oop:hasParameter ( "Na8df572ccb394720ad6dc1a5146287a0" GebN:_mQueiQDd GebN:_jwjfdcBM ) .
+
+GebN:_vpELYcnY a occ:gp_Vec ;
+    oop:hasParameter ( "N62185fa509f54bc5a2ea175d58b7baf0" 284 414 5 ) .
+
+GebN:_vpxmuVvF omg:hasComplexGeometryDescription GebN:_nApxBJle .
+
+GebN:_vtkEqeWV a occ:BRepBuilderAPI_MakeFace ;
+    oop:hasMethod GebN:_WNZRaChp ;
+    oop:hasParameter GebN:_HenDXRqh .
+
+GebN:_vwazHfGW a occ:Shape .
+
+GebN:_wEtDyAvP omg:hasComplexGeometryDescription GebN:_YeKKIkuC .
+
+GebN:_wGUnuMLv a occ:Shape .
+
+GebN:_wNkqCinv a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_vZAndqbd ;
+    oop:hasParameter ( "Nc381ce243f594194b975e1cf76e66b66" GebN:_mQueiQDd GebN:_dQcCxAUi ) .
+
+GebN:_wQXdkvRV omg:hasComplexGeometryDescription GebN:_epjjhEps .
+
+GebN:_wSdKAUiJ a occ:gp_Vec ;
+    oop:hasParameter ( "N7bcbe767845843049551d71b08bff007" 412 542 5 ) .
+
+GebN:_wfbbHxCv a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_eUxpITnX ;
+    oop:hasParameter ( "N8191ba8b9eda462ea9407744816f8fbf" GebN:_mQueiQDd GebN:_eaEHOtww ) .
+
+GebN:_wgKufgir a occ:SetTranslation ;
+    oop:hasParameter GebN:_npSNeMCN .
+
+GebN:_wiwBoQfU omg:hasComplexGeometryDescription GebN:_NXBfIHrD .
+
+GebN:_wtIxQRdo a occ:gp_Trsf ;
+    oop:hasMethod GebN:_pjQMUhFL .
+
+GebN:_wuUjvwhr a occ:Shape .
+
+GebN:_wvEseKnv a occ:gp_Vec ;
+    oop:hasParameter ( "N2d90265e57b7440da2b1f24dbdb95b2a" 28 158 5 ) .
+
+GebN:_xGWSGhYn a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_dtuXCiCI ;
+    oop:hasParameter ( "N4ad096a775f94019b1c3e7a8bf2d6040" GebN:_mQueiQDd GebN:_vpxmuVvF ) .
+
+GebN:_xHUzHsLA a occ:gp_Trsf ;
+    oop:hasMethod GebN:_uHowACjf .
+
+GebN:_xQuuVNVG a occ:gp_Pnt ;
+    oop:hasParameter ( "Nd5d29a094d5f4b788a4e258cc172d186" 115 0 0 ) .
+
+GebN:_xVNnbqfY a occ:Wire .
+
+GebN:_xajkeYve omg:hasComplexGeometryDescription GebN:_GNmQwNBv .
+
+GebN:_xgfHnxpe a occ:SetTranslation ;
+    oop:hasParameter GebN:_CuppTNWA .
+
+GebN:_xujgQWFL a occ:SetTranslation ;
+    oop:hasParameter GebN:_VhGZHOuV .
+
+GebN:_yCrQhYIm omg:hasComplexGeometryDescription GebN:_vNQlBgrq .
+
+GebN:_yHeHkAUX a occ:Shape .
+
+GebN:_yHknELFu omg:hasComplexGeometryDescription GebN:_KefpFPbt .
+
+GebN:_yKedKtIO a occ:gp_Vec ;
+    oop:hasParameter ( "N28fa6ead0f3244b6bad8cdf73f3ba4f1" 668 30 5 ) .
+
+GebN:_yaLbuUyC a occ:Shape .
+
+GebN:_yiDFfeWx omg:hasComplexGeometryDescription GebN:_SnHmwlKb .
+
+GebN:_ymcjqMou a occ:Shape .
+
+GebN:_yzhKExxu a occ:SetTranslation ;
+    oop:hasParameter GebN:_dQhrhkIH .
+
+GebN:_zHfyveNH a occ:SetTranslation ;
+    oop:hasParameter GebN:_sAQcqPwR .
+
+GebN:_zHsuvAfY a occ:gp_Vec ;
+    oop:hasParameter ( "Na29fc5751ac64b4a9627510dfc2e1d13" 668 670 5 ) .
+
+GebN:_zLSvnMjx a occ:gp_Vec ;
+    oop:hasParameter ( "N96baf99453704e138acae789848013a0" 924 542 5 ) .
+
+GebN:_zMdlqIWs a occ:gp_Pnt ;
+    oop:hasParameter ( "N19982afc549e4926b017a9f1983374ef" 10 125 0 ) .
+
+GebN:_zNwwyhzf a occ:Shape .
+
+GebN:_zOKFoqlN omg:hasComplexGeometryDescription GebN:_taXWspdH .
+
+GebN:_zRxJMYcm omg:hasComplexGeometryDescription GebN:_XGhJGxxP .
+
+GebN:_zSpMyaBF a occ:SetTranslation ;
+    oop:hasParameter GebN:_msDsxiTu .
+
+GebN:_zTjRFkQB a occ:Shape .
+
+GebN:_zVGcsIzW omg:hasComplexGeometryDescription GebN:_aMkXsWbj .
+
+GebN:_zcOsTwFZ a occ:BRepBuilderAPI_Transform ;
+    oop:hasMethod GebN:_VFwDfAWD ;
+    oop:hasParameter ( "N501cdd41f6784d24abeed2efa646957c" GebN:_mQueiQDd GebN:_LxdUpkov ) .
+
+GebN:_zcUyEViM a occ:Shape .
+
+GebN:_zrwTtPEs a occ:SetTranslation ;
+    oop:hasParameter GebN:_AkLfkeFk .
+
+GebN:_mQueiQDd omg:hasComplexGeometryDescription GebN:_MvJivtXW .
+
